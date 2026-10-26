@@ -1,5 +1,7 @@
 # RANGA-SWANG
 
+Play at **https://rangaswang.com**
+
 Daily trivia golf. Every shot is a question with a number for an answer, and Rusty the orangutan swings as well as you guess. Three holes, par 12, a new course every day at midnight.
 
 ## What's where

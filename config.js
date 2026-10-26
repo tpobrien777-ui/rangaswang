@@ -1,7 +1,7 @@
 // RANGA-SWANG site settings. Everything else reads from here.
 window.RS_CONFIG = {
   // Your web address, used in the share text. Leave "" to use whatever address the page is on.
-  siteUrl: "",
+  siteUrl: "https://rangaswang.com",
   // The date of RANGA-SWANG No. 1.
   launch: "2026-10-26",
   // Live stats and leaderboard (Supabase → Project Settings → API Keys). Both are meant to be public.
