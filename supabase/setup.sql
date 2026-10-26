@@ -1,4 +1,4 @@
--- RANGA-SWANG live stats
+-- RangaSwang live stats
 -- Paste this whole file into Supabase → SQL Editor → New query, then click Run.
 -- It is safe to run again later: it only adds what's missing and refreshes the functions.
 --

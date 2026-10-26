@@ -1,6 +1,6 @@
 {
-  "name": "RANGA-SWANG",
-  "short_name": "Ranga-Swang",
+  "name": "RangaSwang",
+  "short_name": "RangaSwang",
   "description": "Daily trivia golf with Rusty the orangutan.",
   "start_url": "./",
   "scope": "./",

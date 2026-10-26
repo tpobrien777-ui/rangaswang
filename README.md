@@ -1,4 +1,4 @@
-# RANGA-SWANG
+# RangaSwang
 
 Play at **https://rangaswang.com**
 

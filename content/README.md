@@ -1,4 +1,4 @@
-# RANGA-SWANG questions
+# RangaSwang questions
 
 Every day of the game is one file in `days/`, named for its date: `days/2026-10-27.json`.
 `reserve.json` holds backup questions the game uses only if a day runs short.

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="robots" content="noindex,nofollow">
-<title>Question Studio · RANGA-SWANG</title>
+<title>Question Studio · RangaSwang</title>
 <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,8 +43,10 @@ a{color:var(--accent)}
 header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bar);color:var(--bar-ink)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bar)}
 .top .wrap{display:flex;align-items:center;gap:10px 18px;flex-wrap:wrap;padding-block:10px}
-.brand{font-family:var(--display);font-weight:900;font-size:24px;letter-spacing:.03em;text-transform:uppercase;line-height:1}
-.brand span{font-weight:700;color:var(--flag);margin-left:6px}
+.brand{font-family:var(--display);font-weight:900;font-size:24px;letter-spacing:.03em;text-transform:uppercase;line-height:1;display:flex;align-items:center;flex-wrap:wrap;gap:0 8px}
+.wm{display:inline-flex;align-items:center;white-space:nowrap}
+.rmk{display:inline-block;flex:none;width:.92em;height:.92em;margin:0 .12em;border-radius:50%;background:url(../assets/marker.png) center/cover;box-shadow:0 0 0 .06em var(--bar-ink)}
+.brand > span:last-child{font-weight:700;color:var(--flag)}
 .top .sp{flex:1}
 .top a,.top button.link{color:var(--bar-ink);font-weight:600;font-size:14px;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 main{max-width:1240px;margin:0 auto;padding-block:18px 60px}
@@ -150,7 +152,7 @@ h1,h2,h3{margin:0;text-wrap:balance}
 </head>
 <body>
 <header class="top"><div class="wrap">
-  <div class="brand">RANGA-SWANG<span>Question Studio</span></div>
+  <div class="brand"><span class="wm" role="img" aria-label="RangaSwang">RANGA<i class="rmk" aria-hidden="true"></i>SWANG</span><span>Question Studio</span></div>
   <div class="sp"></div>
   <a href="../" target="_blank" rel="noopener">Open the game</a>
   <button class="link" id="signOut" type="button" hidden>Sign out</button>
@@ -162,7 +164,7 @@ h1,h2,h3{margin:0;text-wrap:balance}
     <p>The Studio saves your edits straight to the game's GitHub repository <b id="repoName"></b>. To let it, make a GitHub access key once. It stays in this browser only.</p>
     <ol>
       <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
-      <li>Name it <code>RANGA-SWANG Studio</code> and pick an expiration (one year is fine).</li>
+      <li>Name it <code>RangaSwang Studio</code> and pick an expiration (one year is fine).</li>
       <li>Under <b>Repository access</b>, choose <b>Only select repositories</b> and pick <b id="repoName2"></b>.</li>
       <li>Under <b>Permissions → Repository permissions</b>, set <b>Contents</b> to <b>Read and write</b>.</li>
       <li>Click <b>Generate token</b>, copy it, and paste it below.</li>
@@ -467,7 +469,7 @@ function renderEditor(keepScroll){
     ${S.pendingSwitch ? `<div class="banner warn" id="switchBanner"><b>You have unsaved changes on this ${k === 'reserve' ? 'list' : 'day'}.</b><div class="row"><button class="btn sm" id="saveGo" type="button">Save, then open ${esc(S.pendingSwitch === 'reserve' ? 'the reserve' : short(S.pendingSwitch))}</button><button class="btn ghost sm" id="dropGo" type="button">Discard changes</button><button class="btn ghost sm" id="stay" type="button">Stay here</button></div></div>` : ''}
     ${S.conflict ? `<div class="banner bad"><b>This ${k === 'reserve' ? 'list' : 'day'} changed on GitHub since you opened it</b> (probably the morning update). Your edits are still here.<div class="row"><button class="btn sm danger" id="overwrite" type="button">Save mine anyway</button><button class="btn ghost sm" id="reload" type="button">Load the latest and discard mine</button></div></div>` : ''}
     ${errCount ? `<div class="banner bad">${errCount} ${errCount === 1 ? 'problem needs' : 'problems need'} fixing before this can be saved. They're marked in red.</div>` : ''}
-    ${!isRes && rel(k) === 'Past' ? '<div class="banner ok">This day has already been played. Changes here won't reach players.</div>' : ''}
+    ${!isRes && rel(k) === 'Past' ? '<div class="banner ok">This day has already been played. Changes here won’t reach players.</div>' : ''}
     ${sections}`;
   S.errCount = errCount;
   renderHead();

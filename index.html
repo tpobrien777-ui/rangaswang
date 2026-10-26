@@ -3,18 +3,18 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>RANGA-SWANG · Daily trivia golf</title>
+<title>RangaSwang · Daily trivia golf</title>
 <meta name="description" content="Daily trivia golf. Every shot is a number question, and Rusty the orangutan swings as well as you guess. Three holes, par 12, a new course every day.">
 <!-- link previews: og:url and og:image are filled with the live address at launch -->
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="RANGA-SWANG">
-<meta property="og:title" content="RANGA-SWANG · Daily trivia golf">
+<meta property="og:site_name" content="RangaSwang">
+<meta property="og:title" content="RangaSwang · Daily trivia golf">
 <meta property="og:description" content="Daily trivia golf. Every shot is a number question, and Rusty the orangutan swings as well as you guess. Three holes, par 12, a new course every day.">
 <meta property="og:url" content="https://rangaswang.com/">
 <meta property="og:image" content="https://rangaswang.com/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Rusty the orangutan at the top of his backswing, next to the RANGA-SWANG logo">
+<meta property="og:image:alt" content="Rusty the orangutan at the top of his backswing, next to the RangaSwang logo">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#15231A">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
@@ -82,7 +82,9 @@ button,input{font:inherit;color:inherit}
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
   background:var(--paper);border-bottom:1px solid var(--rule)}
 .brand{display:flex;align-items:baseline;gap:10px;flex:0 0 auto}
-.word{font-family:var(--display);font-weight:900;font-size:30px;line-height:1;letter-spacing:.03em;text-transform:uppercase}
+.word{font-family:var(--display);font-weight:900;font-size:30px;line-height:1;letter-spacing:.03em;text-transform:uppercase;display:inline-flex;align-items:center;white-space:nowrap}
+.rmk{display:inline-block;flex:none;width:.92em;height:.92em;margin:0 .12em;border-radius:50%;background:url(assets/marker.png) center/cover;box-shadow:0 0 0 .06em var(--ink);vertical-align:-.12em}
+.wm{display:inline-flex;align-items:center;white-space:nowrap}
 .no{font-family:var(--display);font-weight:700;font-size:16px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2)}
 .hole{flex:1 1 280px;min-width:0;display:flex;align-items:center;gap:12px;order:3}
 .hole .lbl{font-family:var(--display);font-weight:700;font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);white-space:nowrap}
@@ -162,7 +164,8 @@ button,input{font:inherit;color:inherit}
 .sheet h1,.sheet h2,.sheet h3{margin:0;text-wrap:balance}
 .eyebrow{font-family:var(--display);font-weight:700;font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
 .title{font-family:var(--display);font-weight:900;font-size:clamp(36px,9.5vw,58px);line-height:.92;text-transform:uppercase;letter-spacing:.01em}
-.title span{color:var(--ink-2);font-weight:700;font-size:.55em;letter-spacing:.06em;vertical-align:.32em;margin-left:6px}
+.title .tno{display:inline-block;color:var(--ink-2);font-weight:700;font-size:.55em;letter-spacing:.06em;vertical-align:.32em;white-space:nowrap}
+.eyebrow .rmk{width:1.15em;height:1.15em}
 .sh-head{display:flex;justify-content:space-between;align-items:flex-end;gap:14px;flex-wrap:wrap}
 .holecard{display:flex;border:2px solid var(--ink);border-radius:8px;overflow:hidden;font-family:var(--display);text-transform:uppercase}
 .holecard div{display:flex;flex-direction:column;align-items:center;padding:4px 12px;border-left:2px solid var(--ink)}
@@ -291,10 +294,10 @@ button,input{font:inherit;color:inherit}
 #posterTitle{display:none}
 .mode-poster .bar,.mode-icon .bar,.mode-poster .dock,.mode-icon .dock,.mode-poster .toast,.mode-icon .toast{display:none!important}
 .mode-poster #posterTitle{display:flex;position:absolute;right:5%;top:12%;width:54%;flex-direction:column;align-items:flex-start;gap:12px;color:var(--ink);z-index:2}
-#posterTitle b{font-family:var(--display);font-weight:900;font-size:114px;line-height:.85;letter-spacing:.01em}
+#posterTitle b{display:inline-flex;align-items:center;font-family:var(--display);font-weight:900;font-size:98px;line-height:.85;letter-spacing:.01em}
 #posterTitle span{font-family:var(--display);font-weight:900;font-size:40px;letter-spacing:.1em;text-transform:uppercase;background:var(--ink);color:var(--paper);padding:4px 14px 2px;border-radius:8px}
 #posterTitle em{font-style:normal;font-weight:600;font-size:26px}
-#posterTitle i{font-style:normal;font-size:44px;letter-spacing:6px}
+#posterTitle > i{font-style:normal;font-size:44px;letter-spacing:6px}
 @media (max-width:520px){
   .word{font-size:24px}
   .score{font-size:16px}
@@ -315,10 +318,10 @@ button,input{font:inherit;color:inherit}
 </style>
 </head>
 <body>
-<noscript><p style="padding:24px;font:16px sans-serif">RANGA-SWANG needs JavaScript turned on.</p></noscript>
+<noscript><p style="padding:24px;font:16px sans-serif">RangaSwang needs JavaScript turned on.</p></noscript>
 <div class="app">
   <header class="bar">
-    <div class="brand"><span class="word">Ranga-Swang</span><span class="no" id="noLbl">No. 1</span></div>
+    <div class="brand"><span class="word" role="img" aria-label="RangaSwang">Ranga<i class="rmk" aria-hidden="true"></i>Swang</span><span class="no" id="noLbl">No. 1</span></div>
     <div class="meta">
       <span class="score" id="scoreLbl">Par 12</span>
       <button class="ibtn" id="muteBtn" type="button" aria-label="Sound on" title="Sound"></button>
@@ -363,7 +366,7 @@ button,input{font:inherit;color:inherit}
       <section class="sheet" id="final" hidden></section>
     </div>
     <div class="toast" id="toast" hidden></div>
-    <div id="posterTitle" aria-hidden="true"><b>RANGA&#8209;SWANG</b><span>Daily trivia golf</span><em>3 holes · 20 seconds a shot · a new course every day</em><i>🟨🟩🎯⛳</i></div>
+    <div id="posterTitle" aria-hidden="true"><b>RANGA<i class="rmk" aria-hidden="true"></i>SWANG</b><span>Daily trivia golf</span><em>3 holes · 20 seconds a shot · a new course every day</em><i>🟨🟩🎯⛳</i></div>
   </main>
 </div>
 
@@ -482,7 +485,7 @@ function tierFor(hs){
 /* =========================================================
    Settings, saved data and the question content
    ========================================================= */
-const CFG = Object.assign({siteName:'RANGA-SWANG', siteUrl:'', launch:'2026-10-27', supabaseUrl:'', supabaseKey:'', github:{}}, window.RS_CONFIG || {});
+const CFG = Object.assign({siteName:'RangaSwang', siteUrl:'', launch:'2026-10-27', supabaseUrl:'', supabaseKey:'', github:{}}, window.RS_CONFIG || {});
 const SITE = (CFG.siteUrl || (location.origin + location.pathname.replace(/[^/]*$/, ''))).replace(/\/$/, '');
 const SITE_SHORT = SITE.replace(/^https?:\/\//, '');
 const KEY = 'rangaswang.site.v1';
@@ -1391,7 +1394,7 @@ function renderIntro(resume){
   const can = !loading && R && (R.pending || drawQuestion(R, 'M'));
   intro.innerHTML = `
     <div class="sh-head">
-      <div><div class="eyebrow">${esc(dateStr)}</div><h1 class="title">RANGA-SWANG<span>${noText()}</span></h1></div>
+      <div><div class="eyebrow">${esc(dateStr)}</div><h1 class="title"><span class="wm" role="img" aria-label="RangaSwang">RANGA<i class="rmk" aria-hidden="true"></i>SWANG</span> <span class="tno">${noText()}</span></h1></div>
     </div>
     <div class="scwrap">${courseTable(null)}</div>
     ${(() => { const h = hcpNow(); return h.cur ? `<p class="small">Your handicap is <b>${fmtHcp(h.cur.idx)}</b> after ${h.rounds} ${h.rounds === 1 ? 'round' : 'rounds'}. It updates every time you finish.</p>` : ''; })()}
@@ -1423,7 +1426,7 @@ function shareText(R){
   const strokes = roundStrokes(R), d = roundToPar(R), h = hcpNow();
   const keys = ['1️⃣','2️⃣','3️⃣'];
   const lines = R.holes.map((hs, i) => `${keys[i]} ${hs.shots.map(s => QEMO[s.quality]).join('')}${hs.holed ? '⛳' : '❌'} ${hs.shots.length ? nameFor(hs.shots.length, hs.par) : ''}`.trimEnd());
-  const head = `🦧 RANGA-SWANG${R.no >= 1 ? ' No. ' + R.no : ''} · ${strokes} (${toPar(d)})${h.cur ? ' · HCP ' + fmtHcp(h.cur.idx) : ''}`;
+  const head = `RANGA🦧SWANG${R.no >= 1 ? ' No. ' + R.no : ''} · ${strokes} (${toPar(d)})${h.cur ? ' · HCP ' + fmtHcp(h.cur.idx) : ''}`;
   return [head, ...lines, SITE_SHORT].join('\n');
 }
 const canNativeShare = () => !!navigator.share && matchMedia('(pointer: coarse)').matches;
@@ -1592,7 +1595,7 @@ function renderFinal(){
   const avgTxt = st.rounds ? (Math.abs(st.avg) < .05 ? 'E' : (st.avg > 0 ? '+' : '−') + Math.abs(st.avg).toFixed(1)) : '—';
   const shareLbl = canNativeShare() ? 'Share' : 'Copy result';
   finalEl.innerHTML = `
-    <div class="sh-head"><div><div class="eyebrow">RANGA-SWANG ${R.no >= 1 ? 'No. ' + R.no : ''}</div></div></div>
+    <div class="sh-head"><div><div class="eyebrow"><span class="wm" role="img" aria-label="RangaSwang">RANGA<i class="rmk" aria-hidden="true"></i>SWANG</span> ${R.no >= 1 ? 'No. ' + R.no : ''}</div></div></div>
     <div class="result">
       <div class="mark ${markClass(d)}">${toPar(d)}</div>
       <div><h2 class="rname">${title}</h2>
