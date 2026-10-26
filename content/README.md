@@ -16,7 +16,7 @@ A daily round is three holes: a par 5, a par 4 and a par 3. Every shot asks one 
 | `hard` | After a mishit, shank or whiff, or from the rough, a bunker or the trees | 4 |
 | `easy` | Within 40 yards of the pin, or on the green | 5 |
 
-Within a list, questions are used **from the top down**, so everyone in the same situation gets the same question. A player never sees any question twice. Leftover questions from past days show up later in bonus holes.
+Within a list, questions are used **from the top down**, so everyone in the same situation gets the same question. A player never sees any question twice. Questions a day doesn't use are simply never played.
 
 ## Format
 

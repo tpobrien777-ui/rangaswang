@@ -467,7 +467,7 @@ function renderEditor(keepScroll){
     ${S.pendingSwitch ? `<div class="banner warn" id="switchBanner"><b>You have unsaved changes on this ${k === 'reserve' ? 'list' : 'day'}.</b><div class="row"><button class="btn sm" id="saveGo" type="button">Save, then open ${esc(S.pendingSwitch === 'reserve' ? 'the reserve' : short(S.pendingSwitch))}</button><button class="btn ghost sm" id="dropGo" type="button">Discard changes</button><button class="btn ghost sm" id="stay" type="button">Stay here</button></div></div>` : ''}
     ${S.conflict ? `<div class="banner bad"><b>This ${k === 'reserve' ? 'list' : 'day'} changed on GitHub since you opened it</b> (probably the morning update). Your edits are still here.<div class="row"><button class="btn sm danger" id="overwrite" type="button">Save mine anyway</button><button class="btn ghost sm" id="reload" type="button">Load the latest and discard mine</button></div></div>` : ''}
     ${errCount ? `<div class="banner bad">${errCount} ${errCount === 1 ? 'problem needs' : 'problems need'} fixing before this can be saved. They're marked in red.</div>` : ''}
-    ${!isRes && rel(k) === 'Past' ? '<div class="banner ok">This day has already been played. Edits here only affect bonus holes.</div>' : ''}
+    ${!isRes && rel(k) === 'Past' ? '<div class="banner ok">This day has already been played. Changes here won't reach players.</div>' : ''}
     ${sections}`;
   S.errCount = errCount;
   renderHead();

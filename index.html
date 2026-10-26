@@ -38,6 +38,7 @@ img{max-width:100%}
   --cast:#0F2418; --cast-ink:#F3F6EE; --cast-2:#A7C1AC;
   --flag:#F2C230; --tracer:#FF4A2A; --under:#C8102E; --over:#1D6A39;
   --q-perfect:#3F51D9; --q-solid:#2C9A4C; --q-ok:#C29A12; --q-mishit:#DA7020; --q-shank:#CF3A2B; --q-whiff:#87918A;
+  --hcp:#2C9A4C;
   --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
   --body:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
 }
@@ -51,6 +52,7 @@ img{max-width:100%}
     --cast:#08130D; --cast-ink:#F0F4EC; --cast-2:#8FAA95;
     --flag:#F5C842; --tracer:#FF6B3D; --under:#FF5F70; --over:#62CC88;
     --q-perfect:#7E8CFF; --q-solid:#4CC46F; --q-ok:#E2BE3A; --q-mishit:#F08C3C; --q-shank:#F2604F; --q-whiff:#9BA59E;
+    --hcp:#3FAE5F;
     color-scheme:dark;
   }
 }
@@ -63,6 +65,7 @@ img{max-width:100%}
   --cast:#08130D; --cast-ink:#F0F4EC; --cast-2:#8FAA95;
   --flag:#F5C842; --tracer:#FF6B3D; --under:#FF5F70; --over:#62CC88;
   --q-perfect:#7E8CFF; --q-solid:#4CC46F; --q-ok:#E2BE3A; --q-mishit:#F08C3C; --q-shank:#F2604F; --q-whiff:#9BA59E;
+    --hcp:#3FAE5F;
   color-scheme:dark;
 }
 
@@ -251,6 +254,21 @@ button,input{font:inherit;color:inherit}
 .fbar i{display:block;min-width:3px}
 /* today's field */
 .sect{grid-template-columns:minmax(0,1fr)}
+/* handicap */
+.hcp{display:flex;align-items:flex-end;gap:6px 16px;flex-wrap:wrap}
+.hcp .hn{display:flex;flex-direction:column}
+.hcp .hn small{font-family:var(--display);font-weight:800;font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink-2)}
+.hcp .hn b{font-family:var(--display);font-weight:900;font-size:56px;line-height:.92;font-variant-numeric:tabular-nums}
+.hd{font-size:14px;font-weight:600;color:var(--ink-2);padding-bottom:6px}
+.hchart{position:relative}
+.hchart svg{display:block;width:100%;height:170px;overflow:visible;touch-action:pan-y}
+.hchart svg:focus-visible{outline:3px solid var(--flag);outline-offset:4px;border-radius:6px}
+.htip{position:absolute;top:2px;pointer-events:none;background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:6px 9px;box-shadow:0 6px 18px rgba(8,26,14,.18);font-size:12.5px;line-height:1.3;white-space:nowrap;color:var(--ink-2)}
+.htip b{display:block;font-family:var(--display);font-weight:900;font-size:20px;line-height:1;color:var(--ink)}
+.htable summary{cursor:pointer;font-size:13px;color:var(--ink-2);width:max-content}
+.htable table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px;font-variant-numeric:tabular-nums}
+.htable th,.htable td{text-align:left;padding:4px 6px;border-bottom:1px solid var(--rule)}
+.htable th{color:var(--ink-2);font-weight:600}
 .fieldline{margin:0;font-size:15.5px}
 .board{list-style:none;margin:0;padding:0;border:2px solid var(--ink);border-radius:10px;overflow:hidden}
 .board li{display:grid;grid-template-columns:34px minmax(0,1fr) 36px 40px;gap:10px;align-items:center;padding:8px 12px;border-top:1px solid var(--rule);font-variant-numeric:tabular-nums}
@@ -468,7 +486,7 @@ const CFG = Object.assign({siteName:'RANGA-SWANG', siteUrl:'', launch:'2026-10-2
 const SITE = (CFG.siteUrl || (location.origin + location.pathname.replace(/[^/]*$/, ''))).replace(/\/$/, '');
 const SITE_SHORT = SITE.replace(/^https?:\/\//, '');
 const KEY = 'rangaswang.site.v1';
-const save = Object.assign({rounds:{}, seen:[], muted:false, bonusRound:null, bonusCount:0, name:'', device:''}, store.get(KEY, {}));
+const save = Object.assign({rounds:{}, seen:[], muted:false, name:'', device:''}, store.get(KEY, {}));
 if (!save.device){
   save.device = (window.crypto && crypto.randomUUID) ? crypto.randomUUID()
     : 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, c => { const r = Math.random() * 16 | 0; return (c === 'x' ? r : (r & 3 | 8)).toString(16); });
@@ -490,7 +508,6 @@ const TIER_NAME = {E:'Easy', M:'Medium', H:'Hard'};
 const CAT_KEY = {history:'H', pop:'P', geo:'G', sports:'S', news:'N'};
 const PACKS = {};                    // 'YYYY-MM-DD' -> {news, E, M, H}, or null when that day has no file
 let RESERVE = {E:[], M:[], H:[]};
-const VAULT = [];                    // past days that exist, newest first (for bonus holes)
 const okItem = q => q && q.id && q.q && Number.isFinite(Number(q.a));
 const toItem = (q, tier) => ({id:String(q.id), cat:CAT_KEY[q.cat] || 'P', tier, q:String(q.q), a:Math.round(Number(q.a)),
   t:q.type === 'year' ? 'y' : 'n', u:String(q.unit || ''), f:String(q.fact || '')});
@@ -507,13 +524,6 @@ async function loadDay(key){
 async function loadReserve(){
   const raw = await getJSON('content/reserve.json');
   if (raw) RESERVE = {E:tierList(raw.easy, 'E'), M:tierList(raw.medium, 'M'), H:tierList(raw.hard, 'H')};
-}
-async function loadVault(today){
-  if (VAULT.length) return;
-  const keys = [];
-  for (let i = 1; i <= 30; i++){ const k = addDays(today, -i); if (dnum(k) < 1) break; keys.push(k); }
-  await Promise.all(keys.map(loadDay));
-  keys.forEach(k => { if (PACKS[k]) VAULT.push(k); });
 }
 
 /* Live stats (Supabase). Everything here fails quietly: the game never waits on it. */
@@ -1072,48 +1082,32 @@ function drawHud(){
 function showOnly(el){ [qcard, cast, intro, finalEl].forEach(x => x.hidden = x !== el); requestAnimationFrame(measureDock); }
 function toast(msg){ const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 2400); }
 
-function newRound(bonus){
-  const course = bonus ? [(bonus - 1) % 3] : [0, 1, 2];
-  return {day: state.day, no: state.no, bonus: bonus || 0, course, h: 0, pending: null, pendingWhy: null, done: false,
+function newRound(){
+  const course = [0, 1, 2];
+  return {day: state.day, no: state.no, course, h: 0, pending: null, pendingWhy: null, done: false,
     holes: course.map(ci => ({par: COURSE[ci].par, len: COURSE[ci].len, shots: [], r: COURSE[ci].len, x: 0, dir: 1, lie: 'Tee', done: false, holed: false}))};
 }
 function saveRound(){
   const R = state.round; if (!R) return;
-  if (R.bonus) save.bonusRound = R.done ? null : R; else save.rounds[R.day] = R;
+  save.rounds[R.day] = R;
   persist();
 }
 const roundToPar = R => R.holes.reduce((a, h) => a + (h.done ? h.shots.length - h.par : 0), 0);
 const roundStrokes = R => R.holes.reduce((a, h) => a + h.shots.length, 0);
 
-/* The next question. Daily rounds use today's file: its news questions on the first two tee shots, then its
-   easy/medium/hard lists in order. Everyone in the same spot gets the same question. Bonus holes use what's
-   left over from past days. The reserve covers any gap. Nothing a player has seen ever comes back. */
+/* The next question comes from today's file: its news questions on the first two tee shots, then its
+   easy/medium/hard lists in order, so everyone in the same spot gets the same question. The reserve covers
+   any gap. Nothing a player has seen ever comes back. */
 const TIER_ORDER = {E:['E','M','H'], M:['M','H','E'], H:['H','M','E']};
 const fresh = list => (list || []).find(it => !seenSet.has(it.id));
 function drawQuestion(R, T){
-  const hs = R.holes[R.h], order = TIER_ORDER[T];
-  if (!R.bonus){
-    const P = PACKS[R.day];
-    if (P){
-      if (!hs.shots.length && R.h < 2){ const n = P.news[R.h]; if (n && !seenSet.has(n.id)) return n; }
-      for (const t of order){ const it = fresh(P[t]); if (it) return it; }
-    }
-  } else {
-    for (const t of order) for (const k of VAULT){ const it = fresh(PACKS[k][t]); if (it) return it; }
-    for (const k of VAULT){ const it = fresh(PACKS[k].news); if (it) return it; }
+  const hs = R.holes[R.h], order = TIER_ORDER[T], P = PACKS[R.day];
+  if (P){
+    if (!hs.shots.length && R.h < 2){ const n = P.news[R.h]; if (n && !seenSet.has(n.id)) return n; }
+    for (const t of order){ const it = fresh(P[t]); if (it) return it; }
   }
   for (const t of order){ const it = fresh(RESERVE[t]); if (it) return it; }
-  if (R.bonus && PACKS[state.day] && save.rounds[state.day] && save.rounds[state.day].done){
-    for (const t of order){ const it = fresh(PACKS[state.day][t]); if (it) return it; }
-  }
   return null;
-}
-function unseenForBonus(){
-  let n = 0;
-  const add = list => (list || []).forEach(it => { if (!seenSet.has(it.id)) n++; });
-  VAULT.forEach(k => { const P = PACKS[k]; add(P.news); add(P.E); add(P.M); add(P.H); });
-  add(RESERVE.E); add(RESERVE.M); add(RESERVE.H);
-  return n;
 }
 
 function placeScene(){
@@ -1137,7 +1131,7 @@ function paintTrack(){
   el.innerHTML = h;
   $('#holeLbl').textContent = `Hole ${C.n} · Par ${C.par} · ${C.len} yds`;
   const sc = $('#scoreLbl'); sc.className = 'score';
-  $('#noLbl').textContent = R && R.bonus ? 'Bonus ' + R.bonus : noText();
+  $('#noLbl').textContent = noText();
   if (!R){ sc.textContent = `Par ${COURSE_PAR}`; return; }
   const d = roundToPar(R), thru = R.holes.filter(h => h.done).length;
   if (thru) sc.classList.add(d < 0 ? 'under' : d > 0 ? 'over' : 'e');
@@ -1228,7 +1222,7 @@ const CALLS = {
   }
 };
 const TIMEOUT_CALL = ["He stood over it too long and the clock beat him to it.","Out of time. Rusty swings at nothing in a panic."];
-function pick(arr, R){ return arr[(Math.abs(R.no) * 31 + R.h * 11 + hole().shots.length * 7 + (R.bonus || 0) * 5) % arr.length]; }
+function pick(arr, R){ return arr[(Math.abs(R.no) * 31 + R.h * 11 + hole().shots.length * 7) % arr.length]; }
 function fmt(it, v){ if (v == null) return '—'; return it.t === 'y' ? String(v) : Number(v).toLocaleString('en-US'); }
 function resultLine(hs, sh){
   const n = hs.shots.length;
@@ -1285,7 +1279,7 @@ function takeShot(guess, timedOut){
   const strokes = hs.shots.length + 1;
   let side = 1;
   if (!plan.holed && q !== 'whiff' && plan.r1 <= 25){
-    const roll = mulberry32(Math.abs(R.no) * 101 + R.h * 37 + strokes * 13 + (R.bonus || 0) * 977)();
+    const roll = mulberry32(Math.abs(R.no) * 101 + R.h * 37 + strokes * 13)();
     side = roll < (plan.kind === 'putt' ? .5 : .35) ? -1 : 1;
   }
   const r1 = plan.holed ? 0 : plan.r1;
@@ -1303,7 +1297,7 @@ function takeShot(guess, timedOut){
   // Tell the field, then ask how everyone else did on this question.
   const fieldP = STATS.on
     ? STATS.rpc('record_shot', {p_day: R.day, p_device: save.device, p_qid: it.id, p_tier: it.tier, p_quality: q,
-        p_hole: R.course[R.h] + 1, p_shot: strokes, p_bonus: !!R.bonus})
+        p_hole: R.course[R.h] + 1, p_shot: strokes})
         .then(() => STATS.rpc('question_stats', {p_qids: [it.id]}))
     : null;
 
@@ -1373,7 +1367,7 @@ $('#nextBtn').addEventListener('click', () => {
 const avg1 = x => x == null ? '—' : Number(x).toFixed(1);
 function courseTable(R){
   const holes = R ? R.course.map(ci => COURSE[ci]) : COURSE;
-  const B = R && !R.bonus && state.board && state.board.players ? state.board : null;
+  const B = R && state.board && state.board.players ? state.board : null;
   const cell = (h, i) => {
     const hs = R && R.holes[i];
     if (!hs || !hs.done || !hs.shots.length) return '<td>—</td>';
@@ -1400,6 +1394,7 @@ function renderIntro(resume){
       <div><div class="eyebrow">${esc(dateStr)}</div><h1 class="title">RANGA-SWANG<span>${noText()}</span></h1></div>
     </div>
     <div class="scwrap">${courseTable(null)}</div>
+    ${(() => { const h = hcpNow(); return h.cur ? `<p class="small">Your handicap is <b>${fmtHcp(h.cur.idx)}</b> after ${h.rounds} ${h.rounds === 1 ? 'round' : 'rounds'}. It updates every time you finish.</p>` : ''; })()}
     <p class="lede">Daily trivia golf. Three holes, par ${COURSE_PAR}. Every shot is a question with a number for an answer, asked from wherever the ball lands. You get ${TIME} seconds. The closer your guess, the better Rusty strikes it.</p>
     <ul class="scale">
       <li><span class="pill q-perfect">Perfect</span>The exact number</li>
@@ -1425,14 +1420,11 @@ function renderIntro(resume){
 }
 
 function shareText(R){
-  const strokes = roundStrokes(R), d = roundToPar(R);
-  if (R.bonus){
-    const hs = R.holes[0];
-    return `🦧 RANGA-SWANG bonus hole · Par ${hs.par}\n${nameFor(hs.shots.length, hs.par)} (${hs.shots.length})\n${hs.shots.map(s => QEMO[s.quality]).join('')}${hs.holed ? '⛳' : '❌'}\n${SITE_SHORT}`;
-  }
+  const strokes = roundStrokes(R), d = roundToPar(R), h = hcpNow();
   const keys = ['1️⃣','2️⃣','3️⃣'];
   const lines = R.holes.map((hs, i) => `${keys[i]} ${hs.shots.map(s => QEMO[s.quality]).join('')}${hs.holed ? '⛳' : '❌'} ${hs.shots.length ? nameFor(hs.shots.length, hs.par) : ''}`.trimEnd());
-  return [`🦧 RANGA-SWANG ${R.no >= 1 ? 'No. ' + R.no : ''} · ${strokes} (${toPar(d)})`.replace('  ', ' '), ...lines, SITE_SHORT].join('\n');
+  const head = `🦧 RANGA-SWANG${R.no >= 1 ? ' No. ' + R.no : ''} · ${strokes} (${toPar(d)})${h.cur ? ' · HCP ' + fmtHcp(h.cur.idx) : ''}`;
+  return [head, ...lines, SITE_SHORT].join('\n');
 }
 const canNativeShare = () => !!navigator.share && matchMedia('(pointer: coarse)').matches;
 async function doShare(){
@@ -1464,10 +1456,123 @@ function stats(){
   const aces = holes.filter(h => h.holed && h.shots.length === 1).length;
   return {rounds: done.length, avg, best: tops.length ? Math.min(...tops) : null, streak, perfects, aces, dist};
 }
+/* ---------- handicap ----------
+   Works like a real handicap index: the average of your best differentials (strokes minus par) from your
+   most recent 20 daily rounds. Best 1 of 3–5 rounds, 2 of 6–8, 3 of 9–11 … up to 8 of 20. */
+const HCP_PICK = n => n < 3 ? 0 : n <= 5 ? 1 : n <= 8 ? 2 : n <= 11 ? 3 : n <= 14 ? 4 : n <= 16 ? 5 : n <= 18 ? 6 : n === 19 ? 7 : 8;
+function hcpHistory(){
+  const done = Object.values(save.rounds).filter(r => r && r.done && r.holes && !r.short && r.day)
+    .sort((a, b) => a.day < b.day ? -1 : a.day > b.day ? 1 : 0);
+  return done.map((r, i) => {
+    const recent = done.slice(Math.max(0, i - 19), i + 1).map(roundToPar);
+    const k = HCP_PICK(recent.length);
+    const idx = k ? Math.round(10 * recent.slice().sort((a, b) => a - b).slice(0, k).reduce((a, b) => a + b, 0) / k) / 10 : null;
+    return {day: r.day, toPar: roundToPar(r), strokes: roundStrokes(r), idx, n: recent.length, k};
+  });
+}
+function hcpNow(){
+  const hist = hcpHistory(), pts = hist.filter(p => p.idx != null);
+  const cur = pts.length ? pts[pts.length - 1] : null, prev = pts.length > 1 ? pts[pts.length - 2] : null;
+  return {hist, pts, cur, delta: cur && prev ? Math.round(10 * (cur.idx - prev.idx)) / 10 : null, rounds: hist.length};
+}
+// Golf style: 2.4 means about 2 over par on your good days; +1.2 means better than par.
+const fmtHcp = v => v == null ? '—' : v <= -0.05 ? '+' + Math.abs(v).toFixed(1) : Math.abs(v) < .05 ? '0.0' : v.toFixed(1);
+const shortDay = k => { const [y, m, d] = k.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('en-US', {month:'short', day:'numeric'}); };
+function lockerHcp(){
+  const h = hcpNow();
+  if (!h.cur){
+    const left = 3 - h.rounds;
+    return `<div class="hcp"><div class="hn"><small>Handicap</small><b>—</b></div>
+      <span class="hd">Finish ${left} more daily ${left === 1 ? 'round' : 'rounds'} to get your handicap.</span></div>`;
+  }
+  const d = h.delta;
+  const delta = d == null ? 'Your first handicap.'
+    : Math.abs(d) < .05 ? 'No change since your last round.'
+    : `${d < 0 ? '▼' : '▲'} ${Math.abs(d).toFixed(1)} ${d < 0 ? 'better' : 'worse'} than after your last round.`;
+  const plus = h.pts.some(p => p.idx < 0);
+  return `<div class="hcp"><div class="hn"><small>Handicap</small><b>${fmtHcp(h.cur.idx)}</b></div><span class="hd">${delta}</span></div>
+    <p class="small">The average of your best ${h.cur.k} of your last ${h.cur.n} rounds against par, like a real handicap. Lower is better${plus ? ', and a + means better than par' : ''}.</p>
+    ${h.pts.length >= 2 ? `<div class="hchart" id="hChart"></div>
+    <details class="htable"><summary>Show your handicap as a table</summary><table>
+      <tr><th>Day</th><th>Score</th><th>Handicap after</th></tr>
+      ${h.hist.slice().reverse().map(p => `<tr><td>${shortDay(p.day)}</td><td>${p.strokes} (${toPar(p.toPar)})</td><td>${fmtHcp(p.idx)}</td></tr>`).join('')}
+    </table></details>` : ''}`;
+}
+let hcpRO = null;
+function drawHcpChart(){
+  const el = $('#hChart'); if (!el) return;
+  const pts = hcpNow().pts;
+  const W = Math.max(240, el.clientWidth || 320), H = 170, m = {t: 16, r: 46, b: 26, l: 34};
+  const iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const x = i => m.l + (pts.length === 1 ? iw / 2 : i * iw / (pts.length - 1));
+  let lo = Math.min(...pts.map(p => p.idx)), hi = Math.max(...pts.map(p => p.idx));
+  const step = hi - lo <= 4 ? 1 : hi - lo <= 10 ? 2 : 5;
+  lo = Math.floor((lo - .25) / step) * step; hi = Math.ceil((hi + .25) / step) * step;
+  if (hi - lo < 2 * step) hi = lo + 2 * step;
+  const y = v => m.t + (hi - v) / (hi - lo) * ih;
+  const tick = v => v < 0 ? '+' + Math.abs(v) : String(v);
+  let grid = '';
+  for (let v = lo; v <= hi + 1e-9; v += step)
+    grid += `<line x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}" stroke="var(--rule)" stroke-width="1"/>
+      <text x="${m.l - 8}" y="${y(v) + 4}" text-anchor="end" font-size="12" fill="var(--ink-2)">${tick(v)}</text>`;
+  const path = pts.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)},${y(p.idx).toFixed(1)}`).join('');
+  const last = pts.length - 1;
+  el.innerHTML = `<svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" tabindex="0" role="img"
+      aria-label="Handicap over ${pts.length} rounds, from ${fmtHcp(pts[0].idx)} to ${fmtHcp(pts[last].idx)}. Use the arrow keys to step through rounds.">
+      ${grid}
+      <text x="${m.l}" y="${H - 6}" font-size="12" fill="var(--ink-2)">${shortDay(pts[0].day)}</text>
+      <text x="${W - m.r}" y="${H - 6}" text-anchor="end" font-size="12" fill="var(--ink-2)">${shortDay(pts[last].day)}</text>
+      <path d="${path}" fill="none" stroke="var(--hcp)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+      <line id="hX" x1="0" x2="0" y1="${m.t}" y2="${H - m.b}" stroke="var(--ink-2)" stroke-width="1" visibility="hidden"/>
+      <circle id="hDot" r="4.5" fill="var(--hcp)" stroke="var(--paper)" stroke-width="2" cx="${x(last)}" cy="${y(pts[last].idx)}"/>
+      <text id="hEnd" x="${x(last) + 10}" y="${y(pts[last].idx) + 5}" font-size="15" font-weight="800" font-family="var(--display)" fill="var(--ink)">${fmtHcp(pts[last].idx)}</text>
+      <rect x="${m.l - 12}" y="0" width="${iw + 24}" height="${H}" fill="transparent" id="hHit"/>
+    </svg><div class="htip" id="hTip" hidden></div>`;
+  const svg = el.querySelector('svg'), tip = $('#hTip'), cx = $('#hX'), dot = $('#hDot'), end = $('#hEnd');
+  let cur = last;
+  const show = i => {
+    cur = clamp(i, 0, last);
+    const p = pts[cur], px = x(cur), py = y(p.idx);
+    cx.setAttribute('x1', px); cx.setAttribute('x2', px); cx.setAttribute('visibility', 'visible');
+    dot.setAttribute('cx', px); dot.setAttribute('cy', py);
+    end.setAttribute('visibility', cur === last ? 'visible' : 'hidden');
+    tip.replaceChildren();
+    const b = document.createElement('b'); b.textContent = fmtHcp(p.idx);
+    tip.append(b, document.createTextNode(`${shortDay(p.day)} · shot ${p.strokes} (${toPar(p.toPar)})`));
+    tip.hidden = false;
+    const tw = tip.offsetWidth, sx = svg.getBoundingClientRect().width / W;
+    tip.style.left = clamp(px * sx - tw / 2, 0, el.clientWidth - tw) + 'px';
+  };
+  const hide = () => {
+    cx.setAttribute('visibility', 'hidden'); tip.hidden = true; cur = last;
+    dot.setAttribute('cx', x(last)); dot.setAttribute('cy', y(pts[last].idx)); end.setAttribute('visibility', 'visible');
+  };
+  const near = e => {
+    const r = svg.getBoundingClientRect(), vx = (e.clientX - r.left) * W / r.width;
+    return pts.length === 1 ? 0 : Math.round((vx - m.l) / (iw / (pts.length - 1)));
+  };
+  svg.addEventListener('pointermove', e => show(near(e)));
+  svg.addEventListener('pointerdown', e => show(near(e)));
+  svg.addEventListener('pointerleave', hide);
+  svg.addEventListener('focus', () => show(cur));
+  svg.addEventListener('blur', hide);
+  svg.addEventListener('keydown', e => {
+    if (e.key === 'ArrowLeft'){ e.preventDefault(); show(cur - 1); }
+    else if (e.key === 'ArrowRight'){ e.preventDefault(); show(cur + 1); }
+    else if (e.key === 'Home'){ e.preventDefault(); show(0); }
+    else if (e.key === 'End'){ e.preventDefault(); show(last); }
+  });
+  if (!hcpRO && window.ResizeObserver){
+    let lastW = el.clientWidth;
+    hcpRO = new ResizeObserver(() => { const c = $('#hChart'); if (c && Math.abs(c.clientWidth - lastW) > 2){ lastW = c.clientWidth; drawHcpChart(); } });
+  }
+  if (hcpRO){ hcpRO.disconnect(); hcpRO.observe(el); }
+}
 function markClass(d){ if (d === 0) return 'e'; return (d < 0 ? 'u' : 'o') + Math.min(3, Math.abs(d)); }
 function renderFinal(){
   const R = state.round, st = stats(), strokes = roundStrokes(R), d = roundToPar(R);
-  const title = R.bonus ? nameFor(R.holes[0].shots.length, R.holes[0].par) : d === 0 ? 'Even par' : `${Math.abs(d)} ${d < 0 ? 'under' : 'over'} par`;
+  const title = d === 0 ? 'Even par' : `${Math.abs(d)} ${d < 0 ? 'under' : 'over'} par`;
+  const hc = hcpNow();
   const perf = R.holes.reduce((a, h) => a + h.shots.filter(s => s.quality === 'perfect').length, 0);
   const groups = R.holes.map((hs, hi) => {
     const ch = COURSE[R.course[hi]];
@@ -1487,21 +1592,22 @@ function renderFinal(){
   const avgTxt = st.rounds ? (Math.abs(st.avg) < .05 ? 'E' : (st.avg > 0 ? '+' : '−') + Math.abs(st.avg).toFixed(1)) : '—';
   const shareLbl = canNativeShare() ? 'Share' : 'Copy result';
   finalEl.innerHTML = `
-    <div class="sh-head"><div><div class="eyebrow">${R.bonus ? `RANGA-SWANG · Bonus hole ${R.bonus}` : `RANGA-SWANG ${R.no >= 1 ? 'No. ' + R.no : ''}`}</div></div></div>
+    <div class="sh-head"><div><div class="eyebrow">RANGA-SWANG ${R.no >= 1 ? 'No. ' + R.no : ''}</div></div></div>
     <div class="result">
-      <div class="mark ${markClass(d)}">${R.bonus ? strokes : toPar(d)}</div>
+      <div class="mark ${markClass(d)}">${toPar(d)}</div>
       <div><h2 class="rname">${title}</h2>
-      <div class="rsub"><b>${strokes} strokes</b> on a par ${R.holes.reduce((a, h) => a + h.par, 0)} · ${perf} perfect ${perf === 1 ? 'strike' : 'strikes'}</div></div>
+      <div class="rsub"><b>${strokes} strokes</b> on a par ${R.holes.reduce((a, h) => a + h.par, 0)} · ${perf} perfect ${perf === 1 ? 'strike' : 'strikes'}${hc.cur ? ` · handicap <b>${fmtHcp(hc.cur.idx)}</b>` : ''}</div></div>
     </div>
     <div class="scwrap" id="scWrap">${courseTable(R)}</div>
     <div class="share">
       <pre id="sharePre">${esc(shareText(R))}</pre>
       <div class="btnrow"><button class="go" id="shareBtn" type="button">${shareLbl}</button></div>
     </div>
-    ${STATS.on && !R.bonus && !R.short ? '<div class="sect" id="fieldSect"></div>' : ''}
+    ${STATS.on && !R.short ? '<div class="sect" id="fieldSect"></div>' : ''}
     <div class="rows" aria-label="Your shots">${groups}</div>
     <div class="sect">
       <h3>Your locker</h3>
+      ${lockerHcp()}
       <div class="stats">
         <div class="stat"><b>${st.rounds}</b><small>Rounds</small></div>
         <div class="stat"><b>${avgTxt}</b><small>Avg to par</small></div>
@@ -1511,29 +1617,23 @@ function renderFinal(){
         <div class="stat"><b>${st.aces}</b><small>Aces</small></div>
       </div>
       <div class="dist">${distRows}</div>
-      <p class="small">Every hole you've played in the daily round, saved in this browser.${R.bonus ? " Bonus holes don't count toward it." : ''}</p>
+      <p class="small">Every hole you've played, saved in this browser.</p>
     </div>
     <div class="sect foot">
       <span class="next">Next course in <b id="countdown">—</b></span>
-      <div class="btnrow">
-        ${R.bonus && save.rounds[state.day] && save.rounds[state.day].done ? '<button class="ghost" id="backBtn" type="button">Today\'s card</button>' : ''}
-        <button class="go" id="bonusBtn" type="button">${save.bonusRound ? 'Resume bonus hole' : R.bonus ? 'Another bonus hole' : 'Play a bonus hole'}</button>
-      </div>
     </div>`;
   showOnly(finalEl);
   finalEl.scrollTop = 0;
   $('#shareBtn').addEventListener('click', doShare);
-  $('#bonusBtn').addEventListener('click', startBonus);
-  const back = $('#backBtn');
-  if (back) back.addEventListener('click', () => { state.round = save.rounds[state.day]; showFinalScene(); });
   renderBoard();
+  drawHcpChart();
   tickCountdown();
 }
 
 /* ---------- today's field and leaderboard ---------- */
 async function submitRound(){
   const R = state.round;
-  if (!STATS.on || !R || R.bonus || !R.done || R.short) return null;
+  if (!STATS.on || !R || !R.done || R.short) return null;
   const scores = R.holes.map(h => h.shots.length);
   if (scores.some(s => s < 1)) return null;
   const perf = R.holes.reduce((a, h) => a + h.shots.filter(s => s.quality === 'perfect').length, 0);
@@ -1541,7 +1641,7 @@ async function submitRound(){
 }
 async function loadBoard(){
   const R = state.round;
-  if (!STATS.on || !R || R.bonus || R.short) return;
+  if (!STATS.on || !R || R.short) return;
   state.board = undefined; renderBoard();
   const B = await submitRound();
   if (state.round !== R) return;
@@ -1587,23 +1687,6 @@ function showFinalScene(){
   const hs = hole();
   golfer.anim = hs.holed ? (roundToPar(R) <= 0 ? 'celebrate' : 'shrug') : 'sulk';
   loadBoard();
-}
-async function startBonus(){
-  audio();
-  const btn = $('#bonusBtn'); if (btn){ btn.disabled = true; btn.textContent = 'Setting up…'; }
-  await loadVault(state.day);
-  if (!(save.bonusRound && !save.bonusRound.done) && unseenForBonus() < 6){
-    if (btn){ btn.disabled = false; btn.textContent = 'Play a bonus hole'; }
-    toast("You've played every question in the bag. More arrive with tomorrow's course.");
-    return;
-  }
-  if (save.bonusRound && !save.bonusRound.done) state.round = save.bonusRound;
-  else { save.bonusCount = (save.bonusCount || 0) + 1; state.round = newRound(save.bonusCount); }
-  state.board = undefined;
-  saveRound();
-  placeScene(); paintTrack();
-  const hs = hole();
-  if (!hs.shots.length && !state.round.pending) walkTo(() => showQuestion()); else showQuestion();
 }
 function tickCountdown(){
   const el = $('#countdown'); if (!el) return;
@@ -1651,7 +1734,7 @@ async function boot(){
   resize();
   if (MODE === 'poster' || MODE === 'icon' || MODE === 'iconm'){ bootPoster(); return; }
   const saved = save.rounds[state.day];
-  state.round = saved && saved.holes ? saved : newRound(0);
+  state.round = saved && saved.holes ? saved : newRound();
   placeScene(); paintTrack(); renderIntro(false);
   measureDock();
   groundY = groundTarget; charPx = clamp(groundY * .3, 48, 170);

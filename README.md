@@ -35,6 +35,8 @@ When `supabaseUrl` and `supabaseKey` are set in `config.js`, the game:
 - posts finished daily rounds to a public leaderboard, using the name each player picks (default "Rookie")
 - shows a "Field" row of average scores on the scorecard
 
+Each player's handicap is worked out in their own browser, the way a real handicap index is: the average of their best rounds (strokes minus par) from their last 20, starting after 3 rounds. The scorecard shows it, its change since the last round, and a chart of it over time.
+
 Players are identified only by a random code made by their browser. To see growth, open Supabase → SQL Editor and run `select * from daily_activity;`. To pull a name off the leaderboard, open Table Editor → `rounds` and set `hidden` to true. Rude names are hidden automatically.
 
 If Supabase is down or not set up, the game still works; it just skips the stats.
