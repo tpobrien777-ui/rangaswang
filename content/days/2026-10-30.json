@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-30",
+ "news": [
+  {
+   "id": "q1azjh1z",
+   "cat": "news",
+   "q": "LeBron James opened 2026-27 with the 76ers. It's his record-extending NBA season number what?",
+   "a": 24,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "He came into the league in 2003, straight out of high school."
+  },
+  {
+   "id": "qqcq9ip",
+   "cat": "news",
+   "q": "Street Fighter opened at No. 1 at the box office on Oct. 16–18. How many million dollars did it make?",
+   "a": 31,
+   "type": "number",
+   "unit": "million $",
+   "fact": "About $30.8 million, from 3,575 theaters."
+  }
+ ],
+ "easy": [
+  {
+   "id": "q14utxoj",
+   "cat": "history",
+   "q": "How many original American colonies were there?",
+   "a": 13,
+   "type": "number",
+   "unit": "colonies",
+   "fact": "That's why the flag has 13 stripes."
+  },
+  {
+   "id": "q1wv5w31",
+   "cat": "pop",
+   "q": "How many seasons of Friends were made?",
+   "a": 10,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "236 episodes, ending in May 2004."
+  },
+  {
+   "id": "q17i650i",
+   "cat": "geo",
+   "q": "How many U.S. states border Mexico?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "California, Arizona, New Mexico and Texas."
+  },
+  {
+   "id": "q1bndnfg",
+   "cat": "sports",
+   "q": "How many innings are in a regulation MLB game?",
+   "a": 9,
+   "type": "number",
+   "unit": "innings",
+   "fact": "Extra innings now start with a runner on second."
+  },
+  {
+   "id": "qp5q6xl",
+   "cat": "history",
+   "q": "How many years did Queen Elizabeth II reign?",
+   "a": 70,
+   "type": "number",
+   "unit": "years",
+   "fact": "From February 1952 to September 2022, the longest reign in British history."
+  }
+ ],
+ "medium": [
+  {
+   "id": "qk0ycsn",
+   "cat": "history",
+   "q": "How many days did Apollo 11 last, from launch to splashdown?",
+   "a": 8,
+   "type": "number",
+   "unit": "days",
+   "fact": "It launched July 16, 1969, and splashed down in the Pacific on July 24."
+  },
+  {
+   "id": "q1m9ejd4",
+   "cat": "pop",
+   "q": "How many Oscars did Titanic (1997) win?",
+   "a": 11,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "That tied Ben-Hur's record. The Return of the King matched it in 2004."
+  },
+  {
+   "id": "q1ohjxn8",
+   "cat": "geo",
+   "q": "How many countries border Germany?",
+   "a": 9,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Denmark, Poland, Czechia, Austria, Switzerland, France, Luxembourg, Belgium and the Netherlands."
+  },
+  {
+   "id": "q1tzpnzq",
+   "cat": "sports",
+   "q": "In what year was the first Super Bowl played?",
+   "a": 1967,
+   "type": "year",
+   "unit": "year",
+   "fact": "Green Bay beat Kansas City 35–10 in Los Angeles."
+  },
+  {
+   "id": "q1ksapjv",
+   "cat": "history",
+   "q": "In what year did the Alamo fall?",
+   "a": 1836,
+   "type": "year",
+   "unit": "year",
+   "fact": "The siege lasted 13 days before the final assault on March 6."
+  }
+ ],
+ "hard": [
+  {
+   "id": "qkoyvdt",
+   "cat": "history",
+   "q": "In what year did the Brooklyn Bridge open?",
+   "a": 1883,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the longest suspension bridge in the world when it opened."
+  },
+  {
+   "id": "qdm5w8m",
+   "cat": "pop",
+   "q": "How many No. 1 hits did the Beatles have on the Billboard Hot 100?",
+   "a": 20,
+   "type": "number",
+   "unit": "No. 1s",
+   "fact": "Still the most by any act."
+  },
+  {
+   "id": "q1wq52eg",
+   "cat": "geo",
+   "q": "How many countries does the equator pass through?",
+   "a": 13,
+   "type": "number",
+   "unit": "countries",
+   "fact": "From Ecuador, named for it, to Kiribati in the Pacific."
+  },
+  {
+   "id": "qquvxmw",
+   "cat": "sports",
+   "q": "How many Gold Gloves did third baseman Brooks Robinson win?",
+   "a": 16,
+   "type": "number",
+   "unit": "Gold Gloves",
+   "fact": "One every year from 1960 to 1975."
+  }
+ ]
+}

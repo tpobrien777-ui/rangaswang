@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-03",
+ "news": [
+  {
+   "id": "q1r7ap1c",
+   "cat": "news",
+   "q": "How many seconds did Junior Caminero's pennant-clinching home run trot take, to the nearest second?",
+   "a": 39,
+   "type": "number",
+   "unit": "seconds",
+   "fact": "ESPN clocked it at 38.7 seconds."
+  },
+  {
+   "id": "qo7uz96",
+   "cat": "news",
+   "q": "A new Penn State study found how many minutes of daily strength training improved mobility in older adults?",
+   "a": 4,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "It improved both mobility and everyday physical function."
+  }
+ ],
+ "easy": [
+  {
+   "id": "q179j0zb",
+   "cat": "history",
+   "q": "In what year did the Wright brothers make the first powered airplane flight?",
+   "a": 1903,
+   "type": "year",
+   "unit": "year",
+   "fact": "Orville's first hop at Kitty Hawk lasted 12 seconds and covered 120 feet."
+  },
+  {
+   "id": "q1gz52hh",
+   "cat": "pop",
+   "q": "In what year did the first iPhone go on sale?",
+   "a": 2007,
+   "type": "year",
+   "unit": "year",
+   "fact": "Steve Jobs unveiled it in January, and it hit stores on June 29."
+  },
+  {
+   "id": "q12g5q3j",
+   "cat": "geo",
+   "q": "How many U.S. states touch Lake Michigan?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "It's the only Great Lake entirely inside the U.S."
+  },
+  {
+   "id": "qrufpil",
+   "cat": "sports",
+   "q": "How many players per team are on a basketball court?",
+   "a": 5,
+   "type": "number",
+   "unit": "players",
+   "fact": "James Naismith's first game, in 1891, used peach baskets."
+  },
+  {
+   "id": "qc8yhv",
+   "cat": "history",
+   "q": "In what year did World War I end?",
+   "a": 1918,
+   "type": "year",
+   "unit": "year",
+   "fact": "The armistice took effect at 11 a.m. on November 11."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1gk8wzc",
+   "cat": "history",
+   "q": "In what year was the Cuban Missile Crisis?",
+   "a": 1962,
+   "type": "year",
+   "unit": "year",
+   "fact": "The standoff lasted 13 days in October."
+  },
+  {
+   "id": "q1n57os8",
+   "cat": "pop",
+   "q": "In what year did MTV go on the air?",
+   "a": 1981,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first video it played was 'Video Killed the Radio Star.'"
+  },
+  {
+   "id": "q1pgb18d",
+   "cat": "geo",
+   "q": "How tall is One World Trade Center, in feet?",
+   "a": 1776,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The height nods to the year of the Declaration of Independence."
+  },
+  {
+   "id": "qmtgtfb",
+   "cat": "sports",
+   "q": "In what year was the Miracle on Ice?",
+   "a": 1980,
+   "type": "year",
+   "unit": "year",
+   "fact": "U.S. college players beat the Soviets 4–3 at Lake Placid."
+  },
+  {
+   "id": "qmk86ci",
+   "cat": "history",
+   "q": "In what year did Lincoln give the Gettysburg Address?",
+   "a": 1863,
+   "type": "year",
+   "unit": "year",
+   "fact": "The speech ran about 270 words and took around two minutes."
+  }
+ ],
+ "hard": [
+  {
+   "id": "q14xsvc9",
+   "cat": "history",
+   "q": "In what year was the Statue of Liberty dedicated?",
+   "a": 1886,
+   "type": "year",
+   "unit": "year",
+   "fact": "France gave it to the United States. It was dedicated on October 28, 1886."
+  },
+  {
+   "id": "qd3x8mu",
+   "cat": "pop",
+   "q": "In what year did McDonald's first hand out Halloween pails, now called Boo Buckets?",
+   "a": 1986,
+   "type": "year",
+   "unit": "year",
+   "fact": "They came back in October 2026 themed to five Disney villains."
+  },
+  {
+   "id": "qix5tyq",
+   "cat": "geo",
+   "q": "How many feet below sea level is Badwater Basin in Death Valley?",
+   "a": 282,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's the lowest point in North America."
+  },
+  {
+   "id": "q1d85g4v",
+   "cat": "sports",
+   "q": "How many career hits did Pete Rose collect?",
+   "a": 4256,
+   "type": "number",
+   "unit": "hits",
+   "fact": "Still the MLB record."
+  }
+ ]
+}

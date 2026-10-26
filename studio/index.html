@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Question Studio · RANGA-SWANG</title>
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Libre+Franklin:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: a two-pane workbench. Days down the left, the open day's questions on the right; one column on phones. */
+:root{
+  --bg:#F4F6EF; --paper:#FFFFFF; --paper-2:#EEF2E6; --ink:#15231A; --ink-2:#4B5C4F; --rule:#D3DCCD;
+  --bar:#15231A; --bar-ink:#F3F6EE;
+  --accent:#1D6A39; --accent-ink:#FFFFFF; --warn:#9A5B00; --warn-bg:#FFF3D6; --bad:#B42318; --bad-bg:#FDECEA; --flag:#F2C230;
+  --e:#2C9A4C; --m:#C29A12; --h:#CF3A2B; --n:#3F51D9;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Libre Franklin","Helvetica Neue",Arial,sans-serif;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0E1611; --paper:#152019; --paper-2:#1C2A21; --ink:#E7EFE4; --ink-2:#A6B6A9; --rule:#2B3A30;
+    --accent:#4CC46F; --accent-ink:#0E1611; --warn:#F2C66B; --warn-bg:#2E2512; --bad:#FF8A80; --bad-bg:#3A1714; --flag:#F5C842;
+    --e:#4CC46F; --m:#E2BE3A; --h:#F2604F; --n:#7E8CFF; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0E1611; --paper:#152019; --paper-2:#1C2A21; --ink:#E7EFE4; --ink-2:#A6B6A9; --rule:#2B3A30;
+  --accent:#4CC46F; --accent-ink:#0E1611; --warn:#F2C66B; --warn-bg:#2E2512; --bad:#FF8A80; --bad-bg:#3A1714; --flag:#F5C842;
+  --e:#4CC46F; --m:#E2BE3A; --h:#F2604F; --n:#7E8CFF; color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.45 var(--body);-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--flag);outline-offset:2px}
+[hidden]{display:none!important}
+a{color:var(--accent)}
+.wrap{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bar);color:var(--bar-ink)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bar)}
+.top .wrap{display:flex;align-items:center;gap:10px 18px;flex-wrap:wrap;padding-block:10px}
+.brand{font-family:var(--display);font-weight:900;font-size:24px;letter-spacing:.03em;text-transform:uppercase;line-height:1}
+.brand span{font-weight:700;color:var(--flag);margin-left:6px}
+.top .sp{flex:1}
+.top a,.top button.link{color:var(--bar-ink);font-weight:600;font-size:14px;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+main{max-width:1240px;margin:0 auto;padding-block:18px 60px}
+h1,h2,h3{margin:0;text-wrap:balance}
+.btn{border:0;border-radius:10px;background:var(--accent);color:var(--accent-ink);font-family:var(--display);font-weight:800;font-size:18px;letter-spacing:.06em;text-transform:uppercase;padding:0 18px;min-height:44px;cursor:pointer;display:inline-flex;align-items:center;gap:8px;justify-content:center}
+.btn:disabled{opacity:.45;cursor:default}
+.btn.ghost{background:transparent;color:var(--ink);border:2px solid var(--ink)}
+.btn.sm{min-height:34px;font-size:15px;padding:0 12px;border-radius:8px}
+.btn.danger{background:transparent;color:var(--bad);border:2px solid var(--bad)}
+.icon{width:34px;height:34px;border-radius:8px;border:1px solid var(--rule);background:var(--paper-2);cursor:pointer;display:inline-grid;place-items:center;font-size:15px;line-height:1}
+.icon:disabled{opacity:.35;cursor:default}
+
+/* connect */
+.connect{max-width:680px;margin:20px auto;background:var(--paper);border:1px solid var(--rule);border-radius:16px;padding:24px;display:grid;gap:14px}
+.connect h1{font-family:var(--display);font-weight:900;font-size:40px;line-height:1;text-transform:uppercase}
+.connect ol{margin:0;padding-left:22px;display:grid;gap:6px}
+.connect code{background:var(--paper-2);padding:1px 6px;border-radius:5px;font-size:.92em}
+.connect label{font-weight:700}
+.connect .row{display:flex;gap:10px;flex-wrap:wrap}
+.connect input{flex:1 1 260px;min-width:0;min-height:44px;border:2px solid var(--ink);border-radius:10px;background:var(--paper);padding:0 12px;font-family:ui-monospace,Menlo,monospace;font-size:14px}
+.muted{color:var(--ink-2)}
+.small{font-size:13.5px}
+.err{color:var(--bad);font-weight:600}
+
+/* workbench */
+.bench{display:grid;grid-template-columns:300px minmax(0,1fr);gap:20px;align-items:start}
+.side{position:sticky;top:calc(env(safe-area-inset-top,0px) + 64px);display:grid;gap:12px;max-height:calc(100vh - 90px);overflow:auto;padding-bottom:4px}
+.status{background:var(--paper);border:1px solid var(--rule);border-radius:14px;padding:14px;display:grid;gap:6px}
+.status b.big{font-family:var(--display);font-weight:900;font-size:30px;line-height:1}
+.days{list-style:none;margin:0;padding:0;background:var(--paper);border:1px solid var(--rule);border-radius:14px;overflow:hidden}
+.days li+li{border-top:1px solid var(--rule)}
+.days button{width:100%;text-align:left;background:none;border:0;padding:10px 14px;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:2px 10px;align-items:center}
+.days button:hover{background:var(--paper-2)}
+.days button[aria-current="true"]{background:var(--paper-2);box-shadow:inset 4px 0 0 var(--accent)}
+.days .d{font-weight:700}
+.days .tag{font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px 1px;border-radius:5px;background:var(--ink);color:var(--bg)}
+.days .tag.past{background:transparent;color:var(--ink-2);border:1px solid var(--rule)}
+.days .counts{grid-column:1 / -1;display:flex;gap:6px;font-variant-numeric:tabular-nums;font-size:12.5px;color:var(--ink-2)}
+.days .counts span.low{color:var(--warn);font-weight:700}
+.days .dot{width:8px;height:8px;border-radius:50%;background:var(--warn);display:inline-block;margin-left:6px;vertical-align:1px}
+.recent{background:var(--paper);border:1px solid var(--rule);border-radius:14px;padding:12px 14px;display:grid;gap:6px;font-size:13px}
+.recent h3{font-family:var(--display);font-weight:800;font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2)}
+.recent ul{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.recent li{display:flex;justify-content:space-between;gap:8px}
+.recent li span:last-child{color:var(--ink-2);white-space:nowrap}
+
+.editor{display:grid;gap:16px;min-width:0}
+.ehead{position:sticky;top:calc(env(safe-area-inset-top,0px) + 54px);z-index:3;background:var(--bg);padding-block:8px;display:flex;align-items:center;gap:10px 14px;flex-wrap:wrap;border-bottom:1px solid var(--rule)}
+.ehead h1{font-family:var(--display);font-weight:900;font-size:34px;line-height:1;text-transform:uppercase}
+.ehead .when{color:var(--ink-2);font-weight:600}
+.ehead .sp{flex:1}
+.dirty{font-weight:700;color:var(--warn)}
+.banner{border-radius:12px;padding:12px 14px;display:grid;gap:8px}
+.banner.warn{background:var(--warn-bg);color:var(--warn)}
+.banner.bad{background:var(--bad-bg);color:var(--bad)}
+.banner.ok{background:var(--paper-2);color:var(--ink)}
+.banner .row{display:flex;gap:8px;flex-wrap:wrap}
+.tier{display:grid;gap:10px}
+.thead{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.thead h2{font-family:var(--display);font-weight:900;font-size:24px;text-transform:uppercase;letter-spacing:.03em}
+.thead .pip{width:12px;height:12px;border-radius:3px;display:inline-block;margin-right:8px;vertical-align:0}
+.thead .note{color:var(--ink-2);font-size:13.5px}
+.thead .count{margin-left:auto;font-variant-numeric:tabular-nums;font-weight:700}
+.thead .count.low{color:var(--warn)}
+.qc{background:var(--paper);border:1px solid var(--rule);border-radius:14px;padding:14px;display:grid;gap:10px}
+.qc.owner{box-shadow:inset 4px 0 0 var(--flag)}
+.qtop{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.qtop .num{font-family:var(--display);font-weight:900;font-size:20px;width:22px}
+.qtop .sp{flex:1}
+.badge{font-family:var(--display);font-weight:800;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:2px 7px 1px;border-radius:5px;border:1px solid var(--rule);color:var(--ink-2)}
+.badge.mine{border-color:var(--flag);color:var(--ink);background:color-mix(in srgb,var(--flag) 25%,transparent)}
+.f{display:grid;gap:4px;min-width:0}
+.f label{font-size:12.5px;font-weight:700;color:var(--ink-2);letter-spacing:.02em}
+.f input,.f textarea,.f select,.qtop select{width:100%;min-width:0;border:1.5px solid var(--rule);border-radius:9px;background:var(--bg);padding:8px 10px}
+.qtop select{width:auto;padding:6px 8px}
+.f textarea{resize:vertical;min-height:62px;line-height:1.4}
+.f input:focus,.f textarea:focus,.f select:focus{border-color:var(--accent);outline:none}
+.grid3{display:grid;grid-template-columns:140px 130px minmax(0,1fr);gap:10px}
+.issues{margin:0;padding:0;list-style:none;display:grid;gap:3px;font-size:13px}
+.issues li.e{color:var(--bad);font-weight:600}
+.issues li.w{color:var(--warn);font-weight:600}
+.qstats{font-size:13px;color:var(--ink-2);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.qstats .bar{display:flex;width:120px;height:7px;border-radius:4px;overflow:hidden;gap:1px;background:var(--paper-2)}
+.qstats .bar i{display:block}
+.add{justify-self:start}
+.empty{border:2px dashed var(--rule);border-radius:14px;padding:16px;color:var(--ink-2);text-align:center}
+.toast{position:fixed;left:50%;bottom:calc(env(safe-area-inset-bottom,0px) + 20px);transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:600;z-index:20;max-width:calc(100% - 32px)}
+.loading{padding:40px 0;text-align:center;color:var(--ink-2)}
+@media (max-width:860px){
+  .bench{grid-template-columns:minmax(0,1fr)}
+  .side{position:static;max-height:none}
+  .days{max-height:320px;overflow:auto}
+  header.top{position:static}
+  .ehead{top:env(safe-area-inset-top,0px)}
+  .brand{font-size:20px}
+}
+@media (max-width:520px){
+  .grid3{grid-template-columns:1fr 1fr}
+  .grid3 .f:last-child{grid-column:1 / -1}
+  .ehead h1{font-size:28px}
+}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div class="brand">RANGA-SWANG<span>Question Studio</span></div>
+  <div class="sp"></div>
+  <a href="../" target="_blank" rel="noopener">Open the game</a>
+  <button class="link" id="signOut" type="button" hidden>Sign out</button>
+</div></header>
+
+<main class="wrap">
+  <section class="connect" id="connect" hidden>
+    <h1>Connect to GitHub</h1>
+    <p>The Studio saves your edits straight to the game's GitHub repository <b id="repoName"></b>. To let it, make a GitHub access key once. It stays in this browser only.</p>
+    <ol>
+      <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a>.</li>
+      <li>Name it <code>RANGA-SWANG Studio</code> and pick an expiration (one year is fine).</li>
+      <li>Under <b>Repository access</b>, choose <b>Only select repositories</b> and pick <b id="repoName2"></b>.</li>
+      <li>Under <b>Permissions → Repository permissions</b>, set <b>Contents</b> to <b>Read and write</b>.</li>
+      <li>Click <b>Generate token</b>, copy it, and paste it below.</li>
+    </ol>
+    <form id="connectForm" class="row" autocomplete="off">
+      <label for="tokenIn" class="muted small" style="flex-basis:100%">Access key (starts with github_pat_)</label>
+      <input id="tokenIn" type="password" placeholder="github_pat_…" spellcheck="false">
+      <button class="btn" type="submit">Connect</button>
+    </form>
+    <p class="err" id="connectErr" hidden></p>
+    <p class="muted small">Prefer not to? You can still edit questions on github.com in the <code>content/days</code> folder, or just ask Claude to change them.</p>
+  </section>
+
+  <div class="loading" id="loading" hidden>Loading your questions…</div>
+
+  <div class="bench" id="bench" hidden>
+    <aside class="side">
+      <div class="status" id="status"></div>
+      <button class="btn ghost sm" id="addDay" type="button">Add the next day</button>
+      <ul class="days" id="days"></ul>
+      <div class="recent" id="recent" hidden></div>
+    </aside>
+    <section class="editor" id="editor"></section>
+  </div>
+</main>
+<div class="toast" id="toast" hidden></div>
+
+<script src="../config.js"></script>
+<script>
+(() => {
+'use strict';
+const CFG = Object.assign({github:{}}, window.RS_CONFIG || {});
+const GH = Object.assign({owner:'', repo:'rangaswang', branch:'main'}, CFG.github || {});
+const $ = s => document.querySelector(s);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store = { get(k){ try { return localStorage.getItem(k); } catch(e){ return null; } }, set(k, v){ try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch(e){} } };
+const TK = 'rangaswang.studio.token';
+let token = store.get(TK);
+const TIERS = [
+  {key:'news',   name:'In the news', note:'Tee shots on holes 1 and 2', color:'var(--n)', target:2, max:2},
+  {key:'easy',   name:'Easy',        note:'Near the green',             color:'var(--e)', target:5},
+  {key:'medium', name:'Medium',      note:'Off the tee and fairway',    color:'var(--m)', target:5},
+  {key:'hard',   name:'Hard',        note:'Rough, bunker, trees, bad swings', color:'var(--h)', target:4},
+];
+const CATS = [['history','History'],['pop','Pop culture'],['geo','Geography'],['sports','Sports'],['news','In the news']];
+const METRIC = /\b(meters?|metres?|kilometers?|kilometres?|km|kg|kilograms?|grams?|liters?|litres?|centimeters?|cm|millimeters?|mm|hectares?|°c|celsius)\b/i;
+const now = new Date();
+const dkey = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+const TODAY = dkey(now);
+const addDays = (key, n) => { const [y, m, d] = key.split('-').map(Number); return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10); };
+const nice = key => { const [y, m, d] = key.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('en-US', {weekday:'long', month:'long', day:'numeric'}); };
+const short = key => { const [y, m, d] = key.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('en-US', {weekday:'short', month:'short', day:'numeric'}); };
+const rel = key => { const diff = Math.round((Date.UTC(...key.split('-').map((v, i) => i === 1 ? v - 1 : +v)) - Date.UTC(now.getFullYear(), now.getMonth(), now.getDate())) / 864e5);
+  return diff === 0 ? 'Today' : diff === 1 ? 'Tomorrow' : diff < 0 ? 'Past' : `In ${diff} days`; };
+function toast(msg){ const t = $('#toast'); t.textContent = msg; t.hidden = false; clearTimeout(toast._t); toast._t = setTimeout(() => t.hidden = true, 3200); }
+const b64e = s => { const b = new TextEncoder().encode(s); let bin = ''; for (let i = 0; i < b.length; i += 0x8000) bin += String.fromCharCode.apply(null, b.subarray(i, i + 0x8000)); return btoa(bin); };
+const b64d = s => new TextDecoder().decode(Uint8Array.from(atob(String(s).replace(/\s/g, '')), c => c.charCodeAt(0)));
+const newId = () => 'u' + Math.random().toString(36).slice(2, 10);
+
+/* ---------- GitHub ---------- */
+async function gh(path, opts = {}){
+  const r = await fetch('https://api.github.com' + path, Object.assign({}, opts, {
+    headers: Object.assign({Accept:'application/vnd.github+json', Authorization:'Bearer ' + token, 'X-GitHub-Api-Version':'2022-11-28'}, opts.headers || {}),
+    cache: 'no-store'}));
+  if (r.status === 204) return null;
+  const body = await r.json().catch(() => ({}));
+  if (!r.ok){ const e = new Error(body.message || ('GitHub said ' + r.status)); e.status = r.status; throw e; }
+  return body;
+}
+const filePath = key => key === 'reserve' ? 'content/reserve.json' : `content/days/${key}.json`;
+async function readFile(key){
+  const f = await gh(`/repos/${GH.owner}/${GH.repo}/contents/${filePath(key)}?ref=${encodeURIComponent(GH.branch)}`);
+  return {sha: f.sha, data: JSON.parse(b64d(f.content))};
+}
+async function writeFile(key, data, sha, message){
+  const body = {message, content: b64e(JSON.stringify(data, null, 1) + '\n'), branch: GH.branch};
+  if (sha) body.sha = sha;
+  const r = await gh(`/repos/${GH.owner}/${GH.repo}/contents/${filePath(key)}`, {method:'PUT', body: JSON.stringify(body), headers:{'Content-Type':'application/json'}});
+  return r.content.sha;
+}
+
+/* ---------- live stats (optional) ---------- */
+async function qstats(ids){
+  if (!CFG.supabaseUrl || !CFG.supabaseKey || !ids.length) return {};
+  const h = {'Content-Type':'application/json', apikey: CFG.supabaseKey};
+  if (!/^sb_/.test(CFG.supabaseKey)) h.Authorization = 'Bearer ' + CFG.supabaseKey;
+  try {
+    const r = await fetch(CFG.supabaseUrl.replace(/\/$/, '') + '/rest/v1/rpc/question_stats', {method:'POST', headers:h, body:JSON.stringify({p_qids: ids})});
+    return r.ok ? (await r.json()) || {} : {};
+  } catch(e){ return {}; }
+}
+
+/* ---------- state ---------- */
+const S = {files: {}, list: [], open: null, draft: null, sha: null, dirty: false, stats: {}, conflict: false, saving: false};
+// S.files[key] = {sha, data}  (days near today and the reserve are loaded; older days load when opened)
+
+function counts(data){ const o = {}; TIERS.forEach(t => o[t.key] = Array.isArray(data && data[t.key]) ? data[t.key].length : 0); return o; }
+function allTexts(exceptKey){
+  const m = new Map();
+  Object.entries(S.files).forEach(([k, f]) => { if (k === exceptKey || !f.data) return; TIERS.forEach(t => (f.data[t.key] || []).forEach(q => m.set(norm(q.q), k))); });
+  return m;
+}
+const norm = s => String(s || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+function issues(q, key, tierKey, texts, seenInDraft){
+  const out = [];
+  if (!String(q.q || '').trim()) out.push(['e', 'Write the question.']);
+  else if (!/\?\s*$/.test(q.q)) out.push(['w', 'Questions read best ending with "?".']);
+  if (q.a === '' || q.a == null || !Number.isFinite(Number(q.a))) out.push(['e', 'The answer must be a number.']);
+  else {
+    const a = Number(q.a);
+    if (!Number.isInteger(a)) out.push(['e', 'Use a whole number. Round it and say "to the nearest…" in the question.']);
+    if (a < 0) out.push(['e', "The answer can't be negative."]);
+    if (q.type === 'year' && a > now.getFullYear() + 1) out.push(['e', 'That year is in the future.']);
+    if (a > 9999999) out.push(['e', 'Too many digits for the answer box (7 max).']);
+  }
+  if (!String(q.unit || '').trim()) out.push(['e', 'Add a unit, like "year", "feet" or "points".']);
+  if (!String(q.fact || '').trim()) out.push(['w', 'Add a "Did you know?" fact. Players see it after the shot.']);
+  if (METRIC.test(q.q || '') || METRIC.test(q.unit || '')) out.push(['e', 'Use U.S. units: feet, miles, pounds, °F.']);
+  if (tierKey === 'news' && q.cat !== 'news') out.push(['w', 'News slots usually hold "In the news" questions.']);
+  const t = norm(q.q);
+  if (t && texts.has(t)) out.push(['e', `Same question is already on ${texts.get(t) === 'reserve' ? 'the reserve list' : short(texts.get(t))}.`]);
+  if (t && seenInDraft.has(t)) out.push(['e', 'This question appears twice on this day.']);
+  if (t) seenInDraft.add(t);
+  return out;
+}
+
+/* ---------- boot ---------- */
+async function boot(){
+  $('#repoName').textContent = `${GH.owner}/${GH.repo}`; $('#repoName2').textContent = GH.repo;
+  if (!GH.owner){ $('#connect').hidden = false; $('#connectErr').hidden = false; $('#connectErr').textContent = 'config.js has no GitHub owner set yet.'; return; }
+  if (!token){ $('#connect').hidden = false; return; }
+  $('#signOut').hidden = false; $('#connect').hidden = true; $('#loading').hidden = false;
+  try {
+    const listing = await gh(`/repos/${GH.owner}/${GH.repo}/contents/content/days?ref=${encodeURIComponent(GH.branch)}`);
+    S.list = listing.filter(f => /^\d{4}-\d{2}-\d{2}\.json$/.test(f.name)).map(f => f.name.slice(0, 10)).sort();
+    const near = S.list.filter(k => k >= addDays(TODAY, -3));
+    await Promise.all(['reserve', ...near].map(async k => { try { S.files[k] = await readFile(k); } catch(e){ if (k !== 'reserve') throw e; } }));
+    // older days only matter for spotting duplicates; read them from the public site in the background
+    S.list.filter(k => !near.includes(k)).forEach(async k => {
+      try { const r = await fetch(`../content/days/${k}.json`, {cache:'no-cache'}); if (r.ok && !S.files[k]) S.files[k] = {sha:null, data: await r.json(), partial:true}; } catch(e){}
+    });
+  } catch(e){
+    $('#loading').hidden = true;
+    if (e.status === 401 || e.status === 403 || e.status === 404){
+      store.set(TK, null); token = null;
+      $('#connect').hidden = false; $('#connectErr').hidden = false;
+      $('#connectErr').textContent = e.status === 404
+        ? `GitHub couldn't find ${GH.owner}/${GH.repo} with that key. Check that the key has access to the ${GH.repo} repository.`
+        : 'GitHub rejected that key. It may have expired. Make a new one and paste it again.';
+      return;
+    }
+    $('#loading').textContent = "Couldn't reach GitHub: " + e.message; return;
+  }
+  $('#loading').hidden = true; $('#bench').hidden = false;
+  renderSide();
+  loadRecent();
+  const first = S.list.find(k => k >= TODAY) || S.list[S.list.length - 1] || 'reserve';
+  openFile(location.hash.slice(1) && (S.list.includes(location.hash.slice(1)) || location.hash.slice(1) === 'reserve') ? location.hash.slice(1) : first);
+}
+$('#connectForm').addEventListener('submit', e => {
+  e.preventDefault();
+  const v = $('#tokenIn').value.trim();
+  if (!v){ $('#connectErr').hidden = false; $('#connectErr').textContent = 'Paste the access key first.'; return; }
+  token = v; store.set(TK, v); $('#tokenIn').value = ''; $('#connectErr').hidden = true;
+  boot();
+});
+$('#signOut').addEventListener('click', () => {
+  if (S.dirty && !S.confirmSignOut){ S.confirmSignOut = true; toast('You have unsaved changes. Click Sign out again to discard them.'); return; }
+  store.set(TK, null); location.reload();
+});
+window.addEventListener('beforeunload', e => { if (S.dirty){ e.preventDefault(); e.returnValue = ''; } });
+
+async function loadRecent(){
+  try {
+    const c = await gh(`/repos/${GH.owner}/${GH.repo}/commits?path=content&sha=${encodeURIComponent(GH.branch)}&per_page=6`);
+    if (!c.length) return;
+    const el = $('#recent'); el.hidden = false;
+    el.innerHTML = `<h3>Recent changes</h3><ul>${c.map(x => {
+      const d = new Date(x.commit.author.date);
+      return `<li><span>${esc(x.commit.message.split('\n')[0])}</span><span>${d.toLocaleDateString('en-US', {month:'short', day:'numeric'})} ${d.toLocaleTimeString('en-US', {hour:'numeric', minute:'2-digit'})}</span></li>`;
+    }).join('')}</ul>`;
+  } catch(e){}
+}
+
+/* ---------- sidebar ---------- */
+function renderSide(){
+  const future = S.list.filter(k => k >= TODAY);
+  const last = future[future.length - 1];
+  const res = S.files.reserve && S.files.reserve.data ? counts(S.files.reserve.data) : null;
+  $('#status').innerHTML = last
+    ? `<span class="muted small">Questions are ready through</span><b class="big">${esc(short(last))}</b><span class="muted small">${future.length} ${future.length === 1 ? 'day' : 'days'} including today. Each morning Claude adds the day's news and keeps about ten days ready.</span>`
+    : `<b class="big">No days ready</b><span class="muted small">Add a day, or ask Claude to run the morning update.</span>`;
+  const days = [...S.list].reverse().filter(k => k >= addDays(TODAY, -14));
+  const row = k => {
+    const f = S.files[k], c = f && f.data ? counts(f.data) : null, r = rel(k);
+    const low = c && k >= TODAY && TIERS.some(t => c[t.key] < t.target);
+    const cs = c ? TIERS.map(t => `<span class="${k >= TODAY && c[t.key] < t.target ? 'low' : ''}">${t.key[0].toUpperCase()} ${c[t.key]}</span>`).join('') : '<span>Not loaded</span>';
+    return `<li><button type="button" data-k="${k}" aria-current="${S.open === k}"><span class="d">${esc(short(k))}${low ? '<span class="dot" title="Below target"></span>' : ''}</span><span class="tag ${r === 'Past' ? 'past' : ''}">${r}</span><span class="counts">${cs}</span></button></li>`;
+  };
+  $('#days').innerHTML = `<li><button type="button" data-k="reserve" aria-current="${S.open === 'reserve'}"><span class="d">Reserve</span><span class="tag past">Backup</span><span class="counts">${res ? `<span>E ${res.easy}</span><span>M ${res.medium}</span><span>H ${res.hard}</span>` : '<span>Not found</span>'}</span></button></li>` + days.map(row).join('');
+  $('#days').querySelectorAll('button').forEach(b => b.addEventListener('click', () => switchTo(b.dataset.k)));
+}
+function switchTo(k){
+  if (k === S.open) return;
+  if (S.dirty){
+    S.pendingSwitch = k; renderEditor();
+    document.getElementById('switchBanner').scrollIntoView({block:'nearest'});
+    return;
+  }
+  openFile(k);
+}
+$('#addDay').addEventListener('click', async () => {
+  const last = S.list[S.list.length - 1];
+  const k = last && last >= TODAY ? addDays(last, 1) : TODAY;
+  if (S.dirty){ toast('Save or discard your changes first.'); return; }
+  const data = {date: k, news: [], easy: [], medium: [], hard: []};
+  try {
+    const sha = await writeFile(k, data, null, `Studio: add ${k}`);
+    S.files[k] = {sha, data}; S.list.push(k); S.list.sort();
+    renderSide(); openFile(k);
+    toast(`Added ${short(k)}. Fill in what you like. The morning update fills anything left empty.`);
+  } catch(e){ toast("Couldn't add the day: " + e.message); }
+});
+
+/* ---------- editor ---------- */
+async function openFile(k){
+  S.pendingSwitch = null; S.conflict = false; S.confirmSignOut = false;
+  if (!S.files[k] || !S.files[k].sha){
+    $('#editor').innerHTML = '<div class="loading">Loading…</div>';
+    try { S.files[k] = await readFile(k); } catch(e){ $('#editor').innerHTML = `<div class="banner bad">Couldn't open that file: ${esc(e.message)}</div>`; return; }
+  }
+  S.open = k; S.sha = S.files[k].sha;
+  S.draft = JSON.parse(JSON.stringify(S.files[k].data));
+  TIERS.forEach(t => { if (k === 'reserve' && t.key === 'news') return; if (!Array.isArray(S.draft[t.key])) S.draft[t.key] = []; });
+  S.dirty = false; S.stats = {};
+  try { history.replaceState(null, '', '#' + k); } catch(e){}
+  renderSide(); renderEditor();
+  const ids = TIERS.flatMap(t => (S.draft[t.key] || []).map(q => q.id)).filter(Boolean);
+  S.stats = await qstats(ids);
+  if (S.open === k) renderEditor(true);
+}
+function markDirty(){ if (!S.dirty){ S.dirty = true; renderHead(); } }
+function renderHead(){
+  const h = $('#ehead'); if (!h) return;
+  const k = S.open, isRes = k === 'reserve';
+  h.innerHTML = `<div><h1>${isRes ? 'Reserve' : esc(nice(k))}</h1><div class="when">${isRes ? 'Backup questions, used only when a day runs short' : rel(k) === 'Past' ? 'Already played' : rel(k)}</div></div>
+    <div class="sp"></div>
+    ${S.dirty ? '<span class="dirty">Unsaved changes</span><button class="btn ghost sm" id="discard" type="button">Discard</button>' : '<span class="muted small">All changes saved</span>'}
+    <button class="btn" id="saveBtn" type="button" ${S.dirty && !S.saving ? '' : 'disabled'}>${S.saving ? 'Saving…' : 'Save'}</button>`;
+  const d = $('#discard'); if (d) d.addEventListener('click', () => openFile(k));
+  $('#saveBtn').addEventListener('click', () => save(false));
+}
+function statLine(id){
+  const s = S.stats && S.stats[id]; if (!s || !s.n) return '';
+  const pct = v => Math.round(100 * v / s.n);
+  const cols = {perfect:'var(--n)', solid:'var(--e)', ok:'var(--m)', mishit:'#DA7020', shank:'var(--h)', whiff:'#87918A'};
+  return `<div class="qstats"><span class="bar">${Object.keys(cols).map(q => s[q] ? `<i style="flex:${s[q]};background:${cols[q]}"></i>` : '').join('')}</span>
+    ${s.n.toLocaleString('en-US')} ${s.n === 1 ? 'answer' : 'answers'} · ${pct(s.perfect)}% exact · ${pct(s.perfect + s.solid + s.ok)}% within 10%</div>`;
+}
+function renderEditor(keepScroll){
+  const k = S.open, isRes = k === 'reserve', D = S.draft;
+  const texts = allTexts(k), seen = new Set();
+  let errCount = 0;
+  const tiers = TIERS.filter(t => !(isRes && t.key === 'news'));
+  const sections = tiers.map(t => {
+    const list = D[t.key] || [];
+    const cards = list.map((q, i) => {
+      const iss = issues(q, k, t.key, texts, seen); errCount += iss.filter(x => x[0] === 'e').length;
+      return `<article class="qc ${q.by === 'owner' ? 'owner' : ''}" data-t="${t.key}" data-i="${i}">
+        <div class="qtop"><span class="num">${i + 1}</span>
+          <select data-f="cat" aria-label="Category">${CATS.map(([v, n]) => `<option value="${v}" ${q.cat === v ? 'selected' : ''}>${n}</option>`).join('')}</select>
+          ${q.by === 'owner' ? '<span class="badge mine" title="The morning update never changes or removes this one">Yours</span>' : ''}
+          <span class="sp"></span>
+          <button class="icon" type="button" data-act="up" ${i === 0 ? 'disabled' : ''} aria-label="Move up">↑</button>
+          <button class="icon" type="button" data-act="down" ${i === list.length - 1 ? 'disabled' : ''} aria-label="Move down">↓</button>
+          <select data-act="move" aria-label="Move to another list"><option value="">Move to…</option>${tiers.filter(x => x.key !== t.key).map(x => `<option value="${x.key}">${x.name}</option>`).join('')}</select>
+          <button class="icon" type="button" data-act="del" aria-label="Delete question" title="Delete">✕</button>
+        </div>
+        <div class="f"><label>Question</label><textarea data-f="q" rows="2">${esc(q.q)}</textarea></div>
+        <div class="grid3">
+          <div class="f"><label>Answer</label><input data-f="a" inputmode="numeric" value="${esc(q.a)}"></div>
+          <div class="f"><label>Answer type</label><select data-f="type"><option value="number" ${q.type !== 'year' ? 'selected' : ''}>Number</option><option value="year" ${q.type === 'year' ? 'selected' : ''}>Year</option></select></div>
+          <div class="f"><label>Unit shown by the answer box</label><input data-f="unit" value="${esc(q.unit)}" placeholder="year, feet, points…"></div>
+        </div>
+        <div class="f"><label>Did you know? (shown after the shot)</label><textarea data-f="fact" rows="2">${esc(q.fact)}</textarea></div>
+        ${t.key === 'news' || q.src ? `<div class="f"><label>Source link (optional)</label><input data-f="src" value="${esc(q.src || '')}" placeholder="https://…"></div>` : ''}
+        ${statLine(q.id)}
+        ${iss.length ? `<ul class="issues">${iss.map(([lvl, m]) => `<li class="${lvl}">${esc(m)}</li>`).join('')}</ul>` : ''}
+      </article>`;
+    }).join('');
+    const full = t.max && list.length >= t.max;
+    const low = !isRes && k >= TODAY && list.length < t.target;
+    return `<section class="tier">
+      <div class="thead"><h2><span class="pip" style="background:${t.color}"></span>${t.name}</h2><span class="note">${t.note}</span>
+        <span class="count ${low ? 'low' : ''}">${list.length}${isRes ? '' : ' / ' + t.target}</span></div>
+      ${cards || `<div class="empty">No ${t.name.toLowerCase()} questions yet.${!isRes && k >= TODAY ? ' The morning update will fill this in, or add your own.' : ''}</div>`}
+      ${full ? '' : `<button class="btn ghost sm add" type="button" data-add="${t.key}">Add ${({news:'a news', easy:'an easy', medium:'a medium', hard:'a hard'})[t.key]} question</button>`}
+    </section>`;
+  }).join('');
+  const y = window.scrollY;
+  $('#editor').innerHTML = `<div class="ehead" id="ehead"></div>
+    ${S.pendingSwitch ? `<div class="banner warn" id="switchBanner"><b>You have unsaved changes on this ${k === 'reserve' ? 'list' : 'day'}.</b><div class="row"><button class="btn sm" id="saveGo" type="button">Save, then open ${esc(S.pendingSwitch === 'reserve' ? 'the reserve' : short(S.pendingSwitch))}</button><button class="btn ghost sm" id="dropGo" type="button">Discard changes</button><button class="btn ghost sm" id="stay" type="button">Stay here</button></div></div>` : ''}
+    ${S.conflict ? `<div class="banner bad"><b>This ${k === 'reserve' ? 'list' : 'day'} changed on GitHub since you opened it</b> (probably the morning update). Your edits are still here.<div class="row"><button class="btn sm danger" id="overwrite" type="button">Save mine anyway</button><button class="btn ghost sm" id="reload" type="button">Load the latest and discard mine</button></div></div>` : ''}
+    ${errCount ? `<div class="banner bad">${errCount} ${errCount === 1 ? 'problem needs' : 'problems need'} fixing before this can be saved. They're marked in red.</div>` : ''}
+    ${!isRes && rel(k) === 'Past' ? '<div class="banner ok">This day has already been played. Edits here only affect bonus holes.</div>' : ''}
+    ${sections}`;
+  S.errCount = errCount;
+  renderHead();
+  if (keepScroll) window.scrollTo(0, y);
+  wire();
+}
+function wire(){
+  const ed = $('#editor');
+  ed.querySelectorAll('.qc').forEach(card => {
+    const t = card.dataset.t, i = +card.dataset.i, list = () => S.draft[t];
+    card.querySelectorAll('[data-f]').forEach(inp => {
+      const f = inp.dataset.f;
+      const apply = () => {
+        const q = list()[i]; let v = inp.value;
+        if (f === 'a'){ v = v.replace(/[^\d]/g, ''); q.a = v === '' ? '' : Number(v); }
+        else if (f === 'src'){ if (v.trim()) q.src = v.trim(); else delete q.src; }
+        else q[f] = v;
+        q.by = 'owner';
+        markDirty();
+      };
+      inp.addEventListener('input', apply);
+      inp.addEventListener('change', () => { apply(); renderEditor(true); });
+    });
+    card.querySelectorAll('[data-act]').forEach(b => {
+      const act = b.dataset.act;
+      const ev = act === 'move' ? 'change' : 'click';
+      b.addEventListener(ev, () => {
+        const L = list();
+        if (act === 'up' && i > 0){ [L[i - 1], L[i]] = [L[i], L[i - 1]]; }
+        else if (act === 'down' && i < L.length - 1){ [L[i + 1], L[i]] = [L[i], L[i + 1]]; }
+        else if (act === 'del'){
+          if (!card.dataset.armed){ card.dataset.armed = '1'; b.textContent = 'Delete?'; b.style.width = 'auto'; b.style.padding = '0 8px'; b.style.color = 'var(--bad)'; setTimeout(() => { if (card.isConnected){ delete card.dataset.armed; b.textContent = '✕'; b.removeAttribute('style'); } }, 3000); return; }
+          L.splice(i, 1);
+        }
+        else if (act === 'move' && b.value){
+          const dest = b.value, max = (TIERS.find(x => x.key === dest) || {}).max;
+          if (max && S.draft[dest].length >= max){ toast(`${TIERS.find(x => x.key === dest).name} already has ${max}.`); b.value = ''; return; }
+          const [q] = L.splice(i, 1); q.by = 'owner'; S.draft[dest].push(q);
+        } else return;
+        markDirty(); renderEditor(true);
+      });
+    });
+  });
+  ed.querySelectorAll('[data-add]').forEach(b => b.addEventListener('click', () => {
+    const t = b.dataset.add;
+    S.draft[t].push({id: newId(), cat: t === 'news' ? 'news' : 'history', q: '', a: '', type: 'number', unit: '', fact: '', by: 'owner'});
+    markDirty(); renderEditor(true);
+    const cards = ed.querySelectorAll(`.qc[data-t="${t}"]`); const last = cards[cards.length - 1];
+    if (last){ last.scrollIntoView({block:'center'}); const ta = last.querySelector('textarea'); if (ta) ta.focus(); }
+  }));
+  const sg = $('#saveGo'); if (sg) sg.addEventListener('click', async () => { const to = S.pendingSwitch; if (await save()) openFile(to); });
+  const dg = $('#dropGo'); if (dg) dg.addEventListener('click', () => { S.dirty = false; openFile(S.pendingSwitch); });
+  const st = $('#stay'); if (st) st.addEventListener('click', () => { S.pendingSwitch = null; renderEditor(true); });
+  const ow = $('#overwrite'); if (ow) ow.addEventListener('click', () => save(true));
+  const rl = $('#reload'); if (rl) rl.addEventListener('click', () => { S.dirty = false; S.files[S.open].sha = null; openFile(S.open); });
+}
+function clean(data){
+  const out = JSON.parse(JSON.stringify(data));
+  TIERS.forEach(t => { if (!Array.isArray(out[t.key])) return;
+    out[t.key] = out[t.key].map(q => {
+      const o = {id: q.id || newId(), cat: q.cat, q: String(q.q).trim(), a: Number(q.a), type: q.type === 'year' ? 'year' : 'number', unit: String(q.unit).trim(), fact: String(q.fact || '').trim()};
+      if (q.src) o.src = q.src; if (q.by) o.by = q.by;
+      return o;
+    });
+  });
+  if (S.open !== 'reserve') out.date = S.open;
+  return out;
+}
+async function save(force){
+  renderEditor(true);
+  if (S.errCount){ toast('Fix the problems marked in red first.'); return false; }
+  const k = S.open;
+  S.saving = true; renderHead();
+  try {
+    let sha = S.sha;
+    if (force){ try { sha = (await readFile(k)).sha; } catch(e){} }
+    const data = clean(S.draft);
+    const newSha = await writeFile(k, data, sha, `Studio: edit ${k === 'reserve' ? 'reserve' : k}`);
+    S.files[k] = {sha: newSha, data}; S.sha = newSha; S.draft = JSON.parse(JSON.stringify(data));
+    S.dirty = false; S.conflict = false; S.saving = false;
+    renderSide(); renderEditor(true); loadRecent();
+    toast('Saved. Live on the site in about a minute.');
+    return true;
+  } catch(e){
+    S.saving = false;
+    if (e.status === 409 || (e.status === 422 && /sha/i.test(e.message))){ S.conflict = true; renderEditor(true); }
+    else if (e.status === 403 || e.status === 404) toast("GitHub won't let this key save. Make sure it has Contents: Read and write.");
+    else toast("Couldn't save: " + e.message);
+    renderHead();
+    return false;
+  }
+}
+boot();
+})();
+</script>
+</body>
+</html>

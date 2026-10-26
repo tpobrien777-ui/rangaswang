@@ -1,0 +1,155 @@
+{
+ "date": "2026-11-02",
+ "news": [
+  {
+   "id": "qhhyfst",
+   "cat": "news",
+   "q": "How old is Navi Pillay, winner of the 2026 Nobel Peace Prize?",
+   "a": 85,
+   "type": "number",
+   "unit": "years old",
+   "fact": "The South African judge was the UN's human rights chief from 2008 to 2014."
+  },
+  {
+   "id": "q12uqwfh",
+   "cat": "news",
+   "q": "An October 2026 study tracked how many thousand Americans to test ultra-processed food and colorectal cancer?",
+   "a": 460,
+   "type": "number",
+   "unit": "thousand",
+   "fact": "Overall, it found no link to higher colorectal cancer risk."
+  }
+ ],
+ "easy": [
+  {
+   "id": "q1leu2se",
+   "cat": "sports",
+   "q": "How many home runs did Barry Bonds hit in 2001?",
+   "a": 73,
+   "type": "number",
+   "unit": "home runs",
+   "fact": "Still the single-season record."
+  },
+  {
+   "id": "qyuhxhf",
+   "cat": "history",
+   "q": "How many presidents' faces are carved on Mount Rushmore?",
+   "a": 4,
+   "type": "number",
+   "unit": "faces",
+   "fact": "Washington, Jefferson, Theodore Roosevelt and Lincoln."
+  },
+  {
+   "id": "q1lm3gvb",
+   "cat": "pop",
+   "q": "How many Pokémon were in the original Red and Blue games?",
+   "a": 151,
+   "type": "number",
+   "unit": "Pokémon",
+   "fact": "Mew, No. 151, was slipped in late in development."
+  },
+  {
+   "id": "qubvobe",
+   "cat": "geo",
+   "q": "How many oceans are there, the way most maps count them today?",
+   "a": 5,
+   "type": "number",
+   "unit": "oceans",
+   "fact": "The Southern Ocean was the latest to be named."
+  },
+  {
+   "id": "q1blpt4z",
+   "cat": "sports",
+   "q": "In what year did Jackie Robinson break MLB's color line?",
+   "a": 1947,
+   "type": "year",
+   "unit": "year",
+   "fact": "Every player wears his No. 42 on April 15."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1huafnx",
+   "cat": "sports",
+   "q": "How tall is Fenway Park's Green Monster, in feet?",
+   "a": 37,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's been painted green since 1947."
+  },
+  {
+   "id": "qx55h6m",
+   "cat": "history",
+   "q": "In what year did the Soviet Union launch Sputnik?",
+   "a": 1957,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first artificial satellite was about the size of a beach ball."
+  },
+  {
+   "id": "qcbpn69",
+   "cat": "pop",
+   "q": "In what year did Space Jam come out?",
+   "a": 1996,
+   "type": "year",
+   "unit": "year",
+   "fact": "Michael Jordan teamed up with the Looney Tunes."
+  },
+  {
+   "id": "q1ka4te8",
+   "cat": "geo",
+   "q": "What's the hottest temperature ever recorded on Earth, in °F?",
+   "a": 134,
+   "type": "number",
+   "unit": "°F",
+   "fact": "It was logged at Furnace Creek in Death Valley in July 1913."
+  },
+  {
+   "id": "q1evyr7x",
+   "cat": "sports",
+   "q": "How many career home runs did Babe Ruth hit?",
+   "a": 714,
+   "type": "number",
+   "unit": "home runs",
+   "fact": "Hank Aaron passed him with No. 715 in 1974."
+  }
+ ],
+ "hard": [
+  {
+   "id": "q1r40aaf",
+   "cat": "history",
+   "q": "In what year was the Treaty of Ghent signed, ending the War of 1812?",
+   "a": 1814,
+   "type": "year",
+   "unit": "year",
+   "fact": "The Battle of New Orleans was fought after the treaty was already signed."
+  },
+  {
+   "id": "q1dfuf1g",
+   "cat": "pop",
+   "q": "In what year did Michael Jackson first moonwalk on TV?",
+   "a": 1983,
+   "type": "year",
+   "unit": "year",
+   "fact": "He did it during 'Billie Jean' on the Motown 25 special."
+  },
+  {
+   "id": "qcwny1d",
+   "cat": "geo",
+   "q": "How many states does Mexico have, not counting Mexico City?",
+   "a": 31,
+   "type": "number",
+   "unit": "states",
+   "fact": "Mexico City is its own federal entity."
+  },
+  {
+   "id": "q4tkb9n",
+   "cat": "sports",
+   "q": "How many NCAA titles in a row did UCLA men's basketball win under John Wooden?",
+   "a": 7,
+   "type": "number",
+   "unit": "titles",
+   "fact": "Wooden won 10 titles in 12 seasons."
+  }
+ ]
+}

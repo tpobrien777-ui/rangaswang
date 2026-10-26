@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-31",
+ "news": [
+  {
+   "id": "q33yc43",
+   "cat": "news",
+   "q": "How many candidates were nominated for the 2026 Nobel Peace Prize?",
+   "a": 287,
+   "type": "number",
+   "unit": "nominees",
+   "fact": "Navi Pillay won. 79 of the nominees were organizations."
+  },
+  {
+   "id": "q1ky8j5g",
+   "cat": "news",
+   "q": "By Sept. 19, how many weeks had Ella Langley's 'Choosin' Texas' spent at No. 1 on the Hot 100?",
+   "a": 22,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "That tied Mariah Carey's 'All I Want for Christmas Is You' for the longest run ever."
+  }
+ ],
+ "easy": [
+  {
+   "id": "qqyyr7h",
+   "cat": "pop",
+   "q": "In what year did Back to the Future come out?",
+   "a": 1985,
+   "type": "year",
+   "unit": "year",
+   "fact": "The DeLorean had to hit 88 miles per hour to time travel."
+  },
+  {
+   "id": "q1pvkj47",
+   "cat": "geo",
+   "q": "How many main islands make up the state of Hawaii?",
+   "a": 8,
+   "type": "number",
+   "unit": "islands",
+   "fact": "The Big Island is larger than all the others combined."
+  },
+  {
+   "id": "q1alvpz7",
+   "cat": "sports",
+   "q": "How many yards long is an NFL field, end zones included?",
+   "a": 120,
+   "type": "number",
+   "unit": "yards",
+   "fact": "100 yards of field plus two 10-yard end zones."
+  },
+  {
+   "id": "qpj5avw",
+   "cat": "history",
+   "q": "In what year did Neil Armstrong walk on the Moon?",
+   "a": 1969,
+   "type": "year",
+   "unit": "year",
+   "fact": "He and Buzz Aldrin spent about two and a half hours outside."
+  },
+  {
+   "id": "qht9zij",
+   "cat": "pop",
+   "q": "How many dwarfs are in Disney's Snow White?",
+   "a": 7,
+   "type": "number",
+   "unit": "dwarfs",
+   "fact": "Disney's version came out in 1937."
+  }
+ ],
+ "medium": [
+  {
+   "id": "qu035ro",
+   "cat": "pop",
+   "q": "How many colored stickers are on a standard Rubik's Cube?",
+   "a": 54,
+   "type": "number",
+   "unit": "stickers",
+   "fact": "Nine on each of six faces. Ernő Rubik invented it in 1974."
+  },
+  {
+   "id": "q1wdoda1",
+   "cat": "geo",
+   "q": "How many time zones does Russia span?",
+   "a": 11,
+   "type": "number",
+   "unit": "time zones",
+   "fact": "From Kaliningrad on the Baltic to Kamchatka on the Pacific."
+  },
+  {
+   "id": "q1t8tkif",
+   "cat": "sports",
+   "q": "How many points did Kobe Bryant score against Toronto in January 2006?",
+   "a": 81,
+   "type": "number",
+   "unit": "points",
+   "fact": "Second only to Wilt Chamberlain's 100."
+  },
+  {
+   "id": "qmivsl4",
+   "cat": "history",
+   "q": "In what year did the Great Fire of London start?",
+   "a": 1666,
+   "type": "year",
+   "unit": "year",
+   "fact": "It began in a bakery on Pudding Lane in early September."
+  },
+  {
+   "id": "q1rhffa5",
+   "cat": "pop",
+   "q": "In what year did The Wizard of Oz come out?",
+   "a": 1939,
+   "type": "year",
+   "unit": "year",
+   "fact": "In the book, Dorothy's ruby slippers were silver."
+  }
+ ],
+ "hard": [
+  {
+   "id": "q5njfkh",
+   "cat": "history",
+   "q": "In what year did the Panama Canal open?",
+   "a": 1914,
+   "type": "year",
+   "unit": "year",
+   "fact": "It opened on August 15, 1914, less than three weeks after World War I began."
+  },
+  {
+   "id": "q1f1mowf",
+   "cat": "pop",
+   "q": "In what year was Nintendo founded?",
+   "a": 1889,
+   "type": "year",
+   "unit": "year",
+   "fact": "It started in Kyoto making hanafuda playing cards."
+  },
+  {
+   "id": "q1dfu38k",
+   "cat": "geo",
+   "q": "How many countries border China?",
+   "a": 14,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Tied with Russia for the most land neighbors."
+  },
+  {
+   "id": "q1shkbyb",
+   "cat": "sports",
+   "q": "How many Stanley Cups have the Montreal Canadiens won?",
+   "a": 24,
+   "type": "number",
+   "unit": "Cups",
+   "fact": "Their most recent came in 1993."
+  }
+ ]
+}

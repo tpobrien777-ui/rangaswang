@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-28",
+ "news": [
+  {
+   "id": "q1mnyyl3",
+   "cat": "news",
+   "q": "On Oct. 11, 2026, NASA's Perseverance set the record for the longest drive on another world. How many miles had it gone?",
+   "a": 28,
+   "type": "number",
+   "unit": "miles",
+   "fact": "28.1 miles, edging Opportunity's 28.06, in about 5.5 years instead of nearly 15."
+  },
+  {
+   "id": "q1kqqx7u",
+   "cat": "news",
+   "q": "A famous train delayed by a solar storm was long dated to 1841. Scientists just re-dated it. What year was it really?",
+   "a": 1848,
+   "type": "year",
+   "unit": "year",
+   "fact": "The 16-minute delay on England's Bristol and Exeter Railway came on Oct. 18, 1848."
+  }
+ ],
+ "easy": [
+  {
+   "id": "ql2pqon",
+   "cat": "geo",
+   "q": "How many countries are in South America?",
+   "a": 12,
+   "type": "number",
+   "unit": "countries",
+   "fact": "French Guiana is there too, but it's part of France."
+  },
+  {
+   "id": "q1a08jur",
+   "cat": "sports",
+   "q": "How many feet apart are the bases in Major League Baseball?",
+   "a": 90,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The distance has held since the 1800s."
+  },
+  {
+   "id": "q10em6gc",
+   "cat": "history",
+   "q": "In what year did World War II end?",
+   "a": 1945,
+   "type": "year",
+   "unit": "year",
+   "fact": "Japan formally surrendered on September 2."
+  },
+  {
+   "id": "qrm6htq",
+   "cat": "pop",
+   "q": "How many cards are in a standard deck, not counting jokers?",
+   "a": 52,
+   "type": "number",
+   "unit": "cards",
+   "fact": "Four suits of 13."
+  },
+  {
+   "id": "q1wqprne",
+   "cat": "geo",
+   "q": "How many Great Lakes are there?",
+   "a": 5,
+   "type": "number",
+   "unit": "lakes",
+   "fact": "Lake Superior is the largest."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1480c39",
+   "cat": "geo",
+   "q": "How many U.S. states border Canada?",
+   "a": 13,
+   "type": "number",
+   "unit": "states",
+   "fact": "Alaska shares the longest stretch of the border."
+  },
+  {
+   "id": "q15xeb0g",
+   "cat": "sports",
+   "q": "How many games in a row did Joe DiMaggio get a hit in 1941?",
+   "a": 56,
+   "type": "number",
+   "unit": "games",
+   "fact": "The streak ended in Cleveland on July 17."
+  },
+  {
+   "id": "q1g932l0",
+   "cat": "history",
+   "q": "In what year was Magna Carta sealed at Runnymede?",
+   "a": 1215,
+   "type": "year",
+   "unit": "year",
+   "fact": "King John agreed to it under pressure from rebel barons. The Pope annulled it within months."
+  },
+  {
+   "id": "q1woav41",
+   "cat": "pop",
+   "q": "In what year did Saturday Night Live premiere?",
+   "a": 1975,
+   "type": "year",
+   "unit": "year",
+   "fact": "George Carlin hosted the first episode on October 11."
+  },
+  {
+   "id": "qkrf2hz",
+   "cat": "geo",
+   "q": "How tall is Seattle's Space Needle, in feet?",
+   "a": 605,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was built for the 1962 World's Fair."
+  }
+ ],
+ "hard": [
+  {
+   "id": "q1fxpxvw",
+   "cat": "history",
+   "q": "In what year was Joan of Arc burned at the stake?",
+   "a": 1431,
+   "type": "year",
+   "unit": "year",
+   "fact": "She died in Rouen at about 19 years old."
+  },
+  {
+   "id": "q1qc3r8",
+   "cat": "pop",
+   "q": "How many episodes of The Office (U.S.) were made?",
+   "a": 201,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Over nine seasons on NBC."
+  },
+  {
+   "id": "q8nre8u",
+   "cat": "geo",
+   "q": "How long is the Golden Gate Bridge's main span, in feet?",
+   "a": 4200,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was the longest suspension span in the world when it opened in 1937."
+  },
+  {
+   "id": "qrtk7tn",
+   "cat": "sports",
+   "q": "How high is a tennis net at the center, in inches?",
+   "a": 36,
+   "type": "number",
+   "unit": "inches",
+   "fact": "It's 42 inches at the posts."
+  }
+ ]
+}

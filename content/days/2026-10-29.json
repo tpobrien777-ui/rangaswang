@@ -1,0 +1,155 @@
+{
+ "date": "2026-10-29",
+ "news": [
+  {
+   "id": "q1hpu8tz",
+   "cat": "news",
+   "q": "The Brewers swept the Dodgers to reach the 2026 World Series. How many years since Milwaukee's last trip?",
+   "a": 44,
+   "type": "number",
+   "unit": "years",
+   "fact": "Their only other World Series was in 1982. This time they face the Tampa Bay Rays."
+  },
+  {
+   "id": "q1e0mhs1",
+   "cat": "news",
+   "q": "On 2026 opening night, the Knicks raised their first NBA title banner since what year?",
+   "a": 1973,
+   "type": "year",
+   "unit": "year",
+   "fact": "They opened against LeBron James and the 76ers at Madison Square Garden."
+  }
+ ],
+ "easy": [
+  {
+   "id": "q1y3aoov",
+   "cat": "sports",
+   "q": "How many players does a soccer team have on the field?",
+   "a": 11,
+   "type": "number",
+   "unit": "players",
+   "fact": "That includes the goalkeeper."
+  },
+  {
+   "id": "q3xo4hf",
+   "cat": "history",
+   "q": "In what year did the Titanic sink?",
+   "a": 1912,
+   "type": "year",
+   "unit": "year",
+   "fact": "It went down on April 15, about two hours and forty minutes after hitting the iceberg."
+  },
+  {
+   "id": "qrc7s5f",
+   "cat": "pop",
+   "q": "In what year did the first Star Wars movie open?",
+   "a": 1977,
+   "type": "year",
+   "unit": "year",
+   "fact": "It opened in just 32 U.S. theaters on May 25."
+  },
+  {
+   "id": "q1f0nztn",
+   "cat": "geo",
+   "q": "How many U.S. states have a Pacific Ocean coastline?",
+   "a": 5,
+   "type": "number",
+   "unit": "states",
+   "fact": "California, Oregon, Washington, Alaska and Hawaii."
+  },
+  {
+   "id": "qtn9k2m",
+   "cat": "sports",
+   "q": "How many Super Bowls did Tom Brady win?",
+   "a": 7,
+   "type": "number",
+   "unit": "titles",
+   "fact": "Six with New England and one with Tampa Bay."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1t57dae",
+   "cat": "sports",
+   "q": "What is the most clubs a golfer can carry in competition?",
+   "a": 14,
+   "type": "number",
+   "unit": "clubs",
+   "fact": "Carry a 15th and the Rules of Golf hand you a penalty."
+  },
+  {
+   "id": "q1v2hhnq",
+   "cat": "history",
+   "q": "In what year did Charles Lindbergh fly solo across the Atlantic?",
+   "a": 1927,
+   "type": "year",
+   "unit": "year",
+   "fact": "The flight from New York to Paris took about 33 and a half hours."
+  },
+  {
+   "id": "q12oyopx",
+   "cat": "pop",
+   "q": "In what year did the Game Boy launch in North America?",
+   "a": 1989,
+   "type": "year",
+   "unit": "year",
+   "fact": "It came bundled with Tetris."
+  },
+  {
+   "id": "qr8uf88",
+   "cat": "geo",
+   "q": "How many countries are in Africa?",
+   "a": 54,
+   "type": "number",
+   "unit": "countries",
+   "fact": "South Sudan, independent since 2011, is the newest."
+  },
+  {
+   "id": "qdtzueq",
+   "cat": "sports",
+   "q": "How many Masters titles has Tiger Woods won?",
+   "a": 5,
+   "type": "number",
+   "unit": "green jackets",
+   "fact": "His first, in 1997, came by 12 strokes."
+  }
+ ],
+ "hard": [
+  {
+   "id": "q1aaskpr",
+   "cat": "history",
+   "q": "How many men signed the Declaration of Independence?",
+   "a": 56,
+   "type": "number",
+   "unit": "signers",
+   "fact": "John Hancock's is the biggest signature on the page."
+  },
+  {
+   "id": "qm9akuk",
+   "cat": "pop",
+   "q": "How many episodes of Breaking Bad were made?",
+   "a": 62,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Five seasons on AMC, from 2008 to 2013."
+  },
+  {
+   "id": "q1fkyz7z",
+   "cat": "geo",
+   "q": "How tall is Denali, in feet?",
+   "a": 20310,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's the highest peak in North America."
+  },
+  {
+   "id": "qiejpeq",
+   "cat": "sports",
+   "q": "How long is a cricket pitch, in yards?",
+   "a": 22,
+   "type": "number",
+   "unit": "yards",
+   "fact": "That's one chain, an old surveyor's unit."
+  }
+ ]
+}

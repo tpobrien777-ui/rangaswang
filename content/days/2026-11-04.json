@@ -1,0 +1,146 @@
+{
+ "date": "2026-11-04",
+ "news": [
+  {
+   "id": "q6im30q",
+   "cat": "news",
+   "q": "Scientists turned blood cells from a donor of what age into neural stem cells with a molecular age under 20?",
+   "a": 80,
+   "type": "number",
+   "unit": "years old",
+   "fact": "That reverses more than 60 years of cellular aging, in the lab."
+  }
+ ],
+ "easy": [
+  {
+   "id": "qz5bagc",
+   "cat": "pop",
+   "q": "How many Teenage Mutant Ninja Turtles are there?",
+   "a": 4,
+   "type": "number",
+   "unit": "turtles",
+   "fact": "All named after Renaissance artists."
+  },
+  {
+   "id": "q1n5ii22",
+   "cat": "geo",
+   "q": "How many time zones does the Lower 48 have?",
+   "a": 4,
+   "type": "number",
+   "unit": "time zones",
+   "fact": "Eastern, Central, Mountain and Pacific."
+  },
+  {
+   "id": "q140l3df",
+   "cat": "sports",
+   "q": "How many teams are in the NHL?",
+   "a": 32,
+   "type": "number",
+   "unit": "teams",
+   "fact": "Utah's team arrived in 2024 when Arizona's moved."
+  },
+  {
+   "id": "q1rpz67j",
+   "cat": "history",
+   "q": "In what year did the Pilgrims land at Plymouth?",
+   "a": 1620,
+   "type": "year",
+   "unit": "year",
+   "fact": "The Mayflower carried 102 passengers."
+  },
+  {
+   "id": "qinesuj",
+   "cat": "pop",
+   "q": "How many seasons did The Office (U.S.) run?",
+   "a": 9,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It ran on NBC from 2005 to 2013."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1by6l2r",
+   "cat": "pop",
+   "q": "In what year did Mickey Mouse star in Steamboat Willie?",
+   "a": 1928,
+   "type": "year",
+   "unit": "year",
+   "fact": "That version of Mickey entered the U.S. public domain in 2024."
+  },
+  {
+   "id": "q27ceqs",
+   "cat": "geo",
+   "q": "How many U.S. states touch Lake Erie?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "It's the shallowest of the Great Lakes."
+  },
+  {
+   "id": "q118lmco",
+   "cat": "sports",
+   "q": "How many teams played in the 2026 FIFA World Cup?",
+   "a": 48,
+   "type": "number",
+   "unit": "teams",
+   "fact": "Up from 32, spread across the U.S., Canada and Mexico."
+  },
+  {
+   "id": "qgy7qxl",
+   "cat": "history",
+   "q": "In what year did the Chernobyl reactor explode?",
+   "a": 1986,
+   "type": "year",
+   "unit": "year",
+   "fact": "Reactor No. 4 blew up on April 26 during a safety test."
+  },
+  {
+   "id": "qpvm93h",
+   "cat": "pop",
+   "q": "In what year did The Simpsons premiere as a half-hour series?",
+   "a": 1989,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first episode, a Christmas special, aired on December 17, 1989."
+  }
+ ],
+ "hard": [
+  {
+   "id": "qz8plcn",
+   "cat": "history",
+   "q": "In what year did the Spanish Armada sail against England?",
+   "a": 1588,
+   "type": "year",
+   "unit": "year",
+   "fact": "Storms wrecked many of its ships on the way home around Scotland and Ireland."
+  },
+  {
+   "id": "q1tizlot",
+   "cat": "geo",
+   "q": "How many U.S. state capitals are named after presidents?",
+   "a": 4,
+   "type": "number",
+   "unit": "capitals",
+   "fact": "Jackson, Jefferson City, Lincoln and Madison."
+  },
+  {
+   "id": "qreiz2e",
+   "cat": "sports",
+   "q": "How many consecutive games did Cal Ripken Jr. play?",
+   "a": 2632,
+   "type": "number",
+   "unit": "games",
+   "fact": "The streak ran from 1982 to 1998."
+  },
+  {
+   "id": "qtjji4n",
+   "cat": "history",
+   "q": "In what year did Texas become a U.S. state?",
+   "a": 1845,
+   "type": "year",
+   "unit": "year",
+   "fact": "It had been an independent republic for nearly 10 years."
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "date": "2026-10-27",
+ "news": [
+  {
+   "id": "qh6y887",
+   "cat": "news",
+   "q": "The Brewers won the first two games of the 2026 World Series. How many times did Rays hitters strike out in those two games?",
+   "a": 19,
+   "type": "number",
+   "unit": "strikeouts",
+   "fact": "Milwaukee's hitters drew nine walks over the same two games.",
+   "src": "https://brewerfanatic.com/news-rumors/milwaukee-brewers/brewers-rays-world-series-game-3-matchup-by-the-numbers-r5181/"
+  },
+  {
+   "id": "q1i7cepy",
+   "cat": "news",
+   "q": "Lula da Silva won Brazil's Oct. 25 presidential runoff. What percent of the vote did he get, to the nearest whole number?",
+   "a": 52,
+   "type": "number",
+   "unit": "percent",
+   "fact": "It's his fourth term as Brazil's president. Turnout was about 81%.",
+   "src": "https://riotimesonline.com/brazil-election-results-2026"
+  }
+ ],
+ "easy": [
+  {
+   "id": "qh5cw1q",
+   "cat": "pop",
+   "q": "How many strings does a standard guitar have?",
+   "a": 6,
+   "type": "number",
+   "unit": "strings",
+   "fact": "A standard bass has four."
+  },
+  {
+   "id": "q10sumrg",
+   "cat": "geo",
+   "q": "How many continents are there?",
+   "a": 7,
+   "type": "number",
+   "unit": "continents",
+   "fact": "Asia is the biggest by far."
+  },
+  {
+   "id": "q1gps58o",
+   "cat": "sports",
+   "q": "How many holes are in a standard round of golf?",
+   "a": 18,
+   "type": "number",
+   "unit": "holes",
+   "fact": "St Andrews settled on 18 in 1764."
+  },
+  {
+   "id": "qjloo65",
+   "cat": "history",
+   "q": "In what year did the Berlin Wall fall?",
+   "a": 1989,
+   "type": "year",
+   "unit": "year",
+   "fact": "East German guards opened the border crossings on the night of November 9."
+  },
+  {
+   "id": "qvskdtf",
+   "cat": "pop",
+   "q": "In what year did the first Toy Story come out?",
+   "a": 1995,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the first feature film made entirely with computer animation."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1nfyn02",
+   "cat": "pop",
+   "q": "How many spaces are on a standard Monopoly board?",
+   "a": 40,
+   "type": "number",
+   "unit": "spaces",
+   "fact": "That counts the four corners: Go, Jail, Free Parking and Go to Jail."
+  },
+  {
+   "id": "qz5geym",
+   "cat": "geo",
+   "q": "How tall is the Statue of Liberty from heel to torch, in feet?",
+   "a": 151,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Counting the pedestal, the torch stands 305 feet above the ground."
+  },
+  {
+   "id": "qxu4i3t",
+   "cat": "sports",
+   "q": "How many Grand Slam singles titles did Serena Williams win?",
+   "a": 23,
+   "type": "number",
+   "unit": "titles",
+   "fact": "Her last, the 2017 Australian Open, came while she was pregnant."
+  },
+  {
+   "id": "qkit88u",
+   "cat": "history",
+   "q": "In what year did the U.S. buy Alaska from Russia?",
+   "a": 1867,
+   "type": "year",
+   "unit": "year",
+   "fact": "Critics called it 'Seward's Folly.'"
+  },
+  {
+   "id": "q17amrzo",
+   "cat": "pop",
+   "q": "In what year did Michael Jackson release Thriller?",
+   "a": 1982,
+   "type": "year",
+   "unit": "year",
+   "fact": "It's widely cited as the best-selling album of all time."
+  }
+ ],
+ "hard": [
+  {
+   "id": "q12qdsy7",
+   "cat": "history",
+   "q": "How many years did the Hundred Years' War actually last?",
+   "a": 116,
+   "type": "number",
+   "unit": "years",
+   "fact": "It ran from 1337 to 1453, with long truces along the way."
+  },
+  {
+   "id": "qf8dbke",
+   "cat": "pop",
+   "q": "How old was Mozart when he died?",
+   "a": 35,
+   "type": "number",
+   "unit": "years old",
+   "fact": "He died in Vienna in 1791 with his Requiem unfinished."
+  },
+  {
+   "id": "qk4uvr9",
+   "cat": "geo",
+   "q": "How many counties does Texas have?",
+   "a": 254,
+   "type": "number",
+   "unit": "counties",
+   "fact": "The most of any state."
+  },
+  {
+   "id": "qooryz5",
+   "cat": "sports",
+   "q": "How many yards long is the famous par-3 12th hole at Augusta National?",
+   "a": 155,
+   "type": "number",
+   "unit": "yards",
+   "fact": "Rae's Creek runs right in front of the green."
+  }
+ ]
+}

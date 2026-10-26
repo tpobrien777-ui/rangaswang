@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-06",
+ "news": [],
+ "easy": [
+  {
+   "id": "q1dvgu6b",
+   "cat": "sports",
+   "q": "How many points did Wilt Chamberlain score in one game in 1962?",
+   "a": 100,
+   "type": "number",
+   "unit": "points",
+   "fact": "He did it against the Knicks in Hershey, Pennsylvania."
+  },
+  {
+   "id": "q1yiisuc",
+   "cat": "history",
+   "q": "In what year did the stock market crash on Black Tuesday?",
+   "a": 1929,
+   "type": "year",
+   "unit": "year",
+   "fact": "Black Tuesday was October 29, the start of the Great Depression."
+  },
+  {
+   "id": "q14wgye9",
+   "cat": "pop",
+   "q": "How many keys are on a standard piano?",
+   "a": 88,
+   "type": "number",
+   "unit": "keys",
+   "fact": "52 white and 36 black."
+  },
+  {
+   "id": "qov5f1",
+   "cat": "geo",
+   "q": "How many countries are in Central America?",
+   "a": 7,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Belize, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica and Panama."
+  },
+  {
+   "id": "q1lp7qtz",
+   "cat": "sports",
+   "q": "How many rings are on the Olympic flag?",
+   "a": 5,
+   "type": "number",
+   "unit": "rings",
+   "fact": "They stand for five parts of the world."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q11h856z",
+   "cat": "sports",
+   "q": "What is the heaviest a regulation bowling ball can be, in pounds?",
+   "a": 16,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "There's no minimum weight."
+  },
+  {
+   "id": "q8h6189",
+   "cat": "history",
+   "q": "In what year did the Berlin Wall go up?",
+   "a": 1961,
+   "type": "year",
+   "unit": "year",
+   "fact": "It went up almost overnight, starting on August 13."
+  },
+  {
+   "id": "q181l4ra",
+   "cat": "pop",
+   "q": "In what year did the Barbie doll debut?",
+   "a": 1959,
+   "type": "year",
+   "unit": "year",
+   "fact": "Mattel introduced her at the New York Toy Fair in March 1959."
+  },
+  {
+   "id": "q15tzqkb",
+   "cat": "geo",
+   "q": "How many countries are in the European Union?",
+   "a": 27,
+   "type": "number",
+   "unit": "countries",
+   "fact": "It dropped from 28 when the UK left in 2020."
+  },
+  {
+   "id": "q4m4z65",
+   "cat": "sports",
+   "q": "How many Wimbledon singles titles did Roger Federer win?",
+   "a": 8,
+   "type": "number",
+   "unit": "titles",
+   "fact": "His last came in 2017, at age 35."
+  }
+ ],
+ "hard": [
+  {
+   "id": "qn2awvg",
+   "cat": "sports",
+   "q": "By how many strokes did Tiger Woods win the 2000 U.S. Open?",
+   "a": 15,
+   "type": "number",
+   "unit": "strokes",
+   "fact": "At Pebble Beach. It's still the record margin in a major."
+  },
+  {
+   "id": "q1pa15w3",
+   "cat": "history",
+   "q": "In what year was the Great Chicago Fire?",
+   "a": 1871,
+   "type": "year",
+   "unit": "year",
+   "fact": "The reporter who blamed Mrs. O'Leary's cow later admitted he made the story up."
+  },
+  {
+   "id": "qczf12g",
+   "cat": "geo",
+   "q": "How many prefectures does Japan have?",
+   "a": 47,
+   "type": "number",
+   "unit": "prefectures",
+   "fact": "Hokkaido is by far the largest."
+  },
+  {
+   "id": "qnk6zxb",
+   "cat": "sports",
+   "q": "In what year was the first Masters Tournament played?",
+   "a": 1934,
+   "type": "year",
+   "unit": "year",
+   "fact": "Horton Smith won what was then the Augusta National Invitation."
+  }
+ ]
+}

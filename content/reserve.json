@@ -1,0 +1,854 @@
+{
+ "easy": [
+  {
+   "id": "q1ml3hrj",
+   "cat": "history",
+   "q": "In what year did Martin Luther King Jr. give his 'I Have a Dream' speech?",
+   "a": 1963,
+   "type": "year",
+   "unit": "year",
+   "fact": "About 250,000 people gathered at the Lincoln Memorial."
+  },
+  {
+   "id": "q1xpwdo1",
+   "cat": "pop",
+   "q": "In what year did James Cameron's Titanic hit theaters?",
+   "a": 1997,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the first film to gross $1 billion worldwide."
+  },
+  {
+   "id": "q19bck4a",
+   "cat": "geo",
+   "q": "How many states border Florida?",
+   "a": 2,
+   "type": "number",
+   "unit": "states",
+   "fact": "Alabama and Georgia."
+  },
+  {
+   "id": "q1owzcbs",
+   "cat": "sports",
+   "q": "How many games are in an MLB regular season?",
+   "a": 162,
+   "type": "number",
+   "unit": "games",
+   "fact": "The American League went to 162 in 1961 and the National League in 1962."
+  },
+  {
+   "id": "q1w3iepq",
+   "cat": "history",
+   "q": "In what year did the Soviet Union dissolve?",
+   "a": 1991,
+   "type": "year",
+   "unit": "year",
+   "fact": "Gorbachev resigned on December 25, and the Soviet flag came down over the Kremlin that night."
+  },
+  {
+   "id": "q3idi6r",
+   "cat": "pop",
+   "q": "How many seasons did Seinfeld run?",
+   "a": 9,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It ended in 1998 after 180 episodes."
+  },
+  {
+   "id": "q1qnmslq",
+   "cat": "sports",
+   "q": "How many yards does an NFL offense need for a first down?",
+   "a": 10,
+   "type": "number",
+   "unit": "yards",
+   "fact": "Teams get four downs to make it."
+  },
+  {
+   "id": "qz5eprs",
+   "cat": "history",
+   "q": "In what year did the American Civil War begin?",
+   "a": 1861,
+   "type": "year",
+   "unit": "year",
+   "fact": "It started with shots on Fort Sumter in April."
+  },
+  {
+   "id": "qfwqnrb",
+   "cat": "pop",
+   "q": "How many Spice Girls were there?",
+   "a": 5,
+   "type": "number",
+   "unit": "members",
+   "fact": "Scary, Sporty, Baby, Ginger and Posh."
+  },
+  {
+   "id": "qnvrdr8",
+   "cat": "sports",
+   "q": "How many minutes of regulation are in an NBA game?",
+   "a": 48,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "Four 12-minute quarters. College games run 40."
+  },
+  {
+   "id": "qtjfomk",
+   "cat": "history",
+   "q": "In what year did Columbus first reach the Americas?",
+   "a": 1492,
+   "type": "year",
+   "unit": "year",
+   "fact": "He landed in the Bahamas on October 12."
+  },
+  {
+   "id": "qdeoxyi",
+   "cat": "pop",
+   "q": "In what year was Facebook founded?",
+   "a": 2004,
+   "type": "year",
+   "unit": "year",
+   "fact": "It launched from a Harvard dorm room in February 2004."
+  },
+  {
+   "id": "q18o18ed",
+   "cat": "sports",
+   "q": "How many pins are in a standard bowling setup?",
+   "a": 10,
+   "type": "number",
+   "unit": "pins",
+   "fact": "They stand in a triangle."
+  },
+  {
+   "id": "qk82xyi",
+   "cat": "history",
+   "q": "In what year was Abraham Lincoln elected president?",
+   "a": 1860,
+   "type": "year",
+   "unit": "year",
+   "fact": "He won with less than 40% of the popular vote."
+  },
+  {
+   "id": "q7ffacv",
+   "cat": "pop",
+   "q": "How many Infinity Stones are there in the Marvel movies?",
+   "a": 6,
+   "type": "number",
+   "unit": "stones",
+   "fact": "Thanos gathers all of them in Avengers: Infinity War."
+  },
+  {
+   "id": "q1e1vlbh",
+   "cat": "sports",
+   "q": "How many games are in an NFL regular season?",
+   "a": 17,
+   "type": "number",
+   "unit": "games",
+   "fact": "It went from 16 to 17 in 2021."
+  },
+  {
+   "id": "q1e9ahm2",
+   "cat": "history",
+   "q": "In what year did the American Civil War end?",
+   "a": 1865,
+   "type": "year",
+   "unit": "year",
+   "fact": "Lee surrendered to Grant at Appomattox Court House on April 9."
+  },
+  {
+   "id": "q1byrdix",
+   "cat": "pop",
+   "q": "How many Harry Potter films are there, not counting Fantastic Beasts?",
+   "a": 8,
+   "type": "number",
+   "unit": "films",
+   "fact": "The last book, Deathly Hallows, was split into two films."
+  },
+  {
+   "id": "qwv615q",
+   "cat": "sports",
+   "q": "How many strikes make an out in baseball?",
+   "a": 3,
+   "type": "number",
+   "unit": "strikes",
+   "fact": "Four balls is a walk."
+  },
+  {
+   "id": "q14d3r1l",
+   "cat": "pop",
+   "q": "In what year did Google launch?",
+   "a": 1998,
+   "type": "year",
+   "unit": "year",
+   "fact": "It started in a garage in Menlo Park, California."
+  },
+  {
+   "id": "q1wpom59",
+   "cat": "sports",
+   "q": "How many NBA titles did Michael Jordan win?",
+   "a": 6,
+   "type": "number",
+   "unit": "titles",
+   "fact": "Two three-peats with the Bulls: 1991–93 and 1996–98."
+  },
+  {
+   "id": "qor9obi",
+   "cat": "pop",
+   "q": "In what year did Disney release the animated The Lion King?",
+   "a": 1994,
+   "type": "year",
+   "unit": "year",
+   "fact": "Elton John and Tim Rice won an Oscar for its love song."
+  },
+  {
+   "id": "q1q3e9zm",
+   "cat": "sports",
+   "q": "How many teams are in Major League Baseball?",
+   "a": 30,
+   "type": "number",
+   "unit": "teams",
+   "fact": "Split evenly into two 15-team leagues."
+  },
+  {
+   "id": "q110d0vz",
+   "cat": "pop",
+   "q": "How many squares are on a chessboard?",
+   "a": 64,
+   "type": "number",
+   "unit": "squares",
+   "fact": "Each side starts with 16 pieces."
+  },
+  {
+   "id": "qi8kr6v",
+   "cat": "sports",
+   "q": "How many seconds are on the NBA shot clock?",
+   "a": 24,
+   "type": "number",
+   "unit": "seconds",
+   "fact": "It was introduced in 1954 to speed up the game."
+  },
+  {
+   "id": "qpj3vra",
+   "cat": "pop",
+   "q": "In what year was the first YouTube video uploaded?",
+   "a": 2005,
+   "type": "year",
+   "unit": "year",
+   "fact": "'Me at the zoo' is 19 seconds long and went up on April 23, 2005."
+  },
+  {
+   "id": "q1r9a57i",
+   "cat": "sports",
+   "q": "How many Olympic gold medals did Michael Phelps win?",
+   "a": 23,
+   "type": "number",
+   "unit": "golds",
+   "fact": "Eight of them came at Beijing 2008."
+  },
+  {
+   "id": "qn9pnoc",
+   "cat": "pop",
+   "q": "How many members did *NSYNC have?",
+   "a": 5,
+   "type": "number",
+   "unit": "members",
+   "fact": "Justin Timberlake went solo in 2002."
+  },
+  {
+   "id": "q1nrc8fm",
+   "cat": "pop",
+   "q": "In what year did Game of Thrones premiere on HBO?",
+   "a": 2011,
+   "type": "year",
+   "unit": "year",
+   "fact": "It ran eight seasons, ending in 2019."
+  },
+  {
+   "id": "qvyzt6k",
+   "cat": "pop",
+   "q": "How many seasons did Stranger Things run?",
+   "a": 5,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "The final season arrived in 2025."
+  },
+  {
+   "id": "q8yvpgy",
+   "cat": "pop",
+   "q": "In what year did Instagram launch?",
+   "a": 2010,
+   "type": "year",
+   "unit": "year",
+   "fact": "Facebook bought it for $1 billion two years later."
+  },
+  {
+   "id": "qkpr1yy",
+   "cat": "pop",
+   "q": "In what year did The Fellowship of the Ring hit theaters?",
+   "a": 2001,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was shot back to back with its two sequels in New Zealand."
+  },
+  {
+   "id": "q16d3von",
+   "cat": "pop",
+   "q": "In what year did Disney's Frozen come out?",
+   "a": 2013,
+   "type": "year",
+   "unit": "year",
+   "fact": "It became the top-grossing animated film ever at the time."
+  },
+  {
+   "id": "qttx5e2",
+   "cat": "pop",
+   "q": "In what year did Shrek come out?",
+   "a": 2001,
+   "type": "year",
+   "unit": "year",
+   "fact": "It won the first Oscar ever given for Best Animated Feature."
+  },
+  {
+   "id": "qy9fyt2",
+   "cat": "pop",
+   "q": "In what year did Amazon start selling books online?",
+   "a": 1995,
+   "type": "year",
+   "unit": "year",
+   "fact": "Jeff Bezos started it in his garage outside Seattle."
+  },
+  {
+   "id": "qwnmsbj",
+   "cat": "pop",
+   "q": "In what year did Pokémon Go launch?",
+   "a": 2016,
+   "type": "year",
+   "unit": "year",
+   "fact": "It launched in July 2016 and took over that summer."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1oezcxh",
+   "cat": "history",
+   "q": "In what year did the Empire State Building open?",
+   "a": 1931,
+   "type": "year",
+   "unit": "year",
+   "fact": "Construction took just over a year."
+  },
+  {
+   "id": "q15xn4hi",
+   "cat": "pop",
+   "q": "In what year did The Sopranos premiere on HBO?",
+   "a": 1999,
+   "type": "year",
+   "unit": "year",
+   "fact": "It ran six seasons."
+  },
+  {
+   "id": "qum27d6",
+   "cat": "geo",
+   "q": "How tall are the letters of the Hollywood Sign, in feet?",
+   "a": 45,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It originally read 'Hollywoodland.'"
+  },
+  {
+   "id": "q3atgvr",
+   "cat": "sports",
+   "q": "How many laps are in the Indianapolis 500?",
+   "a": 200,
+   "type": "number",
+   "unit": "laps",
+   "fact": "The oval is 2.5 miles around."
+  },
+  {
+   "id": "q17hbu0r",
+   "cat": "history",
+   "q": "In what year was Napoleon defeated at Waterloo?",
+   "a": 1815,
+   "type": "year",
+   "unit": "year",
+   "fact": "Wellington and Blücher beat him on June 18."
+  },
+  {
+   "id": "qz5wea5",
+   "cat": "pop",
+   "q": "In what year did Minecraft officially release?",
+   "a": 2011,
+   "type": "year",
+   "unit": "year",
+   "fact": "Microsoft bought it in 2014 for $2.5 billion."
+  },
+  {
+   "id": "q1yo35zx",
+   "cat": "geo",
+   "q": "How many states did Route 66 run through?",
+   "a": 8,
+   "type": "number",
+   "unit": "states",
+   "fact": "From Chicago to Santa Monica, about 2,400 miles."
+  },
+  {
+   "id": "qs6t7d6",
+   "cat": "sports",
+   "q": "How many Olympic gold medals has Simone Biles won?",
+   "a": 7,
+   "type": "number",
+   "unit": "golds",
+   "fact": "Three of them came at Paris 2024."
+  },
+  {
+   "id": "qf9qfb6",
+   "cat": "history",
+   "q": "In what year did Rosa Parks refuse to give up her bus seat in Montgomery?",
+   "a": 1955,
+   "type": "year",
+   "unit": "year",
+   "fact": "Her December 1 arrest set off the 381-day Montgomery bus boycott."
+  },
+  {
+   "id": "q1kb8nii",
+   "cat": "pop",
+   "q": "In what year did Elvis Presley die?",
+   "a": 1977,
+   "type": "year",
+   "unit": "year",
+   "fact": "He died at Graceland, his Memphis home, at age 42."
+  },
+  {
+   "id": "q1hstb45",
+   "cat": "geo",
+   "q": "How many countries border Brazil?",
+   "a": 10,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Every South American country except Chile and Ecuador, counting France through French Guiana."
+  },
+  {
+   "id": "q1wjx368",
+   "cat": "sports",
+   "q": "How many Olympic gold medals did Usain Bolt win?",
+   "a": 8,
+   "type": "number",
+   "unit": "golds",
+   "fact": "He lost a ninth when a relay teammate was disqualified."
+  },
+  {
+   "id": "q1vew6hv",
+   "cat": "history",
+   "q": "In what year did the U.S. buy the Louisiana Territory from France?",
+   "a": 1803,
+   "type": "year",
+   "unit": "year",
+   "fact": "The deal roughly doubled the country's size for about $15 million."
+  },
+  {
+   "id": "q1664trv",
+   "cat": "pop",
+   "q": "In what year did Netflix start streaming movies online?",
+   "a": 2007,
+   "type": "year",
+   "unit": "year",
+   "fact": "It started out mailing DVDs in 1998."
+  },
+  {
+   "id": "q12dx8f7",
+   "cat": "geo",
+   "q": "How many stars are on Australia's flag?",
+   "a": 6,
+   "type": "number",
+   "unit": "stars",
+   "fact": "Five for the Southern Cross, plus the seven-pointed Commonwealth Star."
+  },
+  {
+   "id": "q18uurgt",
+   "cat": "sports",
+   "q": "How many major championships has Tiger Woods won?",
+   "a": 15,
+   "type": "number",
+   "unit": "majors",
+   "fact": "No. 15 was the 2019 Masters."
+  },
+  {
+   "id": "qjhdbn3",
+   "cat": "history",
+   "q": "In what year did the Hubble Space Telescope launch?",
+   "a": 1990,
+   "type": "year",
+   "unit": "year",
+   "fact": "A flaw in its mirror was fixed by spacewalking astronauts in 1993."
+  },
+  {
+   "id": "q1m6ra7m",
+   "cat": "pop",
+   "q": "In what year did Taylor Swift release her first album?",
+   "a": 2006,
+   "type": "year",
+   "unit": "year",
+   "fact": "She was 16."
+  },
+  {
+   "id": "q1xa5cbi",
+   "cat": "geo",
+   "q": "How wide is the Grand Canyon at its widest, in miles?",
+   "a": 18,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It runs about 277 river miles long."
+  },
+  {
+   "id": "qtnkc8g",
+   "cat": "sports",
+   "q": "A 'condor' is a hole-in-one on a par 5. How many strokes under par is that?",
+   "a": 4,
+   "type": "number",
+   "unit": "under par",
+   "fact": "Only a handful have ever been recorded."
+  },
+  {
+   "id": "q1vu1d7d",
+   "cat": "history",
+   "q": "In what year did Thomas Edison publicly demonstrate his long-lasting light bulb?",
+   "a": 1879,
+   "type": "year",
+   "unit": "year",
+   "fact": "He showed it off at Menlo Park, New Jersey."
+  },
+  {
+   "id": "q1if2xp8",
+   "cat": "pop",
+   "q": "In what year did Super Mario Bros. come out on the NES?",
+   "a": 1985,
+   "type": "year",
+   "unit": "year",
+   "fact": "It launched in Japan in September 1985."
+  },
+  {
+   "id": "q1bd4u0g",
+   "cat": "geo",
+   "q": "How many member countries does the United Nations have?",
+   "a": 193,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Vatican City and Palestine take part as observers."
+  },
+  {
+   "id": "q3b9m03",
+   "cat": "sports",
+   "q": "How many NBA championships have the Boston Celtics won?",
+   "a": 18,
+   "type": "number",
+   "unit": "titles",
+   "fact": "No. 18 came in 2024."
+  },
+  {
+   "id": "qyn42en",
+   "cat": "history",
+   "q": "In what year did Alaska become a U.S. state?",
+   "a": 1959,
+   "type": "year",
+   "unit": "year",
+   "fact": "Hawaii joined later that same year."
+  },
+  {
+   "id": "q1h13vwp",
+   "cat": "pop",
+   "q": "In what year did the Beatles first play The Ed Sullivan Show?",
+   "a": 1964,
+   "type": "year",
+   "unit": "year",
+   "fact": "About 73 million Americans tuned in on February 9."
+  },
+  {
+   "id": "qxvt5vu",
+   "cat": "geo",
+   "q": "How many U.S. states have an Atlantic Ocean coastline?",
+   "a": 14,
+   "type": "number",
+   "unit": "states",
+   "fact": "From Maine down to Florida."
+  },
+  {
+   "id": "qvzwxfs",
+   "cat": "sports",
+   "q": "In what year were the first modern Olympic Games held?",
+   "a": 1896,
+   "type": "year",
+   "unit": "year",
+   "fact": "Athens hosted about 241 athletes from 14 nations."
+  },
+  {
+   "id": "qcpdl7v",
+   "cat": "history",
+   "q": "In what year was the Battle of Hastings fought?",
+   "a": 1066,
+   "type": "year",
+   "unit": "year",
+   "fact": "William of Normandy's win made him King of England."
+  },
+  {
+   "id": "q1c92ngd",
+   "cat": "pop",
+   "q": "In what year did the first Harry Potter book come out in the UK?",
+   "a": 1997,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first hardcover printing was just 500 copies."
+  },
+  {
+   "id": "q1x09k3d",
+   "cat": "geo",
+   "q": "What is Mount Everest's official height, in feet, rounded?",
+   "a": 29032,
+   "type": "number",
+   "unit": "feet",
+   "fact": "China and Nepal agreed on the official figure in 2020."
+  },
+  {
+   "id": "qedff6m",
+   "cat": "history",
+   "q": "In what year did Benjamin Franklin fly his famous kite in a storm?",
+   "a": 1752,
+   "type": "year",
+   "unit": "year",
+   "fact": "The experiment helped show that lightning is electricity."
+  },
+  {
+   "id": "q4ew6be",
+   "cat": "pop",
+   "q": "In what year did Spotify launch?",
+   "a": 2008,
+   "type": "year",
+   "unit": "year",
+   "fact": "It started in Sweden."
+  },
+  {
+   "id": "q15t910n",
+   "cat": "geo",
+   "q": "How many states border Kentucky?",
+   "a": 7,
+   "type": "number",
+   "unit": "states",
+   "fact": "The Ohio River runs along its whole northern edge."
+  },
+  {
+   "id": "q6h944l",
+   "cat": "history",
+   "q": "In what year did the 19th Amendment give U.S. women the vote?",
+   "a": 1920,
+   "type": "year",
+   "unit": "year",
+   "fact": "Tennessee's ratification in August 1920 put it over the line, by one vote in its House."
+  },
+  {
+   "id": "qlo1dpz",
+   "cat": "pop",
+   "q": "In what year was the first tweet sent?",
+   "a": 2006,
+   "type": "year",
+   "unit": "year",
+   "fact": "Co-founder Jack Dorsey sent it in March 2006."
+  },
+  {
+   "id": "q1w8ywrr",
+   "cat": "geo",
+   "q": "How many U.S. states border Tennessee?",
+   "a": 8,
+   "type": "number",
+   "unit": "states",
+   "fact": "Tied with Missouri for the most neighbors."
+  },
+  {
+   "id": "q1t6xzfm",
+   "cat": "history",
+   "q": "In what year was the Treaty of Paris signed, ending the Revolutionary War?",
+   "a": 1783,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was signed on September 3, 1783."
+  },
+  {
+   "id": "q15sg5tr",
+   "cat": "geo",
+   "q": "How many inhabited U.S. territories are there?",
+   "a": 5,
+   "type": "number",
+   "unit": "territories",
+   "fact": "Puerto Rico, Guam, the U.S. Virgin Islands, the Northern Mariana Islands and American Samoa."
+  },
+  {
+   "id": "q1pbgqtv",
+   "cat": "history",
+   "q": "In what year did Ford's Model T go on sale?",
+   "a": 1908,
+   "type": "year",
+   "unit": "year",
+   "fact": "More than 15 million were built by 1927."
+  },
+  {
+   "id": "q1ktth1s",
+   "cat": "history",
+   "q": "National Prohibition began in 1920. In what year did it end?",
+   "a": 1933,
+   "type": "year",
+   "unit": "year",
+   "fact": "The 21st Amendment repealed it, the only amendment that undoes another."
+  },
+  {
+   "id": "q2kvc71",
+   "cat": "history",
+   "q": "In what year was the U.S. Constitution signed?",
+   "a": 1787,
+   "type": "year",
+   "unit": "year",
+   "fact": "39 delegates signed it in Philadelphia on September 17."
+  },
+  {
+   "id": "qyrew1y",
+   "cat": "history",
+   "q": "In what year was the Civil Rights Act signed?",
+   "a": 1964,
+   "type": "year",
+   "unit": "year",
+   "fact": "President Lyndon Johnson signed it on July 2."
+  },
+  {
+   "id": "q1jtwjfp",
+   "cat": "history",
+   "q": "In what year was the Eiffel Tower completed?",
+   "a": 1889,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was built as the entrance arch for the World's Fair in Paris."
+  }
+ ],
+ "hard": [
+  {
+   "id": "q37vtrc",
+   "cat": "history",
+   "q": "In what year did the Erie Canal open?",
+   "a": 1825,
+   "type": "year",
+   "unit": "year",
+   "fact": "It ran about 363 miles, linking the Hudson River to Lake Erie."
+  },
+  {
+   "id": "qmajwyi",
+   "cat": "geo",
+   "q": "How many states does the Census Bureau count in the Midwest?",
+   "a": 12,
+   "type": "number",
+   "unit": "states",
+   "fact": "From Ohio west to the Dakotas, Nebraska and Kansas."
+  },
+  {
+   "id": "qq5n3wg",
+   "cat": "sports",
+   "q": "How many feet is it from a bowling lane's foul line to the head pin?",
+   "a": 60,
+   "type": "number",
+   "unit": "feet",
+   "fact": "A perfect game is 300."
+  },
+  {
+   "id": "qcw5onf",
+   "cat": "history",
+   "q": "In what year did the Golden Gate Bridge open?",
+   "a": 1937,
+   "type": "year",
+   "unit": "year",
+   "fact": "Its towers rise 746 feet above the water."
+  },
+  {
+   "id": "q1yydnvh",
+   "cat": "geo",
+   "q": "How tall is Mount Whitney, in feet?",
+   "a": 14505,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The highest point in the Lower 48 is less than 90 miles from the lowest, Badwater Basin."
+  },
+  {
+   "id": "qvoumzb",
+   "cat": "sports",
+   "q": "How many feet down the line is Fenway's right-field Pesky Pole?",
+   "a": 302,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's named for Red Sox shortstop Johnny Pesky."
+  },
+  {
+   "id": "q196lu1p",
+   "cat": "history",
+   "q": "In what year was the carving of Mount Rushmore finished?",
+   "a": 1941,
+   "type": "year",
+   "unit": "year",
+   "fact": "Work began in 1927. Sculptor Gutzon Borglum died months before the end."
+  },
+  {
+   "id": "q1v7eeie",
+   "cat": "geo",
+   "q": "How many counties are on the island of Ireland?",
+   "a": 32,
+   "type": "number",
+   "unit": "counties",
+   "fact": "26 in the Republic and 6 in Northern Ireland."
+  },
+  {
+   "id": "q13qapfy",
+   "cat": "sports",
+   "q": "How many points did the 49ers score in Super Bowl XXIV, still the most by one team?",
+   "a": 55,
+   "type": "number",
+   "unit": "points",
+   "fact": "San Francisco beat Denver 55–10."
+  },
+  {
+   "id": "qw5nsi",
+   "cat": "history",
+   "q": "In what year did the Pony Express start carrying mail?",
+   "a": 1860,
+   "type": "year",
+   "unit": "year",
+   "fact": "It lasted only about 18 months before the telegraph replaced it."
+  },
+  {
+   "id": "q9p800q",
+   "cat": "geo",
+   "q": "How many countries border Austria?",
+   "a": 8,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Including tiny Liechtenstein."
+  },
+  {
+   "id": "qtq67tq",
+   "cat": "history",
+   "q": "In what year did the Berlin Airlift begin?",
+   "a": 1948,
+   "type": "year",
+   "unit": "year",
+   "fact": "Allied planes supplied West Berlin for about 15 months."
+  },
+  {
+   "id": "qryjycj",
+   "cat": "geo",
+   "q": "How deep is Lake Baikal at its deepest, in feet?",
+   "a": 5387,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's the deepest lake on Earth."
+  },
+  {
+   "id": "q1e1lijs",
+   "cat": "history",
+   "q": "In what year did the Black Death reach Europe?",
+   "a": 1347,
+   "type": "year",
+   "unit": "year",
+   "fact": "It arrived by ship in Sicily and killed perhaps a third of Europe's people."
+  }
+ ]
+}

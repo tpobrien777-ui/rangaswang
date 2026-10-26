@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-05",
+ "news": [],
+ "easy": [
+  {
+   "id": "q10t6lif",
+   "cat": "geo",
+   "q": "How many provinces does Canada have?",
+   "a": 10,
+   "type": "number",
+   "unit": "provinces",
+   "fact": "Plus three territories in the north."
+  },
+  {
+   "id": "qrs68tz",
+   "cat": "sports",
+   "q": "How many periods are in an NHL game?",
+   "a": 3,
+   "type": "number",
+   "unit": "periods",
+   "fact": "Each one lasts 20 minutes."
+  },
+  {
+   "id": "q1pwl1hk",
+   "cat": "history",
+   "q": "How many states are in the United States?",
+   "a": 50,
+   "type": "number",
+   "unit": "states",
+   "fact": "The flag got its 50th star on July 4, 1960."
+  },
+  {
+   "id": "qtfduwe",
+   "cat": "pop",
+   "q": "In what year did Disneyland open?",
+   "a": 1955,
+   "type": "year",
+   "unit": "year",
+   "fact": "It opened in Anaheim, California, in July."
+  },
+  {
+   "id": "q8sr6ex",
+   "cat": "geo",
+   "q": "How many countries make up the United Kingdom?",
+   "a": 4,
+   "type": "number",
+   "unit": "countries",
+   "fact": "England, Scotland, Wales and Northern Ireland."
+  }
+ ],
+ "medium": [
+  {
+   "id": "q1fesd53",
+   "cat": "geo",
+   "q": "How many U.S. states start with the letter M?",
+   "a": 8,
+   "type": "number",
+   "unit": "states",
+   "fact": "Tied with N for the most."
+  },
+  {
+   "id": "q1t6e3sj",
+   "cat": "sports",
+   "q": "How many career home runs did Hank Aaron hit?",
+   "a": 755,
+   "type": "number",
+   "unit": "home runs",
+   "fact": "He passed Babe Ruth's record in April 1974."
+  },
+  {
+   "id": "q16yotfy",
+   "cat": "history",
+   "q": "In what year did Lewis and Clark set out on their expedition west?",
+   "a": 1804,
+   "type": "year",
+   "unit": "year",
+   "fact": "The Corps of Discovery reached the Pacific in November 1805."
+  },
+  {
+   "id": "qhktuty",
+   "cat": "pop",
+   "q": "In what year did the original PlayStation launch in the U.S.?",
+   "a": 1995,
+   "type": "year",
+   "unit": "year",
+   "fact": "It sold for $299."
+  },
+  {
+   "id": "q306vdk",
+   "cat": "geo",
+   "q": "How tall is the Washington Monument, in feet?",
+   "a": 555,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The marble changes shade about 150 feet up, where construction stalled for years."
+  }
+ ],
+ "hard": [
+  {
+   "id": "qspnqbx",
+   "cat": "geo",
+   "q": "How many states does the Appalachian Trail pass through?",
+   "a": 14,
+   "type": "number",
+   "unit": "states",
+   "fact": "It runs about 2,200 miles from Georgia to Maine."
+  },
+  {
+   "id": "qdvtim7",
+   "cat": "sports",
+   "q": "How many feet is the NBA three-point line at the top of the arc, to the nearest foot?",
+   "a": 24,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's 23 feet 9 inches up top and 22 feet in the corners."
+  },
+  {
+   "id": "q8jkoic",
+   "cat": "history",
+   "q": "In what year did Martin Luther post his 95 Theses?",
+   "a": 1517,
+   "type": "year",
+   "unit": "year",
+   "fact": "Tradition says he nailed them to a church door in Wittenberg on October 31."
+  },
+  {
+   "id": "qcu0mlz",
+   "cat": "geo",
+   "q": "How many countries does the Danube flow through?",
+   "a": 10,
+   "type": "number",
+   "unit": "countries",
+   "fact": "More than any other river on Earth."
+  }
+ ]
+}

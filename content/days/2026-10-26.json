@@ -1,0 +1,157 @@
+{
+ "date": "2026-10-26",
+ "news": [
+  {
+   "id": "qt1b3kh",
+   "cat": "news",
+   "q": "Luka Dončić scored how many points in the Lakers' 132–123 win over the Jazz on Oct. 25?",
+   "a": 52,
+   "type": "number",
+   "unit": "points",
+   "fact": "It was the top scoring game in the NBA that night.",
+   "src": "https://www.landofbasketball.com/nba_daily_summary/20261025.htm"
+  },
+  {
+   "id": "qhctf2d",
+   "cat": "news",
+   "q": "Clayface opened at No. 1 at the box office on Oct. 23–25. How many million dollars did it make?",
+   "a": 24,
+   "type": "number",
+   "unit": "million $",
+   "fact": "It knocked Street Fighter, the previous weekend's No. 1, out of the top spot.",
+   "src": "https://en.wikipedia.org/wiki/List_of_2026_box_office_number-one_films_in_the_United_States"
+  }
+ ],
+ "easy": [
+  {
+   "id": "qvb2mn9",
+   "cat": "history",
+   "q": "In what year did Japan attack Pearl Harbor?",
+   "a": 1941,
+   "type": "year",
+   "unit": "year",
+   "fact": "The attack came on a Sunday morning, December 7."
+  },
+  {
+   "id": "quhizd1",
+   "cat": "pop",
+   "q": "In what year was Woodstock held?",
+   "a": 1969,
+   "type": "year",
+   "unit": "year",
+   "fact": "About 400,000 people came to a dairy farm in Bethel, New York."
+  },
+  {
+   "id": "q1rh1vwt",
+   "cat": "geo",
+   "q": "How many states are in New England?",
+   "a": 6,
+   "type": "number",
+   "unit": "states",
+   "fact": "Maine, New Hampshire, Vermont, Massachusetts, Rhode Island and Connecticut."
+  },
+  {
+   "id": "q214zjz",
+   "cat": "sports",
+   "q": "How long is a marathon, in miles, to the nearest mile?",
+   "a": 26,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It's 26.2 miles, a distance that traces back to the 1908 London Olympics."
+  },
+  {
+   "id": "q1sjsamg",
+   "cat": "history",
+   "q": "In what year did the U.S. declare independence?",
+   "a": 1776,
+   "type": "year",
+   "unit": "year",
+   "fact": "The Declaration was adopted on July 4."
+  }
+ ],
+ "medium": [
+  {
+   "id": "qohfi6j",
+   "cat": "history",
+   "q": "In what year was the Boston Tea Party?",
+   "a": 1773,
+   "type": "year",
+   "unit": "year",
+   "fact": "Colonists dumped 342 chests of tea into Boston Harbor on December 16."
+  },
+  {
+   "id": "qsftvwh",
+   "cat": "pop",
+   "q": "In what year did Pac-Man arrive in arcades?",
+   "a": 1980,
+   "type": "year",
+   "unit": "year",
+   "fact": "Its designer said the shape came from a pizza with a slice missing."
+  },
+  {
+   "id": "q1m9k6v7",
+   "cat": "geo",
+   "q": "How many U.S. states border the Mississippi River?",
+   "a": 10,
+   "type": "number",
+   "unit": "states",
+   "fact": "It starts at Lake Itasca in Minnesota."
+  },
+  {
+   "id": "qzbm3hu",
+   "cat": "sports",
+   "q": "How many World Series have the New York Yankees won?",
+   "a": 27,
+   "type": "number",
+   "unit": "titles",
+   "fact": "Their most recent came in 2009."
+  },
+  {
+   "id": "q1lawwa3",
+   "cat": "history",
+   "q": "In what year was the golden spike driven to finish the first transcontinental railroad?",
+   "a": 1869,
+   "type": "year",
+   "unit": "year",
+   "fact": "It went in at Promontory Summit, Utah, on May 10."
+  }
+ ],
+ "hard": [
+  {
+   "id": "qbq4yg8",
+   "cat": "history",
+   "q": "In what year AD did Mount Vesuvius bury Pompeii?",
+   "a": 79,
+   "type": "year",
+   "unit": "year AD",
+   "fact": "The ash preserved the town so well that loaves of bread survived in its ovens."
+  },
+  {
+   "id": "qohvkih",
+   "cat": "pop",
+   "q": "How many Jeopardy! games in a row did Ken Jennings win in 2004?",
+   "a": 74,
+   "type": "number",
+   "unit": "games",
+   "fact": "He later became the show's host."
+  },
+  {
+   "id": "qhgxpwm",
+   "cat": "geo",
+   "q": "How tall is Mount Kilimanjaro, in feet?",
+   "a": 19341,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Africa's highest peak is a dormant volcano in Tanzania."
+  },
+  {
+   "id": "q1vtb0xq",
+   "cat": "sports",
+   "q": "Before Alex Ovechkin passed him in 2025, how many NHL goals did Wayne Gretzky score?",
+   "a": 894,
+   "type": "number",
+   "unit": "goals",
+   "fact": "Ovechkin scored No. 895 on April 6, 2025."
+  }
+ ]
+}
