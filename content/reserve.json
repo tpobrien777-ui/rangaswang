@@ -849,6 +849,24 @@
    "type": "year",
    "unit": "year",
    "fact": "It arrived by ship in Sicily and killed perhaps a third of Europe's people."
+  },
+  {
+   "id": "al8e3j4bi",
+   "cat": "pop",
+   "q": "How many episodes of M*A*S*H aired on CBS?",
+   "a": 256,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Its 1983 finale drew about 106 million viewers."
+  },
+  {
+   "id": "atli1ttjp",
+   "cat": "sports",
+   "q": "How many feet long is an NBA court?",
+   "a": 94,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's 50 feet wide."
   }
  ]
 }

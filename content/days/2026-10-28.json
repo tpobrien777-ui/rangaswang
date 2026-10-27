@@ -2,22 +2,24 @@
  "date": "2026-10-28",
  "news": [
   {
-   "id": "q1mnyyl3",
+   "id": "axpgvw3g6",
    "cat": "news",
-   "q": "On Oct. 11, 2026, NASA's Perseverance set the record for the longest drive on another world. How many miles had it gone?",
-   "a": 28,
+   "q": "In World Series Game 3 on Oct. 26, the Brewers set a postseason record with how many straight hits with two outs in one inning?",
+   "a": 7,
    "type": "number",
-   "unit": "miles",
-   "fact": "28.1 miles, edging Opportunity's 28.06, in about 5.5 years instead of nearly 15."
+   "unit": "hits",
+   "fact": "They fueled an eight-run fifth in a 10-1 win and a 3-0 series lead.",
+   "src": "https://www.espn.com/mlb/story/_/id/50293953/brewers-rout-rays-game-3-1-win-first-world-series-title"
   },
   {
-   "id": "q1kqqx7u",
+   "id": "a0f0k0msc",
    "cat": "news",
-   "q": "A famous train delayed by a solar storm was long dated to 1841. Scientists just re-dated it. What year was it really?",
-   "a": 1848,
-   "type": "year",
-   "unit": "year",
-   "fact": "The 16-minute delay on England's Bristol and Exeter Railway came on Oct. 18, 1848."
+   "q": "Archaeologists say a wreck off Turkey's coast may be the world's oldest known shipwreck. About how many years old is it, to the nearest hundred?",
+   "a": 4500,
+   "type": "number",
+   "unit": "years",
+   "fact": "The previous record holder, off Dokos, Greece, is about 4,200 years old.",
+   "src": "https://www.sciencedaily.com/releases/2026/10/261025073036.htm"
   }
  ],
  "easy": [
