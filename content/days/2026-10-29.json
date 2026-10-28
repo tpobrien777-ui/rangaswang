@@ -2,22 +2,24 @@
  "date": "2026-10-29",
  "news": [
   {
-   "id": "q1hpu8tz",
+   "id": "asofe6xfw",
    "cat": "news",
-   "q": "The Brewers swept the Dodgers to reach the 2026 World Series. How many years since Milwaukee's last trip?",
-   "a": 44,
+   "q": "The Rays avoided a World Series sweep by beating the Brewers 4-3 on a walk-off in Game 4. How many innings did the game last?",
+   "a": 12,
    "type": "number",
-   "unit": "years",
-   "fact": "Their only other World Series was in 1982. This time they face the Tampa Bay Rays."
+   "unit": "innings",
+   "fact": "Pinch-hitter Ben Williamson's single to right brought home the winning run.",
+   "src": "https://www.mlb.com/news/rays-win-world-series-game-4-2026"
   },
   {
-   "id": "q1e0mhs1",
+   "id": "atyhrb92t",
    "cat": "news",
-   "q": "On 2026 opening night, the Knicks raised their first NBA title banner since what year?",
-   "a": 1973,
-   "type": "year",
-   "unit": "year",
-   "fact": "They opened against LeBron James and the 76ers at Madison Square Garden."
+   "q": "Rubin Observatory just revealed 2026 ED138, a possible new dwarf planet. It's the largest object found beyond Neptune in about how many years?",
+   "a": 20,
+   "type": "number",
+   "unit": "years",
+   "fact": "It's thought to be roughly 370 to 930 miles across.",
+   "src": "https://washington.edu/news/2026/10/27/rubin-observatory-new-dwarf-planet-candidate"
   }
  ],
  "easy": [

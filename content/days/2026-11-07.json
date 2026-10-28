@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-07",
+ "news": [],
+ "easy": [
+  {
+   "id": "aymm3z2fl",
+   "cat": "history",
+   "q": "In what year did the U.S. celebrate its bicentennial?",
+   "a": 1976,
+   "type": "year",
+   "unit": "year",
+   "fact": "Tall ships from around the world sailed into New York Harbor that July 4."
+  },
+  {
+   "id": "ap5mzdrt9",
+   "cat": "pop",
+   "q": "How many Ghostbusters suit up in the original 1984 movie?",
+   "a": 4,
+   "type": "number",
+   "unit": "Ghostbusters",
+   "fact": "Venkman, Stantz, Spengler and Zeddemore."
+  },
+  {
+   "id": "arfgo7387",
+   "cat": "geo",
+   "q": "When it's noon in New York, how many hours earlier is it in Los Angeles?",
+   "a": 3,
+   "type": "number",
+   "unit": "hours",
+   "fact": "The Lower 48 spans four time zones."
+  },
+  {
+   "id": "ae4o4hsnn",
+   "cat": "sports",
+   "q": "How many minutes long is a regulation NHL period?",
+   "a": 20,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "Overtime in the regular season is just five minutes, three-on-three."
+  },
+  {
+   "id": "a0g6do5bw",
+   "cat": "pop",
+   "q": "How many Chipmunks are in Alvin and the Chipmunks?",
+   "a": 3,
+   "type": "number",
+   "unit": "Chipmunks",
+   "fact": "Alvin, Simon and Theodore."
+  }
+ ],
+ "medium": [
+  {
+   "id": "awm0w96js",
+   "cat": "history",
+   "q": "In what year was the wreck of the Titanic found?",
+   "a": 1985,
+   "type": "year",
+   "unit": "year",
+   "fact": "Robert Ballard's team found it about 12,500 feet down."
+  },
+  {
+   "id": "aie7ktqhi",
+   "cat": "pop",
+   "q": "In what year did Raiders of the Lost Ark come out?",
+   "a": 1981,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the first of the Indiana Jones films."
+  },
+  {
+   "id": "av2aqz7p6",
+   "cat": "geo",
+   "q": "How many U.S. states have 'North' or 'South' in their names?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "The Carolinas and the Dakotas."
+  },
+  {
+   "id": "aiouddcbd",
+   "cat": "sports",
+   "q": "How many Super Bowls have the Pittsburgh Steelers won?",
+   "a": 6,
+   "type": "number",
+   "unit": "Super Bowls",
+   "fact": "Four of them came in a six-season stretch in the 1970s."
+  },
+  {
+   "id": "a9wyyt3sq",
+   "cat": "history",
+   "q": "In what year did Yellowstone become the first U.S. national park?",
+   "a": 1872,
+   "type": "year",
+   "unit": "year",
+   "fact": "President Ulysses S. Grant signed it into law."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a5g5n0skm",
+   "cat": "history",
+   "q": "In what year was the first U.S. Census taken?",
+   "a": 1790,
+   "type": "year",
+   "unit": "year",
+   "fact": "It counted about 3.9 million people."
+  },
+  {
+   "id": "afvsf1bjp",
+   "cat": "pop",
+   "q": "How many episodes of Friends were made?",
+   "a": 236,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Ten seasons on NBC, from 1994 to 2004."
+  },
+  {
+   "id": "admqzpg4y",
+   "cat": "geo",
+   "q": "How many states does Interstate 95 pass through, not counting D.C.?",
+   "a": 15,
+   "type": "number",
+   "unit": "states",
+   "fact": "It runs from Miami to the Canadian border in Maine."
+  },
+  {
+   "id": "ab7mjjhlp",
+   "cat": "sports",
+   "q": "In 1970, Tom Dempsey kicked a record field goal for the Saints. How many yards long was it?",
+   "a": 63,
+   "type": "number",
+   "unit": "yards",
+   "fact": "He was born without toes on his kicking foot."
+  }
+ ]
+}
