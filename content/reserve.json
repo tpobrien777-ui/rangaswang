@@ -323,6 +323,96 @@
    "type": "year",
    "unit": "year",
    "fact": "It launched in July 2016 and took over that summer."
+  },
+  {
+   "id": "qrc7s5f",
+   "cat": "pop",
+   "q": "In what year did the first Star Wars movie open?",
+   "a": 1977,
+   "type": "year",
+   "unit": "year",
+   "fact": "It opened in just 32 U.S. theaters on May 25."
+  },
+  {
+   "id": "q1wv5w31",
+   "cat": "pop",
+   "q": "How many seasons of Friends were made?",
+   "a": 10,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "236 episodes, ending in May 2004."
+  },
+  {
+   "id": "q1alvpz7",
+   "cat": "sports",
+   "q": "How many yards long is an NFL field, end zones included?",
+   "a": 120,
+   "type": "number",
+   "unit": "yards",
+   "fact": "100 yards of field plus two 10-yard end zones."
+  },
+  {
+   "id": "q1m4xfl4",
+   "cat": "pop",
+   "q": "In what year did Jurassic Park hit theaters?",
+   "a": 1993,
+   "type": "year",
+   "unit": "year",
+   "fact": "The T. rex roar mixed a baby elephant, a tiger and an alligator."
+  },
+  {
+   "id": "q1lm3gvb",
+   "cat": "pop",
+   "q": "How many Pokémon were in the original Red and Blue games?",
+   "a": 151,
+   "type": "number",
+   "unit": "Pokémon",
+   "fact": "Mew, No. 151, was slipped in late in development."
+  },
+  {
+   "id": "qrufpil",
+   "cat": "sports",
+   "q": "How many players per team are on a basketball court?",
+   "a": 5,
+   "type": "number",
+   "unit": "players",
+   "fact": "James Naismith's first game, in 1891, used peach baskets."
+  },
+  {
+   "id": "q140l3df",
+   "cat": "sports",
+   "q": "How many teams are in the NHL?",
+   "a": 32,
+   "type": "number",
+   "unit": "teams",
+   "fact": "Utah's team arrived in 2024 when Arizona's moved."
+  },
+  {
+   "id": "qtfduwe",
+   "cat": "pop",
+   "q": "In what year did Disneyland open?",
+   "a": 1955,
+   "type": "year",
+   "unit": "year",
+   "fact": "It opened in Anaheim, California, in July."
+  },
+  {
+   "id": "q14wgye9",
+   "cat": "pop",
+   "q": "How many keys are on a standard piano?",
+   "a": 88,
+   "type": "number",
+   "unit": "keys",
+   "fact": "52 white and 36 black."
+  },
+  {
+   "id": "ae4o4hsnn",
+   "cat": "sports",
+   "q": "How many minutes long is a regulation NHL period?",
+   "a": 20,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "Overtime in the regular season is just five minutes, three-on-three."
   }
  ],
  "medium": [
@@ -721,6 +811,96 @@
    "type": "year",
    "unit": "year",
    "fact": "It was built as the entrance arch for the World's Fair in Paris."
+  },
+  {
+   "id": "q12oyopx",
+   "cat": "pop",
+   "q": "In what year did the Game Boy launch in North America?",
+   "a": 1989,
+   "type": "year",
+   "unit": "year",
+   "fact": "It came bundled with Tetris."
+  },
+  {
+   "id": "q1m9ejd4",
+   "cat": "pop",
+   "q": "How many Oscars did Titanic (1997) win?",
+   "a": 11,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "That tied Ben-Hur's record. The Return of the King matched it in 2004."
+  },
+  {
+   "id": "q1rhffa5",
+   "cat": "pop",
+   "q": "In what year did The Wizard of Oz come out?",
+   "a": 1939,
+   "type": "year",
+   "unit": "year",
+   "fact": "In the book, Dorothy's ruby slippers were silver."
+  },
+  {
+   "id": "qd57wrs",
+   "cat": "sports",
+   "q": "How many major championships did Jack Nicklaus win?",
+   "a": 18,
+   "type": "number",
+   "unit": "majors",
+   "fact": "His sixth Masters, in 1986, came at age 46."
+  },
+  {
+   "id": "qcbpn69",
+   "cat": "pop",
+   "q": "In what year did Space Jam come out?",
+   "a": 1996,
+   "type": "year",
+   "unit": "year",
+   "fact": "Michael Jordan teamed up with the Looney Tunes."
+  },
+  {
+   "id": "q1n57os8",
+   "cat": "pop",
+   "q": "In what year did MTV go on the air?",
+   "a": 1981,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first video it played was 'Video Killed the Radio Star.'"
+  },
+  {
+   "id": "qpvm93h",
+   "cat": "pop",
+   "q": "In what year did The Simpsons premiere as a half-hour series?",
+   "a": 1989,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first episode, a Christmas special, aired on December 17, 1989."
+  },
+  {
+   "id": "qhktuty",
+   "cat": "pop",
+   "q": "In what year did the original PlayStation launch in the U.S.?",
+   "a": 1995,
+   "type": "year",
+   "unit": "year",
+   "fact": "It sold for $299."
+  },
+  {
+   "id": "q4m4z65",
+   "cat": "sports",
+   "q": "How many Wimbledon singles titles did Roger Federer win?",
+   "a": 8,
+   "type": "number",
+   "unit": "titles",
+   "fact": "His last came in 2017, at age 35."
+  },
+  {
+   "id": "aie7ktqhi",
+   "cat": "pop",
+   "q": "In what year did Raiders of the Lost Ark come out?",
+   "a": 1981,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the first of the Indiana Jones films."
   }
  ],
  "hard": [
@@ -867,6 +1047,87 @@
    "type": "number",
    "unit": "feet",
    "fact": "It's 50 feet wide."
+  },
+  {
+   "id": "qiejpeq",
+   "cat": "sports",
+   "q": "How long is a cricket pitch, in yards?",
+   "a": 22,
+   "type": "number",
+   "unit": "yards",
+   "fact": "That's one chain, an old surveyor's unit."
+  },
+  {
+   "id": "qdm5w8m",
+   "cat": "pop",
+   "q": "How many No. 1 hits did the Beatles have on the Billboard Hot 100?",
+   "a": 20,
+   "type": "number",
+   "unit": "No. 1s",
+   "fact": "Still the most by any act."
+  },
+  {
+   "id": "q1shkbyb",
+   "cat": "sports",
+   "q": "How many Stanley Cups have the Montreal Canadiens won?",
+   "a": 24,
+   "type": "number",
+   "unit": "Cups",
+   "fact": "Their most recent came in 1993."
+  },
+  {
+   "id": "q1hdxuhm",
+   "cat": "pop",
+   "q": "In what year did Batman first appear in comics?",
+   "a": 1939,
+   "type": "year",
+   "unit": "year",
+   "fact": "He debuted in Detective Comics No. 27."
+  },
+  {
+   "id": "q4tkb9n",
+   "cat": "sports",
+   "q": "How many NCAA titles in a row did UCLA men's basketball win under John Wooden?",
+   "a": 7,
+   "type": "number",
+   "unit": "titles",
+   "fact": "Wooden won 10 titles in 12 seasons."
+  },
+  {
+   "id": "qd3x8mu",
+   "cat": "pop",
+   "q": "In what year did McDonald's first hand out Halloween pails, now called Boo Buckets?",
+   "a": 1986,
+   "type": "year",
+   "unit": "year",
+   "fact": "They came back in October 2026 themed to five Disney villains."
+  },
+  {
+   "id": "qtjji4n",
+   "cat": "history",
+   "q": "In what year did Texas become a U.S. state?",
+   "a": 1845,
+   "type": "year",
+   "unit": "year",
+   "fact": "It had been an independent republic for nearly 10 years."
+  },
+  {
+   "id": "qcu0mlz",
+   "cat": "geo",
+   "q": "How many countries does the Danube flow through?",
+   "a": 10,
+   "type": "number",
+   "unit": "countries",
+   "fact": "More than any other river on Earth."
+  },
+  {
+   "id": "qnk6zxb",
+   "cat": "sports",
+   "q": "In what year was the first Masters Tournament played?",
+   "a": 1934,
+   "type": "year",
+   "unit": "year",
+   "fact": "Horton Smith won what was then the Augusta National Invitation."
   }
  ]
 }

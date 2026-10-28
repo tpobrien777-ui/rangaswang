@@ -27,16 +27,16 @@
    "a": 3,
    "type": "number",
    "unit": "hours",
-   "fact": "The Lower 48 spans four time zones."
+   "fact": "New York runs on Eastern time and Los Angeles on Pacific time."
   },
   {
-   "id": "ae4o4hsnn",
+   "id": "ax0iek822",
    "cat": "sports",
-   "q": "How many minutes long is a regulation NHL period?",
-   "a": 20,
+   "q": "Shohei Ohtani's 2023 deal with the Dodgers was worth how many million dollars?",
+   "a": 700,
    "type": "number",
-   "unit": "minutes",
-   "fact": "Overtime in the regular season is just five minutes, three-on-three."
+   "unit": "million $",
+   "fact": "Nearly all of it, $680 million, is deferred."
   },
   {
    "id": "a0g6do5bw",
@@ -59,13 +59,13 @@
    "fact": "Robert Ballard's team found it about 12,500 feet down."
   },
   {
-   "id": "aie7ktqhi",
+   "id": "alz6dhwge",
    "cat": "pop",
-   "q": "In what year did Raiders of the Lost Ark come out?",
-   "a": 1981,
+   "q": "In what year did Beyoncé release Lemonade?",
+   "a": 2016,
    "type": "year",
    "unit": "year",
-   "fact": "It was the first of the Indiana Jones films."
+   "fact": "It came with an hour-long film that debuted on HBO."
   },
   {
    "id": "av2aqz7p6",
@@ -106,13 +106,13 @@
    "fact": "It counted about 3.9 million people."
   },
   {
-   "id": "afvsf1bjp",
-   "cat": "pop",
-   "q": "How many episodes of Friends were made?",
-   "a": 236,
+   "id": "a5lml84rp",
+   "cat": "sports",
+   "q": "How many regular-season games did the 2015-16 Golden State Warriors win?",
+   "a": 73,
    "type": "number",
-   "unit": "episodes",
-   "fact": "Ten seasons on NBC, from 1994 to 2004."
+   "unit": "wins",
+   "fact": "That broke the 72-win record of the 1995-96 Bulls."
   },
   {
    "id": "admqzpg4y",

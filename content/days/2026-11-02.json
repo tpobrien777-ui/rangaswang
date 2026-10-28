@@ -40,13 +40,13 @@
    "fact": "Washington, Jefferson, Theodore Roosevelt and Lincoln."
   },
   {
-   "id": "q1lm3gvb",
+   "id": "a2aptjfpy",
    "cat": "pop",
-   "q": "How many Pokémon were in the original Red and Blue games?",
-   "a": 151,
-   "type": "number",
-   "unit": "Pokémon",
-   "fact": "Mew, No. 151, was slipped in late in development."
+   "q": "In what year did Taylor Swift's Eras Tour begin?",
+   "a": 2023,
+   "type": "year",
+   "unit": "year",
+   "fact": "It became the first tour to gross more than $2 billion."
   },
   {
    "id": "qubvobe",
@@ -87,13 +87,13 @@
    "fact": "The first artificial satellite was about the size of a beach ball."
   },
   {
-   "id": "qcbpn69",
+   "id": "aopwjrcth",
    "cat": "pop",
-   "q": "In what year did Space Jam come out?",
-   "a": 1996,
+   "q": "In what year did Drake release Hotline Bling?",
+   "a": 2015,
    "type": "year",
    "unit": "year",
-   "fact": "Michael Jordan teamed up with the Looney Tunes."
+   "fact": "It peaked at No. 2 on the Billboard Hot 100."
   },
   {
    "id": "q1ka4te8",
@@ -143,13 +143,13 @@
    "fact": "Mexico City is its own federal entity."
   },
   {
-   "id": "q4tkb9n",
+   "id": "a3kz4fqvz",
    "cat": "sports",
-   "q": "How many NCAA titles in a row did UCLA men's basketball win under John Wooden?",
-   "a": 7,
+   "q": "How many touchdown passes did Peyton Manning throw in 2013?",
+   "a": 55,
    "type": "number",
-   "unit": "titles",
-   "fact": "Wooden won 10 titles in 12 seasons."
+   "unit": "touchdowns",
+   "fact": "He also set a record with 5,477 passing yards that season."
   }
  ]
 }

@@ -31,13 +31,13 @@
    "fact": "Eastern, Central, Mountain and Pacific."
   },
   {
-   "id": "q140l3df",
+   "id": "a8yy5agro",
    "cat": "sports",
-   "q": "How many teams are in the NHL?",
-   "a": 32,
-   "type": "number",
-   "unit": "teams",
-   "fact": "Utah's team arrived in 2024 when Arizona's moved."
+   "q": "In what year was LeBron James drafted into the NBA?",
+   "a": 2003,
+   "type": "year",
+   "unit": "year",
+   "fact": "Cleveland took him No. 1 overall, straight out of high school in Akron."
   },
   {
    "id": "q1rpz67j",
@@ -69,13 +69,13 @@
    "fact": "That version of Mickey entered the U.S. public domain in 2024."
   },
   {
-   "id": "q27ceqs",
+   "id": "atjssz82c",
    "cat": "geo",
-   "q": "How many U.S. states touch Lake Erie?",
+   "q": "How long is the Las Vegas Strip, to the nearest mile?",
    "a": 4,
    "type": "number",
-   "unit": "states",
-   "fact": "It's the shallowest of the Great Lakes."
+   "unit": "miles",
+   "fact": "Most of it actually sits in Paradise, Nevada, not the city of Las Vegas."
   },
   {
    "id": "q118lmco",
@@ -96,13 +96,13 @@
    "fact": "Reactor No. 4 blew up on April 26 during a safety test."
   },
   {
-   "id": "qpvm93h",
+   "id": "as7iz0t1n",
    "cat": "pop",
-   "q": "In what year did The Simpsons premiere as a half-hour series?",
-   "a": 1989,
+   "q": "In what year did Jersey Shore premiere on MTV?",
+   "a": 2009,
    "type": "year",
    "unit": "year",
-   "fact": "The first episode, a Christmas special, aired on December 17, 1989."
+   "fact": "It was filmed in Seaside Heights, New Jersey."
   }
  ],
  "hard": [
@@ -134,13 +134,13 @@
    "fact": "The streak ran from 1982 to 1998."
   },
   {
-   "id": "qtjji4n",
-   "cat": "history",
-   "q": "In what year did Texas become a U.S. state?",
-   "a": 1845,
+   "id": "af7tjw8ri",
+   "cat": "pop",
+   "q": "In what year did The Walking Dead premiere on AMC?",
+   "a": 2010,
    "type": "year",
    "unit": "year",
-   "fact": "It had been an independent republic for nearly 10 years."
+   "fact": "It ran for 11 seasons."
   }
  ]
 }

@@ -69,6 +69,7 @@ Each QUESTION:
   - *Hard* is specific, but still fair to estimate.
 - **News** questions come from the last few days' real headlines, with a source in `src`. Keep them neutral. Skip deaths, tragedies and partisan framing.
 - **Mix the categories** within each list: history, pop culture, geography and sports.
+- **Hook younger players.** Aim for at least one question per list per day that a 20-to-35-year-old would light up at: 2000s–2020s movies, TV, music, video games, apps and today's sports stars ("In what year did Entourage premiere?", "How many Oscars has Leonardo DiCaprio won?", "In what year was LeBron James drafted?"). Mix them in with the classics, don't replace them all.
 - **No repeats.** Search the whole `content/` folder for the key name or number before adding a question.
 
 ## Checking your work

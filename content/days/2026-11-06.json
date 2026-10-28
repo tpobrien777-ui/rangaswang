@@ -21,13 +21,13 @@
    "fact": "Black Tuesday was October 29, the start of the Great Depression."
   },
   {
-   "id": "q14wgye9",
+   "id": "a7r04nhrk",
    "cat": "pop",
-   "q": "How many keys are on a standard piano?",
-   "a": 88,
+   "q": "How many Twilight movies were made?",
+   "a": 5,
    "type": "number",
-   "unit": "keys",
-   "fact": "52 white and 36 black."
+   "unit": "movies",
+   "fact": "The last book, Breaking Dawn, was split into two films."
   },
   {
    "id": "qov5f1",
@@ -86,13 +86,13 @@
    "fact": "It dropped from 28 when the UK left in 2020."
   },
   {
-   "id": "q4m4z65",
+   "id": "aw8wpgz4w",
    "cat": "sports",
-   "q": "How many Wimbledon singles titles did Roger Federer win?",
-   "a": 8,
+   "q": "How many regular-season MVP awards has LeBron James won?",
+   "a": 4,
    "type": "number",
-   "unit": "titles",
-   "fact": "His last came in 2017, at age 35."
+   "unit": "MVPs",
+   "fact": "Two with Cleveland and two with Miami."
   }
  ],
  "hard": [
@@ -124,13 +124,13 @@
    "fact": "Hokkaido is by far the largest."
   },
   {
-   "id": "qnk6zxb",
-   "cat": "sports",
-   "q": "In what year was the first Masters Tournament played?",
-   "a": 1934,
-   "type": "year",
-   "unit": "year",
-   "fact": "Horton Smith won what was then the Augusta National Invitation."
+   "id": "am21t3aar",
+   "cat": "pop",
+   "q": "How many seasons did How I Met Your Mother run?",
+   "a": 9,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It aired on CBS from 2005 to 2014."
   }
  ]
 }

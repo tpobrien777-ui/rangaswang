@@ -42,13 +42,13 @@
    "fact": "It went down on April 15, about two hours and forty minutes after hitting the iceberg."
   },
   {
-   "id": "qrc7s5f",
+   "id": "ac8lq7c3t",
    "cat": "pop",
-   "q": "In what year did the first Star Wars movie open?",
-   "a": 1977,
-   "type": "year",
-   "unit": "year",
-   "fact": "It opened in just 32 U.S. theaters on May 25."
+   "q": "How many Oscars has Leonardo DiCaprio won?",
+   "a": 1,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "His only win so far came for The Revenant, at the 2016 ceremony."
   },
   {
    "id": "q1f0nztn",
@@ -89,13 +89,13 @@
    "fact": "The flight from New York to Paris took about 33 and a half hours."
   },
   {
-   "id": "q12oyopx",
+   "id": "a5hbvogc2",
    "cat": "pop",
-   "q": "In what year did the Game Boy launch in North America?",
-   "a": 1989,
+   "q": "In what year did Entourage premiere on HBO?",
+   "a": 2004,
    "type": "year",
    "unit": "year",
-   "fact": "It came bundled with Tetris."
+   "fact": "It ran eight seasons, then got a movie in 2015."
   },
   {
    "id": "qr8uf88",
@@ -145,13 +145,13 @@
    "fact": "It's the highest peak in North America."
   },
   {
-   "id": "qiejpeq",
+   "id": "a8z6a038n",
    "cat": "sports",
-   "q": "How long is a cricket pitch, in yards?",
-   "a": 22,
+   "q": "How many home runs did Aaron Judge hit in 2022?",
+   "a": 62,
    "type": "number",
-   "unit": "yards",
-   "fact": "That's one chain, an old surveyor's unit."
+   "unit": "home runs",
+   "fact": "That broke Roger Maris's American League record of 61."
   }
  ]
 }

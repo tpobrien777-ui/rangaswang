@@ -49,13 +49,13 @@
    "fact": "Allied troops landed on five Normandy beaches on June 6."
   },
   {
-   "id": "q1m4xfl4",
+   "id": "a1fkxtyvz",
    "cat": "pop",
-   "q": "In what year did Jurassic Park hit theaters?",
-   "a": 1993,
+   "q": "In what year did James Cameron's Avatar come out?",
+   "a": 2009,
    "type": "year",
    "unit": "year",
-   "fact": "The T. rex roar mixed a baby elephant, a tiger and an alligator."
+   "fact": "It's still the highest-grossing movie of all time worldwide."
   },
   {
    "id": "qkatm8t",
@@ -78,13 +78,13 @@
    "fact": "It touches Arizona only at the Four Corners."
   },
   {
-   "id": "qd57wrs",
+   "id": "anhfb3di5",
    "cat": "sports",
-   "q": "How many major championships did Jack Nicklaus win?",
-   "a": 18,
+   "q": "How many NBA titles did Kobe Bryant win?",
+   "a": 5,
    "type": "number",
-   "unit": "majors",
-   "fact": "His sixth Masters, in 1986, came at age 46."
+   "unit": "titles",
+   "fact": "All with the Lakers, including three in a row from 2000 to 2002."
   },
   {
    "id": "q1fl4rkq",
@@ -125,13 +125,13 @@
    "fact": "It ended the Byzantine Empire after more than 1,000 years."
   },
   {
-   "id": "q1hdxuhm",
+   "id": "a786zhflv",
    "cat": "pop",
-   "q": "In what year did Batman first appear in comics?",
-   "a": 1939,
+   "q": "In what year did Call of Duty 4: Modern Warfare come out?",
+   "a": 2007,
    "type": "year",
    "unit": "year",
-   "fact": "He debuted in Detective Comics No. 27."
+   "fact": "It introduced killstreak rewards to the series."
   },
   {
    "id": "qsa9oe7",

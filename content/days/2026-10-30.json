@@ -31,13 +31,13 @@
    "fact": "That's why the flag has 13 stripes."
   },
   {
-   "id": "q1wv5w31",
+   "id": "av0fsragw",
    "cat": "pop",
-   "q": "How many seasons of Friends were made?",
-   "a": 10,
-   "type": "number",
-   "unit": "seasons",
-   "fact": "236 episodes, ending in May 2004."
+   "q": "In what year did The Dark Knight come out?",
+   "a": 2008,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the first Batman movie to pass $1 billion worldwide."
   },
   {
    "id": "q17i650i",
@@ -78,13 +78,13 @@
    "fact": "It launched July 16, 1969, and splashed down in the Pacific on July 24."
   },
   {
-   "id": "q1m9ejd4",
+   "id": "a428u2xhj",
    "cat": "pop",
-   "q": "How many Oscars did Titanic (1997) win?",
-   "a": 11,
-   "type": "number",
-   "unit": "Oscars",
-   "fact": "That tied Ben-Hur's record. The Return of the King matched it in 2004."
+   "q": "In what year did Superbad come out?",
+   "a": 2007,
+   "type": "year",
+   "unit": "year",
+   "fact": "Seth Rogen and Evan Goldberg started writing it as teenagers."
   },
   {
    "id": "q1ohjxn8",
@@ -125,13 +125,13 @@
    "fact": "It was the longest suspension bridge in the world when it opened."
   },
   {
-   "id": "qdm5w8m",
+   "id": "a3ofdvz2x",
    "cat": "pop",
-   "q": "How many No. 1 hits did the Beatles have on the Billboard Hot 100?",
-   "a": 20,
+   "q": "How many seasons did The O.C. run?",
+   "a": 4,
    "type": "number",
-   "unit": "No. 1s",
-   "fact": "Still the most by any act."
+   "unit": "seasons",
+   "fact": "It aired on Fox from 2003 to 2007."
   },
   {
    "id": "q1wq52eg",

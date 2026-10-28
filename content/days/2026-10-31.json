@@ -40,13 +40,13 @@
    "fact": "The Big Island is larger than all the others combined."
   },
   {
-   "id": "q1alvpz7",
+   "id": "azlg9y9rm",
    "cat": "sports",
-   "q": "How many yards long is an NFL field, end zones included?",
-   "a": 120,
+   "q": "How many Super Bowls has Patrick Mahomes won?",
+   "a": 3,
    "type": "number",
-   "unit": "yards",
-   "fact": "100 yards of field plus two 10-yard end zones."
+   "unit": "Super Bowls",
+   "fact": "He won Super Bowls LIV, LVII and LVIII."
   },
   {
    "id": "qpj5avw",
@@ -105,13 +105,13 @@
    "fact": "It began in a bakery on Pudding Lane in early September."
   },
   {
-   "id": "q1rhffa5",
+   "id": "an1l0oxls",
    "cat": "pop",
-   "q": "In what year did The Wizard of Oz come out?",
-   "a": 1939,
+   "q": "In what year did Snapchat launch?",
+   "a": 2011,
    "type": "year",
    "unit": "year",
-   "fact": "In the book, Dorothy's ruby slippers were silver."
+   "fact": "It was first called Picaboo."
   }
  ],
  "hard": [
@@ -143,13 +143,13 @@
    "fact": "Tied with Russia for the most land neighbors."
   },
   {
-   "id": "q1shkbyb",
+   "id": "anvndo0ry",
    "cat": "sports",
-   "q": "How many Stanley Cups have the Montreal Canadiens won?",
-   "a": 24,
+   "q": "How many points did Klay Thompson score in one quarter against Sacramento in 2015?",
+   "a": 37,
    "type": "number",
-   "unit": "Cups",
-   "fact": "Their most recent came in 1993."
+   "unit": "points",
+   "fact": "He made all 13 of his shots in that quarter."
   }
  ]
 }

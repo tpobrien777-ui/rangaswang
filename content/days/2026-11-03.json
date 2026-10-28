@@ -49,13 +49,13 @@
    "fact": "It's the only Great Lake entirely inside the U.S."
   },
   {
-   "id": "qrufpil",
+   "id": "aowvfw9u5",
    "cat": "sports",
-   "q": "How many players per team are on a basketball court?",
-   "a": 5,
+   "q": "How many NBA titles has Stephen Curry won?",
+   "a": 4,
    "type": "number",
-   "unit": "players",
-   "fact": "James Naismith's first game, in 1891, used peach baskets."
+   "unit": "titles",
+   "fact": "They came in 2015, 2017, 2018 and 2022, all with Golden State."
   },
   {
    "id": "qc8yhv",
@@ -78,13 +78,13 @@
    "fact": "The standoff lasted 13 days in October."
   },
   {
-   "id": "q1n57os8",
+   "id": "a4zciuxh6",
    "cat": "pop",
-   "q": "In what year did MTV go on the air?",
-   "a": 1981,
+   "q": "In what year did the first Iron Man movie come out?",
+   "a": 2008,
    "type": "year",
    "unit": "year",
-   "fact": "The first video it played was 'Video Killed the Radio Star.'"
+   "fact": "It kicked off the Marvel Cinematic Universe."
   },
   {
    "id": "q1pgb18d",
@@ -125,13 +125,13 @@
    "fact": "France gave it to the United States. It was dedicated on October 28, 1886."
   },
   {
-   "id": "qd3x8mu",
+   "id": "altgh9d4k",
    "cat": "pop",
-   "q": "In what year did McDonald's first hand out Halloween pails, now called Boo Buckets?",
-   "a": 1986,
+   "q": "In what year did Eminem's movie 8 Mile come out?",
+   "a": 2002,
    "type": "year",
    "unit": "year",
-   "fact": "They came back in October 2026 themed to five Disney villains."
+   "fact": "Lose Yourself won the Oscar for Best Original Song."
   },
   {
    "id": "qix5tyq",
