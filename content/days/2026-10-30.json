@@ -2,22 +2,24 @@
  "date": "2026-10-30",
  "news": [
   {
-   "id": "q1azjh1z",
+   "id": "ayn9dkk5l",
    "cat": "news",
-   "q": "LeBron James opened 2026-27 with the 76ers. It's his record-extending NBA season number what?",
-   "a": 24,
+   "q": "The Brewers won their first World Series on Oct. 28, beating the Rays in five games. How many regular-season games did Milwaukee win in 2026?",
+   "a": 103,
    "type": "number",
-   "unit": "seasons",
-   "fact": "He came into the league in 2003, straight out of high school."
+   "unit": "wins",
+   "fact": "They went 103-59, then beat Tampa Bay 4-1 in Game 5 to clinch.",
+   "src": "https://www.espn.com/mlb/recap/_/gameId/401908046"
   },
   {
-   "id": "qqcq9ip",
+   "id": "a4ovn6w5r",
    "cat": "news",
-   "q": "Street Fighter opened at No. 1 at the box office on Oct. 16–18. How many million dollars did it make?",
-   "a": 31,
+   "q": "On Oct. 27, the UN's weather agency said carbon dioxide in the air hit a record average in 2025. How many parts per million was it, to the nearest whole number?",
+   "a": 427,
    "type": "number",
-   "unit": "million $",
-   "fact": "About $30.8 million, from 3,575 theaters."
+   "unit": "ppm",
+   "fact": "The 2025 average was 426.8 ppm, about 153% of pre-industrial levels.",
+   "src": "https://news.un.org/en/story/2026/10/1168677"
   }
  ],
  "easy": [

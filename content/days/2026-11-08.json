@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-08",
+ "news": [],
+ "easy": [
+  {
+   "id": "a0ucr30ww",
+   "cat": "history",
+   "q": "In what year did Barack Obama first take office as president?",
+   "a": 2009,
+   "type": "year",
+   "unit": "year",
+   "fact": "He was sworn in on Jan. 20, 2009."
+  },
+  {
+   "id": "ai433no2g",
+   "cat": "pop",
+   "q": "In what year did Pixar's Finding Nemo come out?",
+   "a": 2003,
+   "type": "year",
+   "unit": "year",
+   "fact": "It won the Oscar for Best Animated Feature."
+  },
+  {
+   "id": "arqz52fur",
+   "cat": "geo",
+   "q": "How many U.S. states border Texas?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "New Mexico, Oklahoma, Arkansas and Louisiana."
+  },
+  {
+   "id": "a46de9509",
+   "cat": "sports",
+   "q": "How many points is a field goal worth in the NFL?",
+   "a": 3,
+   "type": "number",
+   "unit": "points",
+   "fact": "A safety is worth 2."
+  },
+  {
+   "id": "ai9l5rmfp",
+   "cat": "pop",
+   "q": "In what year did the first Spider-Man movie starring Tobey Maguire come out?",
+   "a": 2002,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the first movie to make $100 million in one weekend."
+  }
+ ],
+ "medium": [
+  {
+   "id": "alezree0g",
+   "cat": "history",
+   "q": "In what year was gold found at Sutter's Mill, setting off the California Gold Rush?",
+   "a": 1848,
+   "type": "year",
+   "unit": "year",
+   "fact": "The prospectors who rushed in the next year were called forty-niners."
+  },
+  {
+   "id": "aygmiult2",
+   "cat": "pop",
+   "q": "How many seasons did The Big Bang Theory run?",
+   "a": 12,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It ended in 2019 after 279 episodes."
+  },
+  {
+   "id": "akb2pv4yz",
+   "cat": "geo",
+   "q": "How many U.S. states border Missouri?",
+   "a": 8,
+   "type": "number",
+   "unit": "states",
+   "fact": "It's tied with Tennessee for the most neighbors."
+  },
+  {
+   "id": "a7ot5sidb",
+   "cat": "sports",
+   "q": "How many feet from the backboard is an NBA free-throw line?",
+   "a": 15,
+   "type": "number",
+   "unit": "feet",
+   "fact": "That's where the 'charity stripe' sits."
+  },
+  {
+   "id": "ab2kgjyo4",
+   "cat": "pop",
+   "q": "In what year did Grand Theft Auto V come out?",
+   "a": 2013,
+   "type": "year",
+   "unit": "year",
+   "fact": "It made $1 billion in its first three days."
+  }
+ ],
+ "hard": [
+  {
+   "id": "ady94o2c5",
+   "cat": "history",
+   "q": "In what year was the Smithsonian Institution founded?",
+   "a": 1846,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was funded by a British scientist, James Smithson, who never visited the U.S."
+  },
+  {
+   "id": "alav8ibo0",
+   "cat": "pop",
+   "q": "In what year did World of Warcraft launch?",
+   "a": 2004,
+   "type": "year",
+   "unit": "year",
+   "fact": "It came out in North America on Nov. 23, 2004."
+  },
+  {
+   "id": "a4293y44a",
+   "cat": "geo",
+   "q": "How tall is the Empire State Building to the tip of its antenna, in feet?",
+   "a": 1454,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Its roof is at 1,250 feet."
+  },
+  {
+   "id": "apjp3t6bb",
+   "cat": "sports",
+   "q": "In 1945, Byron Nelson won a record how many PGA Tour events in a row?",
+   "a": 11,
+   "type": "number",
+   "unit": "wins",
+   "fact": "He won 18 tour events that year in all."
+  }
+ ]
+}
