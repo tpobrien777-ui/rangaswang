@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-09",
+ "news": [],
+ "easy": [
+  {
+   "id": "a7d25585z",
+   "cat": "history",
+   "q": "In what year did George Washington take office as the first U.S. president?",
+   "a": 1789,
+   "type": "year",
+   "unit": "year",
+   "fact": "He was sworn in on a balcony in New York City."
+  },
+  {
+   "id": "au7f8oznf",
+   "cat": "pop",
+   "q": "In what year did Marvel's The Avengers come out?",
+   "a": 2012,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the first Marvel Studios film to top $1 billion worldwide."
+  },
+  {
+   "id": "an06o596a",
+   "cat": "geo",
+   "q": "How many states meet at the Four Corners?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "Arizona, Colorado, New Mexico and Utah."
+  },
+  {
+   "id": "amzk680py",
+   "cat": "sports",
+   "q": "How many players does a baseball team have on the field on defense?",
+   "a": 9,
+   "type": "number",
+   "unit": "players",
+   "fact": "Pitcher, catcher, four infielders and three outfielders."
+  },
+  {
+   "id": "a5bjesv1r",
+   "cat": "pop",
+   "q": "In what year did the first The Fast and the Furious movie come out?",
+   "a": 2001,
+   "type": "year",
+   "unit": "year",
+   "fact": "Paul Walker and Vin Diesel starred in the original."
+  }
+ ],
+ "medium": [
+  {
+   "id": "azxzmh37w",
+   "cat": "history",
+   "q": "In what year did a president first move into the White House?",
+   "a": 1800,
+   "type": "year",
+   "unit": "year",
+   "fact": "John Adams moved in that November, before it was finished."
+  },
+  {
+   "id": "a6rokzqmp",
+   "cat": "pop",
+   "q": "In what year did Mean Girls come out?",
+   "a": 2004,
+   "type": "year",
+   "unit": "year",
+   "fact": "Tina Fey wrote the script and played Ms. Norbury."
+  },
+  {
+   "id": "asuygivqm",
+   "cat": "geo",
+   "q": "How many counties does California have?",
+   "a": 58,
+   "type": "number",
+   "unit": "counties",
+   "fact": "San Bernardino County is the largest in the Lower 48."
+  },
+  {
+   "id": "acopvddkt",
+   "cat": "sports",
+   "q": "How many Daytona 500s did Richard Petty win?",
+   "a": 7,
+   "type": "number",
+   "unit": "wins",
+   "fact": "That's still the record for the Great American Race."
+  },
+  {
+   "id": "ar8hg2f0c",
+   "cat": "pop",
+   "q": "How many seasons did Game of Thrones run?",
+   "a": 8,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "The finale aired in May 2019."
+  }
+ ],
+ "hard": [
+  {
+   "id": "av8fqld5m",
+   "cat": "history",
+   "q": "In what year was the capstone set on the Washington Monument?",
+   "a": 1884,
+   "type": "year",
+   "unit": "year",
+   "fact": "Construction stalled for over 20 years, which is why the marble changes color."
+  },
+  {
+   "id": "axcjchj1d",
+   "cat": "pop",
+   "q": "In what year did the Nintendo Wii come out in the U.S.?",
+   "a": 2006,
+   "type": "year",
+   "unit": "year",
+   "fact": "Wii Sports came bundled with it."
+  },
+  {
+   "id": "ardlqx23l",
+   "cat": "geo",
+   "q": "How tall is Hoover Dam, in feet, to the nearest foot?",
+   "a": 726,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It holds back Lake Mead, the largest U.S. reservoir by capacity."
+  },
+  {
+   "id": "azttwo75j",
+   "cat": "sports",
+   "q": "How many regular-season touchdown passes did Tom Brady throw in his career?",
+   "a": 649,
+   "type": "number",
+   "unit": "TD passes",
+   "fact": "That's the most in NFL history."
+  }
+ ]
+}

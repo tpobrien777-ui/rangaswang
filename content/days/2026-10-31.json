@@ -2,22 +2,24 @@
  "date": "2026-10-31",
  "news": [
   {
-   "id": "q33yc43",
+   "id": "a4h4ye3bd",
    "cat": "news",
-   "q": "How many candidates were nominated for the 2026 Nobel Peace Prize?",
-   "a": 287,
+   "q": "Joshua Kutryk did a spacewalk on Oct. 29. Counting him, how many Canadian astronauts have now walked in space?",
+   "a": 5,
    "type": "number",
-   "unit": "nominees",
-   "fact": "Navi Pillay won. 79 of the nominees were organizations."
+   "unit": "astronauts",
+   "fact": "He helped install the 7th of 8 new solar arrays on the station.",
+   "src": "https://www.ctvnews.ca/sci-tech/article/joshua-kutryk-becomes-fifth-canadian-astronaut-to-perform-a-spacewalk/"
   },
   {
-   "id": "q1ky8j5g",
+   "id": "a9i13meuk",
    "cat": "news",
-   "q": "By Sept. 19, how many weeks had Ella Langley's 'Choosin' Texas' spent at No. 1 on the Hot 100?",
-   "a": 22,
+   "q": "Microsoft reported on Oct. 28 that its quarterly revenue was how many billion dollars, to the nearest billion?",
+   "a": 92,
    "type": "number",
-   "unit": "weeks",
-   "fact": "That tied Mariah Carey's 'All I Want for Christmas Is You' for the longest run ever."
+   "unit": "billion $",
+   "fact": "Revenue rose 19% from a year earlier, as its Azure cloud grew about 48%.",
+   "src": "https://siliconangle.com/2026/10/28/microsofts-stock-rises-on-solid-earnings-and-revenue-beat-with-azure-growing-48/"
   }
  ],
  "easy": [
