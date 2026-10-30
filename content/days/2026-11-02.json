@@ -1,155 +1,136 @@
 {
  "date": "2026-11-02",
- "news": [
-  {
-   "id": "qhhyfst",
-   "cat": "news",
-   "q": "How old is Navi Pillay, winner of the 2026 Nobel Peace Prize?",
-   "a": 85,
-   "type": "number",
-   "unit": "years old",
-   "fact": "The South African judge was the UN's human rights chief from 2008 to 2014."
-  },
-  {
-   "id": "q12uqwfh",
-   "cat": "news",
-   "q": "An October 2026 study tracked how many thousand Americans to test ultra-processed food and colorectal cancer?",
-   "a": 460,
-   "type": "number",
-   "unit": "thousand",
-   "fact": "Overall, it found no link to higher colorectal cancer risk."
-  }
- ],
+ "news": [],
  "easy": [
   {
-   "id": "q1leu2se",
-   "cat": "sports",
-   "q": "How many home runs did Barry Bonds hit in 2001?",
-   "a": 73,
+   "id": "akwham1cm",
+   "cat": "history",
+   "q": "How old do you have to be to become U.S. president?",
+   "a": 35,
    "type": "number",
-   "unit": "home runs",
-   "fact": "Still the single-season record."
+   "unit": "years old",
+   "fact": "Theodore Roosevelt, at 42, was the youngest ever to take office."
   },
   {
-   "id": "qyuhxhf",
-   "cat": "history",
-   "q": "How many presidents' faces are carved on Mount Rushmore?",
+   "id": "a6b61xpv3",
+   "cat": "geo",
+   "q": "How many letters are in the word Mississippi?",
+   "a": 11,
+   "type": "number",
+   "unit": "letters",
+   "fact": "Four S's, four I's, two P's and one M."
+  },
+  {
+   "id": "aw706qi4c",
+   "cat": "pop",
+   "q": "How many Golden Girls were there?",
    "a": 4,
    "type": "number",
-   "unit": "faces",
-   "fact": "Washington, Jefferson, Theodore Roosevelt and Lincoln."
+   "unit": "Golden Girls",
+   "fact": "Dorothy, Rose, Blanche and Sophia, from 1985 to 1992."
   },
   {
-   "id": "a2aptjfpy",
-   "cat": "pop",
-   "q": "In what year did Taylor Swift's Eras Tour begin?",
-   "a": 2023,
-   "type": "year",
-   "unit": "year",
-   "fact": "It became the first tour to gross more than $2 billion."
-  },
-  {
-   "id": "qubvobe",
-   "cat": "geo",
-   "q": "How many oceans are there, the way most maps count them today?",
-   "a": 5,
-   "type": "number",
-   "unit": "oceans",
-   "fact": "The Southern Ocean was the latest to be named."
-  },
-  {
-   "id": "q1blpt4z",
+   "id": "a2k2aoqxs",
    "cat": "sports",
-   "q": "In what year did Jackie Robinson break MLB's color line?",
-   "a": 1947,
-   "type": "year",
-   "unit": "year",
-   "fact": "Every player wears his No. 42 on April 15."
+   "q": "What's a perfect score in bowling?",
+   "a": 300,
+   "type": "number",
+   "unit": "points",
+   "fact": "It takes 12 strikes in a row."
+  },
+  {
+   "id": "ahgu1byck",
+   "cat": "pop",
+   "q": "How many sides does a stop sign have?",
+   "a": 8,
+   "type": "number",
+   "unit": "sides",
+   "fact": "U.S. stop signs have been red octagons since 1954."
   }
  ],
  "medium": [
   {
-   "id": "q1huafnx",
-   "cat": "sports",
-   "q": "How tall is Fenway Park's Green Monster, in feet?",
-   "a": 37,
-   "type": "number",
-   "unit": "feet",
-   "fact": "It's been painted green since 1947."
-  },
-  {
-   "id": "qx55h6m",
-   "cat": "history",
-   "q": "In what year did the Soviet Union launch Sputnik?",
-   "a": 1957,
-   "type": "year",
-   "unit": "year",
-   "fact": "The first artificial satellite was about the size of a beach ball."
-  },
-  {
-   "id": "aopwjrcth",
+   "id": "aiunbpkwp",
    "cat": "pop",
-   "q": "In what year did Drake release Hotline Bling?",
-   "a": 2015,
-   "type": "year",
-   "unit": "year",
-   "fact": "It peaked at No. 2 on the Billboard Hot 100."
+   "q": "How many Dragon Balls do you need to summon the dragon Shenron?",
+   "a": 7,
+   "type": "number",
+   "unit": "Dragon Balls",
+   "fact": "Collect them all and you get a wish."
   },
   {
-   "id": "q1ka4te8",
+   "id": "azj6wvkym",
+   "cat": "history",
+   "q": "How many seconds did the Wright brothers' first powered flight last?",
+   "a": 12,
+   "type": "number",
+   "unit": "seconds",
+   "fact": "It covered 120 feet, less than a Boeing 747's wingspan."
+  },
+  {
+   "id": "awa84epgw",
    "cat": "geo",
-   "q": "What's the hottest temperature ever recorded on Earth, in °F?",
-   "a": 134,
+   "q": "How many countries are completely surrounded by Italy?",
+   "a": 2,
    "type": "number",
-   "unit": "°F",
-   "fact": "It was logged at Furnace Creek in Death Valley in July 1913."
+   "unit": "countries",
+   "fact": "Vatican City and San Marino."
   },
   {
-   "id": "q1evyr7x",
-   "cat": "sports",
-   "q": "How many career home runs did Babe Ruth hit?",
-   "a": 714,
+   "id": "a8rpmdwut",
+   "cat": "pop",
+   "q": "How many years apart did Top Gun and Top Gun: Maverick come out?",
+   "a": 36,
    "type": "number",
-   "unit": "home runs",
-   "fact": "Hank Aaron passed him with No. 715 in 1974."
+   "unit": "years",
+   "fact": "Top Gun came out in 1986; Maverick, in 2022."
+  },
+  {
+   "id": "ase4oulx7",
+   "cat": "sports",
+   "q": "The 1972 Dolphins went undefeated. How many games did they win, counting the playoffs?",
+   "a": 17,
+   "type": "number",
+   "unit": "wins",
+   "fact": "They're still the NFL's only perfect season."
   }
  ],
  "hard": [
   {
-   "id": "q1r40aaf",
-   "cat": "history",
-   "q": "In what year was the Treaty of Ghent signed, ending the War of 1812?",
-   "a": 1814,
-   "type": "year",
-   "unit": "year",
-   "fact": "The Battle of New Orleans was fought after the treaty was already signed."
-  },
-  {
-   "id": "q1dfuf1g",
-   "cat": "pop",
-   "q": "In what year did Michael Jackson first moonwalk on TV?",
-   "a": 1983,
-   "type": "year",
-   "unit": "year",
-   "fact": "He did it during 'Billie Jean' on the Motown 25 special."
-  },
-  {
-   "id": "qcwny1d",
+   "id": "a8yhvxw23",
    "cat": "geo",
-   "q": "How many states does Mexico have, not counting Mexico City?",
-   "a": 31,
+   "q": "How tall is the Burj Khalifa in Dubai, in feet?",
+   "a": 2717,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It has been the world's tallest building since 2010."
+  },
+  {
+   "id": "ayzm7at1w",
+   "cat": "history",
+   "q": "How many states did the U.S. have in 1900?",
+   "a": 45,
    "type": "number",
    "unit": "states",
-   "fact": "Mexico City is its own federal entity."
+   "fact": "Utah had become the 45th in 1896."
   },
   {
-   "id": "a3kz4fqvz",
+   "id": "atc33m3dp",
    "cat": "sports",
-   "q": "How many touchdown passes did Peyton Manning throw in 2013?",
-   "a": 55,
+   "q": "In 2006, LaDainian Tomlinson set the NFL record for touchdowns in a season. How many?",
+   "a": 31,
    "type": "number",
    "unit": "touchdowns",
-   "fact": "He also set a record with 5,477 passing yards that season."
+   "fact": "He scored 28 on the ground and 3 through the air."
+  },
+  {
+   "id": "af1vp8lxz",
+   "cat": "pop",
+   "q": "How many years did Johnny Carson host The Tonight Show?",
+   "a": 30,
+   "type": "number",
+   "unit": "years",
+   "fact": "He handed it to Jay Leno in 1992."
   }
  ]
 }

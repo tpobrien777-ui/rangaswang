@@ -1,155 +1,136 @@
 {
  "date": "2026-11-03",
- "news": [
-  {
-   "id": "q1r7ap1c",
-   "cat": "news",
-   "q": "How many seconds did Junior Caminero's pennant-clinching home run trot take, to the nearest second?",
-   "a": 39,
-   "type": "number",
-   "unit": "seconds",
-   "fact": "ESPN clocked it at 38.7 seconds."
-  },
-  {
-   "id": "qo7uz96",
-   "cat": "news",
-   "q": "A new Penn State study found how many minutes of daily strength training improved mobility in older adults?",
-   "a": 4,
-   "type": "number",
-   "unit": "minutes",
-   "fact": "It improved both mobility and everyday physical function."
-  }
- ],
+ "news": [],
  "easy": [
   {
-   "id": "q179j0zb",
-   "cat": "history",
-   "q": "In what year did the Wright brothers make the first powered airplane flight?",
-   "a": 1903,
-   "type": "year",
-   "unit": "year",
-   "fact": "Orville's first hop at Kitty Hawk lasted 12 seconds and covered 120 feet."
+   "id": "audo5zswj",
+   "cat": "sports",
+   "q": "How many sets does a man need to win a Grand Slam tennis match?",
+   "a": 3,
+   "type": "number",
+   "unit": "sets",
+   "fact": "Men play best-of-five; women play best-of-three."
   },
   {
-   "id": "q1gz52hh",
+   "id": "a950oc26y",
    "cat": "pop",
-   "q": "In what year did the first iPhone go on sale?",
-   "a": 2007,
-   "type": "year",
-   "unit": "year",
-   "fact": "Steve Jobs unveiled it in January, and it hit stores on June 29."
+   "q": "Add up every dot on a standard six-sided die. What's the total?",
+   "a": 21,
+   "type": "number",
+   "unit": "dots",
+   "fact": "Opposite faces always add up to 7."
   },
   {
-   "id": "q12g5q3j",
+   "id": "akmw69emg",
+   "cat": "pop",
+   "q": "How many kids are in The Brady Bunch?",
+   "a": 6,
+   "type": "number",
+   "unit": "kids",
+   "fact": "Three boys and three girls."
+  },
+  {
+   "id": "aqiyks6yl",
+   "cat": "history",
+   "q": "How many amendments make up the Bill of Rights?",
+   "a": 10,
+   "type": "number",
+   "unit": "amendments",
+   "fact": "They were ratified in 1791."
+  },
+  {
+   "id": "a5fzdsfkq",
    "cat": "geo",
-   "q": "How many U.S. states touch Lake Michigan?",
-   "a": 4,
+   "q": "Yellowstone National Park reaches into how many states?",
+   "a": 3,
    "type": "number",
    "unit": "states",
-   "fact": "It's the only Great Lake entirely inside the U.S."
-  },
-  {
-   "id": "aowvfw9u5",
-   "cat": "sports",
-   "q": "How many NBA titles has Stephen Curry won?",
-   "a": 4,
-   "type": "number",
-   "unit": "titles",
-   "fact": "They came in 2015, 2017, 2018 and 2022, all with Golden State."
-  },
-  {
-   "id": "qc8yhv",
-   "cat": "history",
-   "q": "In what year did World War I end?",
-   "a": 1918,
-   "type": "year",
-   "unit": "year",
-   "fact": "The armistice took effect at 11 a.m. on November 11."
+   "fact": "About 96% of it is in Wyoming; the rest is in Montana and Idaho."
   }
  ],
  "medium": [
   {
-   "id": "q1gk8wzc",
-   "cat": "history",
-   "q": "In what year was the Cuban Missile Crisis?",
-   "a": 1962,
-   "type": "year",
-   "unit": "year",
-   "fact": "The standoff lasted 13 days in October."
-  },
-  {
-   "id": "a4zciuxh6",
-   "cat": "pop",
-   "q": "In what year did the first Iron Man movie come out?",
-   "a": 2008,
-   "type": "year",
-   "unit": "year",
-   "fact": "It kicked off the Marvel Cinematic Universe."
-  },
-  {
-   "id": "q1pgb18d",
+   "id": "azw5yki7b",
    "cat": "geo",
-   "q": "How tall is One World Trade Center, in feet?",
-   "a": 1776,
+   "q": "How many stars are on the European Union's flag?",
+   "a": 12,
    "type": "number",
-   "unit": "feet",
-   "fact": "The height nods to the year of the Declaration of Independence."
+   "unit": "stars",
+   "fact": "The number stays at 12 no matter how many countries join."
   },
   {
-   "id": "qmtgtfb",
+   "id": "ar9htg70v",
    "cat": "sports",
-   "q": "In what year was the Miracle on Ice?",
-   "a": 1980,
-   "type": "year",
-   "unit": "year",
-   "fact": "U.S. college players beat the Soviets 4–3 at Lake Placid."
+   "q": "How many gold medals did Jesse Owens win at the 1936 Berlin Olympics?",
+   "a": 4,
+   "type": "number",
+   "unit": "gold medals",
+   "fact": "He won the 100, 200, long jump and 4x100 relay."
   },
   {
-   "id": "qmk86ci",
+   "id": "awsregero",
+   "cat": "geo",
+   "q": "Minnesota's nickname says it's the land of how many lakes?",
+   "a": 10000,
+   "type": "number",
+   "unit": "lakes",
+   "fact": "It really has more than 11,000."
+  },
+  {
+   "id": "aspzs3oak",
    "cat": "history",
-   "q": "In what year did Lincoln give the Gettysburg Address?",
-   "a": 1863,
-   "type": "year",
-   "unit": "year",
-   "fact": "The speech ran about 270 words and took around two minutes."
+   "q": "How many states joined the Confederacy?",
+   "a": 11,
+   "type": "number",
+   "unit": "states",
+   "fact": "South Carolina left the Union first, in December 1860."
+  },
+  {
+   "id": "aaop7jpuj",
+   "cat": "pop",
+   "q": "How old was Billie Eilish when she swept the big four Grammys in 2020?",
+   "a": 18,
+   "type": "number",
+   "unit": "years old",
+   "fact": "She was the youngest ever to win Album of the Year at the time."
   }
  ],
  "hard": [
   {
-   "id": "q14xsvc9",
+   "id": "aqz6u96wh",
    "cat": "history",
-   "q": "In what year was the Statue of Liberty dedicated?",
-   "a": 1886,
-   "type": "year",
-   "unit": "year",
-   "fact": "France gave it to the United States. It was dedicated on October 28, 1886."
-  },
-  {
-   "id": "altgh9d4k",
-   "cat": "pop",
-   "q": "In what year did Eminem's movie 8 Mile come out?",
-   "a": 2002,
-   "type": "year",
-   "unit": "year",
-   "fact": "Lose Yourself won the Oscar for Best Original Song."
-  },
-  {
-   "id": "qix5tyq",
-   "cat": "geo",
-   "q": "How many feet below sea level is Badwater Basin in Death Valley?",
-   "a": 282,
+   "q": "How tall was the Great Pyramid of Giza when it was built, in feet?",
+   "a": 481,
    "type": "number",
    "unit": "feet",
-   "fact": "It's the lowest point in North America."
+   "fact": "It was the world's tallest structure for nearly 4,000 years."
   },
   {
-   "id": "q1d85g4v",
-   "cat": "sports",
-   "q": "How many career hits did Pete Rose collect?",
-   "a": 4256,
+   "id": "aazxcgfxh",
+   "cat": "geo",
+   "q": "How many national parks are in California?",
+   "a": 9,
    "type": "number",
-   "unit": "hits",
-   "fact": "Still the MLB record."
+   "unit": "parks",
+   "fact": "That's the most of any state."
+  },
+  {
+   "id": "agq04styz",
+   "cat": "pop",
+   "q": "How many episodes of Avatar: The Last Airbender were made?",
+   "a": 61,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "They're split into three 'Books': Water, Earth and Fire."
+  },
+  {
+   "id": "auegqmped",
+   "cat": "sports",
+   "q": "How many Olympic gold medals has swimmer Katie Ledecky won?",
+   "a": 9,
+   "type": "number",
+   "unit": "gold medals",
+   "fact": "She won her first at age 15, in London in 2012."
   }
  ]
 }

@@ -3,134 +3,134 @@
  "news": [],
  "easy": [
   {
-   "id": "q1dvgu6b",
-   "cat": "sports",
-   "q": "How many points did Wilt Chamberlain score in one game in 1962?",
-   "a": 100,
-   "type": "number",
-   "unit": "points",
-   "fact": "He did it against the Knicks in Hershey, Pennsylvania."
-  },
-  {
-   "id": "q1yiisuc",
-   "cat": "history",
-   "q": "In what year did the stock market crash on Black Tuesday?",
-   "a": 1929,
-   "type": "year",
-   "unit": "year",
-   "fact": "Black Tuesday was October 29, the start of the Great Depression."
-  },
-  {
-   "id": "a7r04nhrk",
+   "id": "an4ras2s6",
    "cat": "pop",
-   "q": "How many Twilight movies were made?",
-   "a": 5,
+   "q": "How many fingers does Homer Simpson have on each hand?",
+   "a": 4,
    "type": "number",
-   "unit": "movies",
-   "fact": "The last book, Breaking Dawn, was split into two films."
+   "unit": "fingers",
+   "fact": "Most cartoon characters get four fingers, since they're easier to draw."
   },
   {
-   "id": "qov5f1",
+   "id": "avwjvvtzz",
+   "cat": "history",
+   "q": "How many years long is one term for a U.S. senator?",
+   "a": 6,
+   "type": "number",
+   "unit": "years",
+   "fact": "A third of the Senate is up for election every two years."
+  },
+  {
+   "id": "avqhkkhs6",
+   "cat": "pop",
+   "q": "How many seconds long could a Vine video be?",
+   "a": 6,
+   "type": "number",
+   "unit": "seconds",
+   "fact": "Vine shut down in 2017."
+  },
+  {
+   "id": "ai1h5nojd",
    "cat": "geo",
-   "q": "How many countries are in Central America?",
-   "a": 7,
-   "type": "number",
-   "unit": "countries",
-   "fact": "Belize, Guatemala, Honduras, El Salvador, Nicaragua, Costa Rica and Panama."
-  },
-  {
-   "id": "q1lp7qtz",
-   "cat": "sports",
-   "q": "How many rings are on the Olympic flag?",
+   "q": "When it's noon in New York, what hour is it in London most of the year?",
    "a": 5,
    "type": "number",
-   "unit": "rings",
-   "fact": "They stand for five parts of the world."
+   "unit": "p.m.",
+   "fact": "London is five hours ahead of New York for most of the year."
+  },
+  {
+   "id": "abm02xo3b",
+   "cat": "sports",
+   "q": "How many teams play in England's Premier League?",
+   "a": 20,
+   "type": "number",
+   "unit": "teams",
+   "fact": "The bottom three get relegated every season."
   }
  ],
  "medium": [
   {
-   "id": "q11h856z",
+   "id": "adz2mqyr3",
    "cat": "sports",
-   "q": "What is the heaviest a regulation bowling ball can be, in pounds?",
-   "a": 16,
+   "q": "How many yards wide is an NFL field, to the nearest yard?",
+   "a": 53,
    "type": "number",
-   "unit": "pounds",
-   "fact": "There's no minimum weight."
+   "unit": "yards",
+   "fact": "It's exactly 53 1/3 yards, or 160 feet."
   },
   {
-   "id": "q8h6189",
+   "id": "atzcrqzr9",
    "cat": "history",
-   "q": "In what year did the Berlin Wall go up?",
-   "a": 1961,
-   "type": "year",
-   "unit": "year",
-   "fact": "It went up almost overnight, starting on August 13."
-  },
-  {
-   "id": "q181l4ra",
-   "cat": "pop",
-   "q": "In what year did the Barbie doll debut?",
-   "a": 1959,
-   "type": "year",
-   "unit": "year",
-   "fact": "Mattel introduced her at the New York Toy Fair in March 1959."
-  },
-  {
-   "id": "q15tzqkb",
-   "cat": "geo",
-   "q": "How many countries are in the European Union?",
-   "a": 27,
+   "q": "Abraham Lincoln was the tallest U.S. president. How tall was he, in inches?",
+   "a": 76,
    "type": "number",
-   "unit": "countries",
-   "fact": "It dropped from 28 when the UK left in 2020."
+   "unit": "inches",
+   "fact": "That's 6 feet 4 inches."
   },
   {
-   "id": "aw8wpgz4w",
+   "id": "a228dgtur",
    "cat": "sports",
-   "q": "How many regular-season MVP awards has LeBron James won?",
-   "a": 4,
+   "q": "How many players are on each Ryder Cup team?",
+   "a": 12,
    "type": "number",
-   "unit": "MVPs",
-   "fact": "Two with Cleveland and two with Miami."
+   "unit": "players",
+   "fact": "The U.S. plays a team from Europe every two years."
+  },
+  {
+   "id": "asspe1vhq",
+   "cat": "pop",
+   "q": "How many slots are in a standard Connect Four grid?",
+   "a": 42,
+   "type": "number",
+   "unit": "slots",
+   "fact": "It's seven columns by six rows."
+  },
+  {
+   "id": "azpgv749c",
+   "cat": "geo",
+   "q": "How many states does Australia have?",
+   "a": 6,
+   "type": "number",
+   "unit": "states",
+   "fact": "It also has two mainland territories."
   }
  ],
  "hard": [
   {
-   "id": "qn2awvg",
-   "cat": "sports",
-   "q": "By how many strokes did Tiger Woods win the 2000 U.S. Open?",
+   "id": "aibqao751",
+   "cat": "history",
+   "q": "How many stars were on the flag that inspired The Star-Spangled Banner?",
    "a": 15,
    "type": "number",
-   "unit": "strokes",
-   "fact": "At Pebble Beach. It's still the record margin in a major."
+   "unit": "stars",
+   "fact": "It also had 15 stripes, one for each state."
   },
   {
-   "id": "q1pa15w3",
-   "cat": "history",
-   "q": "In what year was the Great Chicago Fire?",
-   "a": 1871,
-   "type": "year",
-   "unit": "year",
-   "fact": "The reporter who blamed Mrs. O'Leary's cow later admitted he made the story up."
-  },
-  {
-   "id": "qczf12g",
+   "id": "af88da3cb",
    "cat": "geo",
-   "q": "How many prefectures does Japan have?",
-   "a": 47,
+   "q": "How many miles around is Earth at the equator, to the nearest thousand?",
+   "a": 25000,
    "type": "number",
-   "unit": "prefectures",
-   "fact": "Hokkaido is by far the largest."
+   "unit": "miles",
+   "fact": "It's 24,901 miles."
   },
   {
-   "id": "am21t3aar",
+   "id": "as3aheom3",
    "cat": "pop",
-   "q": "How many seasons did How I Met Your Mother run?",
-   "a": 9,
+   "q": "How many dollars did the cheapest original iPhone cost in 2007?",
+   "a": 499,
    "type": "number",
-   "unit": "seasons",
-   "fact": "It aired on CBS from 2005 to 2014."
+   "unit": "dollars",
+   "fact": "That bought the 4GB model."
+  },
+  {
+   "id": "adz2nohu9",
+   "cat": "sports",
+   "q": "What's the highest finish possible on three darts?",
+   "a": 170,
+   "type": "number",
+   "unit": "points",
+   "fact": "Two treble 20s and the bullseye."
   }
  ]
 }

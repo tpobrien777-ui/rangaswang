@@ -118,24 +118,6 @@
    "fact": "They stand in a triangle."
   },
   {
-   "id": "qk82xyi",
-   "cat": "history",
-   "q": "In what year was Abraham Lincoln elected president?",
-   "a": 1860,
-   "type": "year",
-   "unit": "year",
-   "fact": "He won with less than 40% of the popular vote."
-  },
-  {
-   "id": "q7ffacv",
-   "cat": "pop",
-   "q": "How many Infinity Stones are there in the Marvel movies?",
-   "a": 6,
-   "type": "number",
-   "unit": "stones",
-   "fact": "Thanos gathers all of them in Avengers: Infinity War."
-  },
-  {
    "id": "q1e1vlbh",
    "cat": "sports",
    "q": "How many games are in an NFL regular season?",
@@ -154,15 +136,6 @@
    "fact": "Lee surrendered to Grant at Appomattox Court House on April 9."
   },
   {
-   "id": "q1byrdix",
-   "cat": "pop",
-   "q": "How many Harry Potter films are there, not counting Fantastic Beasts?",
-   "a": 8,
-   "type": "number",
-   "unit": "films",
-   "fact": "The last book, Deathly Hallows, was split into two films."
-  },
-  {
    "id": "qwv615q",
    "cat": "sports",
    "q": "How many strikes make an out in baseball?",
@@ -179,15 +152,6 @@
    "type": "year",
    "unit": "year",
    "fact": "It started in a garage in Menlo Park, California."
-  },
-  {
-   "id": "q1wpom59",
-   "cat": "sports",
-   "q": "How many NBA titles did Michael Jordan win?",
-   "a": 6,
-   "type": "number",
-   "unit": "titles",
-   "fact": "Two three-peats with the Bulls: 1991–93 and 1996–98."
   },
   {
    "id": "qor9obi",
@@ -361,15 +325,6 @@
    "fact": "The T. rex roar mixed a baby elephant, a tiger and an alligator."
   },
   {
-   "id": "q1lm3gvb",
-   "cat": "pop",
-   "q": "How many Pokémon were in the original Red and Blue games?",
-   "a": 151,
-   "type": "number",
-   "unit": "Pokémon",
-   "fact": "Mew, No. 151, was slipped in late in development."
-  },
-  {
    "id": "qrufpil",
    "cat": "sports",
    "q": "How many players per team are on a basketball court?",
@@ -416,15 +371,6 @@
   }
  ],
  "medium": [
-  {
-   "id": "q1oezcxh",
-   "cat": "history",
-   "q": "In what year did the Empire State Building open?",
-   "a": 1931,
-   "type": "year",
-   "unit": "year",
-   "fact": "Construction took just over a year."
-  },
   {
    "id": "q15xn4hi",
    "cat": "pop",
@@ -570,24 +516,6 @@
    "fact": "A flaw in its mirror was fixed by spacewalking astronauts in 1993."
   },
   {
-   "id": "q1m6ra7m",
-   "cat": "pop",
-   "q": "In what year did Taylor Swift release her first album?",
-   "a": 2006,
-   "type": "year",
-   "unit": "year",
-   "fact": "She was 16."
-  },
-  {
-   "id": "q1xa5cbi",
-   "cat": "geo",
-   "q": "How wide is the Grand Canyon at its widest, in miles?",
-   "a": 18,
-   "type": "number",
-   "unit": "miles",
-   "fact": "It runs about 277 river miles long."
-  },
-  {
    "id": "qtnkc8g",
    "cat": "sports",
    "q": "A 'condor' is a hole-in-one on a par 5. How many strokes under par is that?",
@@ -606,15 +534,6 @@
    "fact": "He showed it off at Menlo Park, New Jersey."
   },
   {
-   "id": "q1if2xp8",
-   "cat": "pop",
-   "q": "In what year did Super Mario Bros. come out on the NES?",
-   "a": 1985,
-   "type": "year",
-   "unit": "year",
-   "fact": "It launched in Japan in September 1985."
-  },
-  {
    "id": "q1bd4u0g",
    "cat": "geo",
    "q": "How many member countries does the United Nations have?",
@@ -631,24 +550,6 @@
    "type": "number",
    "unit": "titles",
    "fact": "No. 18 came in 2024."
-  },
-  {
-   "id": "qyn42en",
-   "cat": "history",
-   "q": "In what year did Alaska become a U.S. state?",
-   "a": 1959,
-   "type": "year",
-   "unit": "year",
-   "fact": "Hawaii joined later that same year."
-  },
-  {
-   "id": "q1h13vwp",
-   "cat": "pop",
-   "q": "In what year did the Beatles first play The Ed Sullivan Show?",
-   "a": 1964,
-   "type": "year",
-   "unit": "year",
-   "fact": "About 73 million Americans tuned in on February 9."
   },
   {
    "id": "qxvt5vu",
@@ -676,15 +577,6 @@
    "type": "year",
    "unit": "year",
    "fact": "William of Normandy's win made him King of England."
-  },
-  {
-   "id": "q1c92ngd",
-   "cat": "pop",
-   "q": "In what year did the first Harry Potter book come out in the UK?",
-   "a": 1997,
-   "type": "year",
-   "unit": "year",
-   "fact": "The first hardcover printing was just 500 copies."
   },
   {
    "id": "q1x09k3d",
@@ -750,15 +642,6 @@
    "fact": "Tied with Missouri for the most neighbors."
   },
   {
-   "id": "q1t6xzfm",
-   "cat": "history",
-   "q": "In what year was the Treaty of Paris signed, ending the Revolutionary War?",
-   "a": 1783,
-   "type": "year",
-   "unit": "year",
-   "fact": "It was signed on September 3, 1783."
-  },
-  {
    "id": "q15sg5tr",
    "cat": "geo",
    "q": "How many inhabited U.S. territories are there?",
@@ -784,15 +667,6 @@
    "type": "year",
    "unit": "year",
    "fact": "The 21st Amendment repealed it, the only amendment that undoes another."
-  },
-  {
-   "id": "q2kvc71",
-   "cat": "history",
-   "q": "In what year was the U.S. Constitution signed?",
-   "a": 1787,
-   "type": "year",
-   "unit": "year",
-   "fact": "39 delegates signed it in Philadelphia on September 17."
   },
   {
    "id": "qyrew1y",
@@ -1056,15 +930,6 @@
    "type": "number",
    "unit": "yards",
    "fact": "That's one chain, an old surveyor's unit."
-  },
-  {
-   "id": "qdm5w8m",
-   "cat": "pop",
-   "q": "How many No. 1 hits did the Beatles have on the Billboard Hot 100?",
-   "a": 20,
-   "type": "number",
-   "unit": "No. 1s",
-   "fact": "Still the most by any act."
   },
   {
    "id": "q1shkbyb",

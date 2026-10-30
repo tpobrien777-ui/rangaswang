@@ -3,134 +3,134 @@
  "news": [],
  "easy": [
   {
-   "id": "a0ucr30ww",
-   "cat": "history",
-   "q": "In what year did Barack Obama first take office as president?",
-   "a": 2009,
-   "type": "year",
-   "unit": "year",
-   "fact": "He was sworn in on Jan. 20, 2009."
-  },
-  {
-   "id": "ai433no2g",
-   "cat": "pop",
-   "q": "In what year did Pixar's Finding Nemo come out?",
-   "a": 2003,
-   "type": "year",
-   "unit": "year",
-   "fact": "It won the Oscar for Best Animated Feature."
-  },
-  {
-   "id": "arqz52fur",
+   "id": "am3jzsbt6",
    "cat": "geo",
-   "q": "How many U.S. states border Texas?",
+   "q": "Russia spreads across how many continents?",
+   "a": 2,
+   "type": "number",
+   "unit": "continents",
+   "fact": "Europe and Asia, split by the Ural Mountains."
+  },
+  {
+   "id": "asnwmv66v",
+   "cat": "pop",
+   "q": "How many seconds do players get to write their Final Jeopardy! answer?",
+   "a": 30,
+   "type": "number",
+   "unit": "seconds",
+   "fact": "The 'Think!' music that plays was written by Merv Griffin."
+  },
+  {
+   "id": "a95e2pbmc",
+   "cat": "pop",
+   "q": "How many players drop into a standard Fortnite Battle Royale match?",
+   "a": 100,
+   "type": "number",
+   "unit": "players",
+   "fact": "The last one standing earns a Victory Royale."
+  },
+  {
+   "id": "aeighq60i",
+   "cat": "history",
+   "q": "How many U.S. presidents have resigned from office?",
+   "a": 1,
+   "type": "number",
+   "unit": "presidents",
+   "fact": "Richard Nixon resigned in August 1974."
+  },
+  {
+   "id": "ar2nhz2j1",
+   "cat": "sports",
+   "q": "How many major championships does men's golf have each year?",
    "a": 4,
    "type": "number",
-   "unit": "states",
-   "fact": "New Mexico, Oklahoma, Arkansas and Louisiana."
-  },
-  {
-   "id": "a46de9509",
-   "cat": "sports",
-   "q": "How many points is a field goal worth in the NFL?",
-   "a": 3,
-   "type": "number",
-   "unit": "points",
-   "fact": "A safety is worth 2."
-  },
-  {
-   "id": "ai9l5rmfp",
-   "cat": "pop",
-   "q": "In what year did the first Spider-Man movie starring Tobey Maguire come out?",
-   "a": 2002,
-   "type": "year",
-   "unit": "year",
-   "fact": "It was the first movie to make $100 million in one weekend."
+   "unit": "majors",
+   "fact": "The Masters, PGA Championship, U.S. Open and The Open."
   }
  ],
  "medium": [
   {
-   "id": "alezree0g",
+   "id": "agnm5mtqs",
    "cat": "history",
-   "q": "In what year was gold found at Sutter's Mill, setting off the California Gold Rush?",
-   "a": 1848,
+   "q": "In what year was the first email sent?",
+   "a": 1971,
    "type": "year",
    "unit": "year",
-   "fact": "The prospectors who rushed in the next year were called forty-niners."
+   "fact": "Ray Tomlinson picked the @ sign to split the user from the computer."
   },
   {
-   "id": "aygmiult2",
-   "cat": "pop",
-   "q": "How many seasons did The Big Bang Theory run?",
-   "a": 12,
-   "type": "number",
-   "unit": "seasons",
-   "fact": "It ended in 2019 after 279 episodes."
-  },
-  {
-   "id": "akb2pv4yz",
-   "cat": "geo",
-   "q": "How many U.S. states border Missouri?",
-   "a": 8,
-   "type": "number",
-   "unit": "states",
-   "fact": "It's tied with Tennessee for the most neighbors."
-  },
-  {
-   "id": "a7ot5sidb",
+   "id": "a6k938v2p",
    "cat": "sports",
-   "q": "How many feet from the backboard is an NBA free-throw line?",
+   "q": "How many players does each side have on the field in rugby union?",
    "a": 15,
    "type": "number",
-   "unit": "feet",
-   "fact": "That's where the 'charity stripe' sits."
+   "unit": "players",
+   "fact": "Rugby league uses 13."
   },
   {
-   "id": "ab2kgjyo4",
+   "id": "ab5pjyf3s",
    "cat": "pop",
-   "q": "In what year did Grand Theft Auto V come out?",
-   "a": 2013,
-   "type": "year",
-   "unit": "year",
-   "fact": "It made $1 billion in its first three days."
+   "q": "In Back to the Future, how many miles per hour does the DeLorean need to hit to time travel?",
+   "a": 88,
+   "type": "number",
+   "unit": "mph",
+   "fact": "It also needs 1.21 gigawatts."
+  },
+  {
+   "id": "a04b9nb1z",
+   "cat": "pop",
+   "q": "How old was Justin Bieber when Baby came out?",
+   "a": 15,
+   "type": "number",
+   "unit": "years old",
+   "fact": "Ludacris raps the song's bridge."
+  },
+  {
+   "id": "adrh3yhel",
+   "cat": "geo",
+   "q": "How many U.S. states border exactly one other state?",
+   "a": 1,
+   "type": "number",
+   "unit": "states",
+   "fact": "Maine. It touches only New Hampshire."
   }
  ],
  "hard": [
   {
-   "id": "ady94o2c5",
-   "cat": "history",
-   "q": "In what year was the Smithsonian Institution founded?",
-   "a": 1846,
-   "type": "year",
-   "unit": "year",
-   "fact": "It was funded by a British scientist, James Smithson, who never visited the U.S."
-  },
-  {
-   "id": "alav8ibo0",
-   "cat": "pop",
-   "q": "In what year did World of Warcraft launch?",
-   "a": 2004,
-   "type": "year",
-   "unit": "year",
-   "fact": "It came out in North America on Nov. 23, 2004."
-  },
-  {
-   "id": "a4293y44a",
+   "id": "a6650zz31",
    "cat": "geo",
-   "q": "How tall is the Empire State Building to the tip of its antenna, in feet?",
-   "a": 1454,
+   "q": "How tall is the Christ the Redeemer statue in Rio, in feet, not counting its base?",
+   "a": 98,
    "type": "number",
    "unit": "feet",
-   "fact": "Its roof is at 1,250 feet."
+   "fact": "Its arms stretch about 92 feet."
   },
   {
-   "id": "apjp3t6bb",
-   "cat": "sports",
-   "q": "In 1945, Byron Nelson won a record how many PGA Tour events in a row?",
-   "a": 11,
+   "id": "aszuj943k",
+   "cat": "history",
+   "q": "How many miles long was Hadrian's Wall, to the nearest mile?",
+   "a": 73,
    "type": "number",
-   "unit": "wins",
-   "fact": "He won 18 tour events that year in all."
+   "unit": "miles",
+   "fact": "The Romans built it across northern England starting in AD 122."
+  },
+  {
+   "id": "a9dacstoy",
+   "cat": "sports",
+   "q": "How many career strikeouts did Nolan Ryan have, the MLB record?",
+   "a": 5714,
+   "type": "number",
+   "unit": "strikeouts",
+   "fact": "He also threw a record seven no-hitters."
+  },
+  {
+   "id": "a7c14xnqx",
+   "cat": "pop",
+   "q": "How many symphonies did Beethoven finish?",
+   "a": 9,
+   "type": "number",
+   "unit": "symphonies",
+   "fact": "He was almost completely deaf when he wrote the Ninth."
   }
  ]
 }

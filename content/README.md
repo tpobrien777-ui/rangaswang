@@ -70,7 +70,9 @@ Each QUESTION:
 - **News** questions come from the last few days' real headlines, with a source in `src`. Keep them neutral. Skip deaths, tragedies and partisan framing.
 - **Mix the categories** within each list: history, pop culture, geography and sports.
 - **Hook younger players.** Aim for at least one question per list per day that a 20-to-35-year-old would light up at: 2000s–2020s movies, TV, music, video games, apps and today's sports stars ("In what year did Entourage premiere?", "How many Oscars has Leonardo DiCaprio won?", "In what year was LeBron James drafted?"). Mix them in with the classics, don't replace them all.
-- **No repeats.** Search the whole `content/` folder for the key name or number before adding a question.
+- **No repeats.** Search the whole `content/` folder for the key name or number before adding a question. That covers topics as well as exact questions: don't reuse a person, team, show, franchise or landmark that's already in `content/`, even with a different number.
+- **Fresh news every day.** Never cover the same story or event two days running. One question on a big event (like the World Series) is plenty; no Game 3, then Game 4, then Game 5. The two news questions each day come from different areas, and at most one of them is about sports.
+- **Vary the question shape.** At most one "In what year…" question per list per day, and don't lean on "How many states border…" or "How many members are in…". Fun numbers to estimate (a record, a height, a price, a length) make better shots.
 
 ## Checking your work
 

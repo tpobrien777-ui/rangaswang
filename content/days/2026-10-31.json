@@ -24,134 +24,134 @@
  ],
  "easy": [
   {
-   "id": "qqyyr7h",
+   "id": "abmzxkcz3",
    "cat": "pop",
-   "q": "In what year did Back to the Future come out?",
-   "a": 1985,
-   "type": "year",
-   "unit": "year",
-   "fact": "The DeLorean had to hit 88 miles per hour to time travel."
-  },
-  {
-   "id": "q1pvkj47",
-   "cat": "geo",
-   "q": "How many main islands make up the state of Hawaii?",
-   "a": 8,
-   "type": "number",
-   "unit": "islands",
-   "fact": "The Big Island is larger than all the others combined."
-  },
-  {
-   "id": "azlg9y9rm",
-   "cat": "sports",
-   "q": "How many Super Bowls has Patrick Mahomes won?",
+   "q": "How many Sanderson sisters are in Hocus Pocus?",
    "a": 3,
    "type": "number",
-   "unit": "Super Bowls",
-   "fact": "He won Super Bowls LIV, LVII and LVIII."
+   "unit": "sisters",
+   "fact": "Winifred, Mary and Sarah, played by Bette Midler, Kathy Najimy and Sarah Jessica Parker."
   },
   {
-   "id": "qpj5avw",
-   "cat": "history",
-   "q": "In what year did Neil Armstrong walk on the Moon?",
-   "a": 1969,
-   "type": "year",
-   "unit": "year",
-   "fact": "He and Buzz Aldrin spent about two and a half hours outside."
-  },
-  {
-   "id": "qht9zij",
-   "cat": "pop",
-   "q": "How many dwarfs are in Disney's Snow White?",
-   "a": 7,
+   "id": "a041jotbp",
+   "cat": "sports",
+   "q": "What's par on most 18-hole championship golf courses?",
+   "a": 72,
    "type": "number",
-   "unit": "dwarfs",
-   "fact": "Disney's version came out in 1937."
+   "unit": "strokes",
+   "fact": "That's usually four par 3s, ten par 4s and four par 5s."
+  },
+  {
+   "id": "a3pvwdwqy",
+   "cat": "geo",
+   "q": "How many U.S. states are bigger than Texas?",
+   "a": 1,
+   "type": "number",
+   "unit": "states",
+   "fact": "Alaska is more than twice the size of Texas."
+  },
+  {
+   "id": "a93p14tis",
+   "cat": "history",
+   "q": "How many times did Henry VIII get married?",
+   "a": 6,
+   "type": "number",
+   "unit": "marriages",
+   "fact": "Kids remember the wives' fates with a rhyme: divorced, beheaded, died, divorced, beheaded, survived."
+  },
+  {
+   "id": "ajt5rafn0",
+   "cat": "pop",
+   "q": "How many heroes team up in the first Avengers movie (2012)?",
+   "a": 6,
+   "type": "number",
+   "unit": "Avengers",
+   "fact": "Iron Man, Captain America, Thor, Hulk, Black Widow and Hawkeye."
   }
  ],
  "medium": [
   {
-   "id": "qu035ro",
-   "cat": "pop",
-   "q": "How many colored stickers are on a standard Rubik's Cube?",
-   "a": 54,
-   "type": "number",
-   "unit": "stickers",
-   "fact": "Nine on each of six faces. Ernő Rubik invented it in 1974."
-  },
-  {
-   "id": "q1wdoda1",
-   "cat": "geo",
-   "q": "How many time zones does Russia span?",
-   "a": 11,
-   "type": "number",
-   "unit": "time zones",
-   "fact": "From Kaliningrad on the Baltic to Kamchatka on the Pacific."
-  },
-  {
-   "id": "q1t8tkif",
+   "id": "abkvesu1y",
    "cat": "sports",
-   "q": "How many points did Kobe Bryant score against Toronto in January 2006?",
-   "a": 81,
+   "q": "How many Ballon d'Or awards has Lionel Messi won?",
+   "a": 8,
    "type": "number",
-   "unit": "points",
-   "fact": "Second only to Wilt Chamberlain's 100."
+   "unit": "awards",
+   "fact": "That's a record; his last came in 2023."
   },
   {
-   "id": "qmivsl4",
-   "cat": "history",
-   "q": "In what year did the Great Fire of London start?",
-   "a": 1666,
-   "type": "year",
-   "unit": "year",
-   "fact": "It began in a bakery on Pudding Lane in early September."
+   "id": "a6cgpz5a2",
+   "cat": "geo",
+   "q": "How many floors does the Empire State Building have?",
+   "a": 102,
+   "type": "number",
+   "unit": "floors",
+   "fact": "It was the world's tallest building for nearly 40 years."
   },
   {
-   "id": "an1l0oxls",
+   "id": "anvuzjjse",
    "cat": "pop",
-   "q": "In what year did Snapchat launch?",
-   "a": 2011,
-   "type": "year",
-   "unit": "year",
-   "fact": "It was first called Picaboo."
+   "q": "How many Rocky movies did Sylvester Stallone make, not counting the Creed films?",
+   "a": 6,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The first Rocky won Best Picture."
+  },
+  {
+   "id": "a8gefeiz3",
+   "cat": "history",
+   "q": "How old was John F. Kennedy when he was elected president?",
+   "a": 43,
+   "type": "number",
+   "unit": "years old",
+   "fact": "He was the youngest person ever elected president."
+  },
+  {
+   "id": "aa68v0ckw",
+   "cat": "pop",
+   "q": "How many times has Taylor Swift won the Grammy for Album of the Year?",
+   "a": 4,
+   "type": "number",
+   "unit": "times",
+   "fact": "No artist has won it more."
   }
  ],
  "hard": [
   {
-   "id": "q5njfkh",
+   "id": "armpgy1ts",
    "cat": "history",
-   "q": "In what year did the Panama Canal open?",
-   "a": 1914,
-   "type": "year",
-   "unit": "year",
-   "fact": "It opened on August 15, 1914, less than three weeks after World War I began."
-  },
-  {
-   "id": "q1f1mowf",
-   "cat": "pop",
-   "q": "In what year was Nintendo founded?",
-   "a": 1889,
-   "type": "year",
-   "unit": "year",
-   "fact": "It started in Kyoto making hanafuda playing cards."
-  },
-  {
-   "id": "q1dfu38k",
-   "cat": "geo",
-   "q": "How many countries border China?",
-   "a": 14,
+   "q": "How many years did Louis XIV reign over France?",
+   "a": 72,
    "type": "number",
-   "unit": "countries",
-   "fact": "Tied with Russia for the most land neighbors."
+   "unit": "years",
+   "fact": "That's the longest reign of any monarch in European history."
   },
   {
-   "id": "anvndo0ry",
+   "id": "a9d2ux6kd",
+   "cat": "pop",
+   "q": "How many Oscars did The Lord of the Rings: The Return of the King win?",
+   "a": 11,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "It won every category it was nominated in."
+  },
+  {
+   "id": "abd88kuca",
+   "cat": "geo",
+   "q": "How long is the Channel Tunnel between England and France, to the nearest mile?",
+   "a": 31,
+   "type": "number",
+   "unit": "miles",
+   "fact": "About 23 miles of it run under the sea."
+  },
+  {
+   "id": "aq1sbd7xr",
    "cat": "sports",
-   "q": "How many points did Klay Thompson score in one quarter against Sacramento in 2015?",
-   "a": 37,
+   "q": "How many points did Caitlin Clark score in college, the NCAA Division I record?",
+   "a": 3951,
    "type": "number",
    "unit": "points",
-   "fact": "He made all 13 of his shots in that quarter."
+   "fact": "She played four seasons at Iowa."
   }
  ]
 }

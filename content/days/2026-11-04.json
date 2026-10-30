@@ -1,146 +1,136 @@
 {
  "date": "2026-11-04",
- "news": [
-  {
-   "id": "q6im30q",
-   "cat": "news",
-   "q": "Scientists turned blood cells from a donor of what age into neural stem cells with a molecular age under 20?",
-   "a": 80,
-   "type": "number",
-   "unit": "years old",
-   "fact": "That reverses more than 60 years of cellular aging, in the lab."
-  }
- ],
+ "news": [],
  "easy": [
   {
-   "id": "qz5bagc",
-   "cat": "pop",
-   "q": "How many Teenage Mutant Ninja Turtles are there?",
-   "a": 4,
-   "type": "number",
-   "unit": "turtles",
-   "fact": "All named after Renaissance artists."
-  },
-  {
-   "id": "q1n5ii22",
-   "cat": "geo",
-   "q": "How many time zones does the Lower 48 have?",
-   "a": 4,
-   "type": "number",
-   "unit": "time zones",
-   "fact": "Eastern, Central, Mountain and Pacific."
-  },
-  {
-   "id": "a8yy5agro",
-   "cat": "sports",
-   "q": "In what year was LeBron James drafted into the NBA?",
-   "a": 2003,
-   "type": "year",
-   "unit": "year",
-   "fact": "Cleveland took him No. 1 overall, straight out of high school in Akron."
-  },
-  {
-   "id": "q1rpz67j",
+   "id": "akfbcqwcg",
    "cat": "history",
-   "q": "In what year did the Pilgrims land at Plymouth?",
-   "a": 1620,
-   "type": "year",
-   "unit": "year",
-   "fact": "The Mayflower carried 102 passengers."
+   "q": "Barack Obama was the United States' what-number president?",
+   "a": 44,
+   "type": "number",
+   "unit": "th president",
+   "fact": "Grover Cleveland is counted twice, as the 22nd and 24th."
   },
   {
-   "id": "qinesuj",
+   "id": "aedbp3hz1",
    "cat": "pop",
-   "q": "How many seasons did The Office (U.S.) run?",
-   "a": 9,
+   "q": "How many Teletubbies are there?",
+   "a": 4,
    "type": "number",
-   "unit": "seasons",
-   "fact": "It ran on NBC from 2005 to 2013."
+   "unit": "Teletubbies",
+   "fact": "Tinky Winky, Dipsy, Laa-Laa and Po."
+  },
+  {
+   "id": "a2suvybcq",
+   "cat": "sports",
+   "q": "How many players per side are on a volleyball court?",
+   "a": 6,
+   "type": "number",
+   "unit": "players",
+   "fact": "Beach volleyball uses two."
+  },
+  {
+   "id": "ap87yugfo",
+   "cat": "pop",
+   "q": "How many members did One Direction start with?",
+   "a": 5,
+   "type": "number",
+   "unit": "members",
+   "fact": "The band was put together on The X Factor in 2010."
+  },
+  {
+   "id": "ainkaagft",
+   "cat": "geo",
+   "q": "How many countries share the island of Hispaniola?",
+   "a": 2,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Haiti and the Dominican Republic."
   }
  ],
  "medium": [
   {
-   "id": "q1by6l2r",
-   "cat": "pop",
-   "q": "In what year did Mickey Mouse star in Steamboat Willie?",
-   "a": 1928,
-   "type": "year",
-   "unit": "year",
-   "fact": "That version of Mickey entered the U.S. public domain in 2024."
+   "id": "azqzksxgf",
+   "cat": "geo",
+   "q": "How many stars are on China's flag?",
+   "a": 5,
+   "type": "number",
+   "unit": "stars",
+   "fact": "One big star and four small ones."
   },
   {
-   "id": "atjssz82c",
-   "cat": "geo",
-   "q": "How long is the Las Vegas Strip, to the nearest mile?",
+   "id": "azgu2j991",
+   "cat": "history",
+   "q": "How many U.S. presidents have been named John?",
    "a": 4,
    "type": "number",
-   "unit": "miles",
-   "fact": "Most of it actually sits in Paradise, Nevada, not the city of Las Vegas."
+   "unit": "presidents",
+   "fact": "Adams, John Quincy Adams, Tyler and Kennedy."
   },
   {
-   "id": "q118lmco",
-   "cat": "sports",
-   "q": "How many teams played in the 2026 FIFA World Cup?",
-   "a": 48,
+   "id": "abhriqpr1",
+   "cat": "geo",
+   "q": "How many points does the maple leaf on Canada's flag have?",
+   "a": 11,
    "type": "number",
-   "unit": "teams",
-   "fact": "Up from 32, spread across the U.S., Canada and Mexico."
+   "unit": "points",
+   "fact": "The flag was adopted in 1965."
   },
   {
-   "id": "qgy7qxl",
-   "cat": "history",
-   "q": "In what year did the Chernobyl reactor explode?",
-   "a": 1986,
-   "type": "year",
-   "unit": "year",
-   "fact": "Reactor No. 4 blew up on April 26 during a safety test."
+   "id": "a7ws683ac",
+   "cat": "sports",
+   "q": "How many inches across is a regulation basketball hoop?",
+   "a": 18,
+   "type": "number",
+   "unit": "inches",
+   "fact": "A basketball is about 9.5 inches wide, so two could almost fit side by side."
   },
   {
-   "id": "as7iz0t1n",
+   "id": "ae7ahs40e",
    "cat": "pop",
-   "q": "In what year did Jersey Shore premiere on MTV?",
-   "a": 2009,
+   "q": "In what year did Coca-Cola first go on sale?",
+   "a": 1886,
    "type": "year",
    "unit": "year",
-   "fact": "It was filmed in Seaside Heights, New Jersey."
+   "fact": "A pharmacist in Atlanta sold it for 5 cents a glass."
   }
  ],
  "hard": [
   {
-   "id": "qz8plcn",
-   "cat": "history",
-   "q": "In what year did the Spanish Armada sail against England?",
-   "a": 1588,
-   "type": "year",
-   "unit": "year",
-   "fact": "Storms wrecked many of its ships on the way home around Scotland and Ireland."
-  },
-  {
-   "id": "q1tizlot",
-   "cat": "geo",
-   "q": "How many U.S. state capitals are named after presidents?",
-   "a": 4,
-   "type": "number",
-   "unit": "capitals",
-   "fact": "Jackson, Jefferson City, Lincoln and Madison."
-  },
-  {
-   "id": "qreiz2e",
-   "cat": "sports",
-   "q": "How many consecutive games did Cal Ripken Jr. play?",
-   "a": 2632,
-   "type": "number",
-   "unit": "games",
-   "fact": "The streak ran from 1982 to 1998."
-  },
-  {
-   "id": "af7tjw8ri",
+   "id": "ad0myhona",
    "cat": "pop",
-   "q": "In what year did The Walking Dead premiere on AMC?",
-   "a": 2010,
-   "type": "year",
-   "unit": "year",
-   "fact": "It ran for 11 seasons."
+   "q": "How many Tony Awards did Hamilton win?",
+   "a": 11,
+   "type": "number",
+   "unit": "Tonys",
+   "fact": "It was nominated for a record 16."
+  },
+  {
+   "id": "a5vd41w2a",
+   "cat": "geo",
+   "q": "How many miles long is Manhattan, to the nearest mile?",
+   "a": 13,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It's only about 2.3 miles across at its widest."
+  },
+  {
+   "id": "aqs6rswk0",
+   "cat": "history",
+   "q": "How many days did the Cuban Missile Crisis last?",
+   "a": 13,
+   "type": "number",
+   "unit": "days",
+   "fact": "The standoff ran from Oct. 16 to Oct. 28, 1962."
+  },
+  {
+   "id": "accql0rrn",
+   "cat": "sports",
+   "q": "How many PGA Tour events did Sam Snead win, still tied for the record?",
+   "a": 82,
+   "type": "number",
+   "unit": "wins",
+   "fact": "Tiger Woods matched him in 2019."
   }
  ]
 }

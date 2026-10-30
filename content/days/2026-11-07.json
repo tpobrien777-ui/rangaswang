@@ -3,134 +3,134 @@
  "news": [],
  "easy": [
   {
-   "id": "aymm3z2fl",
-   "cat": "history",
-   "q": "In what year did the U.S. celebrate its bicentennial?",
-   "a": 1976,
-   "type": "year",
-   "unit": "year",
-   "fact": "Tall ships from around the world sailed into New York Harbor that July 4."
+   "id": "apyo6cpjy",
+   "cat": "pop",
+   "q": "How many Harry Potter books are in the main series?",
+   "a": 7,
+   "type": "number",
+   "unit": "books",
+   "fact": "The first came out in 1997, the last in 2007."
   },
   {
-   "id": "ap5mzdrt9",
+   "id": "a5s7wockj",
    "cat": "pop",
-   "q": "How many Ghostbusters suit up in the original 1984 movie?",
+   "q": "How many racers are in a standard race in Mario Kart 8?",
+   "a": 12,
+   "type": "number",
+   "unit": "racers",
+   "fact": "Mario Kart World on Switch 2 doubled it to 24."
+  },
+  {
+   "id": "a26qzg7ue",
+   "cat": "sports",
+   "q": "How many inches wide is a golf hole, to the nearest inch?",
    "a": 4,
    "type": "number",
-   "unit": "Ghostbusters",
-   "fact": "Venkman, Stantz, Spengler and Zeddemore."
+   "unit": "inches",
+   "fact": "It's exactly 4.25 inches across."
   },
   {
-   "id": "arfgo7387",
+   "id": "avlcgeopu",
+   "cat": "history",
+   "q": "How many stars did the U.S. flag have before Alaska and Hawaii joined?",
+   "a": 48,
+   "type": "number",
+   "unit": "stars",
+   "fact": "The 50-star flag began as a high school student's class project."
+  },
+  {
+   "id": "am3df41lx",
    "cat": "geo",
-   "q": "When it's noon in New York, how many hours earlier is it in Los Angeles?",
-   "a": 3,
+   "q": "How many official languages does Canada have?",
+   "a": 2,
    "type": "number",
-   "unit": "hours",
-   "fact": "New York runs on Eastern time and Los Angeles on Pacific time."
-  },
-  {
-   "id": "ax0iek822",
-   "cat": "sports",
-   "q": "Shohei Ohtani's 2023 deal with the Dodgers was worth how many million dollars?",
-   "a": 700,
-   "type": "number",
-   "unit": "million $",
-   "fact": "Nearly all of it, $680 million, is deferred."
-  },
-  {
-   "id": "a0g6do5bw",
-   "cat": "pop",
-   "q": "How many Chipmunks are in Alvin and the Chipmunks?",
-   "a": 3,
-   "type": "number",
-   "unit": "Chipmunks",
-   "fact": "Alvin, Simon and Theodore."
+   "unit": "languages",
+   "fact": "English and French."
   }
  ],
  "medium": [
   {
-   "id": "awm0w96js",
+   "id": "amavhghl1",
    "cat": "history",
-   "q": "In what year was the wreck of the Titanic found?",
-   "a": 1985,
-   "type": "year",
-   "unit": "year",
-   "fact": "Robert Ballard's team found it about 12,500 feet down."
-  },
-  {
-   "id": "alz6dhwge",
-   "cat": "pop",
-   "q": "In what year did Beyoncé release Lemonade?",
-   "a": 2016,
-   "type": "year",
-   "unit": "year",
-   "fact": "It came with an hour-long film that debuted on HBO."
-  },
-  {
-   "id": "av2aqz7p6",
-   "cat": "geo",
-   "q": "How many U.S. states have 'North' or 'South' in their names?",
-   "a": 4,
+   "q": "How many electoral votes does a candidate need to win the presidency?",
+   "a": 270,
    "type": "number",
-   "unit": "states",
-   "fact": "The Carolinas and the Dakotas."
+   "unit": "votes",
+   "fact": "There are 538 in all."
   },
   {
-   "id": "aiouddcbd",
+   "id": "a2u03uyg5",
    "cat": "sports",
-   "q": "How many Super Bowls have the Pittsburgh Steelers won?",
-   "a": 6,
+   "q": "How many teams make the NFL playoffs each season?",
+   "a": 14,
    "type": "number",
-   "unit": "Super Bowls",
-   "fact": "Four of them came in a six-season stretch in the 1970s."
+   "unit": "teams",
+   "fact": "Only the top seed in each conference gets a bye."
   },
   {
-   "id": "a9wyyt3sq",
+   "id": "a9siqbf5v",
+   "cat": "geo",
+   "q": "How many miles wide is the English Channel at its narrowest point, to the nearest mile?",
+   "a": 21,
+   "type": "number",
+   "unit": "miles",
+   "fact": "On a clear day you can see France from the cliffs of Dover."
+  },
+  {
+   "id": "ai5981stm",
+   "cat": "pop",
+   "q": "In The Hitchhiker's Guide to the Galaxy, what's the answer to life, the universe and everything?",
+   "a": 42,
+   "type": "number",
+   "unit": "answer",
+   "fact": "A supercomputer took 7.5 million years to work it out."
+  },
+  {
+   "id": "aq0dja6l2",
    "cat": "history",
-   "q": "In what year did Yellowstone become the first U.S. national park?",
-   "a": 1872,
-   "type": "year",
-   "unit": "year",
-   "fact": "President Ulysses S. Grant signed it into law."
+   "q": "How many voting members sit in the U.S. House of Representatives?",
+   "a": 435,
+   "type": "number",
+   "unit": "members",
+   "fact": "The number has been fixed since 1913, apart from a short bump when Alaska and Hawaii joined."
   }
  ],
  "hard": [
   {
-   "id": "a5g5n0skm",
+   "id": "a73sx157c",
+   "cat": "sports",
+   "q": "What's the highest possible break in snooker, without fouls?",
+   "a": 147,
+   "type": "number",
+   "unit": "points",
+   "fact": "It takes 15 reds, 15 blacks and all six colors."
+  },
+  {
+   "id": "act122ro2",
+   "cat": "geo",
+   "q": "How tall is Venezuela's Angel Falls, the world's tallest waterfall, in feet?",
+   "a": 3212,
+   "type": "number",
+   "unit": "feet",
+   "fact": "That's about 19 times the height of Niagara Falls."
+  },
+  {
+   "id": "aqptokutt",
    "cat": "history",
-   "q": "In what year was the first U.S. Census taken?",
-   "a": 1790,
+   "q": "In what year was the first Thanksgiving at Plymouth?",
+   "a": 1621,
    "type": "year",
    "unit": "year",
-   "fact": "It counted about 3.9 million people."
+   "fact": "It lasted three days."
   },
   {
-   "id": "a5lml84rp",
-   "cat": "sports",
-   "q": "How many regular-season games did the 2015-16 Golden State Warriors win?",
-   "a": 73,
+   "id": "addxpvupx",
+   "cat": "pop",
+   "q": "How many cents did Action Comics No. 1, Superman's debut, cost in 1938?",
+   "a": 10,
    "type": "number",
-   "unit": "wins",
-   "fact": "That broke the 72-win record of the 1995-96 Bulls."
-  },
-  {
-   "id": "admqzpg4y",
-   "cat": "geo",
-   "q": "How many states does Interstate 95 pass through, not counting D.C.?",
-   "a": 15,
-   "type": "number",
-   "unit": "states",
-   "fact": "It runs from Miami to the Canadian border in Maine."
-  },
-  {
-   "id": "ab7mjjhlp",
-   "cat": "sports",
-   "q": "In 1970, Tom Dempsey kicked a record field goal for the Saints. How many yards long was it?",
-   "a": 63,
-   "type": "number",
-   "unit": "yards",
-   "fact": "He was born without toes on his kicking foot."
+   "unit": "cents",
+   "fact": "A copy sold for $6 million in 2024."
   }
  ]
 }

@@ -2,14 +2,14 @@
  "date": "2026-10-30",
  "news": [
   {
-   "id": "ayn9dkk5l",
+   "id": "a2s08ca6o",
    "cat": "news",
-   "q": "The Brewers won their first World Series on Oct. 28, beating the Rays in five games. How many regular-season games did Milwaukee win in 2026?",
-   "a": 103,
+   "q": "What percent of Americans plan to celebrate Halloween this year, according to the National Retail Federation?",
+   "a": 74,
    "type": "number",
-   "unit": "wins",
-   "fact": "They went 103-59, then beat Tampa Bay 4-1 in Game 5 to clinch.",
-   "src": "https://www.espn.com/mlb/recap/_/gameId/401908046"
+   "unit": "percent",
+   "fact": "They're expected to spend $13.5 billion in all, including $4.1 billion on candy.",
+   "src": "https://nrf.com/media-center/press-releases/nrf-halloween-survey-shows-consumer-spending-expected-to-reach-13-5-billion"
   },
   {
    "id": "a4ovn6w5r",
@@ -24,134 +24,134 @@
  ],
  "easy": [
   {
-   "id": "q14utxoj",
-   "cat": "history",
-   "q": "How many original American colonies were there?",
-   "a": 13,
-   "type": "number",
-   "unit": "colonies",
-   "fact": "That's why the flag has 13 stripes."
-  },
-  {
-   "id": "av0fsragw",
+   "id": "alw0atnal",
    "cat": "pop",
-   "q": "In what year did The Dark Knight come out?",
-   "a": 2008,
-   "type": "year",
-   "unit": "year",
-   "fact": "It was the first Batman movie to pass $1 billion worldwide."
+   "q": "How many members are in BTS?",
+   "a": 7,
+   "type": "number",
+   "unit": "members",
+   "fact": "The K-pop group's fans call themselves ARMY."
   },
   {
-   "id": "q17i650i",
+   "id": "afv9t3hjh",
+   "cat": "pop",
+   "q": "How many Kardashian–Jenner sisters are there?",
+   "a": 5,
+   "type": "number",
+   "unit": "sisters",
+   "fact": "Kourtney, Kim, Khloé, Kendall and Kylie."
+  },
+  {
+   "id": "ac3rvd9ej",
    "cat": "geo",
-   "q": "How many U.S. states border Mexico?",
-   "a": 4,
+   "q": "How many U.S. states are named after a U.S. president?",
+   "a": 1,
    "type": "number",
    "unit": "states",
-   "fact": "California, Arizona, New Mexico and Texas."
+   "fact": "Washington, for George Washington."
   },
   {
-   "id": "q1bndnfg",
+   "id": "afse889vi",
    "cat": "sports",
-   "q": "How many innings are in a regulation MLB game?",
+   "q": "How many feet high is an NBA rim?",
+   "a": 10,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's been 10 feet since James Naismith nailed a peach basket to a balcony."
+  },
+  {
+   "id": "a23hwvdkn",
+   "cat": "history",
+   "q": "How many justices sit on the U.S. Supreme Court?",
    "a": 9,
    "type": "number",
-   "unit": "innings",
-   "fact": "Extra innings now start with a runner on second."
-  },
-  {
-   "id": "qp5q6xl",
-   "cat": "history",
-   "q": "How many years did Queen Elizabeth II reign?",
-   "a": 70,
-   "type": "number",
-   "unit": "years",
-   "fact": "From February 1952 to September 2022, the longest reign in British history."
+   "unit": "justices",
+   "fact": "It has had nine seats since 1869."
   }
  ],
  "medium": [
   {
-   "id": "qk0ycsn",
+   "id": "a2walf9m0",
    "cat": "history",
-   "q": "How many days did Apollo 11 last, from launch to splashdown?",
-   "a": 8,
+   "q": "How many people have walked on the Moon?",
+   "a": 12,
    "type": "number",
-   "unit": "days",
-   "fact": "It launched July 16, 1969, and splashed down in the Pacific on July 24."
+   "unit": "people",
+   "fact": "All of them walked there between 1969 and 1972."
   },
   {
-   "id": "a428u2xhj",
+   "id": "at3osopl4",
    "cat": "pop",
-   "q": "In what year did Superbad come out?",
-   "a": 2007,
-   "type": "year",
-   "unit": "year",
-   "fact": "Seth Rogen and Evan Goldberg started writing it as teenagers."
-  },
-  {
-   "id": "q1ohjxn8",
-   "cat": "geo",
-   "q": "How many countries border Germany?",
-   "a": 9,
+   "q": "What number is Pikachu in the Pokédex?",
+   "a": 25,
    "type": "number",
-   "unit": "countries",
-   "fact": "Denmark, Poland, Czechia, Austria, Switzerland, France, Luxembourg, Belgium and the Netherlands."
+   "unit": "number",
+   "fact": "Bulbasaur is No. 1."
   },
   {
-   "id": "q1tzpnzq",
+   "id": "a8w5i5vux",
+   "cat": "geo",
+   "q": "How many national parks does the U.S. have?",
+   "a": 63,
+   "type": "number",
+   "unit": "parks",
+   "fact": "The newest is New River Gorge in West Virginia, added in 2020."
+  },
+  {
+   "id": "aoe119ene",
    "cat": "sports",
-   "q": "In what year was the first Super Bowl played?",
-   "a": 1967,
-   "type": "year",
-   "unit": "year",
-   "fact": "Green Bay beat Kansas City 35–10 in Los Angeles."
+   "q": "In 2021, Joey Chestnut set the Nathan's Hot Dog Eating Contest record with how many hot dogs in 10 minutes?",
+   "a": 76,
+   "type": "number",
+   "unit": "hot dogs",
+   "fact": "He has won the Mustard Belt more than 15 times."
   },
   {
-   "id": "q1ksapjv",
-   "cat": "history",
-   "q": "In what year did the Alamo fall?",
-   "a": 1836,
-   "type": "year",
-   "unit": "year",
-   "fact": "The siege lasted 13 days before the final assault on March 6."
+   "id": "ajhi9txf6",
+   "cat": "pop",
+   "q": "How many players start the first game in Netflix's Squid Game?",
+   "a": 456,
+   "type": "number",
+   "unit": "players",
+   "fact": "The prize pot was 45.6 billion won."
   }
  ],
  "hard": [
   {
-   "id": "qkoyvdt",
-   "cat": "history",
-   "q": "In what year did the Brooklyn Bridge open?",
-   "a": 1883,
-   "type": "year",
-   "unit": "year",
-   "fact": "It was the longest suspension bridge in the world when it opened."
-  },
-  {
-   "id": "a3ofdvz2x",
-   "cat": "pop",
-   "q": "How many seasons did The O.C. run?",
-   "a": 4,
-   "type": "number",
-   "unit": "seasons",
-   "fact": "It aired on Fox from 2003 to 2007."
-  },
-  {
-   "id": "q1wq52eg",
+   "id": "air0azsrz",
    "cat": "geo",
-   "q": "How many countries does the equator pass through?",
-   "a": 13,
+   "q": "How deep is the ocean's deepest point, Challenger Deep, to the nearest thousand feet?",
+   "a": 36000,
    "type": "number",
-   "unit": "countries",
-   "fact": "From Ecuador, named for it, to Kiribati in the Pacific."
+   "unit": "feet",
+   "fact": "Mount Everest would fit inside with more than a mile to spare."
   },
   {
-   "id": "qquvxmw",
+   "id": "aw09vr6lu",
    "cat": "sports",
-   "q": "How many Gold Gloves did third baseman Brooks Robinson win?",
-   "a": 16,
+   "q": "How many 3-pointers did Stephen Curry make in the 2015-16 season, the NBA record?",
+   "a": 402,
    "type": "number",
-   "unit": "Gold Gloves",
-   "fact": "One every year from 1960 to 1975."
+   "unit": "3-pointers",
+   "fact": "He was the NBA's first unanimous MVP that season."
+  },
+  {
+   "id": "akc9ggx71",
+   "cat": "pop",
+   "q": "How many minutes long is Avengers: Endgame?",
+   "a": 181,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "It became the top-grossing movie ever until Avatar retook the title in 2021."
+  },
+  {
+   "id": "awdrpoc2f",
+   "cat": "history",
+   "q": "How many days was William Henry Harrison president?",
+   "a": 31,
+   "type": "number",
+   "unit": "days",
+   "fact": "He gave a nearly two-hour inaugural speech in the cold, and fell ill soon after."
   }
  ]
 }

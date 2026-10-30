@@ -1,155 +1,136 @@
 {
  "date": "2026-11-01",
- "news": [
-  {
-   "id": "q125dr40",
-   "cat": "news",
-   "q": "The 2026 AL champion Rays had a payroll that ranked where among MLB's 30 teams?",
-   "a": 25,
-   "type": "number",
-   "unit": "rank",
-   "fact": "About $98.3 million. They still won the pennant."
-  },
-  {
-   "id": "q10ie3ct",
-   "cat": "news",
-   "q": "McDonald's brought Boo Buckets back on Oct. 20, 2026, themed to how many Disney villains?",
-   "a": 5,
-   "type": "number",
-   "unit": "villains",
-   "fact": "Maleficent, Cruella, Ursula, Jafar and Scar."
-  }
- ],
+ "news": [],
  "easy": [
   {
-   "id": "qckln2f",
-   "cat": "geo",
-   "q": "How many boroughs does New York City have?",
-   "a": 5,
-   "type": "number",
-   "unit": "boroughs",
-   "fact": "Manhattan, Brooklyn, Queens, the Bronx and Staten Island."
-  },
-  {
-   "id": "qgeeq4w",
-   "cat": "sports",
-   "q": "How many points is a touchdown worth?",
-   "a": 6,
-   "type": "number",
-   "unit": "points",
-   "fact": "The extra-point kick adds one more."
-  },
-  {
-   "id": "qeybm56",
-   "cat": "history",
-   "q": "In what year was D-Day?",
-   "a": 1944,
-   "type": "year",
-   "unit": "year",
-   "fact": "Allied troops landed on five Normandy beaches on June 6."
-  },
-  {
-   "id": "a1fkxtyvz",
+   "id": "aafgjwtgy",
    "cat": "pop",
-   "q": "In what year did James Cameron's Avatar come out?",
-   "a": 2009,
-   "type": "year",
-   "unit": "year",
-   "fact": "It's still the highest-grossing movie of all time worldwide."
+   "q": "How many tributes enter the arena in each Hunger Games?",
+   "a": 24,
+   "type": "number",
+   "unit": "tributes",
+   "fact": "One boy and one girl from each of the 12 districts."
   },
   {
-   "id": "qkatm8t",
-   "cat": "geo",
-   "q": "What is Denver's official elevation, in feet?",
-   "a": 5280,
+   "id": "an5uonqqu",
+   "cat": "pop",
+   "q": "How many characters could a tweet hold before 2017?",
+   "a": 140,
    "type": "number",
-   "unit": "feet",
-   "fact": "One step of the Colorado State Capitol sits exactly a mile high."
+   "unit": "characters",
+   "fact": "Twitter doubled the limit to 280 in November 2017."
+  },
+  {
+   "id": "a59x2cyxs",
+   "cat": "geo",
+   "q": "How many U.S. states border California?",
+   "a": 3,
+   "type": "number",
+   "unit": "states",
+   "fact": "Oregon, Nevada and Arizona."
+  },
+  {
+   "id": "axck0kxg8",
+   "cat": "history",
+   "q": "How many times was Franklin D. Roosevelt elected president?",
+   "a": 4,
+   "type": "number",
+   "unit": "times",
+   "fact": "The 22nd Amendment now caps presidents at two terms."
+  },
+  {
+   "id": "auh0h6vzs",
+   "cat": "sports",
+   "q": "How many minutes is a regulation soccer match?",
+   "a": 90,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "Two 45-minute halves, plus stoppage time."
   }
  ],
  "medium": [
   {
-   "id": "q11lwcoc",
+   "id": "awantsjyi",
+   "cat": "pop",
+   "q": "How many pounds does a gallon of milk weigh, to the nearest pound?",
+   "a": 9,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "It's about 8.6 pounds, a bit heavier than a gallon of water."
+  },
+  {
+   "id": "ahx20crcv",
    "cat": "geo",
-   "q": "How many states border Colorado?",
-   "a": 7,
+   "q": "How many official national languages does Switzerland have?",
+   "a": 4,
    "type": "number",
-   "unit": "states",
-   "fact": "It touches Arizona only at the Four Corners."
+   "unit": "languages",
+   "fact": "German, French, Italian and Romansh."
   },
   {
-   "id": "anhfb3di5",
-   "cat": "sports",
-   "q": "How many NBA titles did Kobe Bryant win?",
-   "a": 5,
-   "type": "number",
-   "unit": "titles",
-   "fact": "All with the Lakers, including three in a row from 2000 to 2002."
-  },
-  {
-   "id": "q1fl4rkq",
+   "id": "a0glgnrq3",
    "cat": "history",
-   "q": "How many amendments does the U.S. Constitution have?",
+   "q": "How many years did Nelson Mandela spend in prison, to the nearest year?",
    "a": 27,
    "type": "number",
-   "unit": "amendments",
-   "fact": "The 27th, on congressional pay, was proposed in 1789 and ratified in 1992."
+   "unit": "years",
+   "fact": "He became South Africa's president four years after his release."
   },
   {
-   "id": "q1yqx7t5",
+   "id": "az2kyt4om",
    "cat": "pop",
-   "q": "In what year did Nirvana release Nevermind?",
-   "a": 1991,
-   "type": "year",
-   "unit": "year",
-   "fact": "It knocked Michael Jackson's Dangerous off No. 1 in January 1992."
+   "q": "How many Oscars did Oppenheimer win?",
+   "a": 7,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "Including Best Picture, Director and Actor."
   },
   {
-   "id": "qvxvsqz",
-   "cat": "geo",
-   "q": "How tall is the Gateway Arch in St. Louis, in feet?",
-   "a": 630,
+   "id": "aftcpkasa",
+   "cat": "sports",
+   "q": "Michael Jordan's career scoring average is the NBA's best. To the nearest whole number, how many points a game is it?",
+   "a": 30,
    "type": "number",
-   "unit": "feet",
-   "fact": "It's exactly as wide as it is tall."
+   "unit": "points",
+   "fact": "It's 30.12 points per game."
   }
  ],
  "hard": [
   {
-   "id": "q15hnqj0",
+   "id": "ao1vhgmb2",
    "cat": "history",
-   "q": "In what year did the Ottomans capture Constantinople?",
-   "a": 1453,
-   "type": "year",
-   "unit": "year",
-   "fact": "It ended the Byzantine Empire after more than 1,000 years."
+   "q": "How many days did the Mayflower's voyage to America take?",
+   "a": 66,
+   "type": "number",
+   "unit": "days",
+   "fact": "102 passengers made the crossing in 1620."
   },
   {
-   "id": "a786zhflv",
-   "cat": "pop",
-   "q": "In what year did Call of Duty 4: Modern Warfare come out?",
-   "a": 2007,
-   "type": "year",
-   "unit": "year",
-   "fact": "It introduced killstreak rewards to the series."
-  },
-  {
-   "id": "qsa9oe7",
+   "id": "ariywgura",
    "cat": "geo",
-   "q": "How tall is Pikes Peak, in feet?",
-   "a": 14115,
+   "q": "How many miles long is the Grand Canyon, following the river?",
+   "a": 277,
    "type": "number",
-   "unit": "feet",
-   "fact": "The view from the top inspired 'America the Beautiful.'"
+   "unit": "miles",
+   "fact": "The Colorado River carved it over about 5 million years."
   },
   {
-   "id": "qrafsm6",
+   "id": "aeig3hx29",
    "cat": "sports",
-   "q": "By how many lengths did Secretariat win the 1973 Belmont Stakes?",
-   "a": 31,
+   "q": "In 1984, Eric Dickerson set the NFL's single-season rushing record. How many yards?",
+   "a": 2105,
    "type": "number",
-   "unit": "lengths",
-   "fact": "His winning time is still the race record."
+   "unit": "yards",
+   "fact": "He did it with the Los Angeles Rams."
+  },
+  {
+   "id": "a6mt5emdd",
+   "cat": "pop",
+   "q": "The Weeknd's Blinding Lights set a record for weeks on the Billboard Hot 100. How many?",
+   "a": 90,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "Billboard named it the biggest Hot 100 song of all time in 2021."
   }
  ]
 }

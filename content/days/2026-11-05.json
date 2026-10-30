@@ -3,134 +3,134 @@
  "news": [],
  "easy": [
   {
-   "id": "q10t6lif",
-   "cat": "geo",
-   "q": "How many provinces does Canada have?",
+   "id": "akeyhf5jk",
+   "cat": "sports",
+   "q": "How many points wins a standard game of ping-pong?",
+   "a": 11,
+   "type": "number",
+   "unit": "points",
+   "fact": "Games went to 21 until 2001."
+  },
+  {
+   "id": "al25zr4r1",
+   "cat": "pop",
+   "q": "How many points is the letter Q worth in Scrabble?",
    "a": 10,
    "type": "number",
-   "unit": "provinces",
-   "fact": "Plus three territories in the north."
+   "unit": "points",
+   "fact": "Z is the only other letter worth 10."
   },
   {
-   "id": "qrs68tz",
-   "cat": "sports",
-   "q": "How many periods are in an NHL game?",
-   "a": 3,
+   "id": "aoud59k83",
+   "cat": "pop",
+   "q": "How many guesses do you get in Wordle?",
+   "a": 6,
    "type": "number",
-   "unit": "periods",
-   "fact": "Each one lasts 20 minutes."
+   "unit": "guesses",
+   "fact": "The New York Times bought the game in 2022."
   },
   {
-   "id": "q1pwl1hk",
-   "cat": "history",
-   "q": "How many states are in the United States?",
-   "a": 50,
+   "id": "as152ym9i",
+   "cat": "geo",
+   "q": "How many U.S. states have a Kansas City?",
+   "a": 2,
    "type": "number",
    "unit": "states",
-   "fact": "The flag got its 50th star on July 4, 1960."
+   "fact": "Kansas City, Missouri, is the bigger one."
   },
   {
-   "id": "aq6qloazw",
-   "cat": "pop",
-   "q": "In what year did the first Hunger Games movie come out?",
-   "a": 2012,
-   "type": "year",
-   "unit": "year",
-   "fact": "Jennifer Lawrence starred as Katniss Everdeen."
-  },
-  {
-   "id": "q8sr6ex",
-   "cat": "geo",
-   "q": "How many countries make up the United Kingdom?",
-   "a": 4,
+   "id": "abum60xbz",
+   "cat": "history",
+   "q": "How many Wonders of the Ancient World were there?",
+   "a": 7,
    "type": "number",
-   "unit": "countries",
-   "fact": "England, Scotland, Wales and Northern Ireland."
+   "unit": "wonders",
+   "fact": "Only the Great Pyramid of Giza is still standing."
   }
  ],
  "medium": [
   {
-   "id": "q1fesd53",
+   "id": "apv9wocv2",
+   "cat": "history",
+   "q": "How many U.S. presidents have won the Nobel Peace Prize?",
+   "a": 4,
+   "type": "number",
+   "unit": "presidents",
+   "fact": "Theodore Roosevelt, Woodrow Wilson, Jimmy Carter and Barack Obama."
+  },
+  {
+   "id": "asdvnic6b",
+   "cat": "pop",
+   "q": "How many Oscars has Meryl Streep won?",
+   "a": 3,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "She holds the record for acting nominations, with 21."
+  },
+  {
+   "id": "agv8ozqry",
+   "cat": "sports",
+   "q": "How many double stitches are on an official MLB baseball?",
+   "a": 108,
+   "type": "number",
+   "unit": "stitches",
+   "fact": "They're sewn by hand, mostly in Costa Rica."
+  },
+  {
+   "id": "avqaahq38",
    "cat": "geo",
-   "q": "How many U.S. states start with the letter M?",
-   "a": 8,
+   "q": "How many U.S. states have two-word names?",
+   "a": 10,
    "type": "number",
    "unit": "states",
-   "fact": "Tied with N for the most."
+   "fact": "Four start with New, two with North, two with South, plus Rhode Island and West Virginia."
   },
   {
-   "id": "q1t6e3sj",
+   "id": "ap714h6aq",
    "cat": "sports",
-   "q": "How many career home runs did Hank Aaron hit?",
-   "a": 755,
+   "q": "How many major championships did Arnold Palmer win?",
+   "a": 7,
    "type": "number",
-   "unit": "home runs",
-   "fact": "He passed Babe Ruth's record in April 1974."
-  },
-  {
-   "id": "q16yotfy",
-   "cat": "history",
-   "q": "In what year did Lewis and Clark set out on their expedition west?",
-   "a": 1804,
-   "type": "year",
-   "unit": "year",
-   "fact": "The Corps of Discovery reached the Pacific in November 1805."
-  },
-  {
-   "id": "arfjbodk5",
-   "cat": "pop",
-   "q": "In what year did Fortnite's Battle Royale mode come out?",
-   "a": 2017,
-   "type": "year",
-   "unit": "year",
-   "fact": "It was free to play from day one."
-  },
-  {
-   "id": "q306vdk",
-   "cat": "geo",
-   "q": "How tall is the Washington Monument, in feet?",
-   "a": 555,
-   "type": "number",
-   "unit": "feet",
-   "fact": "The marble changes shade about 150 feet up, where construction stalled for years."
+   "unit": "majors",
+   "fact": "Four of them were Masters."
   }
  ],
  "hard": [
   {
-   "id": "qspnqbx",
-   "cat": "geo",
-   "q": "How many states does the Appalachian Trail pass through?",
-   "a": 14,
-   "type": "number",
-   "unit": "states",
-   "fact": "It runs about 2,200 miles from Georgia to Maine."
-  },
-  {
-   "id": "qdvtim7",
-   "cat": "sports",
-   "q": "How many feet is the NBA three-point line at the top of the arc, to the nearest foot?",
-   "a": 24,
-   "type": "number",
-   "unit": "feet",
-   "fact": "It's 23 feet 9 inches up top and 22 feet in the corners."
-  },
-  {
-   "id": "q8jkoic",
+   "id": "amw1szdcb",
    "cat": "history",
-   "q": "In what year did Martin Luther post his 95 Theses?",
-   "a": 1517,
-   "type": "year",
-   "unit": "year",
-   "fact": "Tradition says he nailed them to a church door in Wittenberg on October 31."
+   "q": "How old was Alexander the Great when he died?",
+   "a": 32,
+   "type": "number",
+   "unit": "years old",
+   "fact": "His empire stretched from Greece to India."
   },
   {
-   "id": "a4nvn8ok2",
+   "id": "aw4ghex1l",
    "cat": "pop",
-   "q": "How many weeks did Lil Nas X's Old Town Road spend at No. 1 on the Hot 100?",
-   "a": 19,
+   "q": "In 2020, Schitt's Creek set a record for a comedy's single season. How many Emmys did it win?",
+   "a": 9,
    "type": "number",
-   "unit": "weeks",
-   "fact": "Billy Ray Cyrus joined him on the remix."
+   "unit": "Emmys",
+   "fact": "It swept all seven major comedy categories."
+  },
+  {
+   "id": "adi04ypco",
+   "cat": "sports",
+   "q": "How many inches is it from the pitcher's rubber to home plate?",
+   "a": 726,
+   "type": "number",
+   "unit": "inches",
+   "fact": "That's 60 feet 6 inches."
+  },
+  {
+   "id": "aybgu3w37",
+   "cat": "geo",
+   "q": "How many miles long is Lake Superior?",
+   "a": 350,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It holds about 10% of the world's fresh surface water."
   }
  ]
 }
