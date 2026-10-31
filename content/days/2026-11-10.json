@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-10",
+ "news": [],
+ "easy": [
+  {
+   "id": "a5hgt995q",
+   "cat": "pop",
+   "q": "How many Jonas Brothers are there?",
+   "a": 3,
+   "type": "number",
+   "unit": "brothers",
+   "fact": "Kevin, Joe and Nick reunited in 2019 after a six-year split."
+  },
+  {
+   "id": "adjpfb919",
+   "cat": "geo",
+   "q": "How many U.S. states start with the letter M?",
+   "a": 8,
+   "type": "number",
+   "unit": "states",
+   "fact": "Montana is the biggest of them."
+  },
+  {
+   "id": "ad8nw7vt5",
+   "cat": "history",
+   "q": "How many original colonies declared independence from Britain in 1776?",
+   "a": 13,
+   "type": "number",
+   "unit": "colonies",
+   "fact": "Georgia, founded in 1732, was the last of them."
+  },
+  {
+   "id": "aaml34mco",
+   "cat": "sports",
+   "q": "How many points is a touchdown worth in the NFL, before the extra point?",
+   "a": 6,
+   "type": "number",
+   "unit": "points",
+   "fact": "A two-point conversion can make it 8."
+  },
+  {
+   "id": "azidb6s4i",
+   "cat": "pop",
+   "q": "How many dwarfs does Snow White meet in Disney's 1937 film?",
+   "a": 7,
+   "type": "number",
+   "unit": "dwarfs",
+   "fact": "Dopey is the only one without a beard."
+  }
+ ],
+ "medium": [
+  {
+   "id": "ajpha1l0r",
+   "cat": "history",
+   "q": "To the nearest year, how many years did Queen Elizabeth II reign?",
+   "a": 70,
+   "type": "number",
+   "unit": "years",
+   "fact": "She was the longest-reigning British monarch ever."
+  },
+  {
+   "id": "a9oho7try",
+   "cat": "pop",
+   "q": "How many seasons of The Big Bang Theory were made?",
+   "a": 12,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It ran from 2007 to 2019, ending with 279 episodes."
+  },
+  {
+   "id": "atpqi5hyu",
+   "cat": "geo",
+   "q": "How many time zones does Russia span?",
+   "a": 11,
+   "type": "number",
+   "unit": "time zones",
+   "fact": "When it's noon in Kaliningrad, it's 10 p.m. in Kamchatka."
+  },
+  {
+   "id": "ameq74077",
+   "cat": "sports",
+   "q": "How many NBA championships did Kobe Bryant win?",
+   "a": 5,
+   "type": "number",
+   "unit": "titles",
+   "fact": "He spent all 20 of his seasons with the Lakers."
+  },
+  {
+   "id": "ava6scbjv",
+   "cat": "pop",
+   "q": "In what year did Grand Theft Auto V come out?",
+   "a": 2013,
+   "type": "year",
+   "unit": "year",
+   "fact": "It has sold more than 200 million copies."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a9pfzuw8t",
+   "cat": "history",
+   "q": "How tall is the Washington Monument, to the nearest foot?",
+   "a": 555,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It took from 1848 to 1884 to finish."
+  },
+  {
+   "id": "ayvr9400c",
+   "cat": "geo",
+   "q": "How deep is Oregon's Crater Lake, in feet?",
+   "a": 1943,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's the deepest lake in the United States."
+  },
+  {
+   "id": "a74tpch3x",
+   "cat": "sports",
+   "q": "Cal Ripken Jr. holds the record for consecutive MLB games played. How many?",
+   "a": 2632,
+   "type": "number",
+   "unit": "games",
+   "fact": "He passed Lou Gehrig's mark of 2,130 in 1995."
+  },
+  {
+   "id": "anby4ekei",
+   "cat": "pop",
+   "q": "Lil Nas X's Old Town Road spent how many weeks at No. 1 on the Billboard Hot 100?",
+   "a": 19,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "It held the top spot for 19 straight weeks in 2019."
+  }
+ ]
+}

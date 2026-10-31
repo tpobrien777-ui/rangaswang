@@ -1,6 +1,27 @@
 {
  "date": "2026-11-01",
- "news": [],
+ "news": [
+  {
+   "id": "acua761hy",
+   "cat": "news",
+   "q": "Binance said on Oct. 30 that hackers stole its crypto in the biggest heist ever. To the nearest billion, how many billion dollars was taken?",
+   "a": 6,
+   "type": "number",
+   "unit": "billion $",
+   "fact": "The old record was the $1.5 billion Bybit hack in 2025.",
+   "src": "https://www.aljazeera.com/economy/2026/10/30/binance-says-2-54bn-in-crypto-funds-frozen-amid-potential-security-issue"
+  },
+  {
+   "id": "agl7wxcem",
+   "cat": "news",
+   "q": "Toronto set a new high for Oct. 29 this week, breaking a daily record that had stood since what year?",
+   "a": 1946,
+   "type": "year",
+   "unit": "year",
+   "fact": "It hit about 75°F at Pearson Airport.",
+   "src": "https://www.cp24.com/local/toronto/2026/10/29/toronto-has-broken-an-80-year-old-temperature-record/"
+  }
+ ],
  "easy": [
   {
    "id": "aafgjwtgy",
