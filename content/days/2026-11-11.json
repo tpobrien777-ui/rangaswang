@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-11",
+ "news": [],
+ "easy": [
+  {
+   "id": "afkw15vgx",
+   "cat": "pop",
+   "q": "How many Teenage Mutant Ninja Turtles are there?",
+   "a": 4,
+   "type": "number",
+   "unit": "turtles",
+   "fact": "Leonardo, Michelangelo, Donatello and Raphael."
+  },
+  {
+   "id": "anmb9ctu8",
+   "cat": "geo",
+   "q": "How many feet are in a mile?",
+   "a": 5280,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The number dates to an English law from 1593."
+  },
+  {
+   "id": "anrs8q5jx",
+   "cat": "sports",
+   "q": "How many innings are in a regulation MLB game?",
+   "a": 9,
+   "type": "number",
+   "unit": "innings",
+   "fact": "The longest MLB game ever went 26 innings, in 1920."
+  },
+  {
+   "id": "a42nxg0az",
+   "cat": "history",
+   "q": "How many astronauts flew on Apollo 11?",
+   "a": 3,
+   "type": "number",
+   "unit": "astronauts",
+   "fact": "Neil Armstrong, Buzz Aldrin and Michael Collins, in July 1969."
+  },
+  {
+   "id": "apnqm970a",
+   "cat": "pop",
+   "q": "According to the old saying, how many lives does a cat have?",
+   "a": 9,
+   "type": "number",
+   "unit": "lives",
+   "fact": "In Spanish-speaking countries, the saying gives cats seven."
+  }
+ ],
+ "medium": [
+  {
+   "id": "am44b49zi",
+   "cat": "pop",
+   "q": "How many Twilight movies were made?",
+   "a": 5,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The last book, Breaking Dawn, was split into two films."
+  },
+  {
+   "id": "an6sz32b7",
+   "cat": "sports",
+   "q": "How many feet wide is a regulation soccer goal?",
+   "a": 24,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It stands 8 feet tall."
+  },
+  {
+   "id": "aeuk96lps",
+   "cat": "geo",
+   "q": "How many states does the Appalachian Trail pass through?",
+   "a": 14,
+   "type": "number",
+   "unit": "states",
+   "fact": "It runs about 2,200 miles from Georgia to Maine."
+  },
+  {
+   "id": "a4xk91bzt",
+   "cat": "history",
+   "q": "How many days did the siege of the Alamo last in 1836?",
+   "a": 13,
+   "type": "number",
+   "unit": "days",
+   "fact": "It began Feb. 23 and ended March 6."
+  },
+  {
+   "id": "a43mh1plp",
+   "cat": "pop",
+   "q": "How many colored stickers are on a standard Rubik's Cube?",
+   "a": 54,
+   "type": "number",
+   "unit": "stickers",
+   "fact": "Ernő Rubik invented the cube in 1974."
+  }
+ ],
+ "hard": [
+  {
+   "id": "aw03wgyxf",
+   "cat": "geo",
+   "q": "How tall is the Gateway Arch in St. Louis, in feet?",
+   "a": 630,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's exactly as wide at its base as it is tall."
+  },
+  {
+   "id": "arttu7eef",
+   "cat": "sports",
+   "q": "How many career home runs did Barry Bonds hit, the MLB record?",
+   "a": 762,
+   "type": "number",
+   "unit": "home runs",
+   "fact": "He passed Hank Aaron's 755 in 2007."
+  },
+  {
+   "id": "akxrrcbyd",
+   "cat": "pop",
+   "q": "How many Grammys did Adele win on one night in 2012?",
+   "a": 6,
+   "type": "number",
+   "unit": "Grammys",
+   "fact": "Her album 21 took Album of the Year."
+  },
+  {
+   "id": "ay1xj2bj6",
+   "cat": "history",
+   "q": "How much does the Liberty Bell weigh, in pounds?",
+   "a": 2080,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "It was last rung in 1846, for Washington's Birthday."
+  }
+ ]
+}

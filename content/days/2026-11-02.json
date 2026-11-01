@@ -1,6 +1,27 @@
 {
  "date": "2026-11-02",
- "news": [],
+ "news": [
+  {
+   "id": "aj2eq3tik",
+   "cat": "news",
+   "q": "On Oct. 30, SpaceX launched its 700th Falcon 9. Counting that launch, how many times had the rocket's first-stage booster flown?",
+   "a": 18,
+   "type": "number",
+   "unit": "flights",
+   "fact": "The booster then made the 675th Falcon landing, on a droneship off California.",
+   "src": "https://spaceflightnow.com/2026/10/30/live-coverage-spacex-to-close-out-october-with-halloween-eve-falcon-9-launch/"
+  },
+  {
+   "id": "a0odlsltm",
+   "cat": "news",
+   "q": "The Raptors' Scottie Barnes set a career high on the NBA Cup's opening night, Oct. 30. How many points did he score?",
+   "a": 41,
+   "type": "number",
+   "unit": "points",
+   "fact": "He made 19 of his 34 shots against the Magic.",
+   "src": "https://www.nba.com/news/emirates-nba-cup-live-updates-october-30"
+  }
+ ],
  "easy": [
   {
    "id": "akwham1cm",
