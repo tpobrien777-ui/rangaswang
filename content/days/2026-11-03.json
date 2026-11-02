@@ -14,7 +14,7 @@
   {
    "id": "af5ll2joa",
    "cat": "news",
-   "q": "Nathan Fielder's documentary You Can See Everything led the Halloween weekend box office in Sunday estimates. To the nearest million, how many million dollars did it make?",
+   "q": "You Can See Everything led the Halloween weekend box office. To the nearest million, how many million dollars did it make, per Sunday estimates?",
    "a": 11,
    "type": "number",
    "unit": "million $",
