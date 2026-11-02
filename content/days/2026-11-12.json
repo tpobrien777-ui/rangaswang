@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-12",
+ "news": [],
+ "easy": [
+  {
+   "id": "a5d9ahfle",
+   "cat": "history",
+   "q": "How many years long is one term for a U.S. president?",
+   "a": 4,
+   "type": "number",
+   "unit": "years",
+   "fact": "The 22nd Amendment limits presidents to two elected terms."
+  },
+  {
+   "id": "asn5lzzhw",
+   "cat": "pop",
+   "q": "How many Infinity Stones does Thanos collect in the Marvel movies?",
+   "a": 6,
+   "type": "number",
+   "unit": "stones",
+   "fact": "They control space, mind, reality, power, time and soul."
+  },
+  {
+   "id": "alhdbxrkn",
+   "cat": "geo",
+   "q": "How many oceans does the world have, by most modern counts?",
+   "a": 5,
+   "type": "number",
+   "unit": "oceans",
+   "fact": "The Southern Ocean around Antarctica was the latest to be widely recognized."
+  },
+  {
+   "id": "a2apz5m4w",
+   "cat": "sports",
+   "q": "How many points is a field goal worth in the NFL?",
+   "a": 3,
+   "type": "number",
+   "unit": "points",
+   "fact": "A safety is worth 2 points."
+  },
+  {
+   "id": "ap54ejt9a",
+   "cat": "pop",
+   "q": "How many Ghostbusters suit up in the original 1984 movie?",
+   "a": 4,
+   "type": "number",
+   "unit": "Ghostbusters",
+   "fact": "Their headquarters was a real New York firehouse in Tribeca."
+  }
+ ],
+ "medium": [
+  {
+   "id": "agawczbwc",
+   "cat": "history",
+   "q": "In what year did the stock market crash that kicked off the Great Depression?",
+   "a": 1929,
+   "type": "year",
+   "unit": "year",
+   "fact": "The worst day, Oct. 29, is remembered as Black Tuesday."
+  },
+  {
+   "id": "ahztn965j",
+   "cat": "pop",
+   "q": "How many seasons of The Walking Dead were made?",
+   "a": 11,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "The show ran on AMC from 2010 to 2022."
+  },
+  {
+   "id": "a9vv1ui5t",
+   "cat": "geo",
+   "q": "How many boroughs make up New York City?",
+   "a": 5,
+   "type": "number",
+   "unit": "boroughs",
+   "fact": "Brooklyn has the most people of the five."
+  },
+  {
+   "id": "afvjcuh9w",
+   "cat": "sports",
+   "q": "How many Super Bowls have the Pittsburgh Steelers won?",
+   "a": 6,
+   "type": "number",
+   "unit": "Super Bowls",
+   "fact": "Four of them came in the 1970s."
+  },
+  {
+   "id": "aqcahszg2",
+   "cat": "pop",
+   "q": "How many Oscars did Parasite win in 2020?",
+   "a": 4,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "It was the first non-English-language film to win Best Picture."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a04lmn13v",
+   "cat": "history",
+   "q": "How many essays make up The Federalist Papers?",
+   "a": 85,
+   "type": "number",
+   "unit": "essays",
+   "fact": "Hamilton, Madison and Jay all wrote under the pen name Publius."
+  },
+  {
+   "id": "ai1050db8",
+   "cat": "geo",
+   "q": "Not counting Mexico City, how many states does Mexico have?",
+   "a": 31,
+   "type": "number",
+   "unit": "states",
+   "fact": "Chihuahua is the biggest by area."
+  },
+  {
+   "id": "a8kcedvtg",
+   "cat": "sports",
+   "q": "How many touchdown passes did Peyton Manning throw in his NFL career?",
+   "a": 539,
+   "type": "number",
+   "unit": "touchdown passes",
+   "fact": "He threw a record 55 of them in 2013 alone."
+  },
+  {
+   "id": "adsgllgfa",
+   "cat": "pop",
+   "q": "How many episodes of Gilmore Girls aired in its original seven seasons?",
+   "a": 153,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Netflix added four more in the 2016 revival."
+  }
+ ]
+}

@@ -1,6 +1,27 @@
 {
  "date": "2026-11-03",
- "news": [],
+ "news": [
+  {
+   "id": "abiqmf64g",
+   "cat": "news",
+   "q": "Marcel Hug won the men's wheelchair race at the New York City Marathon on Nov. 1. How many New York titles has he now won?",
+   "a": 8,
+   "type": "number",
+   "unit": "titles",
+   "fact": "He beat Daniel Romanchuk to the line by just one second.",
+   "src": "https://www.nbcsports.com/olympics/news/new-york-city-marathon-2026-andreas-almgren-sheila-chepkirui"
+  },
+  {
+   "id": "af5ll2joa",
+   "cat": "news",
+   "q": "Nathan Fielder's documentary You Can See Everything led the Halloween weekend box office in Sunday estimates. To the nearest million, how many million dollars did it make?",
+   "a": 11,
+   "type": "number",
+   "unit": "million $",
+   "fact": "The A24 film about Elizabeth Holmes cost about $7 million to make.",
+   "src": "https://mynewsla.com/hollywood/2026/11/01/you-can-see-everything-tops-halloween-weekend-box-office-2/"
+  }
+ ],
  "easy": [
   {
    "id": "audo5zswj",
