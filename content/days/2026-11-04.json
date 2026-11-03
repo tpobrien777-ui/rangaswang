@@ -1,6 +1,27 @@
 {
  "date": "2026-11-04",
- "news": [],
+ "news": [
+  {
+   "id": "a2fpyvjgs",
+   "cat": "news",
+   "q": "On Nov. 2, chipmaker Marvell agreed to buy Lumentum, a maker of lasers for AI data centers. The all-stock deal is worth how many billion dollars?",
+   "a": 115,
+   "type": "number",
+   "unit": "billion $",
+   "fact": "Each Lumentum share will be swapped for 4.5 Marvell shares.",
+   "src": "https://www.investing.com/news/company-news/marvell-to-acquire-lumentum-for-115-billion-in-allstock-deal-93CH-4991177"
+  },
+  {
+   "id": "a7hwkgku7",
+   "cat": "news",
+   "q": "Kimi Antonelli clinched the Formula 1 title in Mexico City on Nov. 1, becoming its youngest champion ever. He's the first Italian to win it since what year?",
+   "a": 1953,
+   "type": "year",
+   "unit": "year",
+   "fact": "He's 20, beating Sebastian Vettel's record by more than three years.",
+   "src": "https://www.espn.com/f1/story/_/id/50250037/kimi-antonelli-youngest-f1-world-champion-2026-mexico-city-grand-prix"
+  }
+ ],
  "easy": [
   {
    "id": "akfbcqwcg",

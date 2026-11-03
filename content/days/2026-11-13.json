@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-13",
+ "news": [],
+ "easy": [
+  {
+   "id": "agfdv1jwy",
+   "cat": "history",
+   "q": "In what year did World War I end?",
+   "a": 1918,
+   "type": "year",
+   "unit": "year",
+   "fact": "The armistice took effect at 11 a.m. on Nov. 11, now Veterans Day."
+  },
+  {
+   "id": "a0kfr0o5m",
+   "cat": "pop",
+   "q": "How many Powerpuff Girls are there?",
+   "a": 3,
+   "type": "number",
+   "unit": "girls",
+   "fact": "Blossom, Bubbles and Buttercup were made from sugar, spice and Chemical X."
+  },
+  {
+   "id": "a36y0gqnp",
+   "cat": "geo",
+   "q": "How many countries make up the United Kingdom?",
+   "a": 4,
+   "type": "number",
+   "unit": "countries",
+   "fact": "England, Scotland, Wales and Northern Ireland."
+  },
+  {
+   "id": "aowt05cor",
+   "cat": "sports",
+   "q": "How many rings are on the Olympic flag?",
+   "a": 5,
+   "type": "number",
+   "unit": "rings",
+   "fact": "Pierre de Coubertin designed it in 1913."
+  },
+  {
+   "id": "abib0k0oe",
+   "cat": "pop",
+   "q": "How many members are in the band Twenty One Pilots?",
+   "a": 2,
+   "type": "number",
+   "unit": "members",
+   "fact": "Tyler Joseph and Josh Dun have been the lineup since 2011."
+  }
+ ],
+ "medium": [
+  {
+   "id": "az9rs4ify",
+   "cat": "pop",
+   "q": "In what year did Mean Girls hit theaters?",
+   "a": 2004,
+   "type": "year",
+   "unit": "year",
+   "fact": "Tina Fey wrote the script and played math teacher Ms. Norbury."
+  },
+  {
+   "id": "apyugb3z7",
+   "cat": "sports",
+   "q": "How many players are on an MLB team's active roster for most of the season?",
+   "a": 26,
+   "type": "number",
+   "unit": "players",
+   "fact": "It grew from 25 to 26 in 2020."
+  },
+  {
+   "id": "arlvbgbvf",
+   "cat": "geo",
+   "q": "How many main islands make up the state of Hawaii?",
+   "a": 8,
+   "type": "number",
+   "unit": "islands",
+   "fact": "Only seven are inhabited; Kahoolawe has no permanent residents."
+  },
+  {
+   "id": "agn0u0w8k",
+   "cat": "history",
+   "q": "How many U.S. presidents have died in office?",
+   "a": 8,
+   "type": "number",
+   "unit": "presidents",
+   "fact": "Four died of natural causes and four were assassinated."
+  },
+  {
+   "id": "alld573q4",
+   "cat": "pop",
+   "q": "How many seasons of How I Met Your Mother were made?",
+   "a": 9,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "The show ran on CBS from 2005 to 2014."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a2trgjxsd",
+   "cat": "geo",
+   "q": "How tall is Toronto's CN Tower, to the nearest foot?",
+   "a": 1815,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was the world's tallest freestanding structure for over 30 years."
+  },
+  {
+   "id": "ai4om5soy",
+   "cat": "history",
+   "q": "Amelia Earhart's 1932 solo flight across the Atlantic took how many hours, to the nearest hour?",
+   "a": 15,
+   "type": "number",
+   "unit": "hours",
+   "fact": "She landed in a pasture in Northern Ireland."
+  },
+  {
+   "id": "av4qtzest",
+   "cat": "sports",
+   "q": "The Chicago Cubs' 2016 World Series title ended a drought of how many years?",
+   "a": 108,
+   "type": "number",
+   "unit": "years",
+   "fact": "Their previous title came in 1908."
+  },
+  {
+   "id": "artkhs8i8",
+   "cat": "pop",
+   "q": "How many episodes of Lost aired over its six seasons?",
+   "a": 121,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Its pilot was one of the most expensive ever made at the time."
+  }
+ ]
+}
