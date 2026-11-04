@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-14",
+ "news": [],
+ "easy": [
+  {
+   "id": "ae57mm923",
+   "cat": "pop",
+   "q": "How many members are in the K-pop group BLACKPINK?",
+   "a": 4,
+   "type": "number",
+   "unit": "members",
+   "fact": "Their Coachella set in 2019 made them the first K-pop girl group to play the festival."
+  },
+  {
+   "id": "arjjg5cqy",
+   "cat": "geo",
+   "q": "How many provinces does Canada have?",
+   "a": 10,
+   "type": "number",
+   "unit": "provinces",
+   "fact": "Canada also has three territories."
+  },
+  {
+   "id": "amarzv88y",
+   "cat": "history",
+   "q": "How many stripes are on the U.S. flag?",
+   "a": 13,
+   "type": "number",
+   "unit": "stripes",
+   "fact": "They stand for the 13 original colonies."
+  },
+  {
+   "id": "a42grp3de",
+   "cat": "sports",
+   "q": "How many minutes long is each quarter of an NFL game?",
+   "a": 15,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "Regular-season overtime is 10 minutes."
+  },
+  {
+   "id": "a6gukzz23",
+   "cat": "pop",
+   "q": "How many Chipmunks sing in Alvin and the Chipmunks?",
+   "a": 3,
+   "type": "number",
+   "unit": "chipmunks",
+   "fact": "They're Alvin, Simon and Theodore."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a4cyu3bqj",
+   "cat": "pop",
+   "q": "In what year did The Hangover hit theaters?",
+   "a": 2009,
+   "type": "year",
+   "unit": "year",
+   "fact": "It won the Golden Globe for best comedy or musical."
+  },
+  {
+   "id": "aueqd9lic",
+   "cat": "sports",
+   "q": "How far is the NBA free-throw line from the backboard, in feet?",
+   "a": 15,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The lane, or paint, is 16 feet wide."
+  },
+  {
+   "id": "ay0bya3l9",
+   "cat": "geo",
+   "q": "How long is the Las Vegas Strip, to the nearest mile?",
+   "a": 4,
+   "type": "number",
+   "unit": "miles",
+   "fact": "Most of it lies outside Las Vegas city limits, in Paradise, Nevada."
+  },
+  {
+   "id": "a9cipomy9",
+   "cat": "history",
+   "q": "How many days did the Battle of Gettysburg last?",
+   "a": 3,
+   "type": "number",
+   "unit": "days",
+   "fact": "It was fought July 1–3, 1863."
+  },
+  {
+   "id": "ajk2u5t73",
+   "cat": "pop",
+   "q": "How many squares are on a standard bingo card, counting the free space?",
+   "a": 25,
+   "type": "number",
+   "unit": "squares",
+   "fact": "The center square is the free space."
+  }
+ ],
+ "hard": [
+  {
+   "id": "akhl40waf",
+   "cat": "history",
+   "q": "How many electoral votes did Ronald Reagan win in his 1984 landslide?",
+   "a": 525,
+   "type": "number",
+   "unit": "votes",
+   "fact": "He carried 49 of the 50 states."
+  },
+  {
+   "id": "ap92bpbnw",
+   "cat": "geo",
+   "q": "How tall is Hoover Dam, in feet?",
+   "a": 726,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was finished in 1936, two years ahead of schedule."
+  },
+  {
+   "id": "a6zzb3n88",
+   "cat": "sports",
+   "q": "Wilt Chamberlain holds the NBA record for points in one game. How many did he score?",
+   "a": 100,
+   "type": "number",
+   "unit": "points",
+   "fact": "He did it on March 2, 1962, against the Knicks."
+  },
+  {
+   "id": "ay0nfm1w9",
+   "cat": "pop",
+   "q": "How many Oscars did La La Land win?",
+   "a": 6,
+   "type": "number",
+   "unit": "Oscars",
+   "fact": "It was briefly announced as Best Picture before the award went to Moonlight."
+  }
+ ]
+}

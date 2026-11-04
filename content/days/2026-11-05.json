@@ -1,6 +1,27 @@
 {
  "date": "2026-11-05",
- "news": [],
+ "news": [
+  {
+   "id": "abto50ty8",
+   "cat": "news",
+   "q": "Apple said on Nov. 2 that it set a record for its July-to-September quarter. To the nearest billion, how many billion dollars in revenue did it report?",
+   "a": 114,
+   "type": "number",
+   "unit": "billion $",
+   "fact": "That's up 12% from $102.5 billion a year earlier.",
+   "src": "https://9to5mac.com/2026/11/02/apple-reports-q4-2026-earnings/"
+  },
+  {
+   "id": "a2qeempn6",
+   "cat": "news",
+   "q": "On Nov. 1, the Oilers' Connor McDavid became the fastest player in NHL history to reach 30 assists in a season. How many games did he need?",
+   "a": 15,
+   "type": "number",
+   "unit": "games",
+   "fact": "The old record, 16 games, was set in 1984-85.",
+   "src": "https://bvmsports.com/2026/11/01/mcdavid-becomes-fastest-player-in-nhl-history-to-reach-30-assists-in-a-season/"
+  }
+ ],
  "easy": [
   {
    "id": "akeyhf5jk",
