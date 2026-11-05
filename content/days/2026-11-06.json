@@ -1,6 +1,27 @@
 {
  "date": "2026-11-06",
- "news": [],
+ "news": [
+  {
+   "id": "adinwn3rv",
+   "cat": "news",
+   "q": "Victor Wembanyama scored a career-high 52 points in the Spurs' 112-111 win over the Mavericks on Nov. 4. How many rebounds did he grab?",
+   "a": 24,
+   "type": "number",
+   "unit": "rebounds",
+   "fact": "He also blocked eight shots in 34 minutes.",
+   "src": "https://www.thescore.com/nba/news/3645709/wemby-goes-off-for-career-high-52-in-spurs-thrilling-win-over-mavs"
+  },
+  {
+   "id": "amy2kg8y7",
+   "cat": "news",
+   "q": "NASA's Swift space telescope fell back to Earth on Nov. 4 after a planned rescue mission never happened. In what year did it launch?",
+   "a": 2004,
+   "type": "year",
+   "unit": "year",
+   "fact": "Swift spent almost 22 years hunting gamma-ray bursts, the universe's most powerful explosions.",
+   "src": "https://science.nasa.gov/blogs/swift/2026/11/02/nasas-swift-observatory-to-re-enter-atmosphere/"
+  }
+ ],
  "easy": [
   {
    "id": "an4ras2s6",

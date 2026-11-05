@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-15",
+ "news": [],
+ "easy": [
+  {
+   "id": "azedv1z61",
+   "cat": "geo",
+   "q": "How many U.S. states meet at the Four Corners Monument?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "It's the only spot where four states touch: Arizona, Colorado, New Mexico and Utah."
+  },
+  {
+   "id": "aucc21u04",
+   "cat": "pop",
+   "q": "How many Cars movies has Pixar released?",
+   "a": 3,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The first one, in 2006, made Lightning McQueen a star."
+  },
+  {
+   "id": "ah1knhwm5",
+   "cat": "history",
+   "q": "What number does the Roman numeral C stand for?",
+   "a": 100,
+   "type": "number",
+   "unit": "number",
+   "fact": "C comes from centum, Latin for one hundred."
+  },
+  {
+   "id": "af9kvf0f7",
+   "cat": "sports",
+   "q": "How many bases are on a baseball diamond, counting home plate?",
+   "a": 4,
+   "type": "number",
+   "unit": "bases",
+   "fact": "Home plate is the only base that isn't a square bag."
+  },
+  {
+   "id": "amkd799x7",
+   "cat": "pop",
+   "q": "How many musketeers are in the title of Alexandre Dumas's famous novel?",
+   "a": 3,
+   "type": "number",
+   "unit": "musketeers",
+   "fact": "The hero, d'Artagnan, makes it four by the end."
+  }
+ ],
+ "medium": [
+  {
+   "id": "agkyvuiuk",
+   "cat": "sports",
+   "q": "How many pounds does the shot weigh in men's Olympic shot put?",
+   "a": 16,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "The women's shot weighs about 8.8 pounds."
+  },
+  {
+   "id": "ayx2btczc",
+   "cat": "geo",
+   "q": "Interstate 95 runs from Florida to Maine. How many states does it pass through?",
+   "a": 15,
+   "type": "number",
+   "unit": "states",
+   "fact": "It also runs through Washington, D.C."
+  },
+  {
+   "id": "a600smwke",
+   "cat": "history",
+   "q": "The U.S. started building the Panama Canal in 1904. How many years later did it open?",
+   "a": 10,
+   "type": "number",
+   "unit": "years",
+   "fact": "It opened on Aug. 15, 1914, just as World War I began."
+  },
+  {
+   "id": "afjesjmim",
+   "cat": "pop",
+   "q": "In what year did Grey's Anatomy premiere?",
+   "a": 2005,
+   "type": "year",
+   "unit": "year",
+   "fact": "It's the longest-running scripted prime-time show in ABC history."
+  },
+  {
+   "id": "aijb9lxds",
+   "cat": "pop",
+   "q": "How many official James Bond movies did Sean Connery star in, not counting 1983's Never Say Never Again?",
+   "a": 6,
+   "type": "number",
+   "unit": "movies",
+   "fact": "His first was Dr. No in 1962."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a97ksct1i",
+   "cat": "history",
+   "q": "In what year was the Rosetta Stone found in Egypt?",
+   "a": 1799,
+   "type": "year",
+   "unit": "year",
+   "fact": "French soldiers dug it up while rebuilding a fort near the town of Rashid."
+  },
+  {
+   "id": "a27wcztiw",
+   "cat": "geo",
+   "q": "What's the hottest air temperature ever recorded on Earth, in Death Valley, in °F?",
+   "a": 134,
+   "type": "number",
+   "unit": "°F",
+   "fact": "It was recorded at Furnace Creek on July 10, 1913."
+  },
+  {
+   "id": "a3d5cxb25",
+   "cat": "sports",
+   "q": "In 2015, Klay Thompson set the NBA record for points in one quarter. How many did he score?",
+   "a": 37,
+   "type": "number",
+   "unit": "points",
+   "fact": "He made all 13 of his shots in that third quarter, including nine 3-pointers."
+  },
+  {
+   "id": "a523mcq65",
+   "cat": "pop",
+   "q": "How many letters are in supercalifragilisticexpialidocious, from Mary Poppins?",
+   "a": 34,
+   "type": "number",
+   "unit": "letters",
+   "fact": "Mary Poppins won five Oscars, including Best Actress for Julie Andrews."
+  }
+ ]
+}
