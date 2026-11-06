@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-16",
+ "news": [],
+ "easy": [
+  {
+   "id": "ags5yij6c",
+   "cat": "pop",
+   "q": "How many movies are in the main Fast & Furious series, through 2023's Fast X?",
+   "a": 10,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The spinoff Hobbs & Shaw (2019) isn't counted."
+  },
+  {
+   "id": "am62jck0v",
+   "cat": "geo",
+   "q": "How many U.S. states have a shoreline on Lake Michigan?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "It's the only Great Lake entirely inside the U.S."
+  },
+  {
+   "id": "ae08yp6zw",
+   "cat": "history",
+   "q": "On July 4, 2026, the United States celebrated which birthday?",
+   "a": 250,
+   "type": "number",
+   "unit": "years",
+   "fact": "The Declaration of Independence was adopted on July 4, 1776."
+  },
+  {
+   "id": "a33rw605f",
+   "cat": "sports",
+   "q": "How many players does a baseball team have on the field on defense?",
+   "a": 9,
+   "type": "number",
+   "unit": "players",
+   "fact": "That's why a team's batting order also has nine spots."
+  },
+  {
+   "id": "awgsed2iv",
+   "cat": "pop",
+   "q": "How many Pirates of the Caribbean movies have been released?",
+   "a": 5,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The first, The Curse of the Black Pearl, came out in 2003."
+  }
+ ],
+ "medium": [
+  {
+   "id": "an4wm7j3i",
+   "cat": "history",
+   "q": "To the nearest day, how long did NASA's Apollo 13 mission last?",
+   "a": 6,
+   "type": "number",
+   "unit": "days",
+   "fact": "It lasted 5 days, 22 hours and 54 minutes."
+  },
+  {
+   "id": "aqg0ks3i5",
+   "cat": "geo",
+   "q": "To the nearest 10 miles, how long is New York's Long Island?",
+   "a": 120,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It stretches about 118 miles from New York Harbor to Montauk Point."
+  },
+  {
+   "id": "adfbv3nbf",
+   "cat": "sports",
+   "q": "How many feet long is a regulation pickleball court?",
+   "a": 44,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's the same size as a doubles badminton court."
+  },
+  {
+   "id": "azd1drdvh",
+   "cat": "pop",
+   "q": "In what year did Beyoncé release her first solo album, Dangerously in Love?",
+   "a": 2003,
+   "type": "year",
+   "unit": "year",
+   "fact": "It won five Grammys, including Best Contemporary R&B Album."
+  },
+  {
+   "id": "aip5e2nt3",
+   "cat": "pop",
+   "q": "How many episodes of the original Star Trek series aired?",
+   "a": 79,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "It ran for three seasons on NBC, from 1966 to 1969."
+  }
+ ],
+ "hard": [
+  {
+   "id": "amq80ywg6",
+   "cat": "history",
+   "q": "In what year did Lewis and Clark's expedition set out from near St. Louis?",
+   "a": 1804,
+   "type": "year",
+   "unit": "year",
+   "fact": "They reached the Pacific Ocean in November 1805."
+  },
+  {
+   "id": "at9derdp0",
+   "cat": "geo",
+   "q": "To the nearest mile, how long is Louisiana's Lake Pontchartrain Causeway?",
+   "a": 24,
+   "type": "number",
+   "unit": "miles",
+   "fact": "For a stretch of about 8 miles, you can't see land in any direction."
+  },
+  {
+   "id": "aos06tty1",
+   "cat": "sports",
+   "q": "Secretariat won the 1973 Belmont Stakes by how many lengths?",
+   "a": 31,
+   "type": "number",
+   "unit": "lengths",
+   "fact": "His time of 2:24 is still the Belmont record."
+  },
+  {
+   "id": "anv9shddq",
+   "cat": "pop",
+   "q": "How many episodes of Parks and Recreation were made?",
+   "a": 125,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "The show ran for seven seasons on NBC, from 2009 to 2015."
+  }
+ ]
+}

@@ -1,6 +1,27 @@
 {
  "date": "2026-11-07",
- "news": [],
+ "news": [
+  {
+   "id": "a2lcddmwm",
+   "cat": "news",
+   "q": "Thanks to Spider-Man: Brand New Day, Sony's movie studio said on Nov. 4 that its quarterly profit rose by how many percent?",
+   "a": 527,
+   "type": "number",
+   "unit": "percent",
+   "fact": "Sony's theatrical revenue jumped more than 1,100%, to $1.28 billion.",
+   "src": "https://www.thewrap.com/creative-content/movies/spider-man-sony-pictures-earnings-q3-2026/"
+  },
+  {
+   "id": "ajo175ntb",
+   "cat": "news",
+   "q": "NASA unveiled its newest experimental plane, the X-70 Fractal, on Nov. 4. Up to how many feet high is it designed to fly?",
+   "a": 45000,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It has a takeoff weight of 10,000 pounds.",
+   "src": "https://www.nasa.gov/news-release/nasa-announces-x-70-experimental-aircraft-to-advance-flight-research/"
+  }
+ ],
  "easy": [
   {
    "id": "apyo6cpjy",
