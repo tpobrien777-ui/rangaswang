@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-17",
+ "news": [],
+ "easy": [
+  {
+   "id": "argr4zypi",
+   "cat": "history",
+   "q": "On Paul Revere's famous ride, how many lanterns in the Old North Church meant the British were coming by sea?",
+   "a": 2,
+   "type": "number",
+   "unit": "lanterns",
+   "fact": "\"One if by land, and two if by sea,\" wrote Longfellow."
+  },
+  {
+   "id": "aut02qwvq",
+   "cat": "pop",
+   "q": "How many movies are in the main Despicable Me series, through 2024's Despicable Me 4?",
+   "a": 4,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The two Minions spinoffs aren't counted."
+  },
+  {
+   "id": "a9lc9c64w",
+   "cat": "geo",
+   "q": "How many U.S. state names start with the word \"New\"?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "New Hampshire, New Jersey, New Mexico and New York."
+  },
+  {
+   "id": "ahzy15aqq",
+   "cat": "sports",
+   "q": "How many points is a safety worth in the NFL?",
+   "a": 2,
+   "type": "number",
+   "unit": "points",
+   "fact": "The team that gives up a safety must also kick the ball away."
+  },
+  {
+   "id": "a0gmy4c5b",
+   "cat": "sports",
+   "q": "How many rounds is a UFC championship fight scheduled for?",
+   "a": 5,
+   "type": "number",
+   "unit": "rounds",
+   "fact": "Each round lasts five minutes."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a0k4ijc6g",
+   "cat": "history",
+   "q": "In what year did the Brooklyn Bridge open?",
+   "a": 1883,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the world's longest suspension bridge when it opened."
+  },
+  {
+   "id": "arypm58bx",
+   "cat": "pop",
+   "q": "In 2017, the original Nintendo Switch launched at what price, to the nearest dollar?",
+   "a": 300,
+   "type": "number",
+   "unit": "dollars",
+   "fact": "The exact price was $299.99."
+  },
+  {
+   "id": "a0ezs8efg",
+   "cat": "geo",
+   "q": "To the nearest mile, how long is Florida's Overseas Highway to Key West?",
+   "a": 113,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It crosses 42 bridges, including the Seven Mile Bridge."
+  },
+  {
+   "id": "aq7lr7fhe",
+   "cat": "sports",
+   "q": "How many players are on an NFL team's active roster during the regular season?",
+   "a": 53,
+   "type": "number",
+   "unit": "players",
+   "fact": "Teams also keep a separate practice squad."
+  },
+  {
+   "id": "aysnyasfk",
+   "cat": "pop",
+   "q": "How many cards does each player get at the start of a game of Uno?",
+   "a": 7,
+   "type": "number",
+   "unit": "cards",
+   "fact": "A standard Uno deck has 108 cards."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a0rbsuns0",
+   "cat": "geo",
+   "q": "To the nearest hundred miles, how long is the Rio Grande?",
+   "a": 1900,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It starts in Colorado and forms much of the Texas–Mexico border."
+  },
+  {
+   "id": "adu0z8pzv",
+   "cat": "history",
+   "q": "How tall is Egypt's Great Sphinx of Giza, to the nearest foot?",
+   "a": 66,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's about 240 feet long, carved from a single mass of limestone."
+  },
+  {
+   "id": "awas8n8xt",
+   "cat": "sports",
+   "q": "How many career receiving yards did Jerry Rice gain, the NFL record?",
+   "a": 22895,
+   "type": "number",
+   "unit": "yards",
+   "fact": "He also holds the record with 197 receiving touchdowns."
+  },
+  {
+   "id": "a1ljfi7ax",
+   "cat": "pop",
+   "q": "SpongeBob SquarePants lives in a pineapple at what number Conch Street?",
+   "a": 124,
+   "type": "number",
+   "unit": "address",
+   "fact": "His neighbor Squidward lives in an Easter Island head next door."
+  }
+ ]
+}

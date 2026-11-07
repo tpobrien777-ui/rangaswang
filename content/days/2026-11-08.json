@@ -1,6 +1,27 @@
 {
  "date": "2026-11-08",
- "news": [],
+ "news": [
+  {
+   "id": "akyd1veia",
+   "cat": "news",
+   "q": "Scientists say they found traces of red blood cells in a Brazilian dinosaur fossil. How many million years old is it?",
+   "a": 115,
+   "type": "number",
+   "unit": "million years",
+   "fact": "The dinosaur, Aratasaurus, was a meat-eater about 10 feet long.",
+   "src": "https://www.livescience.com/animals/dinosaurs/traces-of-ancient-blood-found-in-115-million-year-old-dinosaur-fossil-new-study-claims"
+  },
+  {
+   "id": "ayij2rh6y",
+   "cat": "news",
+   "q": "Nobody had hit the Mega Millions jackpot since July. To the nearest million, how many million dollars was the advertised jackpot for the Nov. 6 drawing?",
+   "a": 505,
+   "type": "number",
+   "unit": "million $",
+   "fact": "Taking the cash option instead would pay about $213 million.",
+   "src": "https://www.aol.com/articles/mega-millions-jackpot-climbs-505-020046000.html"
+  }
+ ],
  "easy": [
   {
    "id": "am3jzsbt6",
