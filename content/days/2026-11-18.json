@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-18",
+ "news": [],
+ "easy": [
+  {
+   "id": "ayy9fqu43",
+   "cat": "sports",
+   "q": "In hockey, how many goals does one player need to score in a game for a hat trick?",
+   "a": 3,
+   "type": "number",
+   "unit": "goals",
+   "fact": "Fans often celebrate by throwing hats onto the ice."
+  },
+  {
+   "id": "apgaru0xs",
+   "cat": "history",
+   "q": "How many candles does a Hanukkah menorah hold, counting the helper candle?",
+   "a": 9,
+   "type": "number",
+   "unit": "candles",
+   "fact": "The helper candle, the shamash, is used to light the others."
+  },
+  {
+   "id": "avb54g6r1",
+   "cat": "pop",
+   "q": "How many studs are on top of a classic 2-by-4 Lego brick?",
+   "a": 8,
+   "type": "number",
+   "unit": "studs",
+   "fact": "Lego's modern stud-and-tube brick was patented in 1958."
+  },
+  {
+   "id": "ai3of9hl1",
+   "cat": "geo",
+   "q": "How many countries share a land border with the United States?",
+   "a": 2,
+   "type": "number",
+   "unit": "countries",
+   "fact": "The U.S.-Canada border is the longest in the world."
+  },
+  {
+   "id": "aa5chdru2",
+   "cat": "pop",
+   "q": "How many theme parks are at Walt Disney World in Florida?",
+   "a": 4,
+   "type": "number",
+   "unit": "parks",
+   "fact": "Magic Kingdom, EPCOT, Hollywood Studios and Animal Kingdom."
+  }
+ ],
+ "medium": [
+  {
+   "id": "aowl1f6rc",
+   "cat": "sports",
+   "q": "In 2024, Shohei Ohtani became the first MLB player with 50 homers and 50 steals in a season. How many home runs did he hit?",
+   "a": 54,
+   "type": "number",
+   "unit": "home runs",
+   "fact": "He also stole 59 bases that year."
+  },
+  {
+   "id": "a4p97gatf",
+   "cat": "geo",
+   "q": "To the nearest degree, how many degrees does the Leaning Tower of Pisa lean today?",
+   "a": 4,
+   "type": "number",
+   "unit": "degrees",
+   "fact": "Engineers cut its tilt from about 5.5 degrees in a 1990s fix."
+  },
+  {
+   "id": "ai2lirca1",
+   "cat": "history",
+   "q": "In what year did the first New Year's Eve ball drop in Times Square?",
+   "a": 1907,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first ball was made of iron and wood with 100 light bulbs."
+  },
+  {
+   "id": "ar3cifyok",
+   "cat": "pop",
+   "q": "How many seasons did the TV drama Mad Men run?",
+   "a": 7,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It won the Emmy for best drama four years in a row."
+  },
+  {
+   "id": "asp21gce5",
+   "cat": "sports",
+   "q": "How many players does each team have on the field in men's field lacrosse, counting the goalie?",
+   "a": 10,
+   "type": "number",
+   "unit": "players",
+   "fact": "Women's field lacrosse uses 12 per side."
+  }
+ ],
+ "hard": [
+  {
+   "id": "afih0gnu7",
+   "cat": "geo",
+   "q": "How tall is Chicago's Willis Tower to its roof, to the nearest foot?",
+   "a": 1451,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was the world's tallest building from 1973 to 1998."
+  },
+  {
+   "id": "aftkoiyf5",
+   "cat": "pop",
+   "q": "How many shrines are in The Legend of Zelda: Breath of the Wild, not counting DLC?",
+   "a": 120,
+   "type": "number",
+   "unit": "shrines",
+   "fact": "Finishing four shrines earns a heart container or stamina boost."
+  },
+  {
+   "id": "a5nfo8vk6",
+   "cat": "sports",
+   "q": "A furlong is one-eighth of a mile. How many furlongs long is the Kentucky Derby?",
+   "a": 10,
+   "type": "number",
+   "unit": "furlongs",
+   "fact": "The race has been run at Churchill Downs since 1875."
+  },
+  {
+   "id": "a4oguzszy",
+   "cat": "history",
+   "q": "How many entrance arches ringed the ground floor of Rome's Colosseum?",
+   "a": 80,
+   "type": "number",
+   "unit": "arches",
+   "fact": "Most were numbered so ticket holders could find their way."
+  }
+ ]
+}

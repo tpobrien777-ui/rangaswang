@@ -1,6 +1,27 @@
 {
  "date": "2026-11-09",
- "news": [],
+ "news": [
+  {
+   "id": "a84ye58yk",
+   "cat": "news",
+   "q": "Godzilla Minus Zero opened in theaters on Nov. 6. To the nearest million, how many million dollars did it make from Thursday-night previews?",
+   "a": 7,
+   "type": "number",
+   "unit": "million $",
+   "fact": "It's the follow-up to 2023's Oscar-winning Godzilla Minus One.",
+   "src": "https://themainstreetmouse.com/2026/11/07/godzilla-minus-zero-box-office-opening-weekend/"
+  },
+  {
+   "id": "awqm4ldep",
+   "cat": "news",
+   "q": "NASA's Voyager 1 is set to become the first spacecraft one light-day from Earth on Nov. 18. To the nearest billion, how many billion miles away will it be?",
+   "a": 16,
+   "type": "number",
+   "unit": "billion miles",
+   "fact": "It launched in 1977 and is the most distant human-made object.",
+   "src": "https://iflscience.com/its-official-voyager-1-will-cross-the-1-light-day-threshold-on-november-18-2026-82733"
+  }
+ ],
  "easy": [
   {
    "id": "a558b275g",
