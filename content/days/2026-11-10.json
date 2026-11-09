@@ -1,6 +1,27 @@
 {
  "date": "2026-11-10",
- "news": [],
+ "news": [
+  {
+   "id": "ac9swax08",
+   "cat": "news",
+   "q": "Mercedes clinched Formula 1's 2026 constructors' championship at the São Paulo Grand Prix on Nov. 8. How many constructors' titles has Mercedes now won?",
+   "a": 9,
+   "type": "number",
+   "unit": "titles",
+   "fact": "It's the team's first since a run of eight straight from 2014 to 2021.",
+   "src": "https://www.skysports.com/f1/news/13609694/sao-paulo-gp-lando-norris-wins-wet-race-for-mclaren-as-mercedes-seal-2026-f1-constructors-championship-in-brazil"
+  },
+  {
+   "id": "a10f92ha0",
+   "cat": "news",
+   "q": "NASA is taking applications for its next astronaut class until Dec. 3. Since the 1960s, how many people has it selected as astronaut candidates?",
+   "a": 370,
+   "type": "number",
+   "unit": "people",
+   "fact": "The posted salary is $164,395 a year, and no pilot's license is required.",
+   "src": "https://www.wral.com/weather/astronaut-applications-nov-2026/"
+  }
+ ],
  "easy": [
   {
    "id": "a5hgt995q",

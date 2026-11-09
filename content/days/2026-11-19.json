@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-19",
+ "news": [],
+ "easy": [
+  {
+   "id": "a69vf04ds",
+   "cat": "sports",
+   "q": "How many events make up an Olympic decathlon?",
+   "a": 10,
+   "type": "number",
+   "unit": "events",
+   "fact": "The events are spread over two days of competition."
+  },
+  {
+   "id": "adx3tbmo3",
+   "cat": "pop",
+   "q": "How many squares make up each piece in Tetris?",
+   "a": 4,
+   "type": "number",
+   "unit": "squares",
+   "fact": "Tetris was created by Soviet engineer Alexey Pajitnov in 1984."
+  },
+  {
+   "id": "aoc2jv8wf",
+   "cat": "geo",
+   "q": "How many U.S. state names include the word North or South?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "The Carolinas split in 1712; the Dakotas both joined the Union in 1889."
+  },
+  {
+   "id": "a3giyp8oz",
+   "cat": "history",
+   "q": "Ancient Rome was famously built on how many hills?",
+   "a": 7,
+   "type": "number",
+   "unit": "hills",
+   "fact": "The Palatine Hill is where Rome's emperors built their palaces."
+  },
+  {
+   "id": "avxxhemnk",
+   "cat": "pop",
+   "q": "How many Angels work for Charlie in the original Charlie's Angels TV series?",
+   "a": 3,
+   "type": "number",
+   "unit": "Angels",
+   "fact": "Charlie himself was only ever heard, never fully seen."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a0stf5yr2",
+   "cat": "pop",
+   "q": "In what year did Snapchat launch?",
+   "a": 2011,
+   "type": "year",
+   "unit": "year",
+   "fact": "It first launched under the name Picaboo."
+  },
+  {
+   "id": "afwa6vzbs",
+   "cat": "sports",
+   "q": "How many feet wide is an NHL goal?",
+   "a": 6,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The goal stands 4 feet tall."
+  },
+  {
+   "id": "a7umalxc2",
+   "cat": "geo",
+   "q": "To the nearest mile, how long is Michigan's Mackinac Bridge?",
+   "a": 5,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It links Michigan's Upper and Lower peninsulas and opened in 1957."
+  },
+  {
+   "id": "ano6hnjbo",
+   "cat": "history",
+   "q": "How many countries founded NATO in 1949?",
+   "a": 12,
+   "type": "number",
+   "unit": "countries",
+   "fact": "The treaty was signed in Washington, D.C., on April 4, 1949."
+  },
+  {
+   "id": "acbtj7d8u",
+   "cat": "pop",
+   "q": "How many tiles are in a standard double-six set of dominoes?",
+   "a": 28,
+   "type": "number",
+   "unit": "tiles",
+   "fact": "Each possible pairing of zero through six appears exactly once."
+  }
+ ],
+ "hard": [
+  {
+   "id": "aeqp99wx7",
+   "cat": "geo",
+   "q": "How tall is Paris's Arc de Triomphe, to the nearest foot?",
+   "a": 164,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The Tomb of the Unknown Soldier lies beneath it."
+  },
+  {
+   "id": "a4upgbp4e",
+   "cat": "sports",
+   "q": "Rocky Marciano retired as heavyweight champion with a perfect record. How many pro fights did he win?",
+   "a": 49,
+   "type": "number",
+   "unit": "wins",
+   "fact": "He won 43 of those fights by knockout."
+  },
+  {
+   "id": "azk5f4zrk",
+   "cat": "history",
+   "q": "To the nearest hundred miles, how long was the Oregon Trail?",
+   "a": 2200,
+   "type": "number",
+   "unit": "miles",
+   "fact": "Wagon trains usually took four to six months to make the trip."
+  },
+  {
+   "id": "a5z62x0kh",
+   "cat": "pop",
+   "q": "How many Oscar nominations did Everything Everywhere All at Once receive?",
+   "a": 11,
+   "type": "number",
+   "unit": "nominations",
+   "fact": "It won seven, including Best Picture."
+  }
+ ]
+}
