@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-20",
+ "news": [],
+ "easy": [
+  {
+   "id": "a6cksqw9x",
+   "cat": "history",
+   "q": "According to legend, how many years did the Trojan War last?",
+   "a": 10,
+   "type": "number",
+   "unit": "years",
+   "fact": "Homer's Iliad covers just a few weeks in the war's final year."
+  },
+  {
+   "id": "as643y5kg",
+   "cat": "pop",
+   "q": "How many judges sat on the panel in the first season of American Idol?",
+   "a": 3,
+   "type": "number",
+   "unit": "judges",
+   "fact": "Simon Cowell, Paula Abdul and Randy Jackson judged the first season in 2002."
+  },
+  {
+   "id": "anbodhc9h",
+   "cat": "geo",
+   "q": "How many standard time zones cover the contiguous 48 U.S. states?",
+   "a": 4,
+   "type": "number",
+   "unit": "time zones",
+   "fact": "Eastern, Central, Mountain and Pacific; Alaska and Hawaii add two more."
+  },
+  {
+   "id": "ago93xsgs",
+   "cat": "sports",
+   "q": "How many numbered balls get racked at the start of a game of 8-ball pool?",
+   "a": 15,
+   "type": "number",
+   "unit": "balls",
+   "fact": "Balls 1 through 7 are solids, and 9 through 15 are stripes."
+  },
+  {
+   "id": "aox6yx3m5",
+   "cat": "pop",
+   "q": "How many members are in the Backstreet Boys?",
+   "a": 5,
+   "type": "number",
+   "unit": "members",
+   "fact": "Their 1999 album Millennium sold over 1.1 million copies in its first week."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a9pk4k7if",
+   "cat": "history",
+   "q": "How many full years did Queen Victoria reign over Britain?",
+   "a": 63,
+   "type": "number",
+   "unit": "years",
+   "fact": "She reigned from 1837 to 1901, longer than any British monarch before her."
+  },
+  {
+   "id": "a6w1uuoro",
+   "cat": "pop",
+   "q": "How many times did HBO's Succession win the Emmy for Outstanding Drama Series?",
+   "a": 3,
+   "type": "number",
+   "unit": "Emmys",
+   "fact": "Its last win came for its fourth and final season."
+  },
+  {
+   "id": "ayypdawto",
+   "cat": "geo",
+   "q": "How long is Egypt's Suez Canal, to the nearest 10 miles?",
+   "a": 120,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It opened in 1869 and has no locks."
+  },
+  {
+   "id": "aiqzn8sk5",
+   "cat": "sports",
+   "q": "How far is the NBA 3-point line from the basket at the top of the arc, to the nearest foot?",
+   "a": 24,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's exactly 23 feet 9 inches, shrinking to 22 feet in the corners."
+  },
+  {
+   "id": "apm8i8fz3",
+   "cat": "pop",
+   "q": "How many seasons of Glee aired on Fox?",
+   "a": 6,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "The Glee cast has more than 200 entries on the Billboard Hot 100."
+  }
+ ],
+ "hard": [
+  {
+   "id": "alb6f0vev",
+   "cat": "history",
+   "q": "In what year was the USS Constitution, \"Old Ironsides,\" launched?",
+   "a": 1797,
+   "type": "year",
+   "unit": "year",
+   "fact": "It's the world's oldest commissioned warship still afloat."
+  },
+  {
+   "id": "ak9hblwo0",
+   "cat": "pop",
+   "q": "How many episodes of Cheers aired over its 11 seasons?",
+   "a": 275,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Its spinoff Frasier ran another 264 episodes."
+  },
+  {
+   "id": "ao83327g4",
+   "cat": "geo",
+   "q": "How deep is Lake Tahoe at its deepest, in feet?",
+   "a": 1645,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's the second-deepest lake in the U.S., behind Oregon's Crater Lake."
+  },
+  {
+   "id": "a3jjwm8qp",
+   "cat": "sports",
+   "q": "How many Olympic gold medals did Carl Lewis win?",
+   "a": 9,
+   "type": "number",
+   "unit": "gold medals",
+   "fact": "He won the long jump at four straight Olympics, 1984 to 1996."
+  }
+ ]
+}

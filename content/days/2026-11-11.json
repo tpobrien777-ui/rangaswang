@@ -1,6 +1,27 @@
 {
  "date": "2026-11-11",
- "news": [],
+ "news": [
+  {
+   "id": "aofc7kie9",
+   "cat": "news",
+   "q": "SpaceX plans to try catching both halves of Starship with its launch towers on Nov. 13. How tall are those \"Mechazilla\" catch towers, in feet?",
+   "a": 480,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The flight is also set to deploy 26 next-generation Starlink satellites.",
+   "src": "https://gizmodo.com/spacex-picked-friday-the-13th-to-attempt-its-first-double-catch-of-starship-and-its-booster-2000837098"
+  },
+  {
+   "id": "amdb9h0m9",
+   "cat": "news",
+   "q": "YouTube is bringing its streaming data back to the Billboard charts in 2027. Under Billboard's new formula, how many ad-supported streams will equal one album unit?",
+   "a": 1500,
+   "type": "number",
+   "unit": "streams",
+   "fact": "It takes 1,000 paid-subscription streams to make one album unit.",
+   "src": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/"
+  }
+ ],
  "easy": [
   {
    "id": "afkw15vgx",
