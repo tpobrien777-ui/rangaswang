@@ -1,6 +1,27 @@
 {
  "date": "2026-11-12",
- "news": [],
+ "news": [
+  {
+   "id": "a919meh98",
+   "cat": "news",
+   "q": "Candy maker Mars just announced a $1.4 billion U.S. investment. Its Waco, Texas, plant makes more than how many billion candy pieces a year?",
+   "a": 56,
+   "type": "number",
+   "unit": "billion pieces",
+   "fact": "That's Snickers, Starburst and Skittles; Mars says 94% of the Mars products sold in the U.S. are made here.",
+   "src": "https://wrnjradio.com/mars-announces-plans-to-invest-1-4-billion-in-u-s-manufacturing-operations-in-2027/"
+  },
+  {
+   "id": "atl3d89pa",
+   "cat": "news",
+   "q": "NASA just picked a group of companies to compete for up to $10 billion in cargo deliveries for its planned Moon Base. How many companies made the cut?",
+   "a": 8,
+   "type": "number",
+   "unit": "companies",
+   "fact": "SpaceX, Blue Origin and Lockheed Martin are among the companies picked.",
+   "src": "https://fortune.com/2026/11/10/elon-musk-wants-to-build-ai-satellite-factories-on-the-moonand-now-spacex-will-compete-for-nasas-10-billion-in-contracts-to-build-a-lunar-base"
+  }
+ ],
  "easy": [
   {
    "id": "a5d9ahfle",

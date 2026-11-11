@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-21",
+ "news": [],
+ "easy": [
+  {
+   "id": "ak6r2lrd4",
+   "cat": "pop",
+   "q": "How many High School Musical movies did Zac Efron star in?",
+   "a": 3,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The first one premiered on Disney Channel in January 2006."
+  },
+  {
+   "id": "auagbsa4c",
+   "cat": "history",
+   "q": "Julius Caesar was assassinated on the Ides of March. What day of March is that?",
+   "a": 15,
+   "type": "number",
+   "unit": "day",
+   "fact": "Caesar was stabbed in 44 BC at a meeting of the Roman Senate."
+  },
+  {
+   "id": "an6mbyu5q",
+   "cat": "geo",
+   "q": "When it's noon in Los Angeles, it's 3 p.m. in New York. How many hours apart are they?",
+   "a": 3,
+   "type": "number",
+   "unit": "hours",
+   "fact": "The contiguous U.S. spans four standard time zones."
+  },
+  {
+   "id": "ap12gb4tj",
+   "cat": "sports",
+   "q": "How many minutes long is a standard round in pro boxing?",
+   "a": 3,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "Boxers get a one-minute rest between rounds."
+  },
+  {
+   "id": "aaelrlhj1",
+   "cat": "pop",
+   "q": "How many squares are on a tic-tac-toe board?",
+   "a": 9,
+   "type": "number",
+   "unit": "squares",
+   "fact": "In Britain the game is often called noughts and crosses."
+  }
+ ],
+ "medium": [
+  {
+   "id": "ay7ga40xz",
+   "cat": "sports",
+   "q": "How many career home runs did Babe Ruth hit?",
+   "a": 714,
+   "type": "number",
+   "unit": "home runs",
+   "fact": "His record stood until Hank Aaron passed it in 1974."
+  },
+  {
+   "id": "axklzmd5a",
+   "cat": "pop",
+   "q": "How many seasons did Brooklyn Nine-Nine run?",
+   "a": 8,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "NBC picked up the show a day after Fox canceled it in 2018."
+  },
+  {
+   "id": "abr85r7xb",
+   "cat": "geo",
+   "q": "How tall is Japan's Mount Fuji, to the nearest foot?",
+   "a": 12388,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Fuji is an active volcano; it last erupted in 1707."
+  },
+  {
+   "id": "aexxq0amz",
+   "cat": "history",
+   "q": "How old was Cleopatra when she died in 30 BC?",
+   "a": 39,
+   "type": "number",
+   "unit": "years old",
+   "fact": "She lived closer in time to the Moon landing than to the building of the Great Pyramid."
+  },
+  {
+   "id": "aqqlf6fl2",
+   "cat": "geo",
+   "q": "How tall is London's Elizabeth Tower, home of Big Ben, in feet?",
+   "a": 316,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Big Ben is the name of the great bell inside, not the tower."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a5tima701",
+   "cat": "pop",
+   "q": "To the nearest million, how many copies did Wii Sports sell?",
+   "a": 83,
+   "type": "number",
+   "unit": "million copies",
+   "fact": "It came bundled with the Wii in most regions, starting in 2006."
+  },
+  {
+   "id": "ahdurl58l",
+   "cat": "history",
+   "q": "To the nearest 10 feet, how long was the airship Hindenburg?",
+   "a": 800,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was more than three times as long as a Boeing 747."
+  },
+  {
+   "id": "astjvp6y0",
+   "cat": "sports",
+   "q": "How many games in a row did UConn women's basketball win in its record streak that ended in 2017?",
+   "a": 111,
+   "type": "number",
+   "unit": "games",
+   "fact": "Mississippi State ended it on a buzzer-beater in the Final Four."
+  },
+  {
+   "id": "aiayhzjya",
+   "cat": "geo",
+   "q": "How tall is Yosemite Falls in total, from top to bottom, in feet?",
+   "a": 2425,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's made of three sections: Upper Fall, middle cascades and Lower Fall."
+  }
+ ]
+}
