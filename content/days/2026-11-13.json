@@ -1,6 +1,27 @@
 {
  "date": "2026-11-13",
- "news": [],
+ "news": [
+  {
+   "id": "aa1kphlap",
+   "cat": "news",
+   "q": "Amazon's Black Friday Week and Cyber Monday sale kicks off Nov. 19. How many days of themed deals did Amazon say the event will feature?",
+   "a": 12,
+   "type": "number",
+   "unit": "days",
+   "fact": "Some deals will drop at midnight and 8 a.m. Pacific on Black Friday and Cyber Monday.",
+   "src": "https://www.retaildive.com/news/amazon-black-friday-cyber-monday-holiday-deals/874359/"
+  },
+  {
+   "id": "aj2n76oui",
+   "cat": "news",
+   "q": "NASA says the 2026 Antarctic ozone hole was the biggest in a decade. To the nearest million square miles, how big was it on average during peak season?",
+   "a": 10,
+   "type": "number",
+   "unit": "million sq. miles",
+   "fact": "It still ranked only seventh largest in 48 years of monitoring, and recovery remains on track.",
+   "src": "https://science.nasa.gov/earth/2026-ozone-hole/"
+  }
+ ],
  "easy": [
   {
    "id": "agfdv1jwy",

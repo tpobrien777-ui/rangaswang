@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-22",
+ "news": [],
+ "easy": [
+  {
+   "id": "a4syuo10p",
+   "cat": "pop",
+   "q": "In what year did the Barbie movie starring Margot Robbie hit theaters?",
+   "a": 2023,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was the highest-grossing film worldwide in 2023."
+  },
+  {
+   "id": "ax4gf6kxl",
+   "cat": "history",
+   "q": "In what year was King Charles III crowned at Westminster Abbey?",
+   "a": 2023,
+   "type": "year",
+   "unit": "year",
+   "fact": "His coronation took place on May 6, about eight months after he became king."
+  },
+  {
+   "id": "agzsenz9d",
+   "cat": "geo",
+   "q": "How many stars are on the flag of Texas?",
+   "a": 1,
+   "type": "number",
+   "unit": "stars",
+   "fact": "The flag was adopted in 1839, when Texas was its own republic."
+  },
+  {
+   "id": "a6q3ylm1e",
+   "cat": "sports",
+   "q": "How many races make up horse racing's Triple Crown?",
+   "a": 3,
+   "type": "number",
+   "unit": "races",
+   "fact": "They are the Kentucky Derby, the Preakness Stakes and the Belmont Stakes."
+  },
+  {
+   "id": "aoxmfhpum",
+   "cat": "pop",
+   "q": "How many hosts make up the Fab Five on Netflix's Queer Eye?",
+   "a": 5,
+   "type": "number",
+   "unit": "hosts",
+   "fact": "The Netflix reboot premiered in 2018 and has won several Emmys."
+  }
+ ],
+ "medium": [
+  {
+   "id": "ae35tv7kt",
+   "cat": "history",
+   "q": "NASA introduced its first astronaut class, the Mercury group, in 1959. How many astronauts were in it?",
+   "a": 7,
+   "type": "number",
+   "unit": "astronauts",
+   "fact": "Alan Shepard, one of the group, became the first American in space in 1961."
+  },
+  {
+   "id": "abj05jqdb",
+   "cat": "pop",
+   "q": "How many seasons of NBC's The Good Place were made?",
+   "a": 4,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "Kristen Bell starred as Eleanor Shellstrop."
+  },
+  {
+   "id": "aq8bx4cfy",
+   "cat": "geo",
+   "q": "How many emirates make up the United Arab Emirates?",
+   "a": 7,
+   "type": "number",
+   "unit": "emirates",
+   "fact": "Abu Dhabi is the largest of the seven."
+  },
+  {
+   "id": "aev8xyfgn",
+   "cat": "sports",
+   "q": "How many feet off the ground is the crossbar on an NFL goalpost?",
+   "a": 10,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The uprights rise at least 35 feet above the crossbar."
+  },
+  {
+   "id": "ayglr4spp",
+   "cat": "pop",
+   "q": "In Jules Verne's famous novel, Phileas Fogg bets he can go around the world in how many days?",
+   "a": 80,
+   "type": "number",
+   "unit": "days",
+   "fact": "The story first appeared in 1872."
+  }
+ ],
+ "hard": [
+  {
+   "id": "am6nreybf",
+   "cat": "history",
+   "q": "To the nearest year, how long did Emperor Hirohito reign over Japan?",
+   "a": 62,
+   "type": "number",
+   "unit": "years",
+   "fact": "His era is known in Japan as Showa, meaning 'enlightened peace.'"
+  },
+  {
+   "id": "a2kps06m9",
+   "cat": "pop",
+   "q": "How many weeks did Despacito spend at No. 1 on the Billboard Hot 100?",
+   "a": 16,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "That tied the record then held by Mariah Carey and Boyz II Men's One Sweet Day."
+  },
+  {
+   "id": "akx7r8pqx",
+   "cat": "geo",
+   "q": "How tall is the Matterhorn, to the nearest foot?",
+   "a": 14692,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It straddles the border between Switzerland and Italy."
+  },
+  {
+   "id": "afqtkhdr2",
+   "cat": "sports",
+   "q": "How many yards long is a regulation polo field?",
+   "a": 300,
+   "type": "number",
+   "unit": "yards",
+   "fact": "That's about the length of three football fields."
+  }
+ ]
+}
