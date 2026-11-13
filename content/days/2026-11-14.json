@@ -1,6 +1,27 @@
 {
  "date": "2026-11-14",
- "news": [],
+ "news": [
+  {
+   "id": "aoqeubb49",
+   "cat": "news",
+   "q": "Harry Kane broke Peter Shilton's England appearance record against Croatia on Nov. 12. How many England caps does Kane now have?",
+   "a": 126,
+   "type": "number",
+   "unit": "caps",
+   "fact": "He also scored a penalty in the 2-1 win, his record 92nd goal for England.",
+   "src": "https://www.skysports.com/football/news/13611419/harry-kane-england-captain-breaks-three-lions-appearance-record-by-winning-126th-senior-cap-vs-croatia-at-wembley"
+  },
+  {
+   "id": "astmkvoqs",
+   "cat": "news",
+   "q": "BYD's electric Yangwang U9 Xtreme just set a Guinness record for the fastest one-way run by a production car. To the nearest mile per hour, how fast did it go?",
+   "a": 313,
+   "type": "number",
+   "unit": "mph",
+   "fact": "Its four electric motors make nearly 3,000 horsepower.",
+   "src": "https://newatlas.com/automotive/byd-yangwang-u9-xtreme-500-kmh-guinness-record/"
+  }
+ ],
  "easy": [
   {
    "id": "ae57mm923",

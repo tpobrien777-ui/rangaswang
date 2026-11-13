@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-23",
+ "news": [],
+ "easy": [
+  {
+   "id": "arblc77lr",
+   "cat": "pop",
+   "q": "How many Dalmatians are in the title of Disney's 1961 animated film?",
+   "a": 101,
+   "type": "number",
+   "unit": "Dalmatians",
+   "fact": "It was based on Dodie Smith's 1956 novel."
+  },
+  {
+   "id": "aorgzeb09",
+   "cat": "history",
+   "q": "In what year did the United States celebrate its bicentennial?",
+   "a": 1976,
+   "type": "year",
+   "unit": "year",
+   "fact": "The big party came on July 4, 1976, 200 years after the Declaration of Independence."
+  },
+  {
+   "id": "a8euvb6ul",
+   "cat": "sports",
+   "q": "How many miles long is the Daytona 500?",
+   "a": 500,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It's 200 laps around the 2.5-mile Daytona International Speedway."
+  },
+  {
+   "id": "aezb9rp8p",
+   "cat": "geo",
+   "q": "How many U.S. state names begin with the word \"New\"?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "They are New Hampshire, New Jersey, New Mexico and New York."
+  },
+  {
+   "id": "azrjd62z3",
+   "cat": "pop",
+   "q": "How many seasons did the original Gossip Girl run on TV?",
+   "a": 6,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It aired on The CW from 2007 to 2012."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a8um29lf2",
+   "cat": "pop",
+   "q": "How many weeks did Olivia Rodrigo's \"drivers license\" spend at No. 1 on the Billboard Hot 100?",
+   "a": 8,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "It debuted at No. 1 in January 2021 as her first single."
+  },
+  {
+   "id": "a4jfndl84",
+   "cat": "geo",
+   "q": "How tall is Washington's Mount Rainier, in feet?",
+   "a": 14410,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's the most glaciated peak in the lower 48 states."
+  },
+  {
+   "id": "ajnta6akg",
+   "cat": "history",
+   "q": "In what year was gold found at Sutter's Mill, setting off the California Gold Rush?",
+   "a": 1848,
+   "type": "year",
+   "unit": "year",
+   "fact": "James Marshall spotted the flakes on Jan. 24, 1848."
+  },
+  {
+   "id": "ahjgpnfdr",
+   "cat": "sports",
+   "q": "How many Ballon d'Or awards has Cristiano Ronaldo won?",
+   "a": 5,
+   "type": "number",
+   "unit": "awards",
+   "fact": "He won it in 2008, 2013, 2014, 2016 and 2017."
+  },
+  {
+   "id": "a3ja82gk7",
+   "cat": "geo",
+   "q": "How many feet does Wyoming's Devils Tower rise from its base to its summit?",
+   "a": 867,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Theodore Roosevelt made it the first U.S. national monument in 1906."
+  }
+ ],
+ "hard": [
+  {
+   "id": "asguj8ijp",
+   "cat": "pop",
+   "q": "In the Halo video games, what is Master Chief's Spartan number?",
+   "a": 117,
+   "type": "number",
+   "unit": "number",
+   "fact": "His full designation is Master Chief Petty Officer John-117."
+  },
+  {
+   "id": "adh0s02q2",
+   "cat": "geo",
+   "q": "To the nearest 10 miles, how long is the Chesapeake Bay?",
+   "a": 200,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It's the largest estuary in the United States."
+  },
+  {
+   "id": "a03obcuul",
+   "cat": "history",
+   "q": "In 1963, how many cents did it cost to mail a first-class letter in the U.S.?",
+   "a": 5,
+   "type": "number",
+   "unit": "cents",
+   "fact": "ZIP codes were introduced that same year."
+  },
+  {
+   "id": "ak97q81g7",
+   "cat": "sports",
+   "q": "In what year was the first Rose Bowl game played?",
+   "a": 1902,
+   "type": "year",
+   "unit": "year",
+   "fact": "Michigan routed Stanford 49-0 that New Year's Day."
+  }
+ ]
+}
