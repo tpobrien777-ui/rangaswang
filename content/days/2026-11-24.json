@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-24",
+ "news": [],
+ "easy": [
+  {
+   "id": "afs3cfp7h",
+   "cat": "history",
+   "q": "How many days are in a leap year?",
+   "a": 366,
+   "type": "number",
+   "unit": "days",
+   "fact": "Leap days came in with Julius Caesar's calendar in 45 B.C."
+  },
+  {
+   "id": "aa9zz8uax",
+   "cat": "pop",
+   "q": "How many dice do you roll in a game of Yahtzee?",
+   "a": 5,
+   "type": "number",
+   "unit": "dice",
+   "fact": "Rolling five of a kind scores 50 points."
+  },
+  {
+   "id": "ahfc5mvwy",
+   "cat": "sports",
+   "q": "In a tennis game, what score comes after 15 and 30?",
+   "a": 40,
+   "type": "number",
+   "unit": "points",
+   "fact": "A score of zero in tennis is called \"love.\""
+  },
+  {
+   "id": "ab30haqe2",
+   "cat": "geo",
+   "q": "How many straight sides make up Wyoming's border on a map?",
+   "a": 4,
+   "type": "number",
+   "unit": "sides",
+   "fact": "Colorado and Wyoming are the only states bounded entirely by lines of latitude and longitude."
+  },
+  {
+   "id": "ac6dmw3ck",
+   "cat": "pop",
+   "q": "How many Hemsworth brothers are Hollywood actors?",
+   "a": 3,
+   "type": "number",
+   "unit": "brothers",
+   "fact": "Chris played Thor, Liam starred in The Hunger Games films, and Luke appeared in Westworld."
+  }
+ ],
+ "medium": [
+  {
+   "id": "ajpliga4z",
+   "cat": "sports",
+   "q": "As of the 2026 NFL season, how many Super Bowls has Patrick Mahomes won?",
+   "a": 3,
+   "type": "number",
+   "unit": "Super Bowls",
+   "fact": "He won Super Bowl MVP in all three of those wins."
+  },
+  {
+   "id": "a19a3jibn",
+   "cat": "pop",
+   "q": "In what year did Sonic the Hedgehog first race onto the Sega Genesis?",
+   "a": 1991,
+   "type": "year",
+   "unit": "year",
+   "fact": "Sonic was created to give Sega a mascot to rival Nintendo's Mario."
+  },
+  {
+   "id": "a5t9zz5gf",
+   "cat": "geo",
+   "q": "Rhode Island, the smallest state, is about how many miles long from north to south?",
+   "a": 48,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It's about 37 miles wide from east to west."
+  },
+  {
+   "id": "ahykx12mq",
+   "cat": "history",
+   "q": "Magellan's expedition left Spain in 1519 with five ships. How many of them completed the trip around the world?",
+   "a": 1,
+   "type": "number",
+   "unit": "ships",
+   "fact": "The Victoria limped home in 1522 with only 18 of about 270 crewmen."
+  },
+  {
+   "id": "aybfa3bn9",
+   "cat": "pop",
+   "q": "How many seasons did The Fresh Prince of Bel-Air run?",
+   "a": 6,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It aired on NBC from 1990 to 1996 and made Will Smith a TV star."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a5cqpytpp",
+   "cat": "history",
+   "q": "President John Tyler fathered more children than any other U.S. president. How many?",
+   "a": 15,
+   "type": "number",
+   "unit": "children",
+   "fact": "His last child was born in 1860, when Tyler was 70."
+  },
+  {
+   "id": "ant5kb0z7",
+   "cat": "sports",
+   "q": "How many NASCAR Cup Series races did Richard \"The King\" Petty win, the all-time record?",
+   "a": 200,
+   "type": "number",
+   "unit": "wins",
+   "fact": "He also won seven Cup championships and seven Daytona 500s."
+  },
+  {
+   "id": "astc8q1sg",
+   "cat": "geo",
+   "q": "Denver is called the Mile High City. How many feet above sea level is the marked step of Colorado's Capitol?",
+   "a": 5280,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The 13th step of the State Capitol is engraved \"One Mile Above Sea Level.\""
+  },
+  {
+   "id": "ayf7f0i67",
+   "cat": "pop",
+   "q": "How many No. 1 hits has Madonna had on the Billboard Hot 100?",
+   "a": 12,
+   "type": "number",
+   "unit": "No. 1 hits",
+   "fact": "Her first was Like a Virgin in 1984."
+  }
+ ]
+}

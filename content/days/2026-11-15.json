@@ -1,6 +1,27 @@
 {
  "date": "2026-11-15",
- "news": [],
+ "news": [
+  {
+   "id": "a3yqv1u48",
+   "cat": "news",
+   "q": "Cade Cunningham set a career high as the Pistons beat the Wizards 144-140 in double overtime on Nov. 12. How many points did he score?",
+   "a": 52,
+   "type": "number",
+   "unit": "points",
+   "fact": "He also dished out 11 assists and made 17 of 18 free throws.",
+   "src": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261112_DET@WAS/"
+  },
+  {
+   "id": "ahud0o3go",
+   "cat": "news",
+   "q": "A 1960 paper jokingly predicted \"doomsday\" from population growth on Friday, Nov. 13, 2026. About how many billion people lived on Earth in 1960?",
+   "a": 3,
+   "type": "number",
+   "unit": "billion people",
+   "fact": "Lead author Heinz von Foerster's birthday was Nov. 13.",
+   "src": "https://www.abc.net.au/news/science/2026-11-13/world-has-avoided-a-predicted-population-doomsday/107320748"
+  }
+ ],
  "easy": [
   {
    "id": "azedv1z61",
