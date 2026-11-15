@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-25",
+ "news": [],
+ "easy": [
+  {
+   "id": "aygxj8z0t",
+   "cat": "pop",
+   "q": "How many movies are in the Kung Fu Panda series, through 2024's Kung Fu Panda 4?",
+   "a": 4,
+   "type": "number",
+   "unit": "movies",
+   "fact": "Jack Black has voiced Po in every one."
+  },
+  {
+   "id": "a52pdi7pd",
+   "cat": "history",
+   "q": "Since a 1941 law, U.S. Thanksgiving falls on which-numbered Thursday of November?",
+   "a": 4,
+   "type": "number",
+   "unit": "Thursday",
+   "fact": "Before that, presidents picked the date each year."
+  },
+  {
+   "id": "a5d0e7c6x",
+   "cat": "pop",
+   "q": "How many wishes does the Genie grant in Disney's Aladdin?",
+   "a": 3,
+   "type": "number",
+   "unit": "wishes",
+   "fact": "Robin Williams voiced the Genie in the 1992 film."
+  },
+  {
+   "id": "azonvvxfx",
+   "cat": "geo",
+   "q": "At the equator, about how many hours of daylight are there each day?",
+   "a": 12,
+   "type": "number",
+   "unit": "hours",
+   "fact": "It stays nearly the same all year long."
+  },
+  {
+   "id": "aci9pze6r",
+   "cat": "sports",
+   "q": "On a standard outdoor running track, about how many laps make a mile?",
+   "a": 4,
+   "type": "number",
+   "unit": "laps",
+   "fact": "Four laps fall about 10 yards short of a full mile."
+  }
+ ],
+ "medium": [
+  {
+   "id": "anzz5j0m3",
+   "cat": "pop",
+   "q": "In what year did HBO's The Last of Us premiere?",
+   "a": 2023,
+   "type": "year",
+   "unit": "year",
+   "fact": "It's based on the 2013 PlayStation game."
+  },
+  {
+   "id": "aaz491zjs",
+   "cat": "sports",
+   "q": "How many personal fouls does it take to foul out of an NBA game?",
+   "a": 6,
+   "type": "number",
+   "unit": "fouls",
+   "fact": "In college basketball, players foul out after five."
+  },
+  {
+   "id": "aibxruixp",
+   "cat": "geo",
+   "q": "To the nearest mile, how wide is the Strait of Gibraltar at its narrowest point?",
+   "a": 9,
+   "type": "number",
+   "unit": "miles",
+   "fact": "On clear days you can see Morocco from Spain across it."
+  },
+  {
+   "id": "ahufyz5by",
+   "cat": "history",
+   "q": "The Great Fire of London in 1666 burned for how many days?",
+   "a": 4,
+   "type": "number",
+   "unit": "days",
+   "fact": "It started in a bakery on Pudding Lane."
+  },
+  {
+   "id": "aq8ybt1k9",
+   "cat": "pop",
+   "q": "To the nearest minute, how long is Queen's song Bohemian Rhapsody?",
+   "a": 6,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "It famously has no chorus."
+  }
+ ],
+ "hard": [
+  {
+   "id": "ac1holuvo",
+   "cat": "sports",
+   "q": "Don Shula holds the record for NFL coaching wins. How many did he win, counting the playoffs?",
+   "a": 347,
+   "type": "number",
+   "unit": "wins",
+   "fact": "His 1972 Dolphins are still the NFL's only perfect team."
+  },
+  {
+   "id": "atw2thrlg",
+   "cat": "geo",
+   "q": "How tall is Colorado's Pikes Peak, in feet?",
+   "a": 14115,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The view from its summit inspired the song America the Beautiful."
+  },
+  {
+   "id": "aatkh7ytb",
+   "cat": "history",
+   "q": "In 1919, Alcock and Brown made the first nonstop flight across the Atlantic. To the nearest hour, how long did it take?",
+   "a": 16,
+   "type": "number",
+   "unit": "hours",
+   "fact": "They landed nose-first in an Irish bog."
+  },
+  {
+   "id": "ahb1t9odl",
+   "cat": "pop",
+   "q": "How many years after its 1994 release did Mariah Carey's All I Want for Christmas Is You first hit No. 1 on the Hot 100?",
+   "a": 25,
+   "type": "number",
+   "unit": "years",
+   "fact": "It finally reached No. 1 in December 2019."
+  }
+ ]
+}

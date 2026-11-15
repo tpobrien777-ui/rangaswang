@@ -1,6 +1,27 @@
 {
  "date": "2026-11-16",
- "news": [],
+ "news": [
+  {
+   "id": "ahtcfbb2i",
+   "cat": "news",
+   "q": "Ferris State set an NCAA Division II football record on Nov. 14 by beating Roosevelt. How many games in a row has it now won?",
+   "a": 41,
+   "type": "number",
+   "unit": "games",
+   "fact": "The Bulldogs had tied the old Division II record of 40 the week before.",
+   "src": "https://www.wzzm13.com/article/news/local/ferris-state-sets-new-ncaa-division-ii-record-after-saturday-win-over-roosevelt-lakers/69-1139e247-8d97-4159-a561-13525fe2181f"
+  },
+  {
+   "id": "aycs81b7i",
+   "cat": "news",
+   "q": "The Leonid meteor shower peaks this week. Its parent, comet Tempel-Tuttle, takes how many years to orbit the sun?",
+   "a": 33,
+   "type": "number",
+   "unit": "years",
+   "fact": "Leonid meteors hit the atmosphere at about 44 miles per second.",
+   "src": "https://science.nasa.gov/solar-system/meteors-meteorites/leonids/"
+  }
+ ],
  "easy": [
   {
    "id": "ags5yij6c",
