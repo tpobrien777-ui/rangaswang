@@ -1,6 +1,27 @@
 {
  "date": "2026-11-17",
- "news": [],
+ "news": [
+  {
+   "id": "a8xq3ys50",
+   "cat": "news",
+   "q": "Johnny Depp's Ebenezer opened at No. 1 at the box office on Nov. 13–15. To the nearest million, how many million dollars did it earn in North America that weekend?",
+   "a": 19,
+   "type": "number",
+   "unit": "million $",
+   "fact": "It knocked Godzilla Minus Zero out of the top spot.",
+   "src": "https://variety.com/2026/film/box-office/ebenezer-box-office-johnny-depp-opening-weekend-how-to-rob-a-bank-1236948055/"
+  },
+  {
+   "id": "a9m8zjzq1",
+   "cat": "news",
+   "q": "Christian McCaffrey scored three touchdowns as the 49ers beat the Cowboys 46-40 on Nov. 15. How many yards from scrimmage did he gain?",
+   "a": 223,
+   "type": "number",
+   "unit": "yards",
+   "fact": "It included a career-long 74-yard touchdown catch.",
+   "src": "https://www.rotowire.com/football/headlines/christian-mccaffrey-news-career-high-receiving-yardage-tally-in-win-648089"
+  }
+ ],
  "easy": [
   {
    "id": "argr4zypi",

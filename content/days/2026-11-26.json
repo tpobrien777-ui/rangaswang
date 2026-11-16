@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-26",
+ "news": [],
+ "easy": [
+  {
+   "id": "ajkgwic55",
+   "cat": "history",
+   "q": "Leonardo da Vinci began painting the Mona Lisa in 1503. In what numbered century is that?",
+   "a": 16,
+   "type": "number",
+   "unit": "century",
+   "fact": "He kept working on it for years and never delivered it to the patron."
+  },
+  {
+   "id": "as2yg798d",
+   "cat": "pop",
+   "q": "How many kids do Bob and Helen Parr have in Pixar's The Incredibles?",
+   "a": 3,
+   "type": "number",
+   "unit": "kids",
+   "fact": "Violet, Dash and baby Jack-Jack."
+  },
+  {
+   "id": "a6pw9h1e8",
+   "cat": "geo",
+   "q": "How many U.S. states are not part of the contiguous 48?",
+   "a": 2,
+   "type": "number",
+   "unit": "states",
+   "fact": "Alaska and Hawaii both joined the Union in 1959."
+  },
+  {
+   "id": "a66o2wmgt",
+   "cat": "sports",
+   "q": "LeBron James won NBA titles with the Heat, Cavaliers and Lakers. How many did he win in all from 2012 through 2020?",
+   "a": 4,
+   "type": "number",
+   "unit": "titles",
+   "fact": "He was named Finals MVP every time."
+  },
+  {
+   "id": "afztyvrz3",
+   "cat": "sports",
+   "q": "How many hours long is France's famous Le Mans endurance car race?",
+   "a": 24,
+   "type": "number",
+   "unit": "hours",
+   "fact": "The first one was run in 1923."
+  }
+ ],
+ "medium": [
+  {
+   "id": "ahvxwphmh",
+   "cat": "history",
+   "q": "In what year did President Eisenhower sign the law that created the Interstate Highway System?",
+   "a": 1956,
+   "type": "year",
+   "unit": "year",
+   "fact": "Eisenhower was inspired by Germany's autobahns."
+  },
+  {
+   "id": "a05wwu46w",
+   "cat": "pop",
+   "q": "How many seasons did The Vampire Diaries run on The CW?",
+   "a": 8,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It ran from 2009 to 2017 and spun off The Originals."
+  },
+  {
+   "id": "aw4fv4o8s",
+   "cat": "geo",
+   "q": "To the nearest foot, how tall is California's General Sherman, the world's largest tree by volume?",
+   "a": 275,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Its trunk is about 36 feet across at the base."
+  },
+  {
+   "id": "agn6tzmfw",
+   "cat": "sports",
+   "q": "How many feet long is a standard NHL rink?",
+   "a": 200,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's 85 feet wide."
+  },
+  {
+   "id": "ai3d895hp",
+   "cat": "pop",
+   "q": "How many John Wick movies did Keanu Reeves make, through 2023's John Wick: Chapter 4?",
+   "a": 4,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The 2025 spinoff Ballerina isn't counted."
+  }
+ ],
+ "hard": [
+  {
+   "id": "au2pwhpzs",
+   "cat": "history",
+   "q": "The Spanish Armada sailed against England in 1588 with about how many ships, to the nearest 10?",
+   "a": 130,
+   "type": "number",
+   "unit": "ships",
+   "fact": "Storms wrecked many of its ships on the way home."
+  },
+  {
+   "id": "atqdk4he1",
+   "cat": "pop",
+   "q": "How many episodes of HBO's The Wire aired over its five seasons?",
+   "a": 60,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Each season focused on a different part of Baltimore."
+  },
+  {
+   "id": "a1melvbuc",
+   "cat": "geo",
+   "q": "To the nearest hundred feet, how high above sea level is the top of Yosemite's Half Dome?",
+   "a": 8800,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Its summit is about 4,800 feet above the valley floor."
+  },
+  {
+   "id": "an031nmil",
+   "cat": "sports",
+   "q": "Cy Young holds the MLB record for career pitching wins. How many did he win?",
+   "a": 511,
+   "type": "number",
+   "unit": "wins",
+   "fact": "He also holds the record for career losses, with 316."
+  }
+ ]
+}
