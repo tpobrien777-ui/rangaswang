@@ -1,6 +1,27 @@
 {
  "date": "2026-11-18",
- "news": [],
+ "news": [
+  {
+   "id": "aux0462y4",
+   "cat": "news",
+   "q": "Sotheby's two New York evening art sales on Nov. 16 brought in how many million dollars combined, to the nearest million?",
+   "a": 379,
+   "type": "number",
+   "unit": "million $",
+   "fact": "Every one of the 24 works from the Baum collection found a buyer.",
+   "src": "https://www.artnews.com/art-news/market/sothebys-november-2026-baum-collection-contemporary-auction-1234806277/"
+  },
+  {
+   "id": "ajdj7gxxg",
+   "cat": "news",
+   "q": "Astronomers just traced mysterious radio pulses to a dead star paired with a Sun-like star. The dead star spins once every how many minutes?",
+   "a": 8,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "The pair is more than 5,000 light-years from Earth.",
+   "src": "https://www.sciencedaily.com/releases/2026/11/261114202136.htm"
+  }
+ ],
  "easy": [
   {
    "id": "ayy9fqu43",

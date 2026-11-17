@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-27",
+ "news": [],
+ "easy": [
+  {
+   "id": "axyljb9zd",
+   "cat": "pop",
+   "q": "How many thieves pull off the casino heist in the 2001 movie Ocean's Eleven?",
+   "a": 11,
+   "type": "number",
+   "unit": "thieves",
+   "fact": "George Clooney plays ringleader Danny Ocean."
+  },
+  {
+   "id": "a6l8k4e22",
+   "cat": "history",
+   "q": "Lincoln's Gettysburg Address opens with \"Four score and seven years ago.\" How many years is that?",
+   "a": 87,
+   "type": "number",
+   "unit": "years",
+   "fact": "A score is 20, so he was counting back to 1776."
+  },
+  {
+   "id": "a9e43mghv",
+   "cat": "geo",
+   "q": "How many U.S. states share a border with Mexico?",
+   "a": 4,
+   "type": "number",
+   "unit": "states",
+   "fact": "They are California, Arizona, New Mexico and Texas."
+  },
+  {
+   "id": "aupw0zqo9",
+   "cat": "sports",
+   "q": "The Summer Olympics are normally held once every how many years?",
+   "a": 4,
+   "type": "number",
+   "unit": "years",
+   "fact": "Tokyo's 2020 Games were the rare exception, pushed back a year."
+  },
+  {
+   "id": "aqvykmw69",
+   "cat": "pop",
+   "q": "How many small squares make up a standard Sudoku grid?",
+   "a": 81,
+   "type": "number",
+   "unit": "squares",
+   "fact": "The grid is nine rows by nine columns."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a4mp38iws",
+   "cat": "pop",
+   "q": "What's the most players allowed in one game of the hit video game Among Us?",
+   "a": 15,
+   "type": "number",
+   "unit": "players",
+   "fact": "The limit rose from 10 to 15 in a December 2020 update."
+  },
+  {
+   "id": "awkzbv0sc",
+   "cat": "history",
+   "q": "How many debates did Abraham Lincoln and Stephen Douglas hold in their 1858 Illinois Senate race?",
+   "a": 7,
+   "type": "number",
+   "unit": "debates",
+   "fact": "Douglas won the Senate seat, but Lincoln won the presidency two years later."
+  },
+  {
+   "id": "af6hg156r",
+   "cat": "geo",
+   "q": "How many countries make up Central America?",
+   "a": 7,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Belize is the only one where English is the official language."
+  },
+  {
+   "id": "a979uc1ir",
+   "cat": "sports",
+   "q": "How many feet long is a regulation tennis court?",
+   "a": 78,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Singles and doubles courts are the same length; doubles is just wider."
+  },
+  {
+   "id": "admzrm8qq",
+   "cat": "pop",
+   "q": "In what year did Apple release the first iPod?",
+   "a": 2001,
+   "type": "year",
+   "unit": "year",
+   "fact": "Apple pitched it as \"1,000 songs in your pocket.\""
+  }
+ ],
+ "hard": [
+  {
+   "id": "a99ouaowk",
+   "cat": "geo",
+   "q": "To the nearest hundred feet, how deep is Hells Canyon on the Idaho–Oregon line, North America's deepest river gorge?",
+   "a": 8000,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's deeper than the Grand Canyon, carved by the Snake River."
+  },
+  {
+   "id": "alzp23es2",
+   "cat": "history",
+   "q": "China's Ming dynasty ruled from 1368 to 1644. How many years is that?",
+   "a": 276,
+   "type": "number",
+   "unit": "years",
+   "fact": "Much of the Great Wall you can visit today was built under the Ming."
+  },
+  {
+   "id": "an1p4u3om",
+   "cat": "sports",
+   "q": "Before LeBron James passed him in 2023, how many career points did Kareem Abdul-Jabbar score, the NBA record?",
+   "a": 38387,
+   "type": "number",
+   "unit": "points",
+   "fact": "He held the record for nearly 39 years."
+  },
+  {
+   "id": "awqel3k5a",
+   "cat": "pop",
+   "q": "How many weeks did Mark Ronson and Bruno Mars's \"Uptown Funk!\" spend at No. 1 on the Billboard Hot 100?",
+   "a": 14,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "It was the top song of 2015 on Billboard's year-end chart."
+  }
+ ]
+}
