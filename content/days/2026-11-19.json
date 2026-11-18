@@ -1,6 +1,27 @@
 {
  "date": "2026-11-19",
- "news": [],
+ "news": [
+  {
+   "id": "ajoyve4ju",
+   "cat": "news",
+   "q": "Raye leads the 2027 Grammy nominations, announced on Nov. 16. How many nominations did she get?",
+   "a": 11,
+   "type": "number",
+   "unit": "nominations",
+   "fact": "That ties the record for the most nominations in one year by a woman.",
+   "src": "https://www.grammy.com/news/who-has-the-most-grammy-nominations-at-the-2027-grammys/"
+  },
+  {
+   "id": "aplwdsjtp",
+   "cat": "news",
+   "q": "Nvidia reported record quarterly sales on Nov. 17. To the nearest billion, how many billion dollars did it bring in?",
+   "a": 116,
+   "type": "number",
+   "unit": "billion $",
+   "fact": "Its sales more than doubled from a year earlier.",
+   "src": "https://www.fool.com/coverage/stock-market-today/2026/11/17/stock-market-today-nov-17-nvidia-slides-ahead-of-earnings-but-soars-in-after-hours-trading/"
+  }
+ ],
  "easy": [
   {
    "id": "a69vf04ds",

@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-28",
+ "news": [],
+ "easy": [
+  {
+   "id": "asyuqwb2i",
+   "cat": "sports",
+   "q": "How many teams play in the NBA?",
+   "a": 30,
+   "type": "number",
+   "unit": "teams",
+   "fact": "Twenty-nine are in the U.S. and one, the Raptors, is in Canada."
+  },
+  {
+   "id": "a4lfqus2k",
+   "cat": "pop",
+   "q": "Counting Rudolph, how many reindeer pull Santa's sleigh?",
+   "a": 9,
+   "type": "number",
+   "unit": "reindeer",
+   "fact": "Rudolph joined the team in a 1939 Montgomery Ward booklet."
+  },
+  {
+   "id": "aw4ivaxms",
+   "cat": "geo",
+   "q": "Niagara Falls is made up of how many separate waterfalls?",
+   "a": 3,
+   "type": "number",
+   "unit": "waterfalls",
+   "fact": "They are the Horseshoe, American and Bridal Veil falls."
+  },
+  {
+   "id": "atr0ae633",
+   "cat": "history",
+   "q": "In what year did the Vietnam War end with the fall of Saigon?",
+   "a": 1975,
+   "type": "year",
+   "unit": "year",
+   "fact": "Saigon was renamed Ho Chi Minh City the next year."
+  },
+  {
+   "id": "ahp89bevm",
+   "cat": "pop",
+   "q": "How many Pitch Perfect movies came out from 2012 to 2017?",
+   "a": 3,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The first one made the song \"Cups\" a surprise hit."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a8kkrxor6",
+   "cat": "sports",
+   "q": "To the nearest foot, how high is the net in men's indoor volleyball?",
+   "a": 8,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's 7 feet, 11⅝ inches; the women's net is about 7 feet, 4 inches."
+  },
+  {
+   "id": "aobnbbefk",
+   "cat": "pop",
+   "q": "How many seasons did the sitcom Community run?",
+   "a": 6,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "Fans' rallying cry was \"six seasons and a movie.\""
+  },
+  {
+   "id": "aseskazlx",
+   "cat": "geo",
+   "q": "How many miles long is the Blue Ridge Parkway?",
+   "a": 469,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It links Shenandoah and Great Smoky Mountains national parks."
+  },
+  {
+   "id": "au185hzz3",
+   "cat": "history",
+   "q": "How many different NASA space shuttles flew in space?",
+   "a": 5,
+   "type": "number",
+   "unit": "shuttles",
+   "fact": "The test shuttle Enterprise only made glide flights in the atmosphere."
+  },
+  {
+   "id": "a5t6x0flk",
+   "cat": "history",
+   "q": "In what year was the first Macy's Thanksgiving Day Parade held?",
+   "a": 1924,
+   "type": "year",
+   "unit": "year",
+   "fact": "Live animals from the Central Park Zoo marched in it."
+  }
+ ],
+ "hard": [
+  {
+   "id": "aqevyj16z",
+   "cat": "geo",
+   "q": "In 1934, New Hampshire's Mount Washington recorded a world-record wind gust. How fast was it, in miles per hour?",
+   "a": 231,
+   "type": "number",
+   "unit": "mph",
+   "fact": "It stood as the world record for 62 years."
+  },
+  {
+   "id": "aaczlajiz",
+   "cat": "sports",
+   "q": "Erling Haaland set the Premier League's single-season scoring record in 2022-23. How many goals did he score?",
+   "a": 36,
+   "type": "number",
+   "unit": "goals",
+   "fact": "He broke the 34-goal mark set by Andy Cole and Alan Shearer."
+  },
+  {
+   "id": "afgtgvm6r",
+   "cat": "history",
+   "q": "In what year did Charles Dickens publish A Christmas Carol?",
+   "a": 1843,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first printing sold out within a week."
+  },
+  {
+   "id": "a2tfw4gx7",
+   "cat": "pop",
+   "q": "How many minutes long is The Godfather (1972)?",
+   "a": 175,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "It won three Oscars, including Best Picture."
+  }
+ ]
+}
