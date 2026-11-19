@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-29",
+ "news": [],
+ "easy": [
+  {
+   "id": "a7tqkoo00",
+   "cat": "history",
+   "q": "In what year did the Soviet Union launch Sputnik 1, the first artificial satellite?",
+   "a": 1957,
+   "type": "year",
+   "unit": "year",
+   "fact": "It was about the size of a beach ball and circled Earth every 96 minutes."
+  },
+  {
+   "id": "ats2zzos2",
+   "cat": "pop",
+   "q": "How many different actors have played Peter Parker as Spider-Man in live-action movies?",
+   "a": 3,
+   "type": "number",
+   "unit": "actors",
+   "fact": "Tobey Maguire, Andrew Garfield and Tom Holland all appear in 2021's No Way Home."
+  },
+  {
+   "id": "acazzyxxx",
+   "cat": "geo",
+   "q": "Japan is made up of how many main islands?",
+   "a": 4,
+   "type": "number",
+   "unit": "islands",
+   "fact": "Honshu, Hokkaido, Kyushu and Shikoku are the four main islands."
+  },
+  {
+   "id": "agr42o0fz",
+   "cat": "sports",
+   "q": "To the nearest mile, how long is a 5K race?",
+   "a": 3,
+   "type": "number",
+   "unit": "miles",
+   "fact": "A 5K is about 3.1 miles."
+  },
+  {
+   "id": "adsdf1gbg",
+   "cat": "pop",
+   "q": "How many strings does a standard violin have?",
+   "a": 4,
+   "type": "number",
+   "unit": "strings",
+   "fact": "Its strings are tuned G, D, A and E."
+  }
+ ],
+ "medium": [
+  {
+   "id": "aqwk9zl4k",
+   "cat": "history",
+   "q": "How many years did Alcatraz operate as a federal prison?",
+   "a": 29,
+   "type": "number",
+   "unit": "years",
+   "fact": "It closed in 1963 because it had become too costly to run."
+  },
+  {
+   "id": "amus1uzdj",
+   "cat": "pop",
+   "q": "How many Grammys did Kendrick Lamar's \"Not Like Us\" win at the 2025 ceremony?",
+   "a": 5,
+   "type": "number",
+   "unit": "Grammys",
+   "fact": "It won both Record and Song of the Year."
+  },
+  {
+   "id": "alzz4hw6k",
+   "cat": "geo",
+   "q": "In what year did the Sydney Opera House open?",
+   "a": 1973,
+   "type": "year",
+   "unit": "year",
+   "fact": "It became a UNESCO World Heritage Site in 2007."
+  },
+  {
+   "id": "a6lv613uo",
+   "cat": "sports",
+   "q": "How many Formula 1 world championships has Max Verstappen won?",
+   "a": 4,
+   "type": "number",
+   "unit": "titles",
+   "fact": "He won four in a row, from 2021 through 2024."
+  },
+  {
+   "id": "azdkx2j08",
+   "cat": "history",
+   "q": "Work on England's Stonehenge began about how many thousand years ago?",
+   "a": 5,
+   "type": "number",
+   "unit": "thousand years",
+   "fact": "Its largest sarsen stones weigh about 25 tons each."
+  }
+ ],
+ "hard": [
+  {
+   "id": "avsabzyqv",
+   "cat": "history",
+   "q": "How many days did the World War II siege of Leningrad last?",
+   "a": 872,
+   "type": "number",
+   "unit": "days",
+   "fact": "The city is now called St. Petersburg again."
+  },
+  {
+   "id": "aahlsoxpy",
+   "cat": "pop",
+   "q": "How many tracks are on Drake's 2018 double album Scorpion?",
+   "a": 25,
+   "type": "number",
+   "unit": "tracks",
+   "fact": "It topped a billion streams worldwide in its first week."
+  },
+  {
+   "id": "apvap2cad",
+   "cat": "geo",
+   "q": "How tall is Washington's Mount St. Helens today, in feet?",
+   "a": 8363,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Its 1980 eruption knocked about 1,300 feet off the top."
+  },
+  {
+   "id": "av77yoaea",
+   "cat": "sports",
+   "q": "To the nearest foot, how far was Bob Beamon's famous long jump at the 1968 Olympics?",
+   "a": 29,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It beat the world record by nearly 2 feet and stood for almost 23 years."
+  }
+ ]
+}

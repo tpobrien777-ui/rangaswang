@@ -1,6 +1,27 @@
 {
  "date": "2026-11-20",
- "news": [],
+ "news": [
+  {
+   "id": "at32kuvtq",
+   "cat": "news",
+   "q": "Quentin Grimes set a career high as the Lakers beat the Hornets 118-114 in overtime on Nov. 17. How many points did he score?",
+   "a": 47,
+   "type": "number",
+   "unit": "points",
+   "fact": "He made 10 three-pointers in the game.",
+   "src": "https://sports.yahoo.com/nba/breaking-news/article/quentin-grimes-makes-10-3-pointers-drops-career-high-47-points-to-lift-lakers-past-hornets-080827242.html"
+  },
+  {
+   "id": "adjoe7jt6",
+   "cat": "news",
+   "q": "AAA expects 81.5 million Americans to travel for Thanksgiving this year. To the nearest million, how many million will go by car?",
+   "a": 73,
+   "type": "number",
+   "unit": "million people",
+   "fact": "The forecast ends a three-year streak of record Thanksgiving travel.",
+   "src": "https://newsroom.acg.aaa.com/sc-aaa-815-million-americans-expected-to-travel-for-thanksgiving/"
+  }
+ ],
  "easy": [
   {
    "id": "a6cksqw9x",
