@@ -1,6 +1,27 @@
 {
  "date": "2026-11-21",
- "news": [],
+ "news": [
+  {
+   "id": "atvykfp7n",
+   "cat": "news",
+   "q": "Walmart reported its latest quarterly results on Nov. 19. To the nearest billion, how many billion dollars in revenue did it bring in for the quarter?",
+   "a": 189,
+   "type": "number",
+   "unit": "billion $",
+   "fact": "Walmart's U.S. online sales grew 23% in the quarter.",
+   "src": "https://grafa.com/en/news/united-states/walmart-q3-fy2027-revenue-rises-5-2-percent"
+  },
+  {
+   "id": "acr35yxti",
+   "cat": "news",
+   "q": "Mark Stone became the Vegas Golden Knights' all-time scoring leader on Nov. 19. How many career points does he now have with Vegas?",
+   "a": 418,
+   "type": "number",
+   "unit": "points",
+   "fact": "He passed Jonathan Marchessault, who had 417 points in seven Vegas seasons.",
+   "src": "https://www.espn.com/nhl/story/_/id/50538736/mark-stone-becomes-golden-knight-all-scoring-leader"
+  }
+ ],
  "easy": [
   {
    "id": "ak6r2lrd4",

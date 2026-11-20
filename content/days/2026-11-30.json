@@ -1,0 +1,136 @@
+{
+ "date": "2026-11-30",
+ "news": [],
+ "easy": [
+  {
+   "id": "a29osc2l0",
+   "cat": "pop",
+   "q": "Pixar's Inside Out 2 added how many new emotions to Riley's mind?",
+   "a": 4,
+   "type": "number",
+   "unit": "emotions",
+   "fact": "The newcomers are Anxiety, Envy, Ennui and Embarrassment."
+  },
+  {
+   "id": "aelfti64t",
+   "cat": "history",
+   "q": "How many lines are in a Shakespearean sonnet?",
+   "a": 14,
+   "type": "number",
+   "unit": "lines",
+   "fact": "Shakespeare published 154 sonnets in 1609."
+  },
+  {
+   "id": "a0rpmh0ve",
+   "cat": "geo",
+   "q": "Nepal has the only national flag that isn't a rectangle. How many triangles is it made of?",
+   "a": 2,
+   "type": "number",
+   "unit": "triangles",
+   "fact": "The two stacked pennants are often said to stand for the Himalayas."
+  },
+  {
+   "id": "aicrjrcd8",
+   "cat": "sports",
+   "q": "In horseshoes, how many points is a ringer worth?",
+   "a": 3,
+   "type": "number",
+   "unit": "points",
+   "fact": "A ringer is a shoe that circles the stake."
+  },
+  {
+   "id": "abqk5h2bu",
+   "cat": "pop",
+   "q": "How many Home Alone movies did Macaulay Culkin star in?",
+   "a": 2,
+   "type": "number",
+   "unit": "movies",
+   "fact": "Home Alone 2: Lost in New York came out in 1992."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a1bad9wd4",
+   "cat": "pop",
+   "q": "How many castaways competed on the very first season of Survivor in 2000?",
+   "a": 16,
+   "type": "number",
+   "unit": "castaways",
+   "fact": "Richard Hatch won the first $1 million prize."
+  },
+  {
+   "id": "af1faqlh7",
+   "cat": "sports",
+   "q": "How many French Open singles titles did Rafael Nadal win?",
+   "a": 14,
+   "type": "number",
+   "unit": "titles",
+   "fact": "He lost only four matches at Roland Garros in his career."
+  },
+  {
+   "id": "asfokx0t2",
+   "cat": "history",
+   "q": "How many U.S. presidents died on the Fourth of July?",
+   "a": 3,
+   "type": "number",
+   "unit": "presidents",
+   "fact": "John Adams and Thomas Jefferson both died on July 4, 1826; James Monroe followed in 1831."
+  },
+  {
+   "id": "aj82nvq1n",
+   "cat": "history",
+   "q": "Michelangelo began painting the Sistine Chapel ceiling in 1508. How many years did the job take?",
+   "a": 4,
+   "type": "number",
+   "unit": "years",
+   "fact": "He painted it standing on scaffolding, not lying on his back."
+  },
+  {
+   "id": "au7o5ng32",
+   "cat": "geo",
+   "q": "How many letters are in the official Hawaiian alphabet?",
+   "a": 13,
+   "type": "number",
+   "unit": "letters",
+   "fact": "It has five vowels and eight consonants, including the ʻokina."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a59g5up1h",
+   "cat": "sports",
+   "q": "Brett Favre set the NFL record for consecutive regular-season starts by a quarterback. How many games was the streak?",
+   "a": 297,
+   "type": "number",
+   "unit": "games",
+   "fact": "The streak ran from 1992 to 2010."
+  },
+  {
+   "id": "a6ml6s7mt",
+   "cat": "pop",
+   "q": "For how many years did Bob Barker host The Price Is Right?",
+   "a": 35,
+   "type": "number",
+   "unit": "years",
+   "fact": "He started in 1972 and retired in 2007."
+  },
+  {
+   "id": "a5o3zxvsn",
+   "cat": "geo",
+   "q": "How many islands make up the Thousand Islands in the St. Lawrence River?",
+   "a": 1864,
+   "type": "number",
+   "unit": "islands",
+   "fact": "To count, an island must be above water all year and support at least one tree."
+  },
+  {
+   "id": "arvlfzokx",
+   "cat": "history",
+   "q": "To the nearest 10 feet, what was the wingspan of Howard Hughes's Spruce Goose flying boat?",
+   "a": 320,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It flew just once, in 1947, about 70 feet above the water."
+  }
+ ]
+}
