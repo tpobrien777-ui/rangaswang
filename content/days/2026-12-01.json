@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-01",
+ "news": [],
+ "easy": [
+  {
+   "id": "ae4ewjei9",
+   "cat": "geo",
+   "q": "How many countries share a land border with Portugal?",
+   "a": 1,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Spain wraps around Portugal on the north and east; the Atlantic does the rest."
+  },
+  {
+   "id": "afhdlufrd",
+   "cat": "pop",
+   "q": "How many strings does a standard ukulele have?",
+   "a": 4,
+   "type": "number",
+   "unit": "strings",
+   "fact": "The ukulele grew out of small guitars brought to Hawaii by Portuguese immigrants in the 1870s."
+  },
+  {
+   "id": "a38b67v7t",
+   "cat": "sports",
+   "q": "In baseball, how many balls does it take to draw a walk?",
+   "a": 4,
+   "type": "number",
+   "unit": "balls",
+   "fact": "It took as many as nine balls for a walk in the 1880s."
+  },
+  {
+   "id": "adpm6oylq",
+   "cat": "history",
+   "q": "How many guns are fired in the salute traditionally given to a head of state?",
+   "a": 21,
+   "type": "number",
+   "unit": "guns",
+   "fact": "Firing a salute once meant emptying your weapons to show you meant no harm."
+  },
+  {
+   "id": "a3q1tr6ca",
+   "cat": "pop",
+   "q": "How many Bridgerton siblings are there in the Netflix series?",
+   "a": 8,
+   "type": "number",
+   "unit": "siblings",
+   "fact": "Their first names run in alphabetical order, from Anthony to Hyacinth."
+  }
+ ],
+ "medium": [
+  {
+   "id": "a2k5d69d2",
+   "cat": "pop",
+   "q": "How many Emmys did FX's Shōgun win for its first season in 2024, a record for a single season?",
+   "a": 18,
+   "type": "number",
+   "unit": "Emmys",
+   "fact": "It beat the old record of 13, set by HBO's John Adams miniseries in 2008."
+  },
+  {
+   "id": "adiwktgc7",
+   "cat": "history",
+   "q": "How many men sailed with Ernest Shackleton on the Endurance, all of whom survived after it sank in Antarctic ice?",
+   "a": 28,
+   "type": "number",
+   "unit": "men",
+   "fact": "The wreck was found in 2022, nearly 10,000 feet down in the Weddell Sea."
+  },
+  {
+   "id": "aoku18an9",
+   "cat": "geo",
+   "q": "The equator passes through how many countries, counting their waters?",
+   "a": 13,
+   "type": "number",
+   "unit": "countries",
+   "fact": "Ecuador is named for it: ecuador is Spanish for equator."
+  },
+  {
+   "id": "ahndqiazh",
+   "cat": "sports",
+   "q": "In curling, how many stones does each team throw in one end?",
+   "a": 8,
+   "type": "number",
+   "unit": "stones",
+   "fact": "Most curling stones are made from granite quarried on a single Scottish island, Ailsa Craig."
+  },
+  {
+   "id": "armpd9iix",
+   "cat": "sports",
+   "q": "When the College Football Playoff expanded in 2024, how many teams made the field?",
+   "a": 12,
+   "type": "number",
+   "unit": "teams",
+   "fact": "Ohio State won the first 12-team playoff, beating Notre Dame in the title game."
+  }
+ ],
+ "hard": [
+  {
+   "id": "aq2021kuu",
+   "cat": "history",
+   "q": "How many rooms does the White House have?",
+   "a": 132,
+   "type": "number",
+   "unit": "rooms",
+   "fact": "It also has 35 bathrooms, 28 fireplaces and 8 staircases."
+  },
+  {
+   "id": "an4y4k4tb",
+   "cat": "geo",
+   "q": "North Carolina's Mount Mitchell is the highest peak east of the Mississippi River. How tall is it, in feet?",
+   "a": 6684,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It's named for Elisha Mitchell, a professor who measured it in the 1830s."
+  },
+  {
+   "id": "api1ibkzk",
+   "cat": "sports",
+   "q": "To the nearest pound, how much does the standard men's Olympic weightlifting bar weigh?",
+   "a": 44,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "The women's bar is lighter and a bit thinner, at about 33 pounds."
+  },
+  {
+   "id": "aer744opz",
+   "cat": "pop",
+   "q": "The Xbox Series X launched in November 2020 at what price, in dollars?",
+   "a": 499,
+   "type": "number",
+   "unit": "dollars",
+   "fact": "It came out the same week as the PlayStation 5, which also started at $499."
+  }
+ ]
+}

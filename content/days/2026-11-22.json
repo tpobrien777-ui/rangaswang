@@ -1,6 +1,27 @@
 {
  "date": "2026-11-22",
- "news": [],
+ "news": [
+  {
+   "id": "acaxgqccy",
+   "cat": "news",
+   "q": "On Guinness World Records Day, Nov. 19, a man in Indonesia set the record for most rope skips in one minute while wearing flip-flops. How many skips did he make?",
+   "a": 249,
+   "type": "number",
+   "unit": "skips",
+   "fact": "The same day in Dubai, 12 cars did donuts in a single circle at once for another new record.",
+   "src": "https://www.guinnessworldrecords.com/news/2026/11/all-the-action-from-gwr-day-2026-epic-car-stunts-bicycle-backflips-and-more"
+  },
+  {
+   "id": "avbxeudzx",
+   "cat": "news",
+   "q": "David Montgomery returned from injury as the Texans beat the Colts 26-3 on Thursday night, Nov. 19. How many rushing yards did he have?",
+   "a": 107,
+   "type": "number",
+   "unit": "yards",
+   "fact": "It was a season high on 26 carries, and Houston's first home win of the season.",
+   "src": "https://www.espn.com/nfl/recap/_/gameId/401873066"
+  }
+ ],
  "easy": [
   {
    "id": "a4syuo10p",
