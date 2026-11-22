@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-02",
+ "news": [],
+ "easy": [
+  {
+   "id": "a1ko82s5p",
+   "cat": "pop",
+   "q": "How many stars is the top rating you can give a driver in the Uber app?",
+   "a": 5,
+   "type": "number",
+   "unit": "stars",
+   "fact": "Riders and drivers rate each other on the same 1-to-5 scale."
+  },
+  {
+   "id": "abtgxkrzm",
+   "cat": "sports",
+   "q": "How many seconds must a pro bull rider stay on to get a score?",
+   "a": 8,
+   "type": "number",
+   "unit": "seconds",
+   "fact": "Touching the bull with the free hand during the ride means no score."
+  },
+  {
+   "id": "afuuydvbp",
+   "cat": "history",
+   "q": "How many U.S. presidents have had the last name Bush?",
+   "a": 2,
+   "type": "number",
+   "unit": "presidents",
+   "fact": "George H.W. Bush was the 41st president and his son George W. Bush the 43rd."
+  },
+  {
+   "id": "arbuijdim",
+   "cat": "geo",
+   "q": "Scandinavia is traditionally made up of how many countries?",
+   "a": 3,
+   "type": "number",
+   "unit": "countries",
+   "fact": "They are Denmark, Norway and Sweden."
+  },
+  {
+   "id": "amtvww8c1",
+   "cat": "pop",
+   "q": "How many days of Christmas are in the famous carol?",
+   "a": 12,
+   "type": "number",
+   "unit": "days",
+   "fact": "The gifts run from a partridge in a pear tree to twelve drummers drumming."
+  }
+ ],
+ "medium": [
+  {
+   "id": "amxeljwxx",
+   "cat": "pop",
+   "q": "In what year did PSY's \"Gangnam Style\" come out?",
+   "a": 2012,
+   "type": "year",
+   "unit": "year",
+   "fact": "In 2012 it became the first YouTube video to pass 1 billion views."
+  },
+  {
+   "id": "aquki7x0c",
+   "cat": "sports",
+   "q": "How many pounds does the Vince Lombardi Trophy weigh?",
+   "a": 7,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "Tiffany & Co. makes the sterling silver trophy, which stands 22 inches tall."
+  },
+  {
+   "id": "ay2csc53l",
+   "cat": "geo",
+   "q": "How many U.S. state capitals are named after a president?",
+   "a": 4,
+   "type": "number",
+   "unit": "capitals",
+   "fact": "They are Jackson, Jefferson City, Lincoln and Madison."
+  },
+  {
+   "id": "ayb7w41u0",
+   "cat": "history",
+   "q": "The first U.S. census, in 1790, counted how many million people, to the nearest million?",
+   "a": 4,
+   "type": "number",
+   "unit": "million people",
+   "fact": "The exact count was 3,929,214, gathered by U.S. marshals on horseback."
+  },
+  {
+   "id": "axo8i7zrz",
+   "cat": "pop",
+   "q": "Through 2025's The Final Reckoning, how many Mission: Impossible movies has Tom Cruise made?",
+   "a": 8,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The series began in 1996, based on the 1960s TV show."
+  }
+ ],
+ "hard": [
+  {
+   "id": "asfovgz64",
+   "cat": "geo",
+   "q": "How tall is New York's One World Trade Center to the tip of its spire, in feet?",
+   "a": 1776,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The height nods to 1776, the year of the Declaration of Independence."
+  },
+  {
+   "id": "axachww5k",
+   "cat": "sports",
+   "q": "How many career hits did Pete Rose collect, the MLB record?",
+   "a": 4256,
+   "type": "number",
+   "unit": "hits",
+   "fact": "He passed Ty Cobb's 4,189 in 1985."
+  },
+  {
+   "id": "a78vg1rfj",
+   "cat": "history",
+   "q": "How many U.S. presidents were born in Virginia, more than any other state?",
+   "a": 8,
+   "type": "number",
+   "unit": "presidents",
+   "fact": "That's why Virginia is called the Mother of Presidents."
+  },
+  {
+   "id": "a4n5h66ib",
+   "cat": "pop",
+   "q": "The Phantom of the Opera ran on Broadway from 1988 to 2023. To the nearest year, how many years was that?",
+   "a": 35,
+   "type": "number",
+   "unit": "years",
+   "fact": "It is the longest-running show in Broadway history."
+  }
+ ]
+}

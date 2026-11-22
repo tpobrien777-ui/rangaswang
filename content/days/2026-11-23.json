@@ -1,6 +1,27 @@
 {
  "date": "2026-11-23",
- "news": [],
+ "news": [
+  {
+   "id": "awkhrmpcy",
+   "cat": "news",
+   "q": "Tyler Herro set a career high for the Bucks in a 132-129 loss to the 76ers on Nov. 21. How many points did he score?",
+   "a": 50,
+   "type": "number",
+   "unit": "points",
+   "fact": "He shot 15 of 23 from the field and 13 of 13 at the line; his old high was 41.",
+   "src": "https://www.espn.com/nba/recap/_/gameId/401910023"
+  },
+  {
+   "id": "a8qbycz43",
+   "cat": "news",
+   "q": "A retail group expects 183 million to shop Thanksgiving weekend. To the nearest million, how many million plan to shop on Black Friday?",
+   "a": 126,
+   "type": "number",
+   "unit": "million shoppers",
+   "fact": "That's 69% of weekend shoppers; Cyber Monday is next with about 66 million.",
+   "src": "https://nrf.com/media-center/press-releases/183-million-consumers-expected-to-shop-during-thanksgiving-weekend"
+  }
+ ],
  "easy": [
   {
    "id": "arblc77lr",
