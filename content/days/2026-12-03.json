@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-03",
+ "news": [],
+ "easy": [
+  {
+   "id": "abozf4dj7",
+   "cat": "pop",
+   "q": "How many all-beef patties are in a McDonald's Big Mac?",
+   "a": 2,
+   "type": "number",
+   "unit": "patties",
+   "fact": "The Big Mac went on sale nationwide in 1968."
+  },
+  {
+   "id": "a9gwjxb06",
+   "cat": "sports",
+   "q": "How many periods are in a regulation NHL game?",
+   "a": 3,
+   "type": "number",
+   "unit": "periods",
+   "fact": "Each period lasts 20 minutes of game time."
+  },
+  {
+   "id": "a3bzomz85",
+   "cat": "geo",
+   "q": "How many U.S. states have \"Virginia\" in their name?",
+   "a": 2,
+   "type": "number",
+   "unit": "states",
+   "fact": "West Virginia split from Virginia during the Civil War and became a state in 1863."
+  },
+  {
+   "id": "a2gmakdpz",
+   "cat": "history",
+   "q": "How many jet engines power the Boeing 747s that fly as Air Force One?",
+   "a": 4,
+   "type": "number",
+   "unit": "engines",
+   "fact": "\"Air Force One\" is the call sign for any Air Force plane carrying the president."
+  },
+  {
+   "id": "a3ao0rupl",
+   "cat": "pop",
+   "q": "Dua Lipa's hit New Rules counts off how many rules in its chorus?",
+   "a": 3,
+   "type": "number",
+   "unit": "rules",
+   "fact": "It was her first No. 1 single in the U.K."
+  }
+ ],
+ "medium": [
+  {
+   "id": "aacm0dqm3",
+   "cat": "pop",
+   "q": "In what year did Eminem's movie 8 Mile hit theaters?",
+   "a": 2002,
+   "type": "year",
+   "unit": "year",
+   "fact": "Its song Lose Yourself won the Oscar for Best Original Song."
+  },
+  {
+   "id": "ayj65ws7b",
+   "cat": "sports",
+   "q": "How many teams make the NCAA men's basketball tournament field?",
+   "a": 68,
+   "type": "number",
+   "unit": "teams",
+   "fact": "The field grew to 68 teams in 2011 with the First Four."
+  },
+  {
+   "id": "avsywnjls",
+   "cat": "geo",
+   "q": "Yellowstone's Old Faithful erupts on average about every how many minutes?",
+   "a": 90,
+   "type": "number",
+   "unit": "minutes",
+   "fact": "Its intervals range from about 50 to 127 minutes."
+  },
+  {
+   "id": "a4g4k9yeo",
+   "cat": "history",
+   "q": "Jamestown, the first lasting English colony in America, was founded in 1607. How many years later was the Declaration of Independence signed?",
+   "a": 169,
+   "type": "number",
+   "unit": "years",
+   "fact": "Jamestown sits on the James River in Virginia."
+  },
+  {
+   "id": "agxhapons",
+   "cat": "pop",
+   "q": "How many wedges are on the wheel in Wheel of Fortune?",
+   "a": 24,
+   "type": "number",
+   "unit": "wedges",
+   "fact": "Pat Sajak hosted for 41 seasons before Ryan Seacrest took over in 2024."
+  }
+ ],
+ "hard": [
+  {
+   "id": "akf573uux",
+   "cat": "history",
+   "q": "How tall is New York's Chrysler Building to the tip of its spire, in feet?",
+   "a": 1046,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was the world's tallest building for about 11 months, until the Empire State Building opened in 1931."
+  },
+  {
+   "id": "a5bjjfnx3",
+   "cat": "sports",
+   "q": "How many pounds does the bronze Heisman Trophy weigh?",
+   "a": 45,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "It's modeled on NYU running back Ed Smith, who posed for it in 1934."
+  },
+  {
+   "id": "ahtrbgmj8",
+   "cat": "geo",
+   "q": "Britton Hill is Florida's highest point. How many feet above sea level is it?",
+   "a": 345,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It is the lowest high point of any U.S. state."
+  },
+  {
+   "id": "awkebnbth",
+   "cat": "pop",
+   "q": "Harry Styles' As It Was spent how many weeks at No. 1 on the Billboard Hot 100?",
+   "a": 15,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "That is the longest run at No. 1 for a British act."
+  }
+ ]
+}

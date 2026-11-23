@@ -1,6 +1,27 @@
 {
  "date": "2026-11-24",
- "news": [],
+ "news": [
+  {
+   "id": "ab5szqqsr",
+   "cat": "news",
+   "q": "An AI stock sell-off on Nov. 20 pushed the Dow into a correction. To the nearest point, how many points did the Dow fall that day?",
+   "a": 950,
+   "type": "number",
+   "unit": "points",
+   "fact": "The Dow closed at 48,147.33, down 1.93%, as the Nasdaq dropped 5.3%.",
+   "src": "https://www.staradvertiser.com/2026/11/20/breaking-news/wall-street-rout-pushes-sp-500-dow-into-correction/"
+  },
+  {
+   "id": "a27wwmbad",
+   "cat": "news",
+   "q": "The Cowboys beat the Titans by 21 points on Sunday, Nov. 22. How many points did Dallas score?",
+   "a": 51,
+   "type": "number",
+   "unit": "points",
+   "fact": "Dallas led 27-9 at halftime and evened its record at 5-6.",
+   "src": "https://www.espn.com/nfl/recap/_/gameId/401873073"
+  }
+ ],
  "easy": [
   {
    "id": "afs3cfp7h",
