@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-04",
+ "news": [],
+ "easy": [
+  {
+   "id": "afrb4ekn8",
+   "cat": "pop",
+   "q": "How many eyes does Mike Wazowski have in Pixar's Monsters, Inc.?",
+   "a": 1,
+   "type": "number",
+   "unit": "eyes",
+   "fact": "Billy Crystal voices Mike in Monsters, Inc. and Monsters University."
+  },
+  {
+   "id": "asw4xh6x7",
+   "cat": "sports",
+   "q": "How many Grand Slam tournaments are played in pro tennis each year?",
+   "a": 4,
+   "type": "number",
+   "unit": "tournaments",
+   "fact": "They are the Australian Open, French Open, Wimbledon and the U.S. Open."
+  },
+  {
+   "id": "ar1mlu6ic",
+   "cat": "geo",
+   "q": "How many digits are in a basic U.S. ZIP code?",
+   "a": 5,
+   "type": "number",
+   "unit": "digits",
+   "fact": "The extra four digits of ZIP+4 arrived in 1983."
+  },
+  {
+   "id": "a1lddzx1o",
+   "cat": "history",
+   "q": "How many Brothers Grimm collected the famous fairy tales?",
+   "a": 2,
+   "type": "number",
+   "unit": "brothers",
+   "fact": "Jacob and Wilhelm Grimm first published their tales in 1812."
+  },
+  {
+   "id": "a2tvuf5br",
+   "cat": "pop",
+   "q": "In the classic fairy tale, how many bears come home to find Goldilocks?",
+   "a": 3,
+   "type": "number",
+   "unit": "bears",
+   "fact": "In the earliest known version, from 1831, the intruder was an old woman."
+  }
+ ],
+ "medium": [
+  {
+   "id": "adg8wlsc0",
+   "cat": "pop",
+   "q": "In what year did Hannah Montana, starring Miley Cyrus, premiere on Disney Channel?",
+   "a": 2006,
+   "type": "year",
+   "unit": "year",
+   "fact": "It ran for four seasons and spawned a 2009 movie."
+  },
+  {
+   "id": "a0gfedr93",
+   "cat": "sports",
+   "q": "How many inches across is a regulation NHL hockey puck?",
+   "a": 3,
+   "type": "number",
+   "unit": "inches",
+   "fact": "Pucks are frozen before games so they bounce less on the ice."
+  },
+  {
+   "id": "arv7zgtob",
+   "cat": "geo",
+   "q": "How tall is Chicago's Cloud Gate sculpture, better known as \"The Bean,\" in feet?",
+   "a": 33,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Its 168 stainless steel plates are welded so the seams can't be seen."
+  },
+  {
+   "id": "as21aqqvn",
+   "cat": "history",
+   "q": "How many beaches did Allied troops land on in Normandy on D-Day, June 6, 1944?",
+   "a": 5,
+   "type": "number",
+   "unit": "beaches",
+   "fact": "Their code names were Utah, Omaha, Gold, Juno and Sword."
+  },
+  {
+   "id": "aln5domyc",
+   "cat": "pop",
+   "q": "How many Die Hard movies has Bruce Willis starred in?",
+   "a": 5,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The first Die Hard came out in 1988; the fifth, A Good Day to Die Hard, in 2013."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a5y1g9o6c",
+   "cat": "history",
+   "q": "How many days were American hostages held in Iran during the 1979-81 hostage crisis?",
+   "a": 444,
+   "type": "number",
+   "unit": "days",
+   "fact": "The hostages were released minutes after Ronald Reagan was sworn in."
+  },
+  {
+   "id": "apas59242",
+   "cat": "geo",
+   "q": "How tall is San Francisco's Transamerica Pyramid, in feet?",
+   "a": 853,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was the city's tallest building from 1972 until Salesforce Tower passed it in 2018."
+  },
+  {
+   "id": "a686k4l3v",
+   "cat": "sports",
+   "q": "How many rushing yards did Barry Sanders gain in his 1997 MVP season?",
+   "a": 2053,
+   "type": "number",
+   "unit": "yards",
+   "fact": "He ran for at least 100 yards in 14 straight games that year."
+  },
+  {
+   "id": "aodretd8b",
+   "cat": "pop",
+   "q": "How many weeks did Morgan Wallen's Last Night spend at No. 1 on the Billboard Hot 100?",
+   "a": 16,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "It was the longest-running No. 1 of 2023."
+  }
+ ]
+}

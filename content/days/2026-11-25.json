@@ -1,6 +1,27 @@
 {
  "date": "2026-11-25",
- "news": [],
+ "news": [
+  {
+   "id": "ac9gds6ds",
+   "cat": "news",
+   "q": "Jaden McDaniels set a career high as the Timberwolves routed the Nets 142-116 on Monday, Nov. 23. How many points did he score?",
+   "a": 34,
+   "type": "number",
+   "unit": "points",
+   "fact": "He went 12 of 16 from the floor and made all four of his 3-point tries.",
+   "src": "https://www.espn.com/nba/recap?gameId=401910040"
+  },
+  {
+   "id": "amexf5d67",
+   "cat": "news",
+   "q": "Northrop Grumman's NG-25 Cygnus XL is set to launch to the space station on Nov. 29. To the nearest thousand pounds, how many pounds of cargo is it carrying?",
+   "a": 11000,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "This Cygnus is named the S.S. James \"Jim\" Lovell, after the Apollo 13 commander.",
+   "src": "https://spaceflightnow.com/2026/11/23/as-it-happened-ng-25-preview-news-teleconference/"
+  }
+ ],
  "easy": [
   {
    "id": "aygxj8z0t",
