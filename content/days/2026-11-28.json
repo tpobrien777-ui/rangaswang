@@ -86,13 +86,13 @@
    "fact": "The test shuttle Enterprise only made glide flights in the atmosphere."
   },
   {
-   "id": "a5t6x0flk",
+   "id": "az85ttzoi",
    "cat": "history",
-   "q": "In what year was the first Macy's Thanksgiving Day Parade held?",
-   "a": 1924,
-   "type": "year",
-   "unit": "year",
-   "fact": "Live animals from the Central Park Zoo marched in it."
+   "q": "How many U.S. presidents have had the first name James?",
+   "a": 6,
+   "type": "number",
+   "unit": "presidents",
+   "fact": "Madison, Monroe, Polk, Buchanan, Garfield and Carter: James is the most common presidential first name."
   }
  ],
  "hard": [

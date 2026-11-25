@@ -1,6 +1,27 @@
 {
  "date": "2026-11-26",
- "news": [],
+ "news": [
+  {
+   "id": "ayhercjb3",
+   "cat": "news",
+   "q": "Jayson Tatum led the Celtics past the Wizards 131-116 on Tuesday, Nov. 24, snapping a four-game skid. How many points did he score?",
+   "a": 41,
+   "type": "number",
+   "unit": "points",
+   "fact": "He scored 28 of them in the first half.",
+   "src": "https://www.espn.com/nba/recap?gameId=401909315"
+  },
+  {
+   "id": "a8u3t79mf",
+   "cat": "news",
+   "q": "The 100th Macy's Thanksgiving Day Parade marches on Nov. 26 with a record-breaking lineup. How many inflatable elements will it feature?",
+   "a": 100,
+   "type": "number",
+   "unit": "inflatables",
+   "fact": "The 2.5-mile route runs from the Upper West Side to Herald Square.",
+   "src": "https://www.macysinc.com/newsroom/news/news-details/2026/The-100th-Macys-Thanksgiving-Day-Parade-Brings-Holiday-Magic-to-Life-Through-a-Celebration-of-Culture-and-Creativity/default.aspx"
+  }
+ ],
  "easy": [
   {
    "id": "ajkgwic55",

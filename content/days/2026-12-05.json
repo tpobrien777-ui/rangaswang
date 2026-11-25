@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-05",
+ "news": [],
+ "easy": [
+  {
+   "id": "abve12puy",
+   "cat": "pop",
+   "q": "How many animated Moana feature films has Disney released?",
+   "a": 2,
+   "type": "number",
+   "unit": "films",
+   "fact": "Moana 2 earned more than $1 billion worldwide after its 2024 release."
+  },
+  {
+   "id": "a93vul8bp",
+   "cat": "geo",
+   "q": "How many countries are known as the Baltic states?",
+   "a": 3,
+   "type": "number",
+   "unit": "countries",
+   "fact": "They are Estonia, Latvia and Lithuania."
+  },
+  {
+   "id": "abfvuismb",
+   "cat": "sports",
+   "q": "How many holes does a golfer play in a standard four-round PGA Tour event?",
+   "a": 72,
+   "type": "number",
+   "unit": "holes",
+   "fact": "Players who miss the cut after 36 holes go home early."
+  },
+  {
+   "id": "aexatlqp6",
+   "cat": "history",
+   "q": "How many years did Europe's Thirty Years' War last?",
+   "a": 30,
+   "type": "number",
+   "unit": "years",
+   "fact": "It ran from 1618 to 1648 and ended with the Peace of Westphalia."
+  },
+  {
+   "id": "a6shzwv81",
+   "cat": "pop",
+   "q": "How many squares are on a standard checkerboard?",
+   "a": 64,
+   "type": "number",
+   "unit": "squares",
+   "fact": "Each player starts with 12 checkers on the dark squares."
+  }
+ ],
+ "medium": [
+  {
+   "id": "aww041wad",
+   "cat": "history",
+   "q": "How many cents did a first-class Forever stamp cost when it debuted in 2007?",
+   "a": 41,
+   "type": "number",
+   "unit": "cents",
+   "fact": "A Forever stamp stays valid for first-class postage no matter how much rates rise."
+  },
+  {
+   "id": "aysjn4d1p",
+   "cat": "sports",
+   "q": "How many Super Bowls has Travis Kelce won with the Kansas City Chiefs?",
+   "a": 3,
+   "type": "number",
+   "unit": "Super Bowls",
+   "fact": "The Chiefs won Super Bowls LIV, LVII and LVIII."
+  },
+  {
+   "id": "aaedcbg1b",
+   "cat": "geo",
+   "q": "How many counties does Delaware have?",
+   "a": 3,
+   "type": "number",
+   "unit": "counties",
+   "fact": "They are New Castle, Kent and Sussex, the fewest of any state."
+  },
+  {
+   "id": "aq5fqobzf",
+   "cat": "pop",
+   "q": "How many seasons did the sitcom New Girl run?",
+   "a": 7,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "Zooey Deschanel starred as Jess from 2011 to 2018."
+  },
+  {
+   "id": "agd7lxjmv",
+   "cat": "sports",
+   "q": "Counting the goalie, how many players per team are in the pool at once in water polo?",
+   "a": 7,
+   "type": "number",
+   "unit": "players",
+   "fact": "Water polo has been an Olympic sport since 1900."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a3et1jfe4",
+   "cat": "sports",
+   "q": "Novak Djokovic holds the record for most weeks ranked world No. 1 in men's tennis. How many weeks?",
+   "a": 428,
+   "type": "number",
+   "unit": "weeks",
+   "fact": "Steffi Graf held the overall record of 377 weeks until Djokovic passed her in 2023."
+  },
+  {
+   "id": "a8b5485d4",
+   "cat": "history",
+   "q": "In what year did Tchaikovsky's ballet The Nutcracker premiere in St. Petersburg?",
+   "a": 1892,
+   "type": "year",
+   "unit": "year",
+   "fact": "It opened on Dec. 18, but became a U.S. holiday staple only in the 1950s."
+  },
+  {
+   "id": "ab33kn2rb",
+   "cat": "geo",
+   "q": "To the nearest foot, how tall is Oregon's Mount Hood?",
+   "a": 11249,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It is the highest point in Oregon and one of the Cascade Range's volcanoes."
+  },
+  {
+   "id": "a0auurmd3",
+   "cat": "pop",
+   "q": "How many episodes of Fleabag were made in total?",
+   "a": 12,
+   "type": "number",
+   "unit": "episodes",
+   "fact": "Phoebe Waller-Bridge wrote and starred in both six-episode seasons."
+  }
+ ]
+}
