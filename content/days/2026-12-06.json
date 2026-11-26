@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-06",
+ "news": [],
+ "easy": [
+  {
+   "id": "a1umtpbtv",
+   "cat": "geo",
+   "q": "The North Pole sits at how many degrees of north latitude?",
+   "a": 90,
+   "type": "number",
+   "unit": "degrees",
+   "fact": "The equator is 0 degrees, the starting line for latitude."
+  },
+  {
+   "id": "aaaowmi13",
+   "cat": "pop",
+   "q": "How many superheroes make up Marvel's Fantastic Four?",
+   "a": 4,
+   "type": "number",
+   "unit": "heroes",
+   "fact": "They debuted in a 1961 comic by Stan Lee and Jack Kirby."
+  },
+  {
+   "id": "aqn2hh41c",
+   "cat": "sports",
+   "q": "How many lanes are used in an Olympic swimming final?",
+   "a": 8,
+   "type": "number",
+   "unit": "lanes",
+   "fact": "Olympic pools have 10 lanes, but the two outside ones stay empty."
+  },
+  {
+   "id": "ah7wts49n",
+   "cat": "history",
+   "q": "A fortnight is how many days?",
+   "a": 14,
+   "type": "number",
+   "unit": "days",
+   "fact": "The word comes from the Old English for \"fourteen nights.\""
+  },
+  {
+   "id": "a9bludad6",
+   "cat": "pop",
+   "q": "A silver wedding anniversary marks how many years of marriage?",
+   "a": 25,
+   "type": "number",
+   "unit": "years",
+   "fact": "A golden anniversary marks 50."
+  }
+ ],
+ "medium": [
+  {
+   "id": "anua7egmh",
+   "cat": "pop",
+   "q": "In the video game Valorant, how many players are on each team in a standard match?",
+   "a": 5,
+   "type": "number",
+   "unit": "players",
+   "fact": "Riot Games released it in June 2020."
+  },
+  {
+   "id": "aodhylhgy",
+   "cat": "history",
+   "q": "The U.S. bought the Louisiana Territory from France in 1803 for how many million dollars?",
+   "a": 15,
+   "type": "number",
+   "unit": "million $",
+   "fact": "The purchase roughly doubled the size of the country."
+  },
+  {
+   "id": "a3nkepbvy",
+   "cat": "geo",
+   "q": "To the nearest 10 miles, how wide is the Bering Strait at its narrowest point?",
+   "a": 50,
+   "type": "number",
+   "unit": "miles",
+   "fact": "Russia's Big Diomede and Alaska's Little Diomede islands sit about 2.4 miles apart in the strait."
+  },
+  {
+   "id": "a6d2iv6gf",
+   "cat": "sports",
+   "q": "How many universities make up the Ivy League?",
+   "a": 8,
+   "type": "number",
+   "unit": "schools",
+   "fact": "It became a formal athletic conference in 1954."
+  },
+  {
+   "id": "a6ua1wmod",
+   "cat": "pop",
+   "q": "How many squares are on each player's grid in the board game Battleship?",
+   "a": 100,
+   "type": "number",
+   "unit": "squares",
+   "fact": "Rows run A to J and columns 1 to 10."
+  }
+ ],
+ "hard": [
+  {
+   "id": "ag411fy8c",
+   "cat": "geo",
+   "q": "To the nearest foot, how high above the Arkansas River is Colorado's Royal Gorge Bridge deck?",
+   "a": 955,
+   "type": "number",
+   "unit": "feet",
+   "fact": "It was the world's highest bridge from 1929 to 2001."
+  },
+  {
+   "id": "akq0ley90",
+   "cat": "sports",
+   "q": "To the nearest foot, how far is it from home plate to second base in MLB?",
+   "a": 127,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The bases themselves are 90 feet apart."
+  },
+  {
+   "id": "at1sdf52b",
+   "cat": "pop",
+   "q": "In Jaws (1975), how many feet long is the great white shark said to be?",
+   "a": 25,
+   "type": "number",
+   "unit": "feet",
+   "fact": "The crew nicknamed the mechanical shark \"Bruce.\""
+  },
+  {
+   "id": "asmyu7isa",
+   "cat": "history",
+   "q": "To the nearest year, how long did England's Tudor dynasty rule, from Henry VII's victory in 1485 to 1603?",
+   "a": 118,
+   "type": "number",
+   "unit": "years",
+   "fact": "Elizabeth I, the last Tudor, never married and had no heirs."
+  }
+ ]
+}

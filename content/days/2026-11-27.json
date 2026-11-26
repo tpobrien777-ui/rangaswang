@@ -1,6 +1,27 @@
 {
  "date": "2026-11-27",
- "news": [],
+ "news": [
+  {
+   "id": "ad2h308h1",
+   "cat": "news",
+   "q": "The FAA expects its busiest Thanksgiving travel week in 16 years. To the nearest thousand, how many flights does it forecast over the nine-day holiday period?",
+   "a": 417000,
+   "type": "number",
+   "unit": "flights",
+   "fact": "Tuesday, Nov. 24, was forecast to be the busiest day, with more than 52,000 flights.",
+   "src": "https://www.faa.gov/newsroom/trumps-transportation-department-announces-record-breaking-thanksgiving-air-travel-2026"
+  },
+  {
+   "id": "a74vzwmev",
+   "cat": "news",
+   "q": "Karl-Anthony Towns kept his season-opening double-double streak alive as the Knicks beat the Cavaliers 121-102 on Nov. 25. How many games in a row is it now?",
+   "a": 17,
+   "type": "number",
+   "unit": "games",
+   "fact": "The win was New York's sixth straight.",
+   "src": "https://www.espn.com/nba/recap/_/gameId/401909319"
+  }
+ ],
  "easy": [
   {
    "id": "axyljb9zd",
