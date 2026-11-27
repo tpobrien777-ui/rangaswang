@@ -1,6 +1,27 @@
 {
  "date": "2026-11-28",
- "news": [],
+ "news": [
+  {
+   "id": "a8fhekz79",
+   "cat": "news",
+   "q": "Blake Corum ran wild on his 26th birthday as the Rams beat the Packers 26-13 on Thanksgiving Eve, Nov. 25. How many rushing yards did he have?",
+   "a": 184,
+   "type": "number",
+   "unit": "yards",
+   "fact": "It was a career high, on 32 carries with a touchdown.",
+   "src": "https://www.nfl.com/news/happy-birthday-blake-corum-turns-26-carries-rams-to-win-over-packers-with-184-rushing-yards"
+  },
+  {
+   "id": "azryat89s",
+   "cat": "news",
+   "q": "This week the FCC approved SpaceX’s plan for AI data centers in space. How many \"orbital compute modules\" did it authorize SpaceX to deploy?",
+   "a": 1000000,
+   "type": "number",
+   "unit": "modules",
+   "fact": "The FCC called it the first authorization for such a project.",
+   "src": "https://www.thenationalnews.com/future/2026/11/26/space-data-center-spacex-fcc/"
+  }
+ ],
  "easy": [
   {
    "id": "asyuqwb2i",

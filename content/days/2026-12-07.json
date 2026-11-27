@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-07",
+ "news": [],
+ "easy": [
+  {
+   "id": "a6dxjp7at",
+   "cat": "pop",
+   "q": "What number follows \"Blink-\" in the name of the pop-punk band behind \"All the Small Things\"?",
+   "a": 182,
+   "type": "number",
+   "unit": "number",
+   "fact": "The band first called itself just Blink, then added 182 to avoid a lawsuit."
+  },
+  {
+   "id": "ar78lzt6a",
+   "cat": "sports",
+   "q": "How many players does each team have on the field at once in an NFL game?",
+   "a": 11,
+   "type": "number",
+   "unit": "players",
+   "fact": "Teams that have 12 on the field get a 5-yard penalty."
+  },
+  {
+   "id": "acs3hjnk6",
+   "cat": "history",
+   "q": "Juneteenth marks the day in 1865 when word of freedom reached enslaved people in Galveston, Texas. What day of June is it?",
+   "a": 19,
+   "type": "number",
+   "unit": "day",
+   "fact": "It became a federal holiday in 2021."
+  },
+  {
+   "id": "aavhaaz71",
+   "cat": "geo",
+   "q": "At sea level, water boils at how many degrees Fahrenheit?",
+   "a": 212,
+   "type": "number",
+   "unit": "°F",
+   "fact": "It freezes at 32 °F, exactly 180 degrees lower."
+  },
+  {
+   "id": "abu6fxeyh",
+   "cat": "pop",
+   "q": "How many March sisters are there in Louisa May Alcott’s Little Women?",
+   "a": 4,
+   "type": "number",
+   "unit": "sisters",
+   "fact": "They are Meg, Jo, Beth and Amy."
+  }
+ ],
+ "medium": [
+  {
+   "id": "awvcv4ae0",
+   "cat": "pop",
+   "q": "How many seasons did the teen drama The O.C. run on Fox?",
+   "a": 4,
+   "type": "number",
+   "unit": "seasons",
+   "fact": "It aired from 2003 to 2007 and made Chrismukkah a thing."
+  },
+  {
+   "id": "as4922fqz",
+   "cat": "history",
+   "q": "In what year did President Franklin D. Roosevelt sign the Social Security Act?",
+   "a": 1935,
+   "type": "year",
+   "unit": "year",
+   "fact": "The first monthly check went out in 1940."
+  },
+  {
+   "id": "aaom735aq",
+   "cat": "geo",
+   "q": "How many U.S. states have no statewide sales tax?",
+   "a": 5,
+   "type": "number",
+   "unit": "states",
+   "fact": "They are Alaska, Delaware, Montana, New Hampshire and Oregon."
+  },
+  {
+   "id": "ais594ksb",
+   "cat": "sports",
+   "q": "What is the heaviest a bowling ball can legally weigh, in pounds?",
+   "a": 16,
+   "type": "number",
+   "unit": "pounds",
+   "fact": "There is no minimum weight; kids often roll 6-pound balls."
+  },
+  {
+   "id": "a09es0u5x",
+   "cat": "pop",
+   "q": "How many weapons come with the classic board game Clue?",
+   "a": 6,
+   "type": "number",
+   "unit": "weapons",
+   "fact": "The original set had a candlestick, knife, lead pipe, revolver, rope and wrench."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a8upx0stf",
+   "cat": "pop",
+   "q": "In Interstellar (2014), one hour on Miller’s planet equals how many years back on Earth?",
+   "a": 7,
+   "type": "number",
+   "unit": "years",
+   "fact": "The time slip comes from the planet orbiting close to a black hole."
+  },
+  {
+   "id": "asr2f7g9x",
+   "cat": "history",
+   "q": "To the nearest year, how long did the supersonic Concorde carry paying passengers, from 1976 to 2003?",
+   "a": 27,
+   "type": "number",
+   "unit": "years",
+   "fact": "It crossed the Atlantic in about 3.5 hours."
+  },
+  {
+   "id": "agpar98pe",
+   "cat": "geo",
+   "q": "How tall is Guadalupe Peak, the highest point in Texas, in feet?",
+   "a": 8751,
+   "type": "number",
+   "unit": "feet",
+   "fact": "Its summit has a stainless-steel pyramid put up by American Airlines in 1958."
+  },
+  {
+   "id": "a3kmfuze0",
+   "cat": "sports",
+   "q": "How many career rushing yards did Emmitt Smith gain, the NFL record?",
+   "a": 18355,
+   "type": "number",
+   "unit": "yards",
+   "fact": "He played 13 of his 15 seasons with the Dallas Cowboys."
+  }
+ ]
+}
