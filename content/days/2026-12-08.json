@@ -1,0 +1,136 @@
+{
+ "date": "2026-12-08",
+ "news": [],
+ "easy": [
+  {
+   "id": "a8tf3kc0x",
+   "cat": "pop",
+   "q": "What number is in the title of Ariana Grande's 2019 No. 1 hit \"___ Rings\"?",
+   "a": 7,
+   "type": "number",
+   "unit": "number",
+   "fact": "It interpolates \"My Favorite Things\" from The Sound of Music."
+  },
+  {
+   "id": "alkomlrlr",
+   "cat": "pop",
+   "q": "In Dr. Seuss's How the Grinch Stole Christmas!, the Grinch's heart grows how many sizes that day?",
+   "a": 3,
+   "type": "number",
+   "unit": "sizes",
+   "fact": "Dr. Seuss published the book in 1957."
+  },
+  {
+   "id": "a0ju8090z",
+   "cat": "geo",
+   "q": "How many digits are in a U.S. telephone area code?",
+   "a": 3,
+   "type": "number",
+   "unit": "digits",
+   "fact": "New York City's 212 was one of the original area codes created in 1947."
+  },
+  {
+   "id": "afyo69n1y",
+   "cat": "history",
+   "q": "Kwanzaa, which begins each Dec. 26, lasts how many days?",
+   "a": 7,
+   "type": "number",
+   "unit": "days",
+   "fact": "Each day honors one of its seven principles, starting with unity."
+  },
+  {
+   "id": "afsfoqa1s",
+   "cat": "sports",
+   "q": "In golf, an eagle is how many strokes under par on a hole?",
+   "a": 2,
+   "type": "number",
+   "unit": "strokes",
+   "fact": "One stroke under par is a birdie; three under is an albatross."
+  }
+ ],
+ "medium": [
+  {
+   "id": "ac24lzi35",
+   "cat": "pop",
+   "q": "How many Matrix movies starring Keanu Reeves as Neo have been released, through 2021's The Matrix Resurrections?",
+   "a": 4,
+   "type": "number",
+   "unit": "movies",
+   "fact": "The first film came out in 1999; two sequels followed in 2003."
+  },
+  {
+   "id": "aqdok2z9c",
+   "cat": "sports",
+   "q": "What jersey number did Derek Jeter wear for the New York Yankees?",
+   "a": 2,
+   "type": "number",
+   "unit": "number",
+   "fact": "When the Yankees retired it in 2017, every single-digit number was retired."
+  },
+  {
+   "id": "a59ubmbdb",
+   "cat": "geo",
+   "q": "Louisiana is divided into parishes instead of counties. How many parishes does it have?",
+   "a": 64,
+   "type": "number",
+   "unit": "parishes",
+   "fact": "Alaska is the other state without counties; it uses boroughs."
+  },
+  {
+   "id": "aejofjkor",
+   "cat": "history",
+   "q": "Which-numbered amendment to the U.S. Constitution abolished slavery?",
+   "a": 13,
+   "type": "number",
+   "unit": "amendment",
+   "fact": "It was ratified in December 1865."
+  },
+  {
+   "id": "abzte5636",
+   "cat": "pop",
+   "q": "In what year was the holiday classic It's a Wonderful Life released?",
+   "a": 1946,
+   "type": "year",
+   "unit": "year",
+   "fact": "It flopped at first and became a classic through TV reruns."
+  }
+ ],
+ "hard": [
+  {
+   "id": "a1ubjv5w8",
+   "cat": "history",
+   "q": "In what year did the Great Chicago Fire burn much of the city?",
+   "a": 1871,
+   "type": "year",
+   "unit": "year",
+   "fact": "Legend blames Mrs. O'Leary's cow, but the cause was never proven."
+  },
+  {
+   "id": "a6dccwjyx",
+   "cat": "geo",
+   "q": "To the nearest 5 miles, how long is New York's Hudson River?",
+   "a": 315,
+   "type": "number",
+   "unit": "miles",
+   "fact": "It starts at Lake Tear of the Clouds in the Adirondacks."
+  },
+  {
+   "id": "a8peq8m3q",
+   "cat": "sports",
+   "q": "Rickey Henderson holds MLB's career record for stolen bases. How many did he steal?",
+   "a": 1406,
+   "type": "number",
+   "unit": "steals",
+   "fact": "No other player has reached even 1,000."
+  },
+  {
+   "id": "acrbzmpdd",
+   "cat": "pop",
+   "q": "Counting all DLC, how many playable fighters are in Super Smash Bros. Ultimate?",
+   "a": 89,
+   "type": "number",
+   "unit": "fighters",
+   "fact": "Its final fighter, Sora from Kingdom Hearts, arrived in 2021."
+  }
+ ]
+}

@@ -1,6 +1,27 @@
 {
  "date": "2026-11-29",
- "news": [],
+ "news": [
+  {
+   "id": "acf1tj4g3",
+   "cat": "news",
+   "q": "Jahmyr Gibbs ran for three touchdowns in the Lions' 39-35 Thanksgiving loss to the Bears on Nov. 26. How many rushing yards did he have?",
+   "a": 205,
+   "type": "number",
+   "unit": "yards",
+   "fact": "He did it on just 21 carries, including a 70-yard score.",
+   "src": "https://www.bostonglobe.com/2026/11/26/sports/bears-lions-thanksgiving-game-score/"
+  },
+  {
+   "id": "a2pjfoqpm",
+   "cat": "news",
+   "q": "The comedy Focker-in-Law opened the day before Thanksgiving. To the nearest million, how many million dollars did it earn on Thanksgiving Day, by studio estimates?",
+   "a": 8,
+   "type": "number",
+   "unit": "million $",
+   "fact": "Studios estimated a $7.7 million Thursday on the way to a $40 million five-day opening.",
+   "src": "https://www.yahoo.com/entertainment/movies/box-office-results/articles/hunger-games-leads-thanksgiving-box-164626827.html"
+  }
+ ],
  "easy": [
   {
    "id": "a7tqkoo00",
